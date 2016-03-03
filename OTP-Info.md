@@ -1,5 +1,3 @@
-## Abstract
-
 The OTP is a 0x100 byte region of seemingly random data at address 0x10012000. It is presumed that console unique keys are derived from this region, although it is currently unknown exactly how. The region is likely the console unique data store which is decrypted by the bootrom, but we don't know how that is done until somebody dumps the full protected bootrom. It is unknown at this time if anyone has successfully dumped the protected bootrom.
 
 Prior to version 3.0.0-X, Nintendo locked access to this region using Kernel9, presumably under the assumption that an attacker would never gain access to arm9 userland (as arm9 kernel and userland are functionally identical thanks to svc 0x7B).
