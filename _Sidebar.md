@@ -18,3 +18,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 4 - Getting the OTP](https://github.com/Plailect/plailect.github.io/wiki/Part-4-(Old-3DS))    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 5 - arm9loaderhax](https://github.com/Plailect/plailect.github.io/wiki/Part-5-(Old-3DS))    
 
+[OTP Info](https://github.com/Plailect/plailect.github.io/wiki/OTP-Info)
+[Credits](https://github.com/Plailect/plailect.github.io/wiki/Credits)
