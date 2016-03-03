@@ -21,4 +21,5 @@
 
 [OTP Info](https://github.com/Plailect/plailect.github.io/wiki/OTP-Info)    
 [Hardmod](https://github.com/Plailect/plailect.github.io/wiki/Hardmod)    
+[Update](https://github.com/Plailect/plailect.github.io/wiki/Update)    
 [Credits](https://github.com/Plailect/plailect.github.io/wiki/Credits)    
