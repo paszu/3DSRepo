@@ -11,3 +11,5 @@ The C, K, and T regions shipped with version 4.X which is after the OTP lockout,
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
 This guide was written by me with the process refined and software developed by the fine folks over at [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey). See the credits page for the full credits, this guide would not exist without them.
+
+>[Next](https://github.com/Plailect/plailect.github.io/wiki/Requirements)
