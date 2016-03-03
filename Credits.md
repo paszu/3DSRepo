@@ -17,6 +17,6 @@
 + Mrrraou for helping with support
 + felipejfc for compiling the Mac version of 3DSFAT16tool for me
 + dukesrg for hosting 2xrsa
-+ all of #Cakey on Freenode for being awesome
++ all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome
 
 *If I forgot you here, contact me and I'll add your name.*
