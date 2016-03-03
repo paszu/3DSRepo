@@ -1,4 +1,4 @@
-If you are on 10.6.0, 10.5.0, or 10.4.0, you must downgrade your NATIVE_FIRM using a hardmod in order to directly dump and restore your NAND. If you are 10.3.0 or below you do not need to follow this process and can skip directly to the rest of the guide.
+If you are on 10.6.0, 10.5.0, or 10.4.0, you must downgrade your NATIVE_FIRM using a hardmod in order to directly dump and restore your NAND. If you are 10.3.0 or below you do not need this part of the guide and can move on.
 
 **An excellent guide to getting a hardmod can be found [here](https://gbatemp.net/threads/414498/).**
 
