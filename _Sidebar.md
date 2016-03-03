@@ -3,7 +3,7 @@
 [FAQ](https://github.com/Plailect/plailect.github.io/wiki/FAQ)    
 [General Info](https://github.com/Plailect/plailect.github.io/wiki/General-Info)    
 
-**[Get Started](https://github.com/Plailect/plailect.github.io/wiki/Get-Started)**
+##### [Get Started](https://github.com/Plailect/plailect.github.io/wiki/Get-Started)
 
 [New 3DS](https://github.com/Plailect/plailect.github.io/wiki/New-3DS)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 1 - Homebrew](https://github.com/Plailect/plailect.github.io/wiki/Part-1-(New-3DS))    
