@@ -4,7 +4,7 @@ An excellent guide for the process of creating a hardmod can be found [here](htt
 
 This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 
-This should work on both a New and Old 3DS.
+This will work on both a New and Old 3DS.
 
 Keep in mind throughout this that 10.4.0, 10.5.0, and 10.6.0 use the same NATIVE-FIRM. Also keep in mind that 10.2.0 and 10.3.0 use the same NATIVE-FIRM.
 
