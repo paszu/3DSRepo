@@ -1,3 +1,5 @@
+Read all of the introductory pages before proceeding.
+
 This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware.
 
 This guide will work on New 3DS, Old 3DS, and 2DS in the U, E, and J regions on firmware 10.6.0 or below with hardware modification, or firmware 10.3.0 without hardware modification.
