@@ -1,0 +1,28 @@
+Most 3DS CFW applications and software are designed for use with a sysNAND with a version between 9.0.0 and 9.2.0. If you are below version 9.0.0, you will need to use the following guide to update your 3DS without going all the way to the latest version.
+
+#### What you need
+
+* [rxTools 2.5.2](https://github.com/roxas75/rxTools/releases/download/2.5.2/release.rar) ([Mirror](http://rxtools.net/php/downloads.php?dl=rxTools%20v2.5.2))
+* [Profi200's sysUpdater 0.4.2](https://github.com/profi200/sysUpdater/releases/tag/0.4.2)
+* [rx2.5.2Firmware.zip](https://mega.nz/#!R4NVDArR!JtYTyIiQNBWAdS5yWMow_HCpiZm2Rm2LsyPceY3uDTo) ([Mirror])
+* The appropriate 9.2.0 firmware files for your device and region:
+    
+ +    [New 3DS 9.2.0 - EUR]() ([Mirror]())    
+ +    [New 3DS 9.2.0 - JAP]() ([Mirror]())    
+ +    [New 3DS 9.2.0 - USA]() ([Mirror]())    
+ ~
+ +    [Old 3DS or 2DS 9.2.0 - EUR]() ([Mirror]())    
+ +    [Old 3DS or 2DS 9.2.0 - JAP]() ([Mirror]())    
+ +    [Old 3DS or 2DS 9.2.0 - USA]() ([Mirror]())    
+
+#### Instructions
+
+1. Extract the rxTools zip to a folder of your choice
+2. Enter the `tools` directory
+3. Download the appropriate decrypted 10.4.0/10.5.0/10.6.0 NATIVE-FIRM and the decrypted 10.2.0 NATIVE-FIRM as CIA files
+4. Rename the 10.4 NATIVE_FIRM file to `firmoriginal.cia` then put it in the autofirm folder
+5. Rename the 10.2 NATIVE_FIRM file to `firmnuevo.cia` then put it in the autofirm folder
+6. Place the `msvcr120d.dll` file in the autofirm folder
+7. Run "start.bat"
+8. If everything worked, then you will have a modified `nand.bin` containing the 10.2.0 NATIVE_FIRM on version 10.4.0, 10.5.0, or 10.6.0
+9. Flash this `nand.bin`, you can now follow the rest of the guide as if you were on 10.3.0 or below.
