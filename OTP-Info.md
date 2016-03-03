@@ -1,3 +1,10 @@
+*These links are here for anyone who is not following the main guide or was redirected from the old OTP guide.*
+
+New 3DS | Old 3DS / 2DS
+:---: | :---:
+[With Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(With-Cubic-Ninja-on-New-3DS)) | [With Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(With-Cubic-Ninja-on-Old-3DS---2DS))
+[Without Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(Without-Cubic-Ninja-on-New-3DS)) | [Without Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(Without-Cubic-Ninja-on-Old-3DS-or-2DS))
+
 The OTP is a 0x100 byte region of seemingly random data at address 0x10012000. It is presumed that console unique keys are derived from this region, although it is currently unknown exactly how. The region is likely the console unique data store which is decrypted by the bootrom, but we don't know how that is done until somebody dumps the full protected bootrom. It is unknown at this time if anyone has successfully dumped the protected bootrom.
 
 Prior to version 3.0.0-X, Nintendo locked access to this region using Kernel9, presumably under the assumption that an attacker would never gain access to arm9 userland (as arm9 kernel and userland are functionally identical thanks to svc 0x7B).
@@ -11,11 +18,3 @@ This allows for a hardware based attack where arbitrary data is written to nand_
 Because of the complexity and extra hardware involved in the method described above, I have decided to limit the scope of this guide strictly to the software based approach of downgrading to a version below 3.0.0-X. Version 2.1.0-X was selected because it is the only version below 3.0.0-X that contains a fully exploitable browser version (2.0.0-X has a partially exploitable browser, but it won't work for other reasons).
 
 This guide will take you through the process of downgrading you emuNAND to 2.1.0-X to ensure you do not get a partial downgrade (which is when some titles are on one version and others are on a different version) which are difficult to recover from. On the New 3DS you must then decrypt with your console's 0x5 xorpad (which is New 3DS only) and then reencrypt with your console's 0x4 xorpad. Afterwards you overwrite the New 3DS's NAND NCSD (the header that specifies each partition's location) with the NCSD from an Old 3DS and flash the emuNAND to sysNAND. These steps are unneeded on an Old 3DS.
-
-### Links
-These links are for anyone who was redirected from the old OTP guide link and is not following all of the main guide.
-
-New 3DS | Old 3DS / 2DS
-:---: | :---:
-[With Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(With-Cubic-Ninja-on-New-3DS)) | [With Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(With-Cubic-Ninja-on-Old-3DS---2DS))
-[Without Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(Without-Cubic-Ninja-on-New-3DS)) | [Without Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(Without-Cubic-Ninja-on-Old-3DS-or-2DS))
