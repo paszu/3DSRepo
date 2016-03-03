@@ -2,7 +2,7 @@ If you are on 10.6.0, 10.5.0, or 10.4.0, you must downgrade your NATIVE_FIRM usi
 
 An excellent guide for the process of creating a hardmod can be found [here](https://gbatemp.net/threads/414498/).
 
-This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws). Reports of successful downgrades are sparse or unconfirmed, but seeing as anyone who tries this has a hardmod and a NAND backup (hopefully multiple backups kept in multiple locations), there isn't really much that can go wrong.
+This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 
 This should work on both a New and Old 3DS.
 
