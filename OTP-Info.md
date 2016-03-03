@@ -12,7 +12,7 @@ Because of the complexity and extra hardware involved in the method described ab
 
 This guide will take you through the process of downgrading you emuNAND to 2.1.0-X to ensure you do not get a partial downgrade (which is when some titles are on one version and others are on a different version) which are difficult to recover from. On the New 3DS you must then decrypt with your console's 0x5 xorpad (which is New 3DS only) and then reencrypt with your console's 0x4 xorpad. Afterwards you overwrite the New 3DS's NAND NCSD (the header that specifies each partition's location) with the NCSD from an Old 3DS and flash the emuNAND to sysNAND. These steps are unneeded on an Old 3DS.
 
-## Links
+### Links
 These links are for anyone who was redirected from the old OTP guide link and is not following all of the main guide.
 
 New 3DS | Old 3DS / 2DS
