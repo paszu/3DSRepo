@@ -1,4 +1,4 @@
-If you are on 10.6.0, you must downgrade your NATIVE_FIRM using a hardmod in order to directly dump and restore your NAND.
+If you are on 10.6.0, 10.5.0, or 10.4.0, you must downgrade your NATIVE_FIRM using a hardmod in order to directly dump and restore your NAND. If you are 10.3.0 or below you do not need to follow this process and can skip directly to the rest of the guide.
 
 An excellent guide for the process of creating a hardmod can be found [here](https://gbatemp.net/threads/414498/).
 
@@ -10,6 +10,7 @@ Keep in mind throughout this that 10.4, 10.5, and 10.6 use the same NATIVE-FIRM.
 
 #### What you need
 
+* [A hardmod](https://gbatemp.net/threads/414498/)
 * Your 10.4, 10.5, or 10.6 NAND extracted using your hardmod
 * [Raugo's autofirm pack](https://mega.nz/#!8lFwxaTA!uxag4JB3wFgI6nPwrwWuwU8lKYsGxO7AjfpARr0Q8HQ) ([Mirror](https://mega.nz/#!MxMzRQKa!b3rugzgHvvMpmBkOKv_ZDW0CvZnRVnfjPpW2JSbFAx8))
 * [msvcr120d.dll](https://mega.nz/#!hgswABBS!CD1lu_wh36Mp_XyUNo2ZU-6BklTUn_ugy9hLnJ2pJZk) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZGR5M21ScWtoUEk/view?usp=sharing))
