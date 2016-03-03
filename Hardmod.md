@@ -18,7 +18,7 @@ Keep in mind throughout this that 10.4.0, 10.5.0, and 10.6.0 use the same NATIVE
 * Your 10.4.0, 10.5.0, or 10.6.0 NAND extracted using your hardmod
 * [Raugo's autofirm pack](https://mega.nz/#!8lFwxaTA!uxag4JB3wFgI6nPwrwWuwU8lKYsGxO7AjfpARr0Q8HQ) ([Mirror](https://mega.nz/#!MxMzRQKa!b3rugzgHvvMpmBkOKv_ZDW0CvZnRVnfjPpW2JSbFAx8))
 * [msvcr120d.dll](https://mega.nz/#!hgswABBS!CD1lu_wh36Mp_XyUNo2ZU-6BklTUn_ugy9hLnJ2pJZk) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZGR5M21ScWtoUEk/view?usp=sharing))
-* The appropriate decrypted NATIVE-FIRM CIAs:
+* The 10.2.0 and 10.4.0 decrypted NATIVE-FIRM CIAs for your device:
     
  +    [Old 3DS 10.2.0 - 0004013800000002 v22313](https://mega.nz/#!osNSEJyL!jqfQJlhwTqmHLxvGfRyXNNUffgM0ze3ZTLdSf7MtkMk) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZENDVmR5QzBEMlE))    
  +    [Old 3DS 10.4.0 - 0004013800000002 v23341](https://mega.nz/#!Us1CFaKK!pU-bG9Esg30LINlasTP43Sei6aDNnTIzh1ojwECKOrU) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDbGNDMllpaElpaDA))    
