@@ -2,7 +2,7 @@ If you are on 10.4.0, 10.5.0, or 10.6.0, you must follow this guide to downgrade
 
 If you are below version 9.0.0 then you should follow [this](https://github.com/Plailect/plailect.github.io/wiki/9.2.0-Update) guide instead to update.    
 
-If you are between 9.0.0 and 10.3.0 you can move on and follow the instructions [here](https://github.com/Plailect/plailect.github.io/wiki/Get-Started).    
+If you are between 9.0.0 and 10.3.0 you can just follow the instructions [here](https://github.com/Plailect/plailect.github.io/wiki/Get-Started).    
 
 **An excellent guide to getting a hardmod can be found [here](https://gbatemp.net/threads/414498/).**
 
