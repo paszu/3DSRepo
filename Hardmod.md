@@ -35,4 +35,6 @@ Keep in mind throughout this that 10.4.0, 10.5.0, and 10.6.0 use the same NATIVE
 6. Place the `msvcr120d.dll` file in the autofirm folder
 7. Run "start.bat"
 8. If everything worked, then you will have a modified `nand.bin` containing the 10.2.0 NATIVE_FIRM on version 10.4.0, 10.5.0, or 10.6.0
-9. Flash this `nand.bin`, you can now follow the rest of the guide as if you were on 10.3.0 or below.
+9. Flash this `nand.bin`
+
+You can now follow the rest of this guide from [here](https://github.com/Plailect/plailect.github.io/wiki/Get-Started).
