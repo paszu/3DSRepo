@@ -37,4 +37,4 @@ Keep in mind throughout this that 10.4.0, 10.5.0, and 10.6.0 use the same NATIVE
 8. If everything worked, then you will have a modified `nand.bin` containing the 10.2.0 NATIVE_FIRM on version 10.4.0, 10.5.0, or 10.6.0
 9. Flash this `nand.bin`
 
-You can now follow the rest of this guide from [here](https://github.com/Plailect/plailect.github.io/wiki/Get-Started).
+You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Get-Started).
