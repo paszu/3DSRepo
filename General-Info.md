@@ -1,1 +1,1 @@
->[Next](https://github.com/Plailect/plailect.github.io/wiki/Requirements)
+>[Next](https://github.com/Plailect/plailect.github.io/wiki/FAQ)
