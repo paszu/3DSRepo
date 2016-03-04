@@ -18,5 +18,4 @@
 + Mrrraou for helping with support
 + Raugo for autofirm
 + felipejfc for compiling the Mac version of 3DSFAT16tool
-+ \_maitre\_ for writing the tutorial that the 9.2.0 update guide was adapted from
 + all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome
