@@ -4,7 +4,7 @@ This is a guide designed to help a user take a completely unmodified 3DS from fu
 
 This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA regions on firmware 10.4.0, 10.5.0, or 10.6.0 with hardware modification, or firmware 10.3.0 and below without hardware modification.
 
-This guide uses arm9loaderhax, the newest and best method of hax that gives us full control of the system milliseconds into boot, similar to BootMii for the Wii. The benefits of this are numerous (more info on the General Info page), and as such it is recommended to use this guide over any other that relies on outdated software (such as Menuhax or rxTools).
+This guide uses arm9loaderhax, the newest and best method of Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. The benefits of this are numerous (more info on the General Info page), and as such it is recommended to use this guide over any other that relies on outdated software (such as Menuhax or rxTools).
 
 This guide will take you through the steps of downgrading 10.4.0, 10.5.0, or 10.6.0's NATIVE_FIRM to 10.2.0's NATIVE_FIRM to re-enable ARM11-kernel exploits that were blocked (requires a hardware modification and is not needed if you are on 10.3.0 or below), getting an entrypoint into the homebrew launcher, downgrading to 9.2.0 to re-enable ARM9-kernel exploits that were blocked, downgrading to version 2.1.0 to get the console-unique OTP, restoring back to 9.2.0, and finally installing arm9loaderhax + AuReiNAND for permanent homebrew and true custom firmware.
 
