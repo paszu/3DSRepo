@@ -12,6 +12,8 @@ This will work on both a New and Old 3DS.
 
 Keep in mind throughout this that 10.4.0, 10.5.0, and 10.6.0 use the same NATIVE-FIRM. Also keep in mind that 10.2.0 and 10.3.0 use the same NATIVE-FIRM.
 
+**If you are on 10.6.0 (not 10.4.0 or 10.5.0), you must have an alternate entry point. Read more [here](https://github.com/Plailect/Guide/wiki/Alternate-Entry-Point-Options).**
+
 #### What you need
 
 * [A hardmod](https://gbatemp.net/threads/414498/)
