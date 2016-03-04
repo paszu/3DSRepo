@@ -11,11 +11,12 @@
 + Psi-Hate for testing
 + Shadowtrance for answering questions and testing
 + icecream for testing
++ dukesrg for hosting 2xrsa
 + s_99 for emotional support
 + dark_samus for testing
 + Urbanshadow for fixing my python script
 + Mrrraou for helping with support
++ Raugo for autofirm
 + felipejfc for compiling the Mac version of 3DSFAT16tool
 + \_maitre\_ for writing the tutorial that the 9.2.0 update guide was adapted from
-+ dukesrg for hosting 2xrsa
 + all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome
