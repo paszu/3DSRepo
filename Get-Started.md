@@ -1,3 +1,5 @@
+Each part of this guide is designed to be able to be used independently from the other parts, so anyone can start at the part that applies to their situation. As a result, software may be listed multiple times in different "What You Need" sections. You do not have to download any software twice.
+
 This guide is split into two major categories: New 3DS and Old 3DS / 2DS.
 
 The New 3DS is a more complicated device to perform this installation on, since it was never designed to run 2.1.0, which we need to downgrade to as part of the process (see [OTP Info](https://github.com/Plailect/Guide/wiki/OTP-Info) for why).
