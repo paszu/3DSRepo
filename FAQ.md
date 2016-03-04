@@ -1,1 +1,1 @@
-Placeholder
+>[Next](https://github.com/Plailect/Guide/wiki/Get-Started)
