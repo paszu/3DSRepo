@@ -1,4 +1,4 @@
-Each part of this guide is designed to be able to be used independently from the other parts, so anyone can start at the part that applies to their situation. As a result, software may be listed multiple times in different "What You Need" sections. You do not have to download software multiple times.
+Each part of this guide is designed to be able to be used independently from the other parts, so anyone can start at the part that applies to their situation. As a result, software may be listed multiple times in different "What You Need" sections. You do not need to download software multiple times.
 
 This guide is split into two major categories: New 3DS and Old 3DS / 2DS.
 
