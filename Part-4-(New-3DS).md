@@ -35,8 +35,6 @@
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
 9. Delete `sysNAND.bin` and `emuNAND.bin` from your SD card
-
-##### Section II - Downgrading
 1. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
 2. Copy the `updates` folder from the 10.5.0 firmware zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
@@ -57,6 +55,8 @@
 18. Press start, then reboot into EmuNAND
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
+
+##### Section II - Downgrading
 21. Open sysUpdater **on emuNAND**
 22. Press A to update emuNAND to 10.5.0 if your emuNAND is at or below 10.5.0, or press Y to downgrade emuNAND to 10.5.0 if your emuNAND is above 10.5.0
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
@@ -71,6 +71,10 @@
 28. Open sysUpdater **on emuNAND**
 29. Press Y to downgrade emuNAND to 2.1.0
 30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using Decrypt9 through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. **This downgrade process can take many many tries in some situations, just keep trying until it works**
+31. *EmuNAND will be bricked by the downgrade and you will no longer be able to get into it*
+32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
+33. Open OTPHelper, then press the Unbrick FW 2.1 EmuNAND option and follow instructions
+32. Wait.
 
 
 ##### Section III - Getting the OTP
