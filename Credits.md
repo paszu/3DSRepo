@@ -15,6 +15,7 @@
 + dark_samus for testing
 + Urbanshadow for fixing my python script
 + Mrrraou for helping with support
-+ felipejfc for compiling the Mac version of 3DSFAT16tool for me
++ felipejfc for compiling the Mac version of 3DSFAT16tool
++ _maitre_ for writing the tutorial the 9.2.0 update guide was adapted from
 + dukesrg for hosting 2xrsa
 + all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome
