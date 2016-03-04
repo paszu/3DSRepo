@@ -18,6 +18,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 5 - arm9loaderhax](https://github.com/Plailect/Guide/wiki/Part-5-(Old-3DS))    
 
 [OTP Info](https://github.com/Plailect/Guide/wiki/OTP-Info)    
-[Hardmod Downgrade](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade)    
 [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update)    
+[Hardmod Downgrade](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade)    
 [Credits](https://github.com/Plailect/Guide/wiki/Credits)    
