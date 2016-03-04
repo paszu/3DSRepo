@@ -1,6 +1,5 @@
 [Home](https://github.com/Plailect/plailect.github.io/wiki)    
 [General Info](https://github.com/Plailect/plailect.github.io/wiki/General-Info)    
-[Requirements](https://github.com/Plailect/plailect.github.io/wiki/Requirements)    
 [FAQ](https://github.com/Plailect/plailect.github.io/wiki/FAQ)    
 
 **[Get Started](https://github.com/Plailect/plailect.github.io/wiki/Get-Started)**
