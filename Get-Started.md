@@ -18,4 +18,4 @@ If your version is between 10.4.0 and 10.6.0, you can follow the correct link to
 |:---------------:|:---------------:|
 |     [< 9.0.0](https://github.com/Plailect/Guide/wiki/9.2.0-Update)     |     [< 9.0.0](https://github.com/Plailect/Guide/wiki/9.2.0-Update)     |
 | [9.0.0 - 10.3.0](https://github.com/Plailect/Guide/wiki/Part-1-(New-3DS))   | [9.0.0 - 10.3.0](https://github.com/Plailect/Guide/wiki/Part-1-(Old-3DS))   |
-| [10.4.0 - 10.6.0](https://github.com/Plailect/Guide/wiki/Hardmod) | [10.4.0 - 10.6.0](https://github.com/Plailect/Guide/wiki/Hardmod) |
+| [10.4.0 - 10.6.0](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade) | [10.4.0 - 10.6.0](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade) |
