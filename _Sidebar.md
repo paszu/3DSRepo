@@ -1,7 +1,6 @@
 [Home](https://github.com/Plailect/plailect.github.io/wiki)    
 [General Info](https://github.com/Plailect/plailect.github.io/wiki/General-Info)    
 [FAQ](https://github.com/Plailect/plailect.github.io/wiki/FAQ)    
-
 **[Get Started](https://github.com/Plailect/plailect.github.io/wiki/Get-Started)**
 
 [New 3DS](https://github.com/Plailect/plailect.github.io/wiki/New-3DS)    
