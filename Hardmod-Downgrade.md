@@ -37,4 +37,6 @@ Keep in mind throughout this that 10.4.0, 10.5.0, and 10.6.0 use the same NATIVE
 8. If everything worked, then you will have a modified `nand.bin` containing the 10.2.0 NATIVE_FIRM on version 10.4.0, 10.5.0, or 10.6.0
 9. Flash this `nand.bin`
 
+Your version number will *not* have changed in the settings, but the exploit has worked.
+
 You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Get-Started) as if you were on version 10.2.0.
