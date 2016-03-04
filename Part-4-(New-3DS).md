@@ -1,1 +1,59 @@
-ph
+### What You Need
+
+* A working emuNAND and CFW
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
+* The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
+* The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
+* The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
+* The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
+* The 2.1.0 firmware zip file for your device and region:
+ +    [New 3DS 2.1.0 - EUR]() ([Mirror]())    
+ +    [New 3DS 2.1.0 - JAP]() ([Mirror]())    
+ +    [New 3DS 2.1.0 - USA]() ([Mirror]())    
+ ~
+ +    [Old 3DS or 2DS 2.1.0 - EUR]() ([Mirror]())    
+ +    [Old 3DS or 2DS 2.1.0 - JAP]() ([Mirror]())    
+ +    [Old 3DS or 2DS 2.1.0 - USA]() ([Mirror]())    
+
+
+### Instructions
+#### Section I - Prep Work
+1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
+2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
+3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
+4. Open OTPHelper
+5. Go to NAND Backup & Restore
+6. Backup SysNAND and EmuNAND to `sysNAND.bin` and `emuNAND.bin` respectively
+7. Press (Select) on the main menu to eject your SD card
+8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
+9. Delete `sysNAND.bin` and `emuNAND.bin` from your SD card
+
+#### Section II - Downgrading
+1. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
+2. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
+3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
+4. Boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
+5. Get into the Homebrew Launcher **on EmuNAND** through an entrypoint that is launched **after EmuNAND has booted**, such as [browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) **(if you do not, you will format your SysNAND)**
+6. Open TinyFormat **on EmuNAND**
+7. Press (Y) to format **EmuNAND**
+8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
+9. **Repeat steps 5 through 8, this is not optional (you must TinyFormat your EmuNAND twice - if you do not, you will brick your device in 99% of circumstances)**
+10. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
+11. Open Decrypt9, then go to EmuNAND File Options, then select the Dump Health & Safety option
+12. Press Select to eject your SD card, then put it in your computer
+13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+14. Double click `go.bat`
+15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
+16. Press B on Decrypt9, then go to EmuNAND File Options and select the Inject Health & Safety option
+17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+18. Press start, then reboot into EmuNAND
+19. Launch the Health and Safety Application (which is now FBI)
+20. Navigate to `sysUpdater.cia` and press A to install
+21. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
+22. 
+
+#### Section III - Getting the OTP
+
+
+#### Section IV - Restoring the System
