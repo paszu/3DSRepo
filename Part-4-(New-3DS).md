@@ -1,4 +1,4 @@
-### What You Need
+#### What you need
 
 * A working emuNAND and CFW
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
@@ -15,28 +15,35 @@
  +    [Old 3DS or 2DS 2.1.0 - EUR]() ([Mirror]())    
  +    [Old 3DS or 2DS 2.1.0 - JAP]() ([Mirror]())    
  +    [Old 3DS or 2DS 2.1.0 - USA]() ([Mirror]())    
+* The 10.5.0 firmware zip file for your device and region:
+ +    [New 3DS 10.5.0 - EUR]() ([Mirror]())    
+ +    [New 3DS 10.5.0 - JAP]() ([Mirror]())    
+ +    [New 3DS 10.5.0 - USA]() ([Mirror]())    
+ ~
+ +    [Old 3DS or 2DS 10.5.0 - EUR]() ([Mirror]())    
+ +    [Old 3DS or 2DS 10.5.0 - JAP]() ([Mirror]())    
+ +    [Old 3DS or 2DS 10.5.0 - USA]() ([Mirror]())  
 
-
-### Instructions
-#### Section I - Prep Work
+#### Instructions
+##### Section I - Prep Work
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
 4. Open OTPHelper
 5. Go to NAND Backup & Restore
 6. Backup SysNAND and EmuNAND to `sysNAND.bin` and `emuNAND.bin` respectively
-7. Press (Select) on the main menu to eject your SD card
+7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
 9. Delete `sysNAND.bin` and `emuNAND.bin` from your SD card
 
-#### Section II - Downgrading
+##### Section II - Downgrading
 1. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
-2. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
+2. Copy the `updates` folder from the 10.5.0 firmware zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 4. Boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
 5. Get into the Homebrew Launcher **on EmuNAND** through an entrypoint that is launched **after EmuNAND has booted**, such as [browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) **(if you do not, you will format your SysNAND)**
 6. Open TinyFormat **on EmuNAND**
-7. Press (Y) to format **EmuNAND**
+7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 5 through 8, this is not optional (you must TinyFormat your EmuNAND twice - if you do not, you will brick your device in 99% of circumstances)**
 10. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
@@ -50,10 +57,23 @@
 18. Press start, then reboot into EmuNAND
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
-21. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-22. 
+21. Open sysUpdater **on emuNAND**
+22. Press A to update emuNAND to 10.5.0 if your emuNAND is at or below 10.5.0, or press Y to downgrade emuNAND to 10.5.0 if your emuNAND is above 10.5.0
+26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
+27. Open Decrypt9, then go to EmuNAND File Options, then select the EmuNAND Backup option
+28. Backup your emuNAND to `emuNAND.bin`
+29. Press Select on the main menu to eject your SD card
+23. Put your SD card in your computer, then rename `emuNAND.bin` on the root of your SD card to `emuNAND_formatted.bin`
+26. Copy over `emuNAND_formatted.bin` to a safe folder on your computer
+24. Delete the existing `updates` folder from the root of your SD card
+25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
+27. Reinsert your SD card into your 3DS then press Start and reboot into emuNAND
+28. Open sysUpdater **on emuNAND**
+29. Press Y to downgrade emuNAND to 2.1.0
+30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using Decrypt9 through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. **This downgrade process can take many many tries in some situations, just keep trying until it works**
 
-#### Section III - Getting the OTP
+
+##### Section III - Getting the OTP
 
 
-#### Section IV - Restoring the System
+##### Section IV - Restoring the System
