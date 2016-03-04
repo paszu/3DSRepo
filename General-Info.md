@@ -1,1 +1,1 @@
->[Next](https://github.com/Plailect/Guide/wiki/FAQ)
+ph
