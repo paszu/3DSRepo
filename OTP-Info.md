@@ -2,8 +2,7 @@
 
 New 3DS | Old 3DS / 2DS
 :---: | :---:
-[With Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(With-Cubic-Ninja-on-New-3DS)) | [With Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(With-Cubic-Ninja-on-Old-3DS---2DS))
-[Without Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(Without-Cubic-Ninja-on-New-3DS)) | [Without Cubic Ninja](https://github.com/Plailect/plailect.github.io/wiki/OTP-(Without-Cubic-Ninja-on-Old-3DS-or-2DS))
+[Link](https://github.com/Plailect/Guide/wiki/Part-4-(New-3DS)) | [Link](https://github.com/Plailect/Guide/wiki/Part-4-(Old-3DS))
 
 The OTP is a 0x100 byte region of seemingly random data at address 0x10012000. It is presumed that console unique keys are derived from this region, although it is currently unknown exactly how. The region is likely the console unique data store which is decrypted by the bootrom, but we don't know how that is done until somebody dumps the full protected bootrom. It is unknown at this time if anyone has successfully dumped the protected bootrom.
 
