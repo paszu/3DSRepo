@@ -15,5 +15,3 @@
 
 + **Q:** *Where should I go for support?*    
   **A:** For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).    
-
->[Next](https://github.com/Plailect/Guide/wiki/Get-Started)
