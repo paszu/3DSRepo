@@ -63,7 +63,7 @@
 28. Open sysUpdater **on emuNAND**
 29. Press Y to downgrade emuNAND to 2.1.0
 30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using Decrypt9 through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. **This downgrade process can take many many tries in some situations, just keep trying until it works**
-31. *EmuNAND will be bricked by the downgrade and you will no longer be able to get into it*
+31. *EmuNAND will be bricked by the downgrade and you will no longer be able to get into it (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper, then press the Unbrick FW 2.1 EmuNAND option and follow instructions
 32. Wait.
