@@ -13,7 +13,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### Instructions
 
-1. If you have a file named exactly `NAND.bin` on your SD card for some reason, delete it or name it something eles.
+1. If you have a file named exactly `NAND.bin` on your SD card for some reason, delete it or name it something else.
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 3. Copy my `boot_config.ini` from where you downloaded it to the root of your SD card
 4. Delete `firmware.bin` from the `/rei/` folder on your SD card
