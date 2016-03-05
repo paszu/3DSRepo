@@ -41,7 +41,6 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
 17. Open EmuNAND9
 18. Go to EmuNAND Manager Options, then dump SysNAND to `sysNAND.bin`
-19. Backup your console's NAND using the Backup SysNAND option
 20. Press Select on the main menu to eject your SD card
 21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future
 22. You can delete `sysNAND.bin` from your SD card after copying it
