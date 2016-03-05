@@ -26,7 +26,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 5. Open EmuNAND9
 6. Select the "Complete emuNAND setup" option
 7. Wait
-8. Go to "EmuNAND Options", then select "NAND Backup" to backup your newly created EmuNAND
+8. Go to "EmuNAND Manager Options", then dump EmuNAND to `emuNAND.bin`
 8. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 10. Copy `emuNAND.bin` to a safe folder on your computer
