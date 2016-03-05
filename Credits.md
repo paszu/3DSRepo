@@ -11,7 +11,7 @@
 + Psi-Hate for testing
 + Shadowtrance for answering questions and testing
 + icecream for testing
-+ xy2 for being cool
++ xy2 for being pretty cool
 + dukesrg for hosting 2xrsa
 + s_99 for emotional support
 + dark_samus for being fucking amazing
