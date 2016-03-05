@@ -86,7 +86,7 @@
 ##### Section IV - Restoring the System
 
 1. Copy the `sysNAND.bin` and `emuNAND.bin` you created at the beginning of Section I to the root of your SD card
-2. Delete the folders from the inside of the `Nintendo 3DS` folder on your SD card that are **not** in the `Nintendo 3DS` folder you copied to your computer in Section I (the `Nintendo 3DS` folders should look the same)
+2. Delete the folders from the inside of the `Nintendo 3DS` folder on your SD card that are **not** in the `Nintendo 3DS` folder you copied to your computer in Section I (the `Nintendo 3DS` folder on your SD card should now look the same as the one from Section I)
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
 3. Go to "NAND Backup & Restore"
 4. Restore SysNAND and EmuNAND from `sysNAND.bin` and `emuNAND.bin` respectively
