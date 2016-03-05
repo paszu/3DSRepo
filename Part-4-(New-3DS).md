@@ -25,15 +25,17 @@
  +    [Old 3DS or 2DS 10.5.0 - USA]() ([Mirror]())  
 
 #### Instructions
+
 ##### Section I - Prep Work
+
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
 4. Open OTPHelper
-5. Go to NAND Backup & Restore
+5. Go to "NAND Backup & Restore"
 6. Backup SysNAND and EmuNAND to `sysNAND.bin` and `emuNAND.bin` respectively
 7. Press Select on the main menu to eject your SD card
-8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
+8. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and the `Nintendo 3DS` folder to a safe folder on your computer, you will need them later
 9. Delete `sysNAND.bin` and `emuNAND.bin` from your SD card
 1. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
 2. Copy the `updates` folder from the 10.5.0 firmware zip to the root of your SD card
@@ -45,22 +47,23 @@
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 5 through 8, this is not optional (you must TinyFormat your EmuNAND twice - if you do not, you will brick your device in 99% of circumstances)**
 10. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-11. Open Decrypt9, then go to EmuNAND File Options, then select the Dump Health & Safety option
+11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to EmuNAND File Options and select the Inject Health & Safety option
+16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 18. Press start, then reboot into EmuNAND
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
 
 ##### Section II - Downgrading
+
 21. Open sysUpdater **on emuNAND**
 22. Press A to update emuNAND to 10.5.0 if your emuNAND is at or below 10.5.0, or press Y to downgrade emuNAND to 10.5.0 if your emuNAND is above 10.5.0
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-27. Open Decrypt9, then go to EmuNAND File Options, then select the EmuNAND Backup option
+27. Open Decrypt9, then go to "EmuNAND File Options", then select the "EmuNAND Backup" option
 28. Backup your emuNAND to `emuNAND.bin`
 29. Press Select on the main menu to eject your SD card
 23. Put your SD card in your computer, then rename `emuNAND.bin` on the root of your SD card to `emuNAND_formatted.bin`
@@ -75,9 +78,30 @@
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper, then press the Unbrick FW 2.1 EmuNAND option and follow instructions
 32. Wait.
-
+33. Go to the "NAND Backup & Restore" option, then backup EmuNAND to `emuNAND.bin`
+34. Go to the "NAND Backup & Restore" option, then restore SysNAND from `emuNAND.bin` (this will flash the 2.1 Unbricked NAND to your SysNAND)
+35. Cross your fingers
+36. Reboot
 
 ##### Section III - Getting the OTP
 
+1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3ds
+2. OTPHelper will launch, then select the "Dump otp.bin (0x108) (< 3.0)" option
+3. Press Select on the main menu to eject your SD card
+4. Put your SD card in your computer, then rename `otp.bin` to `otp0x108.bin`
+5. Copy over `otp0x108.bin` to a safe folder on your computer.
+6. Reinsert your SD card into your 3DS then press B to return to the main menu
+7. Select the "Dump otp.bin (0x100) (< 3.0)" option
+8. Press Select on the main menu to eject your SD card
+9. Put your SD card in your computer, then copy over `otp.bin` to a safe folder on your computer
+10. Backup `otp.bin` and `otp0x108.bin` to multiple locations (such as online file storage)
 
 ##### Section IV - Restoring the System
+
+1. Copy the `sysNAND.bin` and `emuNAND.bin` you created at the beginning of Section I to the root of your SD card
+2. Delete the folders from the inside of the `Nintendo 3DS` folder on your SD card that are **not** in the `Nintendo 3DS` folder you copied to your computer in Section I (the `Nintendo 3DS` folders should look the same)
+2. Reinsert your SD card into your 3DS then press B to return to the main menu
+3. Go to "NAND Backup & Restore"
+4. Restore SysNAND and EmuNAND from `sysNAND.bin` and `emuNAND.bin` respectively
+5. Cross your fingers
+6. Reboot!
