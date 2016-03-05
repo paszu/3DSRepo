@@ -24,6 +24,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 2. Copy the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
+4. **If you are using a JAP region n3DS, delete 000400102002CA00.CIA from the `updates` folder or you will brick**
 4. Eject your SD card and put it back in your 3DS
 5. Boot into the Homebrew Launcher (if you followed the previous part, you can do this by holding dpad down on boot)
 6. Open sysUpdater
