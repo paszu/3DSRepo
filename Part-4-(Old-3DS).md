@@ -86,6 +86,7 @@
 
 ##### Section IV - Restoring the System
 
+1. Rename `emuNAND.bin` on the root of your SD card to `emuNAND_2-1-0.bin` and copy it to a safe folder on your computer so you can downgrade back to 2.1.0 easily if you ever need to. You can delete `emuNAND_2-1-0.bin` from your SD card.
 1. Copy the `emuNAND.bin` you created at the beginning of Section I to the root of your SD card
 2. Delete the folders from the inside of the `Nintendo 3DS` folder on your SD card that are **not** in the `Nintendo 3DS` folder you copied to your computer in Section I (the `Nintendo 3DS` folder on your SD card should now look the same as the one from Section I)
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
