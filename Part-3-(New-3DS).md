@@ -14,7 +14,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
-* The New 3DS AuReiNAND [firmware bin](https://mega.nz/#!Mg1ECa6Y!rLSRY7xTKVSNq4qpBvGCqQs2EGgM497Jfw6QkBDpP74) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDQnVKQjc2dTV5TmM/view?usp=sharing)) zip file
+* The New 3DS AuReiNAND NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
 
 #### Instructions
 
