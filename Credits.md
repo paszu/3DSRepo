@@ -13,7 +13,7 @@
 + icecream for testing
 + dukesrg for hosting 2xrsa
 + s_99 for emotional support
-+ dark_samus for testing
++ dark_samus for being fucking amazing
 + Urbanshadow for fixing my python script
 + Mrrraou for helping with support
 + Raugo for autofirm
