@@ -1,4 +1,4 @@
-*These links are here for anyone who is not following the main guide or who was redirected from the old OTP guide.*
+**These links are for anyone who was redirected from the old OTP guide link.**
 
 New 3DS | Old 3DS / 2DS
 :---: | :---:
