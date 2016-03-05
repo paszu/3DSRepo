@@ -1,6 +1,6 @@
 #### What you need
 
-* A working emuNAND and CFW (You should have gotten this with Part 3)
+* A working emuNAND and CFW (you should have gotten this with Part 3)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
