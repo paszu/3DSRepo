@@ -32,7 +32,7 @@
 2. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 4. Boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
-5. Get into the Homebrew Launcher **on EmuNAND** through an entrypoint that is launched **after EmuNAND has booted**, such as [browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) **(if you do not, you will format your SysNAND)**
+5. Get into the Homebrew Launcher **on EmuNAND** through an entrypoint that is launched **after EmuNAND has booted**, such as [browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) **(if you do not, TinyFormat will format your SysNAND)**
 6. Open TinyFormat **on EmuNAND**
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
