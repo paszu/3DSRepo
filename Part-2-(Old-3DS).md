@@ -37,9 +37,8 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 14. If you get a black screen after downgrading, boot with the SD card removed; when you have booted, change your theme to anything else then change it back to remove the old menuhax version; afterwards, follow the steps in Part 1 to reinstall menuhax
 15. Check the system settings, you should be on 9.2.0
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
-17. Open Decrypt9
-18. Go to SysNAND Options
-19. Backup your console's NAND using the Backup SysNAND option
+17. Open EmuNAND9
+18. Go to EmuNAND Manager Options, then dump SysNAND to `sysNAND.bin`
 20. Press Select on the main menu to eject your SD card
 21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future
 22. You can delete `sysNAND.bin` from your SD card after copying it
