@@ -10,6 +10,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 
 * The Homebrew Launcher and an installed entrypoint (such as menuhax)
 * [This](https://mega.nz/#!10FjBKrB!PqbqJ8oSzoX-6iuhafR7kdHiWUBQSptrhjYTR6BLLUI) version of sysUpdater
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The 9.2.0 firmware zip file for your device and region:
  +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
  +    [New 3DS 9.2.0 - JAP](https://mega.nz/#!UwMmUIJJ!z10Q-iDl_hG8wkY8wV8_wN2RcKd9fJIyYldE2xwKsW8
@@ -20,6 +21,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 #### Instructions
 
 1. Copy `sysUpdater.3dsx` and `sysUpdater.smdh` to the `/3ds/` folder on your SD card
+2. Copy the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
@@ -34,3 +36,11 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
 14. If you get a black screen after downgrading, boot with the SD card removed; when you have booted, change your theme to anything else then change it back to remove the old menuhax version; afterwards, follow the steps in Part 1 to reinstall menuhax
 15. Check the system settings, you should be on 9.2.0
+16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
+17. Open Decrypt9
+18. Go to SysNAND Options
+19. Backup your console's NAND using the Backup SysNAND option
+20. Press Select on the main menu to eject your SD card
+21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future
+22. You can delete `sysNAND.bin` from your SD card after copying it
+23. Reinsert your SD card into your 3DS, then press Start to reboot
