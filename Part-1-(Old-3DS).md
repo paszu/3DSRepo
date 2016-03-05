@@ -1,14 +1,14 @@
 The Homebrew Launcher has many different entrypoints, or methods of launching. The most common is browserhax, which launches the Homebrew Launcher using nothing more than the included browser. This can then be used to install menuhax, which lets you hold a button while the console is booting up to launch the Homebrew Launcher before the rest of the system starts.
 
-If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but you can omit changing the date in the beginning.
+If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but you can skip changing the date and time in the beginning.
 
 If you are between versions 9.9.0 and 10.3.0, you should follow this guide as written.
 
 If you are between versions 10.4.0 and 10.5.0 and have downgraded NATIVE_FIRM with a hardmod, you should follow this guide as written.
 
-If you are on version 10.6.0 and have downgraded NATIVE_FIRM with a hardmod, you can find instructions for using ninjhax (requires Cubic Ninja) [here](http://smealum.github.io/ninjhax2/), OOTHax (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the homebrew launcher) [here](https://github.com/yellows8/oot3dhax).
+If you are on version 10.6.0 and have downgraded NATIVE_FIRM with a hardmod, you can find instructions for using ninjhax (requires Cubic Ninja) [here](http://smealum.github.io/ninjhax2/), OOTHax (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the homebrew launcher) [here](https://github.com/yellows8/oot3dhax). Browserhax was patched with 10.6.0 and will no longer work.
 
-If you are below version 9.0.0 or you have an old browser version (you must have a -20 or highter at the end of your version number to follow this guide; the -XX indicates browser version; i.e: 9.2.0-15U is incompatible), you can find instructions for updating or downgrading to 9.2.0-20U [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update).
+If you are below version 9.0.0 or you have an old browser version (you must have a -20 or highter at the end of your version number to follow this guide; the -XX indicates browser version; i.e: 9.2.0-15U is incompatible), you can find instructions for updating or downgrading to 9.2.0-20U [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support browser versions below 9.0.0 or -20.
 
 #### What you need
 
