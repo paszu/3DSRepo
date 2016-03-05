@@ -10,7 +10,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 4 - Getting the OTP](https://github.com/Plailect/Guide/wiki/Part-4-(New-3DS))    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 5 - arm9loaderhax](https://github.com/Plailect/Guide/wiki/Part-5-(New-3DS))    
 
-*Old 3DS or 2DS*    
+*Old 3DS (or 2DS)*    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 1 - Homebrew](https://github.com/Plailect/Guide/wiki/Part-1-(Old-3DS))    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 2 - Downgrading](https://github.com/Plailect/Guide/wiki/Part-2-(Old-3DS))    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 3 - EmuNAND](https://github.com/Plailect/Guide/wiki/Part-3-(Old-3DS))    
