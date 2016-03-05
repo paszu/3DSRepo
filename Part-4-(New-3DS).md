@@ -27,8 +27,6 @@
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and the `Nintendo 3DS` folder to a safe folder on your computer, you will need them later
 9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
-1. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
-2. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 4. Boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
 5. Get into the Homebrew Launcher **on EmuNAND** through an entrypoint that is launched **after EmuNAND has booted**, such as [browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) **(if you do not, TinyFormat will format your SysNAND)**
@@ -50,7 +48,7 @@
 29. Press Select on the main menu to eject your SD card
 23. Put your SD card in your computer, then rename `emuNAND.bin` on the root of your SD card to `emuNAND_formatted.bin`
 26. Copy over `emuNAND_formatted.bin` to a safe folder on your computer
-24. Delete the existing `updates` folder from the root of your SD card
+24. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
 25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 27. Reinsert your SD card into your 3DS then press Start and reboot into emuNAND
 28. Open sysUpdater **on emuNAND**
