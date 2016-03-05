@@ -10,7 +10,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 
 * The Homebrew Launcher and an installed entrypoint (such as menuhax)
 * [This](https://mega.nz/#!10FjBKrB!PqbqJ8oSzoX-6iuhafR7kdHiWUBQSptrhjYTR6BLLUI) version of sysUpdater
-* The latest release of [EmunNAND9](https://github.com/d0k3/EmuNAND9/releases)
+* The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The 9.2.0 firmware pack zip file for your device and region:
  +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY
 ) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
