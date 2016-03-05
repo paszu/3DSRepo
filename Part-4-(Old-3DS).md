@@ -64,9 +64,7 @@
 30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using Decrypt9 through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. **This downgrade process can take many many tries in some situations, just keep trying until it works**
 31. *EmuNAND will be bricked by the downgrade and you will no longer be able to get into it*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-33. Open OTPHelper, then press the Unbrick FW 2.1 EmuNAND option and follow instructions
-32. Wait.
-33. Go to the "NAND Backup & Restore" option, then backup EmuNAND to `emuNAND.bin`
+33. Open OTPHelper, then go to the "NAND Backup & Restore" option, then backup EmuNAND to `emuNAND.bin`
 34. Go to the "NAND Backup & Restore" option, flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
 35. Cross your fingers
 36. Reboot
