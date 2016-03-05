@@ -21,6 +21,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 1. Copy both the `3ds` folder from the EmuNAND9 zip and the `3ds` folder from the AuReiNAND zip to the root of your SD card
 3. Copy the `rei` folder from the AuReiNAND zip to the root of your SD card
 4. Copy `firmware.bin` from the firmware zip to the `/rei/` folder on your SD card
+4. Copy `ReiNand.dat` from the AuReiNAND zip to the root of your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 3. Copy the `3ds` folder and `FBI.cia` file from the FBI zip to the root of your SD card
 4. Put a blank file named `SysNAND.txt` in the `/Nintendo 3DS/<id0>/` folder; `<id0>` will be a long string of random characters; this will let you know which folder is SysNAND and which is EmuNAND after unlinking
