@@ -13,6 +13,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
 * The Old 3DS AuReiNAND [firmware bin](https://mega.nz/#!Qt8wRQRK!wHM9INoAX_JL4DnnayJX2Aj-mt1X5Eh1krS_Wuh12nk) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDczRNbXI0MXlFcTg/view?usp=sharing)) zip file
 
 #### Instructions
@@ -21,12 +22,12 @@ This part of the guide will take you through the process of setting up EmuNAND a
 3. Copy the `rei` folder from the AuReiNAND zip to the root of your SD card
 4. Copy `firmware.bin` from the firmware zip to the `/rei/` folder on your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
+3. Copy the `3ds` folder and `FBI.cia` file from the FBI zip to the root of your SD card
 3. **Backup every file on your SD card to a folder on your computer, they will be deleted in the next step**
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
 5. Open EmuNAND9
 6. Select the "Complete emuNAND setup" option
 7. Wait
-8. Go to "EmuNAND Manager Options", then dump EmuNAND to `emuNAND.bin`
 8. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 10. Copy `emuNAND.bin` to a safe folder on your computer
@@ -35,6 +36,15 @@ This part of the guide will take you through the process of setting up EmuNAND a
 12. Open AuReiNAND
 13. If you boot into the home menu, you have successfully launched EmuNAND
 14. Change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't
+12. Get into the Homebrew Launcher on EmuNAND through the entrypoint of your choice
+13. Launch FBI
+14. Navigate to `FBI.cia` and press A to install
+15. Go back into the Homebrew Launcher on EmuNAND
+16. Open EmuNAND9
+8. Go to "EmuNAND Manager Options", then dump EmuNAND to `emuNAND.bin`
+8. Press Select on the main menu to eject your SD card
+10. Copy `emuNAND.bin` to a safe folder on your computer
+10. Reinsert your SD card into your 3DS, then press Start to reboot
 16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher in SysNAND)
 17. Open TinyFormat
 18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
