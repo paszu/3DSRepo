@@ -10,7 +10,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 
 * The Homebrew Launcher and an installed entrypoint (such as menuhax)
 * [This](https://mega.nz/#!10FjBKrB!PqbqJ8oSzoX-6iuhafR7kdHiWUBQSptrhjYTR6BLLUI) version of sysUpdater
-* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
+* The latest release of [EmunNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The 9.2.0 firmware pack zip file for your device and region:
  +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY
 ) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
@@ -39,8 +39,8 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 14. If you get a black screen after downgrading, boot with the SD card removed; when you have booted, change your theme to anything else then change it back to remove the old menuhax version; afterwards, follow the steps in Part 1 to reinstall menuhax
 15. Check the system settings, you should be on 9.2.0
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
-17. Open Decrypt9
-18. Go to SysNAND Options
+17. Open EmuNAND9
+18. Go to EmuNAND Manager Options, then dump SysNAND to `sysNAND.bin`
 19. Backup your console's NAND using the Backup SysNAND option
 20. Press Select on the main menu to eject your SD card
 21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future
