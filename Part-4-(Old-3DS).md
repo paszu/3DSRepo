@@ -56,6 +56,7 @@
 28. Open sysUpdater **on emuNAND**
 29. Press Y to downgrade emuNAND to 2.1.0
 30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. **This downgrade process can take many many tries in some situations, just keep trying until it works**
+31. **If, after many tries, you repeatedly fail on 0004003000008F02.cia, you can try following the instructions [here](https://github.com/Plailect/Guide/wiki/0004003000008F02.cia)**
 31. *EmuNAND will not be bricked by the downgrade, but no current CFW can boot a 2.1.0 EmuNAND so you will no longer be able to get into it (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Go to the "NAND Backup & Restore" option, then backup EmuNAND to `emuNAND.bin`
