@@ -32,6 +32,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 8. If you see button prompts, proceed
 9. Press Y to downgrade
 10. Wait; do not touch anything even if it appears to freeze
+10. If, after around 30 seconds, it is still frozen, it is safe to power off and try again
 11. If you get an error (failed to get CIA info is the most common) before installation, power off your 3DS by holding the power button and try again (this can take many tries)
 12. If you get an error in the middle of installation, follow the instructions in the beginning for partial downgrades
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
