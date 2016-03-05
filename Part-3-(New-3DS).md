@@ -41,7 +41,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 12. Get into the Homebrew Launcher on EmuNAND through the entrypoint of your choice
 13. Launch FBI
 14. Navigate to `FBI.cia` and press A to install
-15. Go back into the Homebrew Launcher on EmuNAND
+15. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 16. Open EmuNAND9
 8. Go to "EmuNAND Manager Options", then dump EmuNAND to `emuNAND.bin`
 8. Press Select on the main menu to eject your SD card
