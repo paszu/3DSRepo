@@ -20,14 +20,6 @@
  +    [Old 3DS or 2DS 2.1.0 - JAP](https://mega.nz/#!Ix9Fnb6Q!33ujhZnFLL48aY6mE_jEXuMFtCB7cugdg1eRH1geK94
 ) ([Mirror]())    
  +    [Old 3DS or 2DS 2.1.0 - USA](https://mega.nz/#!EpExwB6K!jfMSznN3_aT14N7LyM_BDBonBQz0mQTs0fx5pURoneU) ([Mirror]())    
-* The 10.5.0 firmware zip file for your device and region:
- +    [New 3DS 10.5.0 - EUR]() ([Mirror]())    
- +    [New 3DS 10.5.0 - JAP]() ([Mirror]())    
- +    [New 3DS 10.5.0 - USA]() ([Mirror]())    
- ~
- +    [Old 3DS or 2DS 10.5.0 - EUR]() ([Mirror]())    
- +    [Old 3DS or 2DS 10.5.0 - JAP]() ([Mirror]())    
- +    [Old 3DS or 2DS 10.5.0 - USA]() ([Mirror]())  
 
 #### Instructions
 
@@ -43,7 +35,7 @@
 8. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and the `Nintendo 3DS` folder to a safe folder on your computer, you will need them later
 9. Delete `sysNAND.bin` and `emuNAND.bin` from your SD card
 1. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
-2. Copy the `updates` folder from the 10.5.0 firmware zip to the root of your SD card
+2. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 4. Boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
 5. Get into the Homebrew Launcher **on EmuNAND** through an entrypoint that is launched **after EmuNAND has booted**, such as [browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) **(if you do not, you will format your SysNAND)**
@@ -51,6 +43,7 @@
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 5 through 8, this is not optional (you must TinyFormat your EmuNAND twice - if you do not, you will brick your device in 99% of circumstances)**
+10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
 10. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
@@ -64,9 +57,6 @@
 20. Navigate to `sysUpdater.cia` and press A to install
 
 ##### Section II - Downgrading
-
-21. Open sysUpdater **on emuNAND**
-22. Press A to update emuNAND to 10.5.0 if your emuNAND is at or below 10.5.0, or press Y to downgrade emuNAND to 10.5.0 if your emuNAND is above 10.5.0
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 27. Open Decrypt9, then go to "EmuNAND File Options", then select the "EmuNAND Backup" option
 28. Backup your emuNAND to `emuNAND.bin`
