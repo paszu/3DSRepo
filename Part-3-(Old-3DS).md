@@ -13,7 +13,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
-* The New 3DS AuReiNAND [firmware bin](https://mega.nz/#!Qt8wRQRK!wHM9INoAX_JL4DnnayJX2Aj-mt1X5Eh1krS_Wuh12nk) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDczRNbXI0MXlFcTg/view?usp=sharing)) zip file
+* The Old 3DS AuReiNAND [firmware bin](https://mega.nz/#!Qt8wRQRK!wHM9INoAX_JL4DnnayJX2Aj-mt1X5Eh1krS_Wuh12nk) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDczRNbXI0MXlFcTg/view?usp=sharing)) zip file
 
 #### Instructions
 
