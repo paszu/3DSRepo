@@ -26,7 +26,7 @@
 6. Backup SysNAND and EmuNAND to `sysNAND.bin` and `emuNAND.bin` respectively
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and the `Nintendo 3DS` folder to a safe folder on your computer, you will need them later
-9. Delete `emuNAND.bin` from your SD card
+9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
 1. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
 2. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings) if you are using a 2DS, you will not be able to toggle it in 2.1**
