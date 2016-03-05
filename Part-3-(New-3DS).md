@@ -36,6 +36,8 @@ This part of the guide will take you through the process of setting up EmuNAND a
 12. Open AuReiNAND
 13. If you boot into the home menu, you have successfully launched EmuNAND
 14. Change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't
+10. Update your **EmuNAND** to the latest version using system settings
+11. Open the eShop at least once to allow it to initialize databases
 12. Get into the Homebrew Launcher on EmuNAND through the entrypoint of your choice
 13. Launch FBI
 14. Navigate to `FBI.cia` and press A to install
