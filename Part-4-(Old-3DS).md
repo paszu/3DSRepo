@@ -81,7 +81,8 @@
 7. Select the "Dump otp.bin (0x100) (< 3.0)" option
 8. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy over `otp.bin` to a safe folder on your computer
-10. Backup `otp.bin` and `otp0x108.bin` to multiple locations (such as online file storage)
+10. Ensure that `otp.bin` is 256 bytes and `otp0x108.bin` is 264 bytes
+11. Backup `otp.bin` and `otp0x108.bin` to multiple locations (such as online file storage)
 
 ##### Section IV - Restoring the System
 
