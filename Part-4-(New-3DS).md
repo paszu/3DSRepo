@@ -36,7 +36,7 @@
 6. Open TinyFormat **on EmuNAND**
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
-9. **Repeat steps 14 through 17, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, you will brick your device in 99% of circumstances)**
+9. **Repeat steps 14 through 17, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, you will most likely brick your device when you downgrade)**
 10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
 10. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
