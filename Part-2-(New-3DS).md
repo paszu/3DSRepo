@@ -12,9 +12,10 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 * [This](https://mega.nz/#!10FjBKrB!PqbqJ8oSzoX-6iuhafR7kdHiWUBQSptrhjYTR6BLLUI) version of sysUpdater
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The 9.2.0 firmware pack zip file for your device and region:
- +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
- +    [New 3DS 9.2.0 - JAP](https://mega.nz/#!UwMmUIJJ!z10Q-iDl_hG8wkY8wV8_wN2RcKd9fJIyYldE2xwKsW8
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdpdnMya0RqMHM/view?usp=sharing))    
+ +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY
+) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
+ +    [New 3DS 9.2.0 - JAP](https://mega.nz/#!VxcF3TIK!Bm5LgFxo5V4Nepe9ZlWnx7bichE1V7p7pR_HqwimU5M
+) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
  +    [New 3DS 9.2.0 - USA](https://mega.nz/#!gslWiIoK!SF7uFk9rzWTK6oitCDoeAdvphcCzhKWsnTAMXw7zwOU
 ) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))    
 
