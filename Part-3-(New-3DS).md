@@ -32,7 +32,6 @@ This part of the guide will take you through the process of setting up EmuNAND a
 7. Wait
 8. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
-10. Copy `emuNAND.bin` to a safe folder on your computer
 10. Reinsert your SD card into your 3DS, then press Start to reboot
 11. Get into the Homebrew Launcher through the entrypoint of your choice
 12. Open AuReiNAND
