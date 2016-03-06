@@ -50,10 +50,6 @@
 10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
 10. Update your **EmuNAND** to the latest version using system settings if it is not already
 11. Open the eShop at least once to allow it to initialize databases
-12. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-11. Open Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
-17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-18. Press start, then reboot into EmuNAND
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
 
