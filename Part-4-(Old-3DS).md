@@ -1,10 +1,11 @@
 #### What you need
 
 * A working emuNAND and CFW (you should have gotten this with Part 3)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)* The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
  +    [Old 3DS or 2DS 2.1.0 - EUR](https://mega.nz/#!MhcxXJKA!xcx62RvFiu7oKzCveqxUlDX1icv9UI-7BB1MoiWfn-Q
 ) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDajdOM1QyQlhjRUk/view?usp=sharing))    
@@ -17,7 +18,7 @@
 
 ##### Section I - Prep Work
 
-1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
+1. Copy the `OTPHelper` folder from the OTPHelper zip, the `TinyFormat` folder from the TinyFormat zip, and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy the `3ds` folder and `FBI.cia` file from the FBI zip to the root of your SD card 
 3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
@@ -38,8 +39,16 @@
 10. Update your **EmuNAND** to the latest version using system settings if it is not already
 11. Open the eShop at least once to allow it to initialize databases
 12. Get into the Homebrew Launcher on EmuNAND through the entrypoint of your choice
-13. Launch FBI
-14. Navigate to `sysUpdater.cia` and press A to install
+11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
+12. Press Select to eject your SD card, then put it in your computer
+13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+14. Double click `go.bat`
+15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
+16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+18. Press start, then reboot into EmuNAND
+19. Launch the Health and Safety Application (which is now FBI)
+20. Navigate to `sysUpdater.cia` and press A to install
 
 ##### Section II - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
@@ -53,14 +62,15 @@
 27. Reinsert your SD card into your 3DS then press Start and reboot into emuNAND
 28. Open sysUpdater **on emuNAND**
 29. Press Y to downgrade emuNAND to 2.1.0
-30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. **This downgrade process can take many many tries in some situations, just keep trying until it works**
+30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. *This downgrade process can take many many tries in some situations, just keep trying until it works*
 31. **If, after many tries, you repeatedly fail on 0004003000008F02.cia, you can try following the instructions [here](https://github.com/Plailect/Guide/wiki/0004003000008F02.cia)**
-31. *EmuNAND will not be bricked by the downgrade, but no current CFW can boot a 2.1.0 EmuNAND so you will no longer be able to get into it (a black screen when you try to load EmuNAND is normal)*
+31. *EmuNAND will be bricked by the downgrade and you will no longer be able to get into it (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Go to the "NAND Backup & Restore" option in OTPHelper, then backup EmuNAND to `emuNAND.bin`
 34. Go to the "NAND Backup & Restore" option in OTPHelper, then flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
 35. Cross your fingers
 36. Reboot
+37. If you get a black screen, boot with the SD card removed then reinsert after successful boot.
 
 ##### Section III - Getting the OTP
 
