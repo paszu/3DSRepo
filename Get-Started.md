@@ -16,6 +16,8 @@ If your version is between 9.3.0 and 10.3.0, you can follow the correct link and
 
 If your version is between 10.4.0 and 10.6.0, you can follow the correct link to be brought to a page that will walk you through the process of hardmodding your console in order to downgrade your NATIVE_FIRM to 10.2.0. After that, you can proceed as if your version were 10.2.0.
 
+If you already have a CFW setup, change menuhax to type 2 and set your menuhax trigger to dpad down, then start the guide at Part 4.
+
 |     New 3DS     | Old 3DS / 2DS   |
 |:---------------:|:---------------:|
 |     [< 9.0.0](https://github.com/Plailect/Guide/wiki/9.2.0-Update)     |     [< 9.0.0](https://github.com/Plailect/Guide/wiki/9.2.0-Update)     |
