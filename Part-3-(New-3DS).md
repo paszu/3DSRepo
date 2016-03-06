@@ -44,7 +44,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 17. Open TinyFormat
 18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
 19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to EmuNAND to prevent issues
-14. Change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't
+14. Change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
 10. Update your **EmuNAND** to the latest version using system settings
 11. Open the eShop at least once to allow it to initialize databases
 19. Follow Part 1 to reinstall menuhax on SysNAND
