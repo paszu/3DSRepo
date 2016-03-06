@@ -5,7 +5,8 @@
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)* The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
+* The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
  +    [New 3DS 2.1.0 - EUR](https://mega.nz/#!MwFE0a4R!RycA5La_swkWqczjvBIdoiQCjOPnl-vl2qjlA0x-uNM
 ) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDd29sV3RDMmtnQXM/view?usp=sharing))    
@@ -20,7 +21,7 @@
 
 1. Copy the `OTPHelper` folder from the OTPHelper zip, the `TinyFormat` folder from the TinyFormat zip, and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
-3. Copy the `3ds` folder and `FBI.cia` file from the FBI zip to the root of your SD card 
+3. Copy the `3ds` folder from the FBI zip to the root of your SD card 
 3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
 4. Open OTPHelper
 5. Go to "NAND Backup & Restore"
