@@ -28,6 +28,7 @@
 8. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and the `Nintendo 3DS` folder to a safe folder on your computer, you will need them later
 9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
+3. Steps 13 through 21 are not required if you followed Part 3 and have already injected FBI into Health and Safety
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
@@ -37,7 +38,7 @@
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 18. Press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
-19. Launch the Health and Safety Application (which is now FBI)
+19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
 20. Navigate to `hblauncher_loader.cia` and press A to install
 21. Launch the Homebrew Menu using the home menu icon
 6. Open TinyFormat
