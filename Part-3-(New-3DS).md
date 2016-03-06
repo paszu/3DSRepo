@@ -44,11 +44,11 @@ This part of the guide will take you through the process of setting up EmuNAND a
 17. Open TinyFormat
 18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
 19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to EmuNAND to prevent issues
-14. Change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
+19. Follow Part 1 to reinstall menuhax on SysNAND as the format will have removed it
+14. Boot EmuNAND, then change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
 10. Update your **EmuNAND** to the latest version using system settings
-11. Open the eShop at least once to allow it to initialize databases
-19. Follow Part 1 to reinstall menuhax on SysNAND
-12. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+11. Open the eShop on EmuNAND at least once to allow it to initialize databases
+12. Reboot into SysNAND, then get into the Homebrew Launcher on through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
