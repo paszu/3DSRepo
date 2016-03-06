@@ -57,8 +57,8 @@
 31. **If, after many tries, you repeatedly fail on 0004003000008F02.cia, you can try following the instructions [here](https://github.com/Plailect/Guide/wiki/0004003000008F02.cia)**
 31. *EmuNAND will not be bricked by the downgrade, but no current CFW can boot a 2.1.0 EmuNAND so you will no longer be able to get into it (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-33. Go to the "NAND Backup & Restore" option, then backup EmuNAND to `emuNAND.bin`
-34. Go to the "NAND Backup & Restore" option, then flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
+33. Go to the "NAND Backup & Restore" option in OTPHelper, then backup EmuNAND to `emuNAND.bin`
+34. Go to the "NAND Backup & Restore" option in OTPHelper, then flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
 35. Cross your fingers
 36. Reboot
 
