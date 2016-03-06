@@ -31,7 +31,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
 5. Copy `arm9loaderhax.bin` from the AuReiNAND zip to the `/a9lh/` folder on your SD card
 6. Rename `/a9lh/arm9loaderhax.bin` to `/a9lh/ARN.bin`
-5. Copy the `rei` folder and `ReiNand.dat` file from the AuReiNAND zip to the `/a9lh/` folder on your SD card
+5. Copy the `rei` folder and `ReiNand.dat` file from the AuReiNAND zip to the root of your SD card
 4. Delete `firmware.bin` from the `/rei/` folder on your SD card
 5. Copy the `firmware.bin` from the NTR frimware zip to the `/rei/` folder on your SD card
 6. Copy the `firmware90.bin` from the firmware90 zip to the `/rei/` folder on your SD card
