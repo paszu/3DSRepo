@@ -9,7 +9,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases)
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
-* The New 3DS AuReiNAND [firmware90 bin](https://mega.nz/#!wwtymAKJ!ebBOlc6TaWSvYpiFlv4FPSJLCKlCuGrlRr4gtjm4SaU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDTmROU25IX1VZdlE/view?usp=sharing)) zip file
+* The New 3DS AuReiNAND [firmware90 bin](https://mega.nz/#!wwtymAKJ!ebBOlc6TaWSvYpiFlv4FPSJLCKlCuGrlRr4gtjm4SaU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSXV3SUxrbjBaVzQ/view?usp=sharing)) zip file
 * The New 3DS AuReiNAND NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
 * [boot_config.ini](https://gist.github.com/Plailect/66566928c286de6ecf61)
 
