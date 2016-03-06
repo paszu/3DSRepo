@@ -1,5 +1,4 @@
 [Home](https://github.com/Plailect/Guide/wiki)    
-[General Info](https://github.com/Plailect/Guide/wiki/General-Info)    
 [FAQ](https://github.com/Plailect/Guide/wiki/FAQ)    
 **[Get Started](https://github.com/Plailect/Guide/wiki/Get-Started)**
 
