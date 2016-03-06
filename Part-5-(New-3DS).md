@@ -6,6 +6,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### What you need
 
+* The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
 * The latest release of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases)
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
@@ -19,9 +20,12 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 9. Drag `otp.bin` **(not `otp0x108.bin`!)** onto the CloudA9H page
 10. Wait, it can take a while
 11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
+12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
+14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch the arm9loaderhax installer
-14. Hold the power button to power off once you see a black screen
+14. Hold the power button to power off once you see a black screen with nothing on it
 1. Put your SD card in your computer
 1. If you have a file named exactly `NAND.bin` on your SD card for some reason, delete it or name it something else
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
