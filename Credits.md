@@ -18,5 +18,5 @@
 + Urbanshadow for fixing my python script
 + Mrrraou for helping with support
 + Raugo for autofirm
-+ felipejfc for compiling the Mac version of 3DSFAT16tool
++ felipejfc for compiling the a9lhax web compiler
 + all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome
