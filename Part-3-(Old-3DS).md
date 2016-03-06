@@ -41,11 +41,9 @@ This part of the guide will take you through the process of setting up EmuNAND a
 17. Open TinyFormat
 18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
 19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to EmuNAND to prevent issues
+13. Create a folder named "SysNAND" on the first page of the home menu
 19. Follow Part 1 to reinstall menuhax on SysNAND as the format will have removed it
 14. Boot EmuNAND, then change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
-12. Reboot into SysNAND
-13. Create a folder named "SysNAND" on the first page of the home menu
-12. Get into the Homebrew Launcher through the entrypoint of your choice, then launch EmuNAND
 13. **If you see the SysNAND folder, then you are not on EmuNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
 10. Update your **EmuNAND** to the latest version using system settings
 11. Open the eShop on EmuNAND at least once to allow it to initialize databases
