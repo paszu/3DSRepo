@@ -61,8 +61,8 @@
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper, then press the Unbrick FW 2.1 EmuNAND option and follow instructions
 32. Wait.
-33. Go to the "NAND Backup & Restore" option, then backup EmuNAND to `emuNAND.bin`
-34. Go to the "NAND Backup & Restore" option, then flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
+33. Go to the "NAND Backup & Restore" option in OTPHelper, then backup EmuNAND to `emuNAND.bin`
+34. Go to the "NAND Backup & Restore" option in OTPHelper, then flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
 35. Cross your fingers
 36. Reboot
 
