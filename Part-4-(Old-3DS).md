@@ -1,6 +1,7 @@
 #### What you need
 
 * A working emuNAND and CFW (you should have gotten this with Part 3)
+* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
@@ -8,19 +9,19 @@
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
- +    [Old 3DS or 2DS 2.1.0 - EUR](https://mega.nz/#!MhcxXJKA!xcx62RvFiu7oKzCveqxUlDX1icv9UI-7BB1MoiWfn-Q
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDajdOM1QyQlhjRUk/view?usp=sharing))    
- +    [Old 3DS or 2DS 2.1.0 - JAP](https://mega.nz/#!Ix9Fnb6Q!33ujhZnFLL48aY6mE_jEXuMFtCB7cugdg1eRH1geK94
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDYzBIckVEcW5IcW8/view?usp=sharing))    
- +    [Old 3DS or 2DS 2.1.0 - USA](https://mega.nz/#!EpExwB6K!jfMSznN3_aT14N7LyM_BDBonBQz0mQTs0fx5pURoneU
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDWWtBODVzQWxpZ3c/view?usp=sharing)) 
+ +    [New 3DS 2.1.0 - EUR](https://mega.nz/#!MwFE0a4R!RycA5La_swkWqczjvBIdoiQCjOPnl-vl2qjlA0x-uNM
+) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDd29sV3RDMmtnQXM/view?usp=sharing))    
+ +    [New 3DS 2.1.0 - JAP](https://mega.nz/#!Yh8UyJiZ!ictdbewTCxZJqR9QmSn1jlta20R5dv7boXwycwnefsU
+) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDN2s5a2VQZDN1QVE/view?usp=sharing))    
+ +    [New 3DS 2.1.0 - USA](https://mega.nz/#!48tmxY6b!rt242mIlHkaGWddxXyuho6i0orN43DOvEjclqBOVZrs
+) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDYVBvTkthNm95RkU/view?usp=sharing))     
 
 #### Instructions
 
 ##### Section I - Prep Work
 
 1. Copy the `OTPHelper` folder from the OTPHelper zip, the `TinyFormat` folder from the TinyFormat zip, and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
-2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
+2. Copy `sysUpdater.cia` from the sysUpdater zip, `hblauncher_loader.cia` from the `hblauncher_loader` zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy the `3ds` folder from the FBI zip to the root of your SD card 
 3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
 4. Open OTPHelper
@@ -30,9 +31,19 @@
 8. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and the `Nintendo 3DS` folder to a safe folder on your computer, you will need them later
 9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
-4. Boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
-5. Get into the Homebrew Launcher **on EmuNAND** through an entrypoint that is launched **after EmuNAND has booted**, such as [browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) **(if you do not, TinyFormat will format your SysNAND)**
-6. Open TinyFormat **on EmuNAND**
+2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
+12. Press Select to eject your SD card, then put it in your computer
+13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+14. Double click `go.bat`
+15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
+16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+18. Press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
+19. Launch the Health and Safety Application (which is now FBI)
+20. Navigate to `hblauncher_loader.cia` and press A to install
+21. Launch the Homebrew Menu using the home menu icon
+6. Open TinyFormat
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 14 through 17, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, you will most likely brick your device when you downgrade)**
@@ -40,12 +51,7 @@
 10. Update your **EmuNAND** to the latest version using system settings if it is not already
 11. Open the eShop at least once to allow it to initialize databases
 12. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
-12. Press Select to eject your SD card, then put it in your computer
-13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
-14. Double click `go.bat`
-15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+11. Open Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 18. Press start, then reboot into EmuNAND
 19. Launch the Health and Safety Application (which is now FBI)
