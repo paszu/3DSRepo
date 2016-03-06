@@ -17,7 +17,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 9. Drag `otp.bin` **(not `otp0x108.bin`!)** onto the CloudA9H page
 10. Wait, it can take a while
 11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
-12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
+12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch the arm9loaderhax installer
 14. Hold the power button to power off once you see a black screen
 1. Put your SD card in your computer
