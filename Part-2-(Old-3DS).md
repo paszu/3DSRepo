@@ -21,7 +21,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 #### Instructions
 
 1. Copy `sysUpdater.3dsx` and `sysUpdater.smdh` to the `/3ds/` folder on your SD card
-2. Copy the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
+2. Copy the `EmuNAND9` folder from the EmuNAND9 zip to the `/3ds/` folder on your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
