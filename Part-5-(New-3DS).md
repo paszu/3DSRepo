@@ -29,6 +29,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
 12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
 13. Launch the arm9loaderhax installer
+14. Hold the power button to power off once you see a black screen
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device. You can now reboot and your device should automatically launch into EmuNAND.
 
