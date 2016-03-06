@@ -13,7 +13,15 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### Instructions
 
-1. If you have a file named exactly `NAND.bin` on your SD card for some reason, delete it or name it something else.
+8. Open [this](https://felipejfc.com/a9lh) link on your computer
+9. Drag `otp.bin` **(not `otp0x108.bin`!)** onto the CloudA9H page
+10. Wait, it can take a while
+11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
+12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
+13. Launch the arm9loaderhax installer
+14. Hold the power button to power off once you see a black screen
+1. Put your SD card in your computer
+1. If you have a file named exactly `NAND.bin` on your SD card for some reason, delete it or name it something else
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 3. Copy my `boot_config.ini` from where you downloaded it to the root of your SD card
 4. Delete `firmware.bin` from the `/rei/` folder on your SD card
@@ -23,13 +31,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 5. Copy `arm9loaderhax.bin` from the AuReiNAND zip to the `/a9lh/` folder on your SD card
 6. Rename `/a9lh/arm9loaderhax.bin` to `/a9lh/ARN.bin`
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
-8. Open [this](https://felipejfc.com/a9lh) link on your computer
-9. Drag `otp.bin` **(not `otp0x108.bin`!)** onto the CloudA9H page
-10. Wait, it can take a while
-11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
-12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
-13. Launch the arm9loaderhax installer
-14. Hold the power button to power off once you see a black screen
+8. Reinsert your SD card into your 3DS and power it on
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device. You can now reboot and your device should automatically launch into EmuNAND.
 
