@@ -13,7 +13,6 @@ This part of the guide will take you through the process of setting up EmuNAND a
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
 * The New 3DS AuReiNAND NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
 
 #### Instructions
@@ -23,7 +22,6 @@ This part of the guide will take you through the process of setting up EmuNAND a
 5. Copy `ReiNand.dat` the AuReiNAND zip to the root of your SD card
 4. Copy `firmware.bin` from the firmware zip to the `/rei/` folder on your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
-3. Copy the `3ds` folder from the FBI zip to the root of your SD card
 4. Put a blank file named `EmuNAND.txt` in the `/Nintendo 3DS/<id0>/` folder; `<id0>` will be a long string of random characters; this will let you know which folder is SysNAND and which is EmuNAND after unlinking
 3. **Backup every file on your SD card to a folder on your computer, they will be deleted in the next step**
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
