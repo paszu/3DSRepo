@@ -69,8 +69,8 @@
 31. **If, after many tries, you repeatedly fail on 0004003000008F02.cia, you can try following the instructions [here](https://github.com/Plailect/Guide/wiki/0004003000008F02.cia)**
 31. *EmuNAND will be bricked by the downgrade and you will no longer be able to get into it (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-33. Go to the "NAND Backup & Restore" option in OTPHelper, then backup EmuNAND to `emuNAND.bin`
-34. Go to the "NAND Backup & Restore" option in OTPHelper, then flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
+33. Launch Decrypt9, then backup EmuNAND to `emuNAND.bin`
+34. Flash the 2.1 NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
 35. Cross your fingers
 36. Reboot
 37. If you get a black screen, boot with the SD card removed then reinsert
