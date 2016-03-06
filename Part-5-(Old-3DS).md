@@ -24,15 +24,17 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 14. Hold the power button to power off once you see a black screen
 1. Put your SD card in your computer
 1. If you have a file named exactly `NAND.bin` on your SD card for some reason, delete it or name it something else
+3. Copy 
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 3. Copy my `boot_config.ini` from where you downloaded it to the root of your SD card
+4. Create a folder called `a9lh` on the root of your SD card
+7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
+5. Copy `arm9loaderhax.bin` from the AuReiNAND zip to the `/a9lh/` folder on your SD card
+6. Rename `/a9lh/arm9loaderhax.bin` to `/a9lh/ARN.bin`
+5. Copy the `rei` folder and `ReiNand.dat` file from the AuReiNAND zip to the `/a9lh/` folder on your SD card
 4. Delete `firmware.bin` from the `/rei/` folder on your SD card
 5. Copy the `firmware.bin` from the NTR frimware zip to the `/rei/` folder on your SD card
 6. Copy the `firmware90.bin` from the firmware90 zip to the `/rei/` folder on your SD card
-4. Create a folder called `a9lh` on the root of your SD card
-5. Copy `arm9loaderhax.bin` from the AuReiNAND zip to the `/a9lh/` folder on your SD card
-6. Rename `/a9lh/arm9loaderhax.bin` to `/a9lh/ARN.bin`
-7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
 8. Reinsert your SD card into your 3DS and power it on
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device. You can now reboot and your device should automatically launch into EmuNAND.
