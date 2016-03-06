@@ -1,10 +1,11 @@
 #### What you need
 
 * A working emuNAND and CFW (you should have gotten this with Part 3)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)* The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
  +    [New 3DS 2.1.0 - EUR](https://mega.nz/#!MwFE0a4R!RycA5La_swkWqczjvBIdoiQCjOPnl-vl2qjlA0x-uNM
 ) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDd29sV3RDMmtnQXM/view?usp=sharing))    
@@ -17,7 +18,7 @@
 
 ##### Section I - Prep Work
 
-1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
+1. Copy the `OTPHelper` folder from the OTPHelper zip, the `TinyFormat` folder from the TinyFormat zip, and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy the `3ds` folder and `FBI.cia` file from the FBI zip to the root of your SD card 
 3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
@@ -38,10 +39,16 @@
 10. Update your **EmuNAND** to the latest version using system settings if it is not already
 11. Open the eShop at least once to allow it to initialize databases
 12. Get into the Homebrew Launcher on EmuNAND through the entrypoint of your choice
-13. Launch FBI
-14. Navigate to `FBI.cia` and press A to install
-15. Go to the home menu and launch FBI from there
-16. Navigate to `sysUpdater.cia` and press A to install
+11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
+12. Press Select to eject your SD card, then put it in your computer
+13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+14. Double click `go.bat`
+15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
+16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+18. Press start, then reboot into EmuNAND
+19. Launch the Health and Safety Application (which is now FBI)
+20. Navigate to `sysUpdater.cia` and press A to install
 
 ##### Section II - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
