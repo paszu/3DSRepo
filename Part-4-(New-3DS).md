@@ -39,7 +39,7 @@
 10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
 10. Update your **EmuNAND** to the latest version using system settings if it is not already
 11. Open the eShop at least once to allow it to initialize databases
-12. Get into the Homebrew Launcher on EmuNAND through the entrypoint of your choice
+12. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
