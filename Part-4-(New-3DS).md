@@ -19,7 +19,7 @@
 
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, and`arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
-3. Copy the `3ds` folder from the FBI zip to the root of your SD card 
+3. Copy the `3ds` folder and `FBI.cia` from the FBI zip to the root of your SD card 
 3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
 4. Open OTPHelper
 5. Go to "NAND Backup & Restore"
@@ -39,7 +39,9 @@
 11. Open the eShop at least once to allow it to initialize databases
 12. Get into the Homebrew Launcher on EmuNAND through the entrypoint of your choice
 13. Launch FBI
-14. Navigate to `sysUpdater.cia` and press A to install
+14. Navigate to `FBI.cia` and press A to install
+15. Go to the home menu and launch FBI from there
+16. Navigate to `sysUpdater.cia` and press A to install
 
 ##### Section II - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
