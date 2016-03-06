@@ -53,4 +53,5 @@ This part of the guide will take you through the process of setting up EmuNAND a
 18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
 19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to EmuNAND to prevent issues
 19. Follow Part 1 to reinstall menuhax on SysNAND
+18. Put a blank file named `SysNAND.txt` in the `/Nintendo 3DS/<id0>/` folder that was created (not the one you did earlier)
 15. As your 3DS is setup right now, you must launch AuReiNAND from the Homebrew Launcher every time you want to boot EmuNAND; by the end of the guide you will boot into EmuNAND by default instead of SysNAND
