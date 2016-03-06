@@ -23,7 +23,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 1. Copy both the `3ds` folder from the EmuNAND9 zip and the `3ds` folder from the AuReiNAND zip to the root of your SD card
 2. Copy the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 3. Copy the `rei` folder from the AuReiNAND zip to the root of your SD card
-4. Copy `ReiNand.dat` from the AuReiNAND zip to the root of your SD card
+5. Copy `ReiNand.dat` the AuReiNAND zip to the root of your SD card
 4. Copy `firmware.bin` from the firmware zip to the `/rei/` folder on your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 3. Copy the `3ds` folder from the FBI zip to the root of your SD card
@@ -41,24 +41,24 @@ This part of the guide will take you through the process of setting up EmuNAND a
 12. Open AuReiNAND
 13. If you boot into the home menu, you have successfully launched EmuNAND
 14. Change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't
+16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher from SysNAND)
+17. Open TinyFormat
+18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
+19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to EmuNAND to prevent issues
 10. Update your **EmuNAND** to the latest version using system settings
 11. Open the eShop at least once to allow it to initialize databases
+19. Follow Part 1 to reinstall menuhax on SysNAND
 12. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
+18. Put a blank file named `SysNAND.txt` in the `/Nintendo 3DS/<id0>/` folder that was created (not the one you did earlier)
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 18. Go to Decrypt9's main menu, the EmuNAND options, then backup EmuNAND to `emuNAND.bin`
 8. Press Select on the main menu to eject your SD card
 10. Copy `emuNAND.bin` to a safe folder on your computer
 10. Reinsert your SD card into your 3DS, then press Start to reboot
-16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher from SysNAND)
-17. Open TinyFormat
-18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
-19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to EmuNAND to prevent issues
-19. Follow Part 1 to reinstall menuhax on SysNAND
-18. Put a blank file named `SysNAND.txt` in the `/Nintendo 3DS/<id0>/` folder that was created (not the one you did earlier)
 15. As your 3DS is setup right now, you must launch AuReiNAND from the Homebrew Launcher every time you want to boot EmuNAND; by the end of the guide you will boot into EmuNAND by default instead of SysNAND
