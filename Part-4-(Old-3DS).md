@@ -77,7 +77,7 @@
 34. Go to the "NAND Backup & Restore" option in OTPHelper, then flash the 2.1 Unbricked NAND to your SysNAND by restoring SysNAND from `emuNAND.bin`
 35. Cross your fingers
 36. Reboot
-37. If you get a black screen, boot with the SD card removed then reinsert after successful boot
+37. If you get a black screen, boot with the SD card removed then reinsert
 
 ##### Section III - Getting the OTP
 
