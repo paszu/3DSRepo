@@ -19,7 +19,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 9. Drag `otp.bin` **(not `otp0x108.bin`!)** onto the CloudA9H page
 10. Wait, it can take a while
 11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
-1. If you have a file named exactly `NAND.bin` on your SD card for some reason, delete it or name it something else
+1. If you have a file named exactly `NAND.bin` on the root of your SD card for some reason, delete it or name it something else
 12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch the arm9loaderhax installer
 14. Hold the power button to power off once you see a black screen with nothing on it
@@ -38,6 +38,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device. You can now reboot and your device should automatically launch into EmuNAND.
 
+You will no longer be able to boot without the SD card in, that is normal.
 You can now hold A on boot to launch any updater bins Delebile releases in the future    
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool    
 You can now hold L on boot to boot into SysNAND    
