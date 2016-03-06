@@ -16,7 +16,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
-* The New 3DS AuReiNAND NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
+* The Old 3DS AuReiNAND NTR [firmware bin](https://mega.nz/#!Qt8wRQRK!wHM9INoAX_JL4DnnayJX2Aj-mt1X5Eh1krS_Wuh12nk) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDczRNbXI0MXlFcTg/view?usp=sharing)) zip file
 
 #### Instructions
 
