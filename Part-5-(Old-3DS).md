@@ -35,6 +35,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device. You can now reboot and your device should automatically launch into EmuNAND.
 
+You can now hold A on boot to launch any updaters @Delebile releases in the future    
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool    
 You can now hold L on boot to boot into SysNAND    
 Do not update SysNAND, only EmuNAND    
