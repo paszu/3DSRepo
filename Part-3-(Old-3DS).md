@@ -51,7 +51,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-18. Go to Decrypt9's main menu, the EmuNAND options, then dump EmuNAND to `emuNAND.bin`
+18. Go to Decrypt9's main menu, the EmuNAND options, then backup EmuNAND to `emuNAND.bin`
 8. Press Select on the main menu to eject your SD card
 10. Copy `emuNAND.bin` to a safe folder on your computer
 10. Reinsert your SD card into your 3DS, then press Start to reboot
