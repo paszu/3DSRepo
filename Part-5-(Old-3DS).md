@@ -22,6 +22,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. If you have a file named exactly `NAND.bin` on the root of your SD card for some reason, delete it or name it something else
 12. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch the arm9loaderhax installer
+14. If you get stuck on "exploiting arm9," restart and try again
 14. Hold the power button to power off if you see a black screen with nothing on it, otherwise it will shutdown on its own
 1. Put your SD card in your computer
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
