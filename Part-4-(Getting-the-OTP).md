@@ -51,7 +51,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 6. Open TinyFormat
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
-9. **Repeat steps 24 through 26, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, you will most likely brick your device when you downgrade)**
+9. **Repeat steps 21 through 26, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, you will most likely brick your device when you downgrade)**
 10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
 10. Update your **EmuNAND** to the latest version using system settings if it is not already
 11. Open the eShop at least once to allow it to initialize databases
