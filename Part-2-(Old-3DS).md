@@ -6,6 +6,8 @@ If sysUpdater crashes at any point during the downgrade (which can happen occasi
 
 Although a partially downgraded system may show 9.2.0 as the system version, you are not done. You must restart from the beginning and downgrade a second time to install any files that were not installed. Browserhax will work for partial downgrades as long as you are using the recommended version of sysUpdater.
 
+**If you are already on 9.2.0-20U, you can skip to step 18.**
+
 #### What you need
 
 * The Homebrew Launcher and an installed entrypoint (such as menuhax)
