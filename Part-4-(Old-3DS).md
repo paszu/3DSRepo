@@ -39,7 +39,7 @@
 18. Press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
 19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
 20. Navigate to `hblauncher_loader.cia` and press A to install
-21. Launch the Homebrew Menu using the home menu icon
+21. Press home to exit FBI, then launch the Homebrew Launcher using the home menu icon
 6. Open TinyFormat
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
