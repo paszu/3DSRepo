@@ -1,4 +1,6 @@
-**Read all of the introductory pages before proceeding.**
+#### Read all of the introductory pages before proceeding.
+
+**I promise to shame the next person who asks me a question that is clearly answered in these pages.**
 
 This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware.
 
