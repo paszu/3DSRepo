@@ -1,5 +1,5 @@
 + **Q:** *I am on the latest firmware version, is my device hackable?*    
-  **A:** Normally the answer is no, but at the time of writing the latest version (10.6.0) has an [exploit](https://github.com/Plailect/Guide/wiki/Hardmod) that requires extra hardware and soldering ability to allow you to follow this guide.    
+  **A:** Normally the answer is no, but at the time of writing the latest version (10.6.0) is hackable as long as you have a compatible game.
 
 + **Q:** *How risky is hacking my console?*    
   **A:** This guide is well tested and everything is as safe as it can possibly be. Issues can arise occasionally, but most are due to user error and can be avoided by following all instructions.    
