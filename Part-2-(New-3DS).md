@@ -11,7 +11,8 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 #### What you need
 
 * The Homebrew Launcher and an installed entrypoint (such as menuhax)
-* [This](https://mega.nz/#!10FjBKrB!PqbqJ8oSzoX-6iuhafR7kdHiWUBQSptrhjYTR6BLLUI) version of sysUpdater
+* *For versions 9.3.0 through 10.3.0:* [This](https://mega.nz/#!10FjBKrB!PqbqJ8oSzoX-6iuhafR7kdHiWUBQSptrhjYTR6BLLUI) version of sysUpdater
+* *For versions 10.4.0 through 10.6.0:* [This](https://mega.nz/#!o0smHCLS!XRs8QJx5Ew3GqQua5-xz0Oupzv_B5hUremE3o6QTYVY) version of sysUpdater
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The 9.2.0 firmware pack zip file for your device and region:
  +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY
@@ -23,7 +24,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 
 #### Instructions
 
-1. Copy `sysUpdater.3dsx` and `sysUpdater.smdh` to the `/3ds/` folder on your SD card
+1. Copy `sysUpdater.3dsx` and `sysUpdater.smdh` to the `/3ds/` folder on your SD card from the sysUpdater zip for your firmware version
 2. Copy the `3ds` folder from the EmuNAND9 zip to root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
