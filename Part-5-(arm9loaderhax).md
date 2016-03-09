@@ -27,7 +27,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 4. Create a folder called `a9lh` on the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
-5. Copy `arm9loaderhax.bin` from the AuReiNAND zip to the `/a9lh/` folder on your SD card
 7. Copy `Cakes.dat` from the CakesFW zip to the `/a9lh/` folder on your SD card
 1. Copy the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
