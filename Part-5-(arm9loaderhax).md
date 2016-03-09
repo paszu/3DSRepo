@@ -9,6 +9,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 #### What you need
 
 * [boot_config.ini](https://gist.github.com/Plailect/66566928c286de6ecf61)
+* [slot0x05KeyY.bin](https://mega.nz/#!E9VDBApA!QJandFwHWGSGM6SRRwlUodL63ynKrYY9rJp98YXy6Ss) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDekc3YVVjN3dUTWs/view?usp=sharing))
 * [slot0x11key96.bin](https://mega.nz/#!IgdFVJiK!TTdhiZ25uxoWlciIySVOynTcHCh8Oyp9JQMzu4opPy4) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZzB5dUhtMjlfcnc/view?usp=sharing))
 * [slot0x25keyX.bin](https://mega.nz/#!BoFyzbzT!95N9tJXAi8BfPUzlbwuZC8r8S6Sq6oy-UfuAZz3LhHo) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZ1VNUHpQd2owUlE/view?usp=sharing))
 * The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
@@ -29,7 +30,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 4. Create a folder called `a9lh` on the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
-1. Copy both `slot0x11key96.bin` and `slot0x25keyX.bin` to the root of your SD card
+1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the contents of the CakesFW zip to the root of your SD card
 3. Copy the *numbered file*, `cetk`, and `firmkey.bin` to the `Cakes` folder on your SD card
 4. Rename the *numbered file* you copied into the `Cakes` folder to `firmware.bin`
