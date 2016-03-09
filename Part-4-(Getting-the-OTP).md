@@ -27,14 +27,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 1. Copy the `OTPHelper` folder from the OTPHelper zip, the `TinyFormat` folder from the TinyFormat zip, and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, `hblauncher_loader.cia` from the `hblauncher_loader` zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
-3. Copy the `3ds` folder from the FBI zip to the root of your SD card 
-3. From SysNAND, get into the Homebrew Launcher through the entrypoint of your choice
-4. Open OTPHelper
-5. Go to "NAND Backup & Restore"
-6. Backup SysNAND and EmuNAND to `sysNAND.bin` and `emuNAND.bin` respectively
-7. Press Select on the main menu to eject your SD card
-8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
-9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
+3. Copy the `3ds` folder from the FBI zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
@@ -44,7 +37,14 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-18. Press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
+18. Go back to the EmuNAND file options menu in Decrypt9
+19. Backup EmuNAND to `emuNAND.bin`
+19. Go to the SysNAND file options menu on the main menu
+29. Backup SysNAND to `sysNAND.bin`
+7. Press Select on the main menu to eject your SD card
+8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
+9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
+18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
 20. Navigate to `hblauncher_loader.cia` and press A to install
 21. Press home to exit FBI, then launch the Homebrew Launcher using the home menu icon
