@@ -27,7 +27,10 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 4. Create a folder called `a9lh` on the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
-7. Copy the contents of the CakesFW zip to the root of your SD card
+1. Copy both `slot0x11key96.bin` and `slot0x25keyX.bin` to the root of your SD card
+2. Copy the contents of the CakesFW zip to the root of your SD card
+3. Copy the *numbered file* and `cetk` to the `Cakes` folder on your SD card
+4. Rename the *numbered file* you copied into the `Cakes` folder to `firmware.bin`
 7. Copy `Cakes.dat` from the CakesFW zip to the `/a9lh/` folder on your SD card
 1. Copy the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
@@ -48,7 +51,8 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Rename `emuNAND.bin` to `NAND.bin` on the root of your SD
 12. Reinsert your SD card into your 3DS, then press Start to reboot
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-14. Launch CakesFW from the Homebrew Launcher and "Boot CFW" to initialize some key files
+14. Launch CakesFW from the Homebrew Launcher and "Boot CFW" to initialize some key files    
+**(if you do not do this it won't work from a9lhax as a9lhax can't generate the keys by itself, it needs to be launcher from Homebrew Launcher at least once)**
 15. Cakes is not setup, so after it boots shut back down and reboot into SysNAND
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
