@@ -18,8 +18,10 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (just the .zip file)
 * *New 3DS:* CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/0000001F)
 * *New 3DS:* CakesFW [cetk](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/cetk)
+* *New 3DS:* CakesFW [firmkey.bin](https://mega.nz/#!VtdAlB7C!w5aZdVoDjaSYSJao0u9a-La6CoY2mWzjLVFzRvT8MmA) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDOHlpR2t4S2ZlTlU/view?usp=sharing))
 * *Old 3DS:* CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000050)
 * *Old 3DS:* CakesFW [cetk](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
+* *Old 3DS:* CakesFW [firmkey.bin](https://mega.nz/#!htlGzArZ!AianutIfa4K-WtGfrVZNjDSCL_LaykJwGD20aMxDXtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSXRhMlRfNU5OdTA/view?usp=sharing))
 
 #### Instructions
 
@@ -29,7 +31,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
 1. Copy both `slot0x11key96.bin` and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the contents of the CakesFW zip to the root of your SD card
-3. Copy the *numbered file* and `cetk` to the `Cakes` folder on your SD card
+3. Copy the *numbered file*, `cetk`, and `firmkey.bin` to the `Cakes` folder on your SD card
 4. Rename the *numbered file* you copied into the `Cakes` folder to `firmware.bin`
 7. Copy `Cakes.dat` from the CakesFW zip to the `/a9lh/` folder on your SD card
 1. Copy the `3DS` folder from the EmuNAND9 zip to the root of your SD card
