@@ -27,7 +27,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 1. Copy the `OTPHelper` folder from the OTPHelper zip, the `TinyFormat` folder from the TinyFormat zip, and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, `hblauncher_loader.cia` from the `hblauncher_loader` zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
-3. Copy the `3ds` folder from the FBI zip to the root of your SD card
+3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
