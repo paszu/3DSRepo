@@ -27,7 +27,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 #### Instructions
 
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
-3. **Copy `boot_config.ini` from the gist above the to the root of your SD card (not from the BootCtr9 zip)**
+3. **Copy `boot_config.ini` from the "What you need" section above the to the root of your SD card (not from the BootCtr9 zip)**
 4. Create a folder called `a9lh` on the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
