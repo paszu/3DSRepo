@@ -28,7 +28,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 2. Copy the contents of the CakesFW zip to the root of your SD card
 3. Copy the *numbered file* and `firmkey` to the `Cakes` folder on your SD card
 4. Rename the *numbered file* you copied into the `Cakes` folder to `firmware.bin`
-1. Copy the `3ds` folder from the EmuNAND9 zip to the root of your SD card
+1. Copy and merge the `3ds` folder from the EmuNAND9 zip to the root of your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
