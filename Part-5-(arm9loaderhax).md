@@ -63,7 +63,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 17. Go to "Select Patches"
 15. Deactivate the "Enable emuNAND" patch if it is active
 14. Activate the "Block FIRM partition updates", "Disable Signature Checks", and "Survive reboots when launching some titles" (that last one is Old 3DS only and you only need it if you have Smash 4 or MH4) patches, then press Start to continue     
-**(MAKE SURE YOU SELECT THE BLOCK FIRM PARTITION UPDATES PATCH OR THE NEXT SYSTEM UPDATE WILL DELETE ARM9LOADERHAX AND UPDATE YOUR SYSNAND)**
+**(MAKE SURE YOU SELECT THE BLOCK FIRM PARTITION UPDATES PATCH OR THE NEXT SYSTEM UPDATE WILL BRICK YOU)**
 15. Select "More options"
 16. Select "Toggleable options"
 17. Select "Enable autoboot (Press L to enter the menu)"
