@@ -67,7 +67,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch the arm9loaderhax installer
-14. If you get stuck on "exploiting arm9," restart and try again
+14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 15. The installer will now restore your EmuNAND `NAND.bin` to SysNAND, then install arm9loaderhax to it
 16. Your 3DS should reboot into the CakesFW menu
 17. Go to "Select Patches"
