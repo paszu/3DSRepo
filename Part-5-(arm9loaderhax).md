@@ -17,25 +17,26 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (just the .zip file)
-* *New 3DS:* CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/0000001B)
-* *New 3DS:* CakesFW [cetk](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/cetk)
-* *New 3DS:* CakesFW [firmkey.bin](https://mega.nz/#!VtdAlB7C!w5aZdVoDjaSYSJao0u9a-La6CoY2mWzjLVFzRvT8MmA) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDOHlpR2t4S2ZlTlU/view?usp=sharing))
-* *Old 3DS:* CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000049)
-* *Old 3DS:* CakesFW [cetk](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
-* *Old 3DS:* CakesFW [firmkey.bin](https://mega.nz/#!htlGzArZ!AianutIfa4K-WtGfrVZNjDSCL_LaykJwGD20aMxDXtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSXRhMlRfNU5OdTA/view?usp=sharing))
+* *New 3DS:* 
+    + CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/0000001B) (this is the firmware bin with a different name)
+    + CakesFW [firmkey.bin](https://mega.nz/#!VtdAlB7C!w5aZdVoDjaSYSJao0u9a-La6CoY2mWzjLVFzRvT8MmA) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDOHlpR2t4S2ZlTlU/view?usp=sharing)) (this is needed for CakesFW to decrypt the firmware)
+* *Old 3DS:* 
+    + CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000049) (this is the firmware bin with a different name)
+    + CakesFW [firmkey.bin](https://mega.nz/#!htlGzArZ!AianutIfa4K-WtGfrVZNjDSCL_LaykJwGD20aMxDXtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSXRhMlRfNU5OdTA/view?usp=sharing)) (this is needed for CakesFW to decrypt the firmware)
 
 #### Instructions
 
-3. Copy my `boot_config.ini` to the root of your SD card
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
+**3. Copy `boot_config.ini` from the gist above the to the root of your SD card (not from the BootCtr9 zip)**
 4. Create a folder called `a9lh` on the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the contents of the CakesFW zip to the root of your SD card
-3. Copy the *numbered file*, `cetk`, and `firmkey.bin` to the `Cakes` folder on your SD card
+3. Copy the *numbered file*, and `firmkey.bin` to the `Cakes` folder on your SD card
 4. Rename the *numbered file* you copied into the `Cakes` folder to `firmware.bin`
 7. Copy `Cakes.dat` from the CakesFW zip to the `/a9lh/` folder on your SD card
 1. Copy the `3DS` folder from the EmuNAND9 zip to the root of your SD card
+2. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/a9lh/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
@@ -53,6 +54,17 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 (if you didn't follow that part of the guide, you will need to create a backup of your EmuNAND using EmuNAND9)
 1. Rename `emuNAND.bin` to `NAND.bin` on the root of your SD
 12. Reinsert your SD card into your 3DS, then press Start to reboot
+
+13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
+12. Press Select to eject your SD card, then put it in your computer
+13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+14. Double click `go.bat`
+15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
+16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+17. From the main menu, press Start to reboot
+
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
@@ -77,3 +89,4 @@ You will no longer be able to boot without the SD card in, that is normal
 You will now boot a Custom Firmware based SysNAND by default    
 You can now hold A on boot to launch any updater bins Delebile releases in the future    
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool    
+You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool
