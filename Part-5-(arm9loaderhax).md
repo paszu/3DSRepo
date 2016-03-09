@@ -53,10 +53,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Rename `emuNAND.bin` to `NAND.bin` on the root of your SD
 12. Reinsert your SD card into your 3DS, then press Start to reboot
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-14. Launch CakesFW from the Homebrew Launcher and "Boot CFW" to initialize some key files    
-**(if you do not do this then it won't work from a9lhax as a9lhax can't generate the keys by itself, it needs to be launched from Homebrew Launcher at least once)**
-15. Cakes is not setup, so after it boots shut it back down and reboot into SysNAND
-13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch the arm9loaderhax installer
