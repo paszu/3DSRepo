@@ -21,6 +21,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 * *Old 3DS:* 
     + CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000049) (this is the 10.2.0 firmware)
     + CakesFW [firmkey.bin](https://mega.nz/#!htlGzArZ!AianutIfa4K-WtGfrVZNjDSCL_LaykJwGD20aMxDXtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSXRhMlRfNU5OdTA/view?usp=sharing))
+
 #### Instructions
 
 1. Copy both `slot0x11key96.bin` and `slot0x25keyX.bin` to the root of your SD card
