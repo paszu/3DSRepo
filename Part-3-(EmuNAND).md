@@ -10,31 +10,37 @@ This part of the guide will take you through the process of setting up EmuNAND a
 
 #### What you need
 
+* [slot0x11key96.bin](https://mega.nz/#!IgdFVJiK!TTdhiZ25uxoWlciIySVOynTcHCh8Oyp9JQMzu4opPy4) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZzB5dUhtMjlfcnc/view?usp=sharing))
+* [slot0x25keyX.bin](https://mega.nz/#!BoFyzbzT!95N9tJXAi8BfPUzlbwuZC8r8S6Sq6oy-UfuAZz3LhHo) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZ1VNUHpQd2owUlE/view?usp=sharing))
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
-* The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
-* *New 3DS:* AuReiNAND NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
-* *Old 3DS:* AuReiNAND NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
+* The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (the .zip file)
+* *New 3DS:* CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/0000001F)
+* *New 3DS:* CakesFW [cetk](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/cetk)
+* *Old 3DS:* CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000050)
+* *Old 3DS:* CakesFW [cetk](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
 
 #### Instructions
 
-1. Copy both the `3ds` folder from the EmuNAND9 zip and the `3ds` folder from the AuReiNAND zip to the root of your SD card
-3. Copy the `rei` folder from the AuReiNAND zip to the root of your SD card
-5. Copy `ReiNand.dat` the AuReiNAND zip to the root of your SD card
-4. Copy `firmware.bin` from the firmware zip to the `/rei/` folder on your SD card
+1. Copy both `slot0x11key96.bin` and `slot0x25keyX.bin` to the root of your SD card
+2. Copy the contents of the CakesFW zip to the root of your SD card
+3. Copy the *numbered file* and `cetk` to the `Cakes` folder on your SD card
+4. Rename the *numbered file* you copied into the `Cakes` folder to `firmware.bin`
+1. Copy the `3ds` folder from the EmuNAND9 zip to the root of your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
-4. Put a blank file named `EmuNAND.txt` in the `/Nintendo 3DS/<id0>/` folder; `<id0>` will be a long string of random characters; this will let you know which folder is SysNAND and which is EmuNAND after unlinking; if you do not know which one is EmuNAND, it is generally the larger folder
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
 5. Open EmuNAND9
 6. Select the "Complete emuNAND setup" option
 9. Ignore the `starter.bin` prompt and continue
-7. Wait
 8. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 10. Reinsert your SD card into your 3DS, then press Start to reboot
 11. Get into the Homebrew Launcher through the entrypoint of your choice
-12. Open AuReiNAND
+12. Open CakesFW
+13. Go to "Select Patches"
+14. Activate the "Enable EmuNAND" and "Disable Signature Checks" patches, then press Start to continue
+15. Select "Boot CFW" to enter EmuNAND
 13. If you boot into the home menu, you have successfully launched EmuNAND
 16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher from SysNAND)
 17. Open TinyFormat
@@ -45,5 +51,5 @@ This part of the guide will take you through the process of setting up EmuNAND a
 14. Boot EmuNAND, then change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
 13. **If you see the SysNAND folder, then you are not on EmuNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
 10. Update your **EmuNAND** to the latest version using system settings
-11. Open the eShop on EmuNAND at least once to allow it to initialize databases
-15. As your 3DS is setup right now, you must launch AuReiNAND from the Homebrew Launcher every time you want to boot EmuNAND; by the end of the guide you will boot into EmuNAND by default instead of SysNAND
+11. Open the eShop on EmuNAND at least once to allow it to initialize databases (don't sign in)
+15. As your 3DS is setup right now, you must launch CakesFW from the Homebrew Launcher every time you want to boot EmuNAND; by the end of the guide you will boot into EmuNAND by default instead of SysNAND
