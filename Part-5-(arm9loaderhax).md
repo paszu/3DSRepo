@@ -13,7 +13,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * [slot0x11key96.bin](https://mega.nz/#!IgdFVJiK!TTdhiZ25uxoWlciIySVOynTcHCh8Oyp9JQMzu4opPy4) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZzB5dUhtMjlfcnc/view?usp=sharing))
 * [slot0x25keyX.bin](https://mega.nz/#!BoFyzbzT!95N9tJXAi8BfPUzlbwuZC8r8S6Sq6oy-UfuAZz3LhHo) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZ1VNUHpQd2owUlE/view?usp=sharing))
 * The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
-* ~~The latest release of~~ v0.3 of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases/tag/v0.3) (v0.4 breaks decrypt9)
+* The latest release of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases/tag/v0.3)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (just the .zip file)
