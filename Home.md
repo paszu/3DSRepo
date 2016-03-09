@@ -8,7 +8,7 @@ This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA region
 
 This guide uses arm9loaderhax, the newest and best method of Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. The benefits of this are numerous (more info on the General Info page), and as such it is recommended to use this guide over any other that relies on outdated software (such as Menuhax or rxTools). (We use rxTools in the 9.2.0 update guide because nothing else supports very old software versions.)
 
-This guide will take you through the steps of getting an entrypoint into the homebrew launcher, downgrading to 9.2.0 to re-enable ARM9-kernel exploits that were blocked, downgrading to version 2.1.0 to get the console-unique OTP, restoring back to 9.2.0, and finally installing arm9loaderhax + CakesFW for permanent homebrew on SysNADN and true custom firmware.
+This guide will take you through the steps of getting an entrypoint into the homebrew launcher, downgrading to 9.2.0 to re-enable ARM9-kernel exploits that were blocked, downgrading to version 2.1.0 to get the console-unique OTP, restoring back to 9.2.0, and finally installing arm9loaderhax + CakesFW for permanent homebrew on SysNAND and true custom firmware.
 
 The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to get their OTP or use arm9loaderhax.
 
