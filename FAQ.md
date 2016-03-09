@@ -5,7 +5,7 @@
   **A:** This guide is well tested and everything is as safe as it can possibly be. Issues can arise occasionally, but most are due to user error and can be avoided by following all instructions.    
 
 + **Q:** *Can I pirate games with this?*    
-  **A:** Yes.    
+  **A:** Unfortunately, yes.    
 
 + **Q:** *Can I play online with pirated games without getting banned?*    
   **A:** If you installed the CIA file, you won't get banned. If you are using a flashcart, you might be.    
