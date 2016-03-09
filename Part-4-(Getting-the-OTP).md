@@ -1,6 +1,6 @@
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: https://3dbrew.org/wiki/OTP_Registers
 
-The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like AuReiNand), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
+The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like CakesFW), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
 
 Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade emuNAND (to ensure we don't partial downgrade) to 2.1, then flash emuNAND to sysNAND to get the OTP.
 
@@ -33,7 +33,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 5. Go to "NAND Backup & Restore"
 6. Backup SysNAND and EmuNAND to `sysNAND.bin` and `emuNAND.bin` respectively
 7. Press Select on the main menu to eject your SD card
-8. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and the `Nintendo 3DS` folder to a safe folder on your computer, you will need them later
+8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
 9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
@@ -44,7 +44,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-18. Press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching AuReiNAND from the homebrew launcher)
+18. Press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
 20. Navigate to `hblauncher_loader.cia` and press A to install
 21. Press home to exit FBI, then launch the Homebrew Launcher using the home menu icon
@@ -99,10 +99,8 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 ##### Section IV - Restoring the System
 1. Rename `emuNAND.bin` on the root of your SD card to `emuNAND_2-1-0.bin` and copy it to a safe folder on your computer so you can downgrade back to 2.1.0 easily if you ever need to. You can delete `emuNAND_2-1-0.bin` from your SD card.
-1. Copy the `emuNAND.bin` you created at the beginning of Section I to the root of your SD card
-2. Delete the folders from the inside of the `Nintendo 3DS` folder on your SD card that are **not** in the `Nintendo 3DS` folder you copied to your computer in Section I (the `Nintendo 3DS` folder on your SD card should now look the same as the one from Section I)
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
 3. Go to "NAND Backup & Restore"
-4. Restore SysNAND and EmuNAND from `sysNAND.bin` and `emuNAND.bin` respectively
+4. Restore SysNAND from `sysNAND.bin` (EmuNAND will replace SysNAND after Part 5, but we need it functional for right now)
 5. Cross your fingers
 6. Reboot!
