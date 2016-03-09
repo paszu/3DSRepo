@@ -38,8 +38,18 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 2. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/a9lh/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
+2. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
+12. Press Select to eject your SD card, then put it in your computer
+13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+14. Double click `go.bat`
+15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
+16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+6. Press Select on the main menu to eject your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
+17. From the main menu, press Start to reboot
 2. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 3. Open EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
@@ -54,15 +64,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 (if you didn't follow that part of the guide, you will need to create a backup of your EmuNAND using EmuNAND9)
 1. Rename `emuNAND.bin` to `NAND.bin` on the root of your SD
 12. Reinsert your SD card into your 3DS, then press Start to reboot
-13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
-12. Press Select to eject your SD card, then put it in your computer
-13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
-14. Double click `go.bat`
-15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
-17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-17. From the main menu, press Start to reboot
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
