@@ -14,7 +14,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
 * The latest release of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
-* The latest release of [EmuNAND9](https://github.com/d0k3/Decrypt9WIP/releases)
+* The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (the .zip file)
 * *New 3DS:* CakesFW [numbered file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/0000001F)
 * *New 3DS:* CakesFW [cetk](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/cetk)
