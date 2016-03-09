@@ -38,7 +38,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 2. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 3. Open EmuNAND9
-4. Go to "SD Format Options"
+4. Go to "SD Format Options", then "Format SD..."
 5. Select the "Format SD Without EmuNAND" option
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
