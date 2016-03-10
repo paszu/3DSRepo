@@ -9,7 +9,6 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 #### What you need
 
 * A working emuNAND and CFW (you should have gotten this with Part 3)
-* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
@@ -25,8 +24,8 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 ##### Section I - Prep Work
 
-1. Copy the `OTPHelper` folder from the OTPHelper zip, the `TinyFormat` folder from the TinyFormat zip, and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
-2. Copy `sysUpdater.cia` from the sysUpdater zip, `hblauncher_loader.cia` from the `hblauncher_loader` zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
+1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
+2. Copy `sysUpdater.cia` from the sysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
@@ -45,16 +44,16 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 8. Put your SD card in your computer, then copy over `sysNAND.bin` and `emuNAND.bin` to a safe folder on your computer, you will need them later
 9. Delete `emuNAND.bin` from your SD card; do not delete `sysNAND.bin`
 18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
-19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
-20. Navigate to `hblauncher_loader.cia` and press A to install
-21. Press home to exit FBI, then launch the Homebrew Launcher using the home menu icon
-6. Open TinyFormat
-7. Press Y to format **EmuNAND**
-8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
-9. **Repeat steps 21 through 26, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
-10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
+11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
 10. Update your **EmuNAND** to the latest version using system settings if it is not already
 11. Open the eShop at least once to allow it to initialize databases
+19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
+20. Navigate to `TinyFormat.cia` and press A to install
+21. Press home to exit FBI, then launch TinyFormat using the home menu icon
+7. Press Y to format **EmuNAND**
+8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
+9. **Repeat steps 24 through 28, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
+10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
 
