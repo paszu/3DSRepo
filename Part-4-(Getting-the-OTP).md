@@ -45,7 +45,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 9. Delete `emuNAND.bin` and `sysNAND.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
-10. Update your **EmuNAND** to the latest version using system settings if it is not already
+10. Update your **EmuNAND** to the latest version using system settings if it is not already (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
 20. Navigate to `TinyFormat.cia` and press A to install
