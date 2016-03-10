@@ -21,10 +21,10 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (just the .zip file)
 * *New 3DS:* 
-    + CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013820000002/0000001B) (this is the firmware bin with a different name)
+    + CakesFW [firmware.bin](https://mega.nz/#!1xdnWDjR!dgy0Vs2VjuJsL23axRYIlAKeLctbYzyQBEvVwh6T-Zw) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR3VUY1BQTjloSDA))
     + CakesFW [firmkey.bin](https://mega.nz/#!VtdAlB7C!w5aZdVoDjaSYSJao0u9a-La6CoY2mWzjLVFzRvT8MmA) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDOHlpR2t4S2ZlTlU/view?usp=sharing)) (this is needed for CakesFW to decrypt the firmware)
 * *Old 3DS:* 
-    + CakesFW [*numbered file*](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000049) (this is the firmware bin with a different name)
+    + CakesFW [firmware.bin](https://mega.nz/#!5kFDTa6Q!xhiYtPIkXoaRlfp65DmHXjXLFW6_-OWodpUqvOtLGtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSW5mOVREcWE0Q2c/view?usp=sharing))
     + CakesFW [firmkey.bin](https://mega.nz/#!htlGzArZ!AianutIfa4K-WtGfrVZNjDSCL_LaykJwGD20aMxDXtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSXRhMlRfNU5OdTA/view?usp=sharing)) (this is needed for CakesFW to decrypt the firmware)
 
 #### Instructions
@@ -32,7 +32,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 3. **Copy `boot_config.ini` from the "What you need" section above the to the root of your SD card (not from the BootCtr9 zip)**
 4. Create a folder called `a9lh` on the root of your SD card
-7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card
+7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card (**That's a lowercase L in the folder name, not a One**)
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the contents of the CakesFW zip to the root of your SD card
 3. Copy the *numbered file*, and `firmkey.bin` to the `Cakes` folder on your SD card
