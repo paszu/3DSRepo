@@ -6,8 +6,7 @@ This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND 
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
-> 10:15 AM \<giga-ganon> wow part 5 is long! is it really necessary?
-
+> 10:15 AM \<giga-ganon> wow part 5 is long! is it really necessary?    
 > 10:16 AM <%Plailect> it wouldn't be there if it weren't necessary
 
 #### What you need
