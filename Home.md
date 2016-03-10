@@ -7,7 +7,6 @@
 > 6:45 PM \<elfkinn> should I set a theme in emunand so i can tell the diffrence easily    
 > 6:41 PM \<Plailect> read the guide please    
 > 6:41 PM \<Plailect> it's right there    
-
 ___
 
 This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware.
