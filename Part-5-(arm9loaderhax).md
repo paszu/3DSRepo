@@ -78,7 +78,12 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "SysNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-6. Press Start on the main menu to reboot
+15. From the main menu, go to SysNAND File Options, then make a backup of SysNAND to `sysNAND.bin`
+14. Press Select on the main menu to eject your SD card, then put it in your computer
+17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax
+15. Delete `sysNAND-A9LHAX.bin` from your SD card
+15. Delete `NAND.bin` from your SD card
+7. Reinsert your SD card into your 3DS then press Start to reboot
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, and you will no longer need EmuNAND. You can now reboot and your device should automatically launch into CFW SysNAND.
 
