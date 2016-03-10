@@ -76,7 +76,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+16. Press B on Decrypt9, then go to "SysNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 6. Press Start on the main menu to reboot
 
