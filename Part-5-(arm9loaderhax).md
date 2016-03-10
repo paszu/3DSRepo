@@ -35,8 +35,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card (**That's a lowercase L in the folder name, not a One**)
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the contents of the CakesFW zip to the root of your SD card
-3. Copy the *numbered file*, and `firmkey.bin` to the `Cakes` folder on your SD card
-4. Rename the *numbered file* you copied into the `Cakes` folder to `firmware.bin`
+3. Copy `firmware.bin` and `firmkey.bin` to the `Cakes` folder on your SD card
 7. Copy `Cakes.dat` from the CakesFW zip to the `/a9lh/` folder on your SD card
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 2. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/a9lh/` folder on your SD card
