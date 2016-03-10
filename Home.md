@@ -1,14 +1,5 @@
 #### Read all of the introductory pages before proceeding.
 
-**I promise to shame the next person who asks me a question that is clearly answered in these pages.**
-
-**Don't be like this guy, read the guide.**
-
-> 6:45 PM \<elfkinn> should I set a theme in emunand so i can tell the diffrence easily    
-> 6:41 PM \<Plailect> read the guide please    
-> 6:41 PM \<Plailect> it's right there    
-___
-
 This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware.
 
 This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA regions on firmware 10.6.0 or below.
