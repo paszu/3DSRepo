@@ -52,6 +52,6 @@ This part of the guide will take you through the process of setting up EmuNAND a
 19. Follow Part 1 to reinstall menuhax on SysNAND as the format will have removed it
 14. Boot EmuNAND, then change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
 13. **If you see the SysNAND folder, then you are not on EmuNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
-10. Update your **EmuNAND** to the latest version using system settings
+10. Update your **EmuNAND** to the latest version using system settings (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
 11. Open the eShop on EmuNAND at least once to allow it to initialize databases (don't sign in)
 15. As your 3DS is setup right now, you must launch CakesFW from the Homebrew Launcher every time you want to boot EmuNAND; by the end of the guide you will boot into EmuNAND by default instead of SysNAND
