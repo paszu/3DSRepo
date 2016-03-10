@@ -84,6 +84,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 15. Delete `sysNAND-A9LHAX.bin` from your SD card
 15. Delete `NAND.bin` from your SD card
 7. Reinsert your SD card into your 3DS then press Start to reboot
+6. Update your CFW SysNAND to the latest version using system settings
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, and you will no longer need EmuNAND. You can now reboot and your device should automatically launch into CFW SysNAND.
 
@@ -91,4 +92,5 @@ You will no longer be able to boot without the SD card in, that is normal
 You will now boot a Custom Firmware based SysNAND by default    
 You can now hold A on boot to launch any updater bins Delebile releases in the future    
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool    
-You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool
+You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.     
+You can now access the Homebrew Launcher by using FBI to install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases).
