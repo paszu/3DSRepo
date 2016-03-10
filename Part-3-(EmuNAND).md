@@ -41,7 +41,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 11. Get into the Homebrew Launcher through the entrypoint of your choice
 12. Open CakesFW
 13. Go to "Select Patches"
-14. Activate the "Enable EmuNAND", "Disable Signature Checks", and "Survive reboots when launching some titles" patches, then press Start to continue
+14. Activate "Enable EmuNAND", "Disable Signature Checks", and "Survive reboots when launching some titles" (that last one is Old 3DS only and you only need it if you have Smash 4 or MH4; it will not be there for all devices) patches, then press Start to continue
 15. Select "Boot CFW" to enter EmuNAND
 13. If you boot into the home menu, you have successfully launched EmuNAND
 16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher from SysNAND)
