@@ -96,9 +96,9 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 ##### Section IV - Restoring the System
 1. Rename `emuNAND.bin` on the root of your SD card to `emuNAND_2-1-0.bin` and copy it to a safe folder on your computer so you can downgrade back to 2.1.0 easily if you ever need to. You can delete `emuNAND_2-1-0.bin` and `emuNAND_formatted.bin`from your SD card.
-2. Copy your `sysNAND.bin` backup from Section I to the root of your SD card
+2. Copy your `sysNAND_original.bin` backup from Section I to the root of your SD card
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
 3. Go to "NAND Backup & Restore"
-4. Restore SysNAND from `sysNAND.bin` (EmuNAND will replace SysNAND after Part 5, but we need it functional for right now)
+4. Restore SysNAND from `sysNAND_original.bin` (EmuNAND will replace SysNAND after Part 5, but we need it functional for right now)
 5. Cross your fingers
 6. Reboot!
