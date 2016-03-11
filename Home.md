@@ -12,6 +12,8 @@ If everything goes according to plan, you will lose no data and end up with ever
 
 The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to get their OTP or use arm9loaderhax.
 
+A large part of this guide is lengthy NAND dumps and downgrades, so the entire process can take *several* hours thanks to the 3DS's slow processor.
+
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
 This guide was written by me with the process refined and software developed by the fine folks over at [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey). See the credits page for the full credits, this guide would not exist without them.
