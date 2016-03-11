@@ -92,6 +92,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 8. Open Health and Safety (which is now FBI)
 9. Navigate to `hblauncher_loader.cia` and press A to install
 10. Exit with the home button
+10. Launch the homebrew launcher from the home menu icon at least once to download the payload
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, you will no longer need EmuNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
