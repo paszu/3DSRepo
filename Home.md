@@ -13,3 +13,16 @@ The C, K, and T regions shipped with version 4.X which is after the OTP lockout,
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
 This guide was written by me with the process refined and software developed by the fine folks over at [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey). See the credits page for the full credits, this guide would not exist without them.
+
+
+Sha256Sum | Zip File
+:---: | :---:
+5736ec8d40303b549f11c06b3811817531e17646a91ee2bb0d94afff69cf3a4e | 2.1.0E(Full).zip
+95520c64f3b42a13b8bf266b86edbef9e3ec5e32643ebb6c97f846c2a2647980 | 2.1.0J(Full).zip
+919e4423a45e019b1984ca7da341ac39282e7992fae62ea37d385b37a8ac621f | 2.1.0U(Full).zip
+e7fbaf4ee01b81a3c2297028ef3fddc002f6933bfd20c2453bc6137bda89e5fd | 9.2.0-20E(Full)_n3DS.zip
+79407686741732f90db30cd591254f1c591df2dbd9787be78a03b1aceef9f2fe | 9.2.0-20E(Full).zip
+9ba7bc4eeab39b484e710d7ad05bfeae3b143812d85bbe128f283a79aa1ba80b | 9.2.0-20J(Full)_n3DS.zip
+14c74b462f2db9ba0bdcf1060bfd89345ac9cf863a35092baadd503d6040b837 | 9.2.0-20J(Full).zip
+38ea53d81763408178d796492d6397cfc1eae422a8a2a4b1270678e1ab30043c | 9.2.0-20U(Full)_n3DS.zip
+ff6e7ced330120cdc34cba4536e4ec6609653234d5414f2a727263dfabfe46a3 | 9.2.0-20U(Full).zip
