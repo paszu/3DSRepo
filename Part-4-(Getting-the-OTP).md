@@ -36,7 +36,10 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-18. Go back to the EmuNAND file options menu in Decrypt9
+18. Go to the main menu, then press Start to reboot
+19. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+20. Open OTPHelper
+21. Go to "NAND Backup & Restore"
 19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down to change the name)**
 19. Go to the SysNAND file options menu on the main menu
 29. Backup SysNAND to `sysNAND_original.bin`
