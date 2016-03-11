@@ -54,9 +54,9 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 9. Drag `otp.bin` **(not `otp0x108.bin`!)** onto the CloudA9H page
 10. Wait, it can sometimes take a while
 11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
-1. Copy the `emuNAND.bin` you created at the beginning of Part 4 - Section I to the root of your SD card    
+1. Copy the `emuNAND_original.bin` you created at the beginning of Part 4 - Section I to the root of your SD card    
 (if you didn't follow that part of the guide, you will need to create a backup of your EmuNAND using EmuNAND9)
-1. Rename `emuNAND.bin` to `NAND.bin` on the root of your SD
+1. Rename `emuNAND_original.bin` to `NAND.bin` on the root of your SD
 12. Reinsert your SD card into your 3DS, then press Start to reboot
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
