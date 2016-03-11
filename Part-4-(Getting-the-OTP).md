@@ -37,7 +37,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 18. Go back to the EmuNAND file options menu in Decrypt9
-19. Backup EmuNAND to `emuNAND_original.bin`
+19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down to change the name)**
 19. Go to the SysNAND file options menu on the main menu
 29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
