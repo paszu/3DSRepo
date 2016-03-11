@@ -100,8 +100,7 @@ You will now boot a Custom Firmware based SysNAND by default.
 You can now hold A on boot to launch any updater bins Delebile releases in the future.    
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
-You can now hold L on boot to enter the CakesFW menu.         
-You can now access the Homebrew Launcher by using FBI to install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases).
+You can now hold L on boot to enter the CakesFW menu.
 
 You can remove any extra files from the root of the SD card that are not in the image.
 
