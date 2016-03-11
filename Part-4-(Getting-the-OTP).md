@@ -12,7 +12,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
-* The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/tag/v0.5)
+* The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
