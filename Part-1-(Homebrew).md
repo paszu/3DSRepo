@@ -21,7 +21,7 @@ If you are below version 9.0.0 or you have an old browser version (you must have
 4. Change the date to `January 1, 2000`
 5. Change the time to `00:00`
 6. Launch the browser, then open the browser settings as fast as possible
-7. Scroll to the bottom and Initialize Savedata as fast as possible
+7. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) as fast as possible
 8. Navigate to `http://yls8.mtheall.com/3dsbrowserhax_auto.php` on your 3DS without closing the browser (if you get a slider, zoom all the way in on it, then tap the very right edge of it)
 9. Your console should load the homebrew menu
 10. Open the menuhax_manager application
