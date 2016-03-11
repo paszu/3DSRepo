@@ -88,7 +88,6 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3ds
 2. OTPHelper will launch, then select the "Dump otp.bin (0x108) (< 3.0)" option
-7. Select the "Dump otp.bin (0x100) (< 3.0)" option
 8. Go back to the main menu, then Select the "Dump otp.bin (0x100) (< 3.0)" option
 3. Press Select on the main menu to eject your SD card
 4. Put your SD card in your computer, then copy over `otp0x108.bin` and `otp.bin` to a safe folder on your computer.		
