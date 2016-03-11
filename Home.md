@@ -29,4 +29,4 @@ Sha256Sum | Zip File
 <sub>38ea53d81763408178d796492d6397cfc1eae422a8a2a4b1270678e1ab30043c</sub> | <sub>9.2.0-20U(Full)_n3DS.zip</sub>
 <sub>ff6e7ced330120cdc34cba4536e4ec6609653234d5414f2a727263dfabfe46a3</sub> | <sub>9.2.0-20U(Full).zip</sub>
 
-<sub>If /hbg/ could stop with the Cakes memes, that'd be great.</sub>
+<sub>If /hbg/ could stop with the CakesFW memes, that'd be great.</sub>
