@@ -16,6 +16,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * [slot0x11key96.bin](https://mega.nz/#!IgdFVJiK!TTdhiZ25uxoWlciIySVOynTcHCh8Oyp9JQMzu4opPy4) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZzB5dUhtMjlfcnc/view?usp=sharing))
 * [slot0x25keyX.bin](https://mega.nz/#!BoFyzbzT!95N9tJXAi8BfPUzlbwuZC8r8S6Sq6oy-UfuAZz3LhHo) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZ1VNUHpQd2owUlE/view?usp=sharing))
 * The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
+* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases/)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
@@ -30,6 +31,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 #### Instructions
 
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
+3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 3. **Copy `boot_config.ini` from the "What you need" section above the to the root of your SD card (not from the BootCtr9 zip)**
 4. Create a folder called `a9lh` on the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card (**That's a lowercase L in the folder name, not a One**)
@@ -87,13 +89,16 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 15. Delete `NAND.bin` from your SD card
 7. Reinsert your SD card into your 3DS then press Start to reboot
 6. Update your CFW SysNAND to the latest version using system settings
+8. Open Health and Safety (which is now FBI)
+9. Navigate to `hblauncher_loader.cia` and press A to install
+10. Exit with the home button
 
-If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, and you will no longer need EmuNAND. You can now reboot and your device should automatically launch into CFW SysNAND.
+If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, you will no longer need EmuNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
-You will no longer be able to boot without the SD card in, that is normal    
-You will now boot a Custom Firmware based SysNAND by default    
-You can now hold A on boot to launch any updater bins Delebile releases in the future    
-You can now hold X on boot to launch Decrypt9, a full featured NAND tool    
+You will no longer be able to boot without the SD card in, that is normal.    
+You will now boot a Custom Firmware based SysNAND by default.    
+You can now hold A on boot to launch any updater bins Delebile releases in the future.    
+You can now hold X on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
 You can now hold L on boot to enter the CakesFW menu.         
 You can now access the Homebrew Launcher by using FBI to install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases).
