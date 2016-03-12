@@ -2,7 +2,7 @@
 
 If you tried to downgrade to 2.1.0, **on Old 3DS, 2DS, or New 3DS** but for some reason you have a **nonfunctional browser**, this guide is for you.
 
-If you tried to downgrade to 2.1.0 **on Old 3DS or 2DS** but for some reason have **no functional NAND backups** (with or without a functional browser), you can update to 9.2.0 by updating via a cart to 4.X, then following [this](https://github.com/Plailect/Guide/wiki/9.2.0-Update)
+If you tried to downgrade to 2.1.0 **on Old 3DS or 2DS** but for some reason have **no functional NAND backups** (with or without a functional browser), you can update to 9.2.0 by updating via a cart to 4.X, then following [this](https://github.com/Plailect/Guide/wiki/9.2.0-Update).
 
 If you tried to downgrade to 2.1.0 **on New 3DS** but for some reason have **no functional NAND backups** (with or without a functional browser), I am working on a possible solution involving EmuNAND + NCSD / Crypto trickery.
 
