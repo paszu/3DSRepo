@@ -13,5 +13,8 @@
 + **Q:** *Can I run awesome homebrew and emulators with this?*    
   **A:** Yes! Custom Firmware not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.    
 
++ **Q:** *How do I switch from the old guide to Updated SysNAND + Cakes?*    
+  **A:** Just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of Part 5.
+
 + **Q:** *Where should I go for support?*    
   **A:** For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).    
