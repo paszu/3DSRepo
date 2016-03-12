@@ -1,3 +1,5 @@
+**IF YOU HAVE A NEW 3DS AND FOR SOME GET YOURSELF TO 2.1 WITH NO SYSNAND BACKUPS (such as if you were dumb and deleted them), DO NOT UPDATE. AN UPDATE TO ABOVE 6.X ON A NEW 3DS WITH A SWAPPED NCSD HEADER AND OFFSETS (which is how we unbrick) WILL BRICK YOU. YOU MUST RESTORE FROM A NAND BACKUP OF SOME KIND.**
+
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: https://3dbrew.org/wiki/OTP_Registers
 
 The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like CakesFW), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
