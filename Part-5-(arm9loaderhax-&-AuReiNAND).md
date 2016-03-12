@@ -4,7 +4,7 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNAND, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of this Part.**
 
-**If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNAND, just follow steps 1 through 8.**
+**If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNAND, just follow steps 1 through 9.**
 
 This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no EmuNAND required at all.
 
@@ -30,6 +30,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### Instructions
 
+2. Delete the `Decrypt9` folder from your SD card if you have one
 1. Copy everything except the `menuhax` folder from the AuReiNAND zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/rei/` folder on your SD card
@@ -61,7 +62,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 15. The installer will now restore your EmuNAND `NAND.bin` to SysNAND, then install arm9loaderhax to it
 14. Your 3DS should reboot into CFW SysNAND
-15. **If you already had FBI injected into EmuNAND, then steps 32 through 36 are not needed**
+15. **If you already had FBI injected into EmuNAND, then steps 33 through 37 are not needed**
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding L+R on boot
 12. Go to "SysNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
