@@ -85,4 +85,4 @@ You will now boot a Custom Firmware based SysNAND by default.
 You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.    
 You can remove any extra files from the root of the SD card that are not in the image.
 
-![SD Card](http://i.imgur.com/U63MTEO.png)
+![SD Card](http://i.imgur.com/ALTaBCL.png)
