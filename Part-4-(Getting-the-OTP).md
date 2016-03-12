@@ -1,4 +1,4 @@
-**IF YOU HAVE A NEW 3DS AND FOR SOME GET YOURSELF TO 2.1 WITH NO SYSNAND BACKUPS (such as if you were dumb and deleted them), DO NOT UPDATE. AN UPDATE TO ABOVE 6.X ON A NEW 3DS WITH A SWAPPED NCSD HEADER AND OFFSETS (which is how we unbrick) WILL BRICK YOU. YOU MUST RESTORE FROM A NAND BACKUP OF SOME KIND.**
+**IF YOU HAVE A NEW 3DS AND FOR SOME GET YOURSELF TO 2.1 WITH NO SYSNAND BACKUPS (such as if you were dumb and deleted the ones the guide tells you to make), DO NOT UPDATE. IF YOU UPDATE FROM A 2.1 NEW 3DS, YOU WILL BRICK. YOU MUST RESTORE FROM A NAND BACKUP OF SOME KIND.**
 
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: https://3dbrew.org/wiki/OTP_Registers
 
