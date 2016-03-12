@@ -4,7 +4,7 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Cakes, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of this Part.**
 
-**If you currently have Updated SysNAND + AuReiNAND and want to switch to Updated SysNAND + Cakes, just follow steps 1 through 12 and steps 33 through 42.**
+**If you currently have Updated SysNAND + AuReiNAND and want to switch to Updated SysNAND + Cakes, just follow steps 1 through 13 and steps 34 through 43.**
 
 This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no EmuNAND required at all.
 
@@ -34,6 +34,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### Instructions
 
+2. Delete the `Decrypt9` folder from your SD card if you have one
 2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 3. **Copy `boot_config.ini` from the "What you need" section above the to the root of your SD card (not from the BootCtr9 zip)**
@@ -79,7 +80,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 18. Press Start to continue
 19. Press B to get back to the Main Menu
 15. Select "Boot CFW" to enter CFW SysNAND
-15. **If you already had FBI injected into EmuNAND, then steps 45 through 51 are not needed**
+15. **If you already had FBI injected into EmuNAND, then steps 46 through 52 are not needed**
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding X on boot
 12. Go to "SysNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
