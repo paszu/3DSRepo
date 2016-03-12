@@ -2,6 +2,8 @@
 
 This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware.
 
+**If you followed an old version of this guide and want to switch to Updated SysNAND + Cakes, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of Part 5.**
+
 This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA regions on firmware 10.6.0 or below.
 
 This guide uses arm9loaderhax, the newest and best method of Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. The benefits of this are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as Menuhax or rxTools). (We use rxTools in the 9.2.0 update guide because nothing else supports very old software versions.)
