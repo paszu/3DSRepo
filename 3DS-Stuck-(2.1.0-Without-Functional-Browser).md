@@ -8,7 +8,7 @@ If you downgraded to 2.1.0 **on New 3DS** but for some reason have **no function
 
 If you downgraded to 2.1.0 **2DS** and **left Wireless Communication off** (with or without a functional browser), you can update to 9.2.0 by updating via a cart to any version above 6.X (possibly 4.X as well, read the New 3DS paragraph right below this one), then following [this](https://github.com/Plailect/Guide/wiki/9.2.0-Update).
 
-If you downgraded to 2.1.0 **New 3DS** and **left Wireless Communication off** (with or without a functional browser), you *might* be able to follow this guide **(DO NOT UPDATE, ONLY NAND RESTORE)**. In testing we discovered that a 2.1.0 New 3DS with Wireless Communication off in home menu's settings can turn it back on after updating via cart update to 4.X *(even though this option should not show up because the first device to not have a physical Wireless switch was the 2DS which shipped on 6.0.0; any device with a physical wireless switch does not show this option)*.
+If you downgraded to 2.1.0 **New 3DS** and **left Wireless Communication off** (with or without a functional browser), you *might* be able to follow this guide **(DO NOT UPDATE, ONLY NAND RESTORE)**. In testing we discovered that a 2.1.0 New 3DS with Wireless Communication off in home menu's settings can turn it back on after updating via cart update to 4.X *(even though this option should not show up because the first device to not have a physical Wireless switch was the 2DS which shipped on 6.0.0; any device with a physical wireless switch does not show this option)*. This was only tested on one console, so results may vary.
 
 #### What you need
 
