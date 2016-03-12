@@ -79,7 +79,9 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 18. Press Start to continue
 19. Press B to get back to the Main Menu
 15. Select "Boot CFW" to enter CFW SysNAND
-11. Reboot, then open Decrypt9 from arm9loaderhax by holding X on boot, then go to "SysNAND File Options", then select the "Dump Health & Safety" option
+15. **If you already had FBI injected into EmuNAND, then steps 45 through 51 are not needed**
+11. Reboot, then open Decrypt9 from arm9loaderhax by holding X on boot
+12. Go to "SysNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
