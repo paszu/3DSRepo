@@ -9,7 +9,7 @@ If you tried to downgrade to 2.1.0 **on New 3DS** but for some reason have **no 
 #### What you need
 
 * A [game cart](http://www.3dsdb.com/) that contains a 4.X update
-* [Decrypt9WIP 20160305](https://github.com/d0k3/Decrypt9WIP/releases/tag/2016030
+* [Decrypt9WIP 20160118](https://github.com/d0k3/Decrypt9WIP/releases/tag/20160118)
 * A valid NAND backup of some kind. 
 
 #### Instructions
