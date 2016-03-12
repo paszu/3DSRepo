@@ -1,4 +1,6 @@
-**IF YOU HAVE A NEW 3DS AND FOR SOME GET YOURSELF TO 2.1 WITH NO SYSNAND BACKUPS (such as if you were dumb and deleted the ones the guide tells you to make), DO NOT UPDATE. IF YOU UPDATE FROM A 2.1 NEW 3DS, YOU WILL BRICK. YOU MUST RESTORE FROM A NAND BACKUP OF SOME KIND.**
+**IF YOU HAVE A NEW 3DS AND FOR SOME GET YOURSELF TO 2.1 WITH NO NAND BACKUPS (such as if you were dumb and deleted the ones the guide tells you to make), DO NOT UPDATE. IF YOU UPDATE FROM A 2.1 NEW 3DS, YOU WILL BRICK. YOU MUST RESTORE FROM A NAND BACKUP OF SOME KIND.**
+
+**In the scenario above, you could use an EmuNAND backup (not 2.1) as well as a SysNAND backup.**
 
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: https://3dbrew.org/wiki/OTP_Registers
 
