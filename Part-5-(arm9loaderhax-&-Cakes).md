@@ -24,6 +24,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases/)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
+* The latest release of [Uncart for arm9loaderhax](https://mega.nz/#!R9NBiLxS!3au14JJNgpp2mXDvRsiutmHGCVLcAodjeCAP86Nb0bw) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDNEJtczFyUUd5M2M/view?usp=sharing))
 * The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (just the .zip file)
 * *New 3DS:* 
     + CakesFW [firmware.bin](https://mega.nz/#!1xdnWDjR!dgy0Vs2VjuJsL23axRYIlAKeLctbYzyQBEvVwh6T-Zw) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR3VUY1BQTjloSDA))
@@ -39,7 +40,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 3. **Copy `boot_config.ini` from the "What you need" section above the to the root of your SD card (not from the BootCtr9 zip)**
 4. Create a folder called `a9lh` on the root of your SD card
-7. Copy `Decrypt9WIP.bin` to the `/a9lh/` folder on your SD card (**That's a lowercase L in the folder name, not a One**)
+7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip and `Uncart.bin` from the Uncart zip to the `/a9lh/` folder on your SD card (**That's a lowercase L in the folder name, not a One**)
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the contents of the CakesFW zip to the root of your SD card
 3. Copy `firmware.bin` and `firmkey.bin` to the `Cakes` folder on your SD card
@@ -108,6 +109,7 @@ You will now boot a Custom Firmware based SysNAND by default.
 You can now hold A on boot to launch any updater bins Delebile releases in the future.    
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
+You can now hold B on boot to launch Uncart, a tool for converting a physical game cart to an installable CIA file.    
 You can now hold L on boot to enter the CakesFW menu.
 
 You can remove any extra files from the root of the SD card that are not in the image.
