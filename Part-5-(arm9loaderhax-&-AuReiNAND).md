@@ -30,7 +30,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### Instructions
 
-2. Delete the `Decrypt9` folder from your SD card if you have one
+2. Delete the `Decrypt9` folder from the root of your SD card if you have one
 1. Copy everything except the `menuhax` folder from the AuReiNAND zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 7. Copy `Decrypt9WIP.bin` to the `/rei/` folder on your SD card
