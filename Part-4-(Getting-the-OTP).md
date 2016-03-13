@@ -60,7 +60,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 28 through 32, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
-10. Remove any TWL modifications done to the device or sysUpdater will throw an error (most users will not have to worry about this)
+10. Remove any TWL modifications done to the device or sysUpdater will throw an error (if you have no idea what this is, don't worry about it; most users will not need to do this)
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
 
