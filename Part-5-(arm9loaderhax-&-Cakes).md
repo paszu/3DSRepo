@@ -109,7 +109,7 @@ You will now boot a Custom Firmware based SysNAND by default.
 You can now hold A on boot to launch any updater bins Delebile releases in the future.    
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
-You can now hold B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/ to an installable file).    
+You can now hold B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file.    
 You can now hold L on boot to enter the CakesFW menu.
 
 You can remove any extra files from the root of the SD card that are not in the image.
