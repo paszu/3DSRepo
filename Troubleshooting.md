@@ -4,7 +4,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 1. Restore a backup to EmuNAND. *(You should have one of these)*
 
-#### <a name="ts_sys_down" />Black screen on SysNAND boot upon downgrading
+#### <a name="ts_sys_down" />Black screen on SysNAND boot after downgrading
 
 1. Try booting with your SD card out, and then reinserting it after booting.
    1. Power off your 3DS by holding down the power button.
@@ -22,7 +22,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
    4. If you enter safe mode, update your 3DS *only if you have an entrypoint for the latest FW version and it is possible to downgrade from it* and attempt the downgrade again.
 4. Your 3DS may be bricked. For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
 
-#### <a name="ts_sys_a9lh" />Black screen on SysNAND boot upon installing arm9loaderhax
+#### <a name="ts_sys_a9lh" />Black screen on SysNAND boot after installing arm9loaderhax
 
 1. Ensure you have a working payload.
    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
