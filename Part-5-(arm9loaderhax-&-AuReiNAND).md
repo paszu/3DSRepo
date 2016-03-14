@@ -34,6 +34,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy everything except the `menuhax` folder from the AuReiNAND zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/rei/` folder on your SD card
+1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 5. In the `/rei/` folder, rename `Decrypt9WIP.bin` to `arm9payload.bin`
 5. Copy all files from `AuReiNAND_options` zip to the `/rei/` folder on your SD card
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
