@@ -14,7 +14,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
-* ~~The latest release~~ v0.5 of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/download/v0.5/OTPHelper-20160304-175738.zip) (v0.6+ is bugged for now)
+* The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
@@ -43,12 +43,11 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 19. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 20. Open OTPHelper
 21. Go to "NAND Backup & Restore"
-19. Backup EmuNAND to `emuNAND.bin` **(you can use Up and Down to change the name)**
+19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down to change the name)**
 19. Go to the SysNAND file options menu on the main menu
-29. Backup SysNAND to `sysNAND.bin`
+29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
-8. Put your SD card in your computer, then rename sysNAND.bin` and `emuNAND.bin` to sysNAND_original.bin` and `emuNAND_original.bin`
-9. Copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later
+8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later
 9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
@@ -59,7 +58,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 21. Press home to exit FBI, then launch TinyFormat using the home menu icon
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
-9. **Repeat steps 28 through 32, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
+9. **Repeat steps 24 through 28, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
 10. Remove any TWL modifications done to the device or sysUpdater will throw an error (if you have no idea what this is, don't worry about it; most users will not need to do this)
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
@@ -69,8 +68,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 27. Open OTPHelper, then go to "Nand Backup and Restore", then select the "EmuNAND Backup" option
 28. Backup your emuNAND to `emuNAND_formatted.bin`
 29. Press Select on the main menu to eject your SD card
-23. Put your SD card in your computer, then rename `emuNAND.bin` to `emuNAND_formatted.bin`
-9. Copy over `emuNAND_formatted.bin` to a safe folder on your computer
+23. Put your SD card in your computer, then copy over `emuNAND_formatted.bin` to a safe folder on your computer
 24. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
 25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 27. Reinsert your SD card into your 3DS then press Start and reboot into emuNAND
@@ -83,8 +81,8 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 33. Open OTPHelper
 33. **New 3DS Only:** Select the Unbrick FW 2.1 EmuNAND option and follow instructions
 33. Go to "NAND Backup & Restore"
-33. Backup EmuNAND to `emuNAND.bin`
-34. Restore SysNAND from `emuNAND.bin`
+33. Backup EmuNAND to `emuNAND_unbricked.bin`
+34. Restore SysNAND from `emuNAND_unbricked.bin`
 35. Cross your fingers
 36. Reboot
 37. If you get a black screen, boot with the SD card removed then reinsert
@@ -93,13 +91,9 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3ds
 2. OTPHelper will launch, then select the "Dump otp.bin (0x108) (< 3.0)" option
-3. Press Select on the main menu to eject your SD card
-4. Put your SD card in your computer, then rename `otp.bin` to `otp0x108.bin`
-6. Copy over `otp0x108.bin` to a safe folder on your computer
-6. Reinsert your SD card into your 3DS, then press B
 8. Go back to the main menu, then Select the "Dump otp.bin (0x100) (< 3.0)" option
 3. Press Select on the main menu to eject your SD card
-4. Put your SD card in your computer, then copy over `otp.bin` to a safe folder on your computer.		
+4. Put your SD card in your computer, then copy over `otp0x108.bin` and `otp.bin` to a safe folder on your computer.		
 10. Ensure that `otp.bin` is 256 bytes and `otp0x108.bin` is 264 bytes
 11. Backup `otp.bin` and `otp0x108.bin` to multiple locations (such as online file storage)
 
