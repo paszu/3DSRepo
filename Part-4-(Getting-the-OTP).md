@@ -80,7 +80,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 31. *EmuNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 EmuNAND (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper
-33. **New 3DS Only:** Select the Unbrick FW 2.1 EmuNAND option and follow instructions
+33. **New 3DS Only:** Select the Unbrick FW 2.1 EmuNAND option and follow instructions. This can take a while.
 33. Go to "NAND Backup & Restore"
 33. Backup EmuNAND to `emuNAND_unbricked.bin`
 34. Restore SysNAND from `emuNAND_unbricked.bin`
