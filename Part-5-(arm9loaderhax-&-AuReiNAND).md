@@ -30,6 +30,8 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### Instructions
 
+##### Preparatory work
+
 2. Delete the `Decrypt9` folder from the root of your SD card if you have one
 1. Copy everything except the `menuhax` folder from the AuReiNAND zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
@@ -41,18 +43,25 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
-2. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+
+##### Removing EmuNAND from your SD
+
+0. Reinsert your SD card into your 3DS.
+1. **Ensure you have the EmuNAND backup `emuNAND_original.bin` from Part 4 - Section I. If not, create one now.**
+2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 3. Open EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
 5. Select the "Format SD Without EmuNAND" option
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
+
+##### Installing arm9loaderhax
+
 8. Open [this](https://felipejfc.com/a9lh) link on your computer
 9. Drag `otp.bin` **(not `otp0x108.bin`!)** onto the CloudA9H page
 10. Wait, it can sometimes take a while
 11. Copy the produced `arm9loaderhax.3dsx` to the `/3ds/` folder on your SD card
 1. Copy the `emuNAND_original.bin` you created at the beginning of Part 4 - Section I to the root of your SD card    
-(if you didn't follow that part of the guide, you will need to create a backup of your EmuNAND using EmuNAND9)
 1. Rename `emuNAND_original.bin` to `NAND.bin` on the root of your SD
 12. Reinsert your SD card into your 3DS, then press Start to reboot
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
@@ -62,8 +71,14 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 15. The installer will now restore your EmuNAND `NAND.bin` to SysNAND, then install arm9loaderhax to it
 14. Your 3DS should reboot into CFW SysNAND. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
-15. **If you already had FBI injected into EmuNAND, then steps 33 through 37 are not needed**
+
+##### Enter Decrypt9
+
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding L+R on boot
+
+##### Installing FBI into SysNAND
+
+15. **If you already had FBI injected into EmuNAND, then skip this section**
 12. Go to "SysNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
@@ -71,6 +86,9 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "SysNAND File Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+
+##### Finalising setup
+
 15. From the main menu, go to SysNAND File Options, then make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
 17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax
