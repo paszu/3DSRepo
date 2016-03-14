@@ -36,7 +36,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 2. Test booting Decrypt9
    1. On CakesFW, hold X on boot
    2. On AuReiNAND, hold L + R on boot
-2. Try [this test payload](https://gbatemp.net/attachments/arm9loaderhax-7z.39669/).
+2. Try [this test payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDanVaR3FTUTFqNFU/view?usp=sharing)).
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.
    3. Insert your SD card into your 3DS and power on.
