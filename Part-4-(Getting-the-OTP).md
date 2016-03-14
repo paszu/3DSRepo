@@ -58,7 +58,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 21. Press home to exit FBI, then launch TinyFormat using the home menu icon
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
-9. **Repeat steps 24 through 28, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
+9. **Repeat steps 27 through 32, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
 10. Remove any TWL modifications done to the device or sysUpdater will throw an error (if you have no idea what this is, don't worry about it; most users will not need to do this)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI)
