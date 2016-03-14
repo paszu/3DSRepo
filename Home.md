@@ -10,7 +10,7 @@ This guide uses arm9loaderhax, the newest and best method of Custom Firmware tha
 
 This guide will take you through the steps of getting an entrypoint into the homebrew launcher, downgrading to 9.2.0 to re-enable ARM9-kernel exploits that were blocked, downgrading to version 2.1.0 to get the console-unique OTP, restoring back to 9.2.0, and finally installing arm9loaderhax + CakesFW for permanent homebrew on SysNAND and true custom firmware.
 
-If everything goes according to plan, you will lose no data and end up with everything that you started with (games, nnid, saves, etc will be preserved).
+**If everything goes according to plan, you will lose no data and end up with everything that you started with (games, nnid, saves, etc will be preserved).**
 
 The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to get their OTP or use arm9loaderhax.
 
