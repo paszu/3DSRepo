@@ -86,7 +86,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 34. Restore SysNAND from `emuNAND_unbricked.bin`
 35. Cross your fingers
 36. Reboot
-37. If you get a black screen, boot with the SD card removed then reinsert
+37. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down).
 
 ##### Section III - Getting the OTP
 

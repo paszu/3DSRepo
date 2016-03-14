@@ -70,7 +70,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 13. Launch the arm9loaderhax installer
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 15. The installer will now restore your EmuNAND `NAND.bin` to SysNAND, then install arm9loaderhax to it
-16. Your 3DS should reboot into the CakesFW menu
+16. Your 3DS should reboot into the CakesFW menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 17. Go to "Select Patches"
 15. Deactivate the "Enable emuNAND" patch if it is active
 14. Activate the "Block FIRM partition updates" and "Disable Signature Checks" patches, then press Start to continue     

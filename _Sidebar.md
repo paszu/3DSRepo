@@ -1,5 +1,6 @@
 [Home](https://github.com/Plailect/Guide/wiki)    
 [FAQ](https://github.com/Plailect/Guide/wiki/FAQ)    
+[Troubleshooting](https://github.com/Plailect/Guide/wiki/Troubleshooting)    
 **[Get Started](https://github.com/Plailect/Guide/wiki/Get-Started)**
 
 [Part 1 - Homebrew](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew))    

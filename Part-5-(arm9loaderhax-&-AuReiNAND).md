@@ -61,7 +61,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 13. Launch the arm9loaderhax installer
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 15. The installer will now restore your EmuNAND `NAND.bin` to SysNAND, then install arm9loaderhax to it
-14. Your 3DS should reboot into CFW SysNAND
+14. Your 3DS should reboot into CFW SysNAND. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 15. **If you already had FBI injected into EmuNAND, then steps 33 through 37 are not needed**
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding L+R on boot
 12. Go to "SysNAND File Options", then select the "Dump Health & Safety" option
