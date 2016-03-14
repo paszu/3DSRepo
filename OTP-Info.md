@@ -1,8 +1,4 @@
-**These links are for anyone who was redirected from the old OTP guide.**
-
-New 3DS | Old 3DS / 2DS
-:---: | :---:
-[Link](https://github.com/Plailect/Guide/wiki/Part-4-(New-3DS)) | [Link](https://github.com/Plailect/Guide/wiki/Part-4-(Old-3DS))
+**[Link](https://github.com/Plailect/Guide/wiki/Part-4-(Getting-the-OTP)) for anyone who was redirected from the old OTP guide.**
 
 The OTP is a 0x100 byte region of seemingly random data at address 0x10012000. It is presumed that console unique keys are derived from this region, although it is currently unknown exactly how. The region is likely the console unique data store which is decrypted by the bootrom, but we don't know how that is done until somebody dumps the full protected bootrom. It is unknown at this time if anyone has successfully dumped the protected bootrom.
 
