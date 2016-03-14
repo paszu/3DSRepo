@@ -2,7 +2,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 #### Black screen on EmuNAND boot
 
-1. Restore a backup. *(You should have one of these)*
+1. Restore a backup to EmuNAND. *(You should have one of these)*
 
 #### <a name="ts_sys_down" />Black screen on SysNAND boot upon downgrading
 
