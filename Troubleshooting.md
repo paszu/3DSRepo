@@ -19,7 +19,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
    1. Power off your 3DS by holding down the power button.
    2. Hold L+R+A+Up.
    3. Power on the 3DS.
-   4. If you enter safe mode, update your 3DS **only if you have an entrypoint for the latest FW version and it is possible to downgrade from it** and attempt the downgrade again.
+   4. If you enter safe mode, update your 3DS *only if you have an entrypoint for the latest FW version and it is possible to downgrade from it* and attempt the downgrade again.
 4. Your 3DS may be bricked. For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
 
 #### <a name="ts_sys_a9lh" />Black screen on SysNAND boot upon installing arm9loaderhax
