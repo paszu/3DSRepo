@@ -23,7 +23,7 @@ If you downgraded to 2.1.0 **New 3DS** and **left Wireless Communication off** (
 6. Launch your game cart which contains a **4.X** update
 7. Accept the update when prompted
 8. Wait for it to reboot you
-9. Open the browser and go to `http://dukesrg.no-ip.org/3ds/go/?Launcher.dat` or `http://www.reboot.ms/3ds/load.html?Launcher.dat`
+9. Open the browser and go to `http://www.reboot.ms/3ds/load.html?Launcher.dat`
 10. If the exploit was successful, you will have booted into Decrypt9
 11. Go to SysNAND File Options, then select NAND Restore
 12. Restore from NAND Backup bin
