@@ -33,6 +33,9 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
       1. `/arm9bootloader.bin` exists;
       2. `/Cakes/firmware.bin` and `/Cakes/firmkey.bin` exist and are the correct ones for your console; and
       3. `/boot_config.ini` exists.
+2. Test booting Decrypt9
+   1. On CakesFW, hold X on boot
+   2. On AuReiNAND, hold L + R on boot
 2. Try [this test payload](https://gbatemp.net/attachments/arm9loaderhax-7z.39669/).
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.
