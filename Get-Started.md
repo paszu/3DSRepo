@@ -18,4 +18,4 @@ If you are on 9.0.0 or 9.1.0 you are fine where you are as both are almost ident
 
 If your version is between 9.0.0 and 9.2.0, start on "Part 1 - Homebrew" then skip most of "Part 2 - Downgrading" (more info on that page).
 
-If your version is between 9.3.0 and 10.6.0, start on "Part 1 - Homebrew" and follow all instructions.
+If your version is between 9.3.0 and 10.7.0, start on "Part 1 - Homebrew" and follow all instructions.
