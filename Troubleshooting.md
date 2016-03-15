@@ -15,7 +15,6 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
    2. Take out the SD card.
    3. Power on the 3DS.
    4. When the home menu appears, reinsert your SD card.
-   5. You may consider running a downgrade checker to see if you have a partial downgrade.
 2. If you have a hardmod and a NAND backup, flash the backup back to SysNAND.
 3. Try booting into recovery mode and updating your system.    
    *This probably will not work for an Old 3DS downgraded to 2.1.0*    
