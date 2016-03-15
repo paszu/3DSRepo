@@ -1,8 +1,8 @@
 #### Read all of the introductory pages before proceeding.
 
-This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware.
+This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware (which allows almost full control of the device for things such as installing software to the home menu).
 
-**If you followed an old version of this guide and want to switch to Updated SysNAND + Cakes, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of Part 5.**
+**There has been some confusion among users about what devices they own and their names. [This](http://i.imgur.com/ZpSZarzl.jpg) is a 2DS. [This](http://i.imgur.com/uFKhKTVl.jpg) and [this](http://i.imgur.com/Ifvo5rFl.jpg) are Old 3DSs. [This](http://i.imgur.com/bXA6a3Il.jpg) and [this](http://i.imgur.com/UB1210Al.jpg) are New 3DSs. Note the button placement and features of each device.**
 
 This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA regions on firmware 10.7.0 or below.
 
