@@ -1,5 +1,5 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
-  **A:** Normally the answer is no, but at the time of writing the latest version (10.6.0) is hackable as long as you have a compatible game.
+  **A:** Normally the answer is no, but at the time of writing the latest version (10.7.0) is hackable as long as you have a compatible game.
 
 + <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
   **Short answer**
