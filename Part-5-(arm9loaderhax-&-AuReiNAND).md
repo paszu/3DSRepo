@@ -4,7 +4,7 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNAND, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of this Part.**
 
-**If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNAND, just follow "Preparatory work".**
+**If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNAND, just follow "Preparatory work."**
 
 This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no EmuNAND required at all.
 
@@ -21,6 +21,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
+* The latest release of [Uncart for arm9loaderhax](https://mega.nz/#!R1MFUCBb!s9Nei_EbZsGzAdNaAWB5DGDPuDR72wAUL0sWVqIPOBU) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDdFhoQWJZZ0dKYnc/view?usp=sharing))
 * *New 3DS:* 
     + AuReiNAND NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
 * *Old 3DS:*
@@ -31,11 +32,16 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 ##### Preparatory work
 
 2. Delete the `Decrypt9` folder from the root of your SD card if you have one
-1. Copy everything except the `menuhax` folder from the AuReiNAND zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
-7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/rei/` folder on your SD card
+1. Copy everything except the `menuhax` folder from the AuReiNAND zip to the root of your SD card
+4. Create a new folder called `payloads` in the `/rei/` folder
+7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/rei/payloads/` folder on your SD card
+5. In the `/rei/payloads` folder, rename `Decrypt9WIP.bin` to `X.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
-5. In the `/rei/` folder, rename `Decrypt9WIP.bin` to `arm9payload.bin`
+7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/rei/payloads/` folder on your SD card
+5. In the `/rei/payloads` folder, rename `EmuNAND9.bin` to `Y.bin`
+7. Copy `Uncart.bin` from the Uncart zip to the `/rei/payloads/` folder on your SD card
+5. In the `/rei/payloads` folder, rename `Uncart.bin` to `B.bin`
 5. Copy the 3 files from `AuReiNAND_options` folder in the `AuReiNAND_options` zip to the `/rei/` folder on your SD card
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNAND NTR Firmware zip to the `/rei/` folder on your SD card
@@ -104,7 +110,11 @@ If everything has gone according to plan, arm9loaderhax will be installed to you
 
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
-You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.    
-You can remove any extra files from the root of the SD card that are not in the image.
+You can now hold X on boot to launch Decrypt9, a full featured NAND tool.    
+You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
+You can now hold B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file.      
+You can remove any extra files from the root of the SD card that are not in the image.    
+
+**If you used an old revision of this page, you may only have the ability to launch Decrypt9 (which was done with L + R), if you would like to switch to the new method, just follow "Preparatory work."**
 
 ![SD Card](http://i.imgur.com/2bAlKhp.png)
