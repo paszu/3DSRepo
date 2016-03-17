@@ -4,9 +4,16 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 1. Restore a backup to EmuNAND. *(You should have one of these)*
 
-#### Loading AGB_FIRM...
+#### <a name="ts_agb_firm" />Loading AGB_FIRM...
 
 1. CakesFW AGB_FIRM patching is not complete and this error is normal. You will need to use a [patched AGB_FIRM CIA](https://gbatemp.net/threads/390313/) for GBA game support.
+
+#### <a name="ts_otp_helper" />OTPHelper won't restore my NAND backup
+
+1. Try redownloading and recopying the OTPHelper files
+3. Try checking your SD card file system (if you are using Windows it will prompt you when the SD card is inserted if it detects any)
+2. Try backing up your SD card files, then formatting it and copying them back
+5. Try a different SD card
 
 #### <a name="ts_sys_down" />Black screen on SysNAND boot after downgrading
 
