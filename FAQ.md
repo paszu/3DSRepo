@@ -40,6 +40,9 @@
 + <a name="faq_ge128gbsd" />**Q:** *Can I use a 128 GB (or larger) SD card?*    
   **A:** Yes, but some users have reported slowdowns when using such large sizes. Note that you cannot format the card with exFAT; you need to format it with FAT32.
 
++ <a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
+  **A:** Just copy all the files to the new SD card.
+
 + <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
   **A:** You may be able to complete up to part 3 of the guide (getting emuNAND running). However, part 4 as of now requires a computer to inject FBI into Health & Safety.
 
