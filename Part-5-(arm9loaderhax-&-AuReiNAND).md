@@ -6,6 +6,8 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNAND, just follow "Preparatory work."**
 
+**If you used an old revision of this page, you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNAND version and follow "Preparatory work."**
+
 This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no EmuNAND required at all.
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
@@ -114,7 +116,5 @@ You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.
 You can now hold L+R+Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
 You can now hold L+R+B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file.      
 You can remove any extra files from the root of the SD card that are not in the image.    
-
-**If you used an old revision of this page, you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNAND version and follow "Preparatory work."**
 
 ![SD Card](http://i.imgur.com/2bAlKhp.png)
