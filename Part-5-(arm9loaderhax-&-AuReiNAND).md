@@ -39,9 +39,9 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 5. In the `/rei/payloads` folder, rename `Decrypt9WIP.bin` to `default.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/rei/payloads/` folder on your SD card
-5. In the `/rei/payloads` folder, rename `EmuNAND9.bin` to `Y.bin`
+5. In the `/rei/payloads` folder, rename `EmuNAND9.bin` to `y.bin`
 7. Copy `Uncart.bin` from the Uncart zip to the `/rei/payloads/` folder on your SD card
-5. In the `/rei/payloads` folder, rename `Uncart.bin` to `B.bin`
+5. In the `/rei/payloads` folder, rename `Uncart.bin` to `b.bin`
 5. Copy the 3 files from `AuReiNAND_options` folder in the `AuReiNAND_options` zip to the `/rei/` folder on your SD card
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNAND NTR Firmware zip to the `/rei/` folder on your SD card
