@@ -2,7 +2,7 @@
   **A:** Normally the answer is no, but at the time of writing the latest version (10.7.0) is hackable as long as you have a compatible game.
 
 + <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
-  **A:** No. Arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware. This guide can be done with completely free software and (if you are on 10.6.0 or 10.7.0) a compatible game such as **(**[Ocarina of Time 3D](http://www.nintendo.com/games/detail/the-legend-of-zelda-ocarina-of-time-3d-3ds) and a [PowerSaves Pro](http://www.amazon.com/dp/B00IVJ1M7M/)**)** or **(**[Cubic Ninja](http://www.amazon.com/dp/B004SG211I)**)**
+  **A:** No. Arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware. This guide can be completely done with free software and *(if you are on 10.6.0 or 10.7.0)* a compatible game such as **(**[Ocarina of Time 3D](http://www.nintendo.com/games/detail/the-legend-of-zelda-ocarina-of-time-3d-3ds) and a [PowerSaves Pro](http://www.amazon.com/dp/B00IVJ1M7M/)**)** or **(**[Cubic Ninja](http://www.amazon.com/dp/B004SG211I)**)**
 
 + <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
   **Short answer**
