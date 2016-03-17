@@ -115,6 +115,6 @@ You can now hold L+R+Y on boot to launch EmuNAND9, a full featured EmuNAND and S
 You can now hold L+R+B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file.      
 You can remove any extra files from the root of the SD card that are not in the image.    
 
-**If you used an old revision of this page, you may only have the ability to launch Decrypt9 (which was done with just L + R), if you would like to switch to the new method, just follow "Preparatory work."**
+**If you used an old revision of this page, you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNAND version and follow "Preparatory work."**
 
 ![SD Card](http://i.imgur.com/2bAlKhp.png)
