@@ -6,7 +6,7 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNAND, just follow "Preparatory work."**
 
-**If you used an old revision of this page, you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNAND version and follow "Preparatory work."**
+**If you used an old revision of this page (and already have Updated SysNAND + AuReiNAND), you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNAND version and follow "Preparatory work."**
 
 This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no EmuNAND required at all.
 
