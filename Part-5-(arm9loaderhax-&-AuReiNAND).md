@@ -36,7 +36,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy everything except the `menuhax` folder from the AuReiNAND zip to the root of your SD card
 4. Create a new folder called `payloads` in the `/rei/` folder
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/rei/payloads/` folder on your SD card
-5. In the `/rei/payloads` folder, rename `Decrypt9WIP.bin` to `X.bin`
+5. In the `/rei/payloads` folder, rename `Decrypt9WIP.bin` to `default.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/rei/payloads/` folder on your SD card
 5. In the `/rei/payloads` folder, rename `EmuNAND9.bin` to `Y.bin`
@@ -110,7 +110,7 @@ If everything has gone according to plan, arm9loaderhax will be installed to you
 
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
-You can now hold L+R+X on boot to launch Decrypt9, a full featured NAND tool.    
+You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold L+R+Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
 You can now hold L+R+B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file.      
 You can remove any extra files from the root of the SD card that are not in the image.    
