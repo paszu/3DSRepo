@@ -8,6 +8,8 @@ Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3
 
 More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
+**Your EmuNAND MUST be the same region as your SysNAND or you will BRICK. If you have changed your EmuNAND region, you MUST create a NEW EmuNAND or you will BRICK.**
+
 #### What you need
 
 * A working emuNAND and CFW (you should have gotten this with Part 3)
