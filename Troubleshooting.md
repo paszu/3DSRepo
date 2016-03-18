@@ -11,7 +11,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 #### <a name="ts_otp_helper" />OTPHelper won't restore my NAND backup
 
 1. Try redownloading and recopying the OTPHelper files
-3. Try checking your SD card file system (if you are using Windows it will prompt you when the SD card is inserted if it detects any)
+3. Try checking your SD card file system with something like `fsck.vfat <sd partition path>` (on *nix) or `CHKDSK <sd drive letter> /F` (on Windows)
 2. Try backing up your SD card files, then formatting it and copying them back
 5. Try a different SD card
 
