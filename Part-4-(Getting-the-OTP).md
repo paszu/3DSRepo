@@ -10,7 +10,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 **Your EmuNAND MUST be the same region as your SysNAND or you will BRICK. If you have changed your EmuNAND region, you MUST create a NEW EmuNAND or you will BRICK.**
 
-**You MUST downgrade with the correct pack for your console region or your will BRICK.**
+**You MUST downgrade with the correct pack for your console region or you will BRICK.**
 
 #### What you need
 
