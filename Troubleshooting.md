@@ -1,6 +1,35 @@
 If you are unable to boot your 3DS, please look for the section relevant to you, and follow the instructions. Once a solution works for you, you can proceed on with the main guide.
 
-#### Black screen on EmuNAND boot
+#### <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
+
+Check `otphelper.log` on your SD card to see where it fails, then follow the appropriate part to check if it's a  false positive or not.
+
+#####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
+ 
+1. Check `otphelper.log` to see which titles the TMD hash mismatches on
+2. Download the latest build of [GodMode9](https://mega.nz/#!9oUSBRKS!OPabQRkS1az88jH8FIBkrb_N_hd4IWaguCENabot1r4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDUUlRbFNZbDZjR2M/view?usp=sharing))
+3. Copy the `GodMode9` folder from the `GodMode9` zip to the `/3ds/` folder on the root of your SD card
+4. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
+5. Open GodMode9 **(Be VERY careful with this tool, it can brick you if you delete something important with it)**
+6. Select (on bottom screen) `EMUNAND CTRNAND`
+7. Select `title`
+8. Select the folder which has the same 8 characters as the beginning of the title that mismatched *(for example, if you mismatched on `Checking title 0004013000003202...` then you would select the `00040130` folder)*
+9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched on `Checking title 0004013000003202...` then you would select the `00003202` folder)*
+10. Select `content`
+
+*I only have one file ending with a `.tmd` extension:* This was a legitimate downgrade error and you have been saved from a brick; you should restore EmuNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
+
+*I have two or more files ending with a `.tmd` extension:* Because of a limitation of OTPHelper we cannot yet check hashes of titles that have ended up with two TMDs (this can be caused by a variety of rare factors). *This COULD be a false positive; you can either flash to SysNAND at your own risk or wait for an updated version of OTPHelper to be released that can check these.*
+
+Check all of the titles that mismatch with this same method.
+
+#####"Validation Stage 1: SUCCESS" and "Validation Stage 2: FAILED"
+
+This will happen due to having a fragmented NAND (caused by various things such as rxTools' shitty FBI injection or some Gateway software). OTPHelper cannot check the files of a fragmented NAND, but if you got "Validation Stage 1: SUCCESS" then "Validation Stage 2: FAILED" will rarely be an anything but a false positive.
+
+You can either flash to SysNAND at your own risk, or attempt to defragment your NAND by using Decrypt9 to dump your CTRNAND partition, then mounting it on your computer using something like [OSFMount](http://www.osforensics.com/tools/mount-disk-images.html) and defragging that mounted CTRNAND using something like [Defraggler](https://www.piriform.com/defraggler/download/standard).
+
+#### <a name="ts_bs_emunand" />Black screen on EmuNAND boot
 
 1. Restore a backup to EmuNAND. *(You should have one of these)*
 
@@ -8,7 +37,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 1. CakesFW AGB_FIRM patching is not complete and this error is normal. You will need to use a [patched AGB_FIRM CIA](https://gbatemp.net/threads/390313/) for GBA game support.
 
-#### <a name="ts_otp_helper" />OTPHelper won't restore my NAND backup
+#### <a name="ts_otp_helper" />OTPHelper won't restore / can't find my NAND backup
 
 1. Try redownloading and recopying the OTPHelper files
 3. Try checking your SD card file system with something like `fsck.vfat <sd partition path>` (on *nix) or `CHKDSK <sd drive letter> /F` (on Windows)
