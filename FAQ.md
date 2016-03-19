@@ -31,6 +31,12 @@
 + <a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
   **A:** Just copy all the files to the new SD card.
 
++ <a name="faq_nnid" />**Q:** *Can I keep my NNID?*    
+  **A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+
++ <a name="faq_systransfer" />**Q:** *What about System Transfers?*    
+  **A:** Once you have completed the guide, you can system transfer to and from an arm9loaderhax'd 3DS or 2DS exactly like you would a regular stock console (you will lose any non-legitimate games/themes/dlc in the transfer; saves will stay even for games that are lost).
+
 + <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
   **A:** You may be able to complete up to part 3 of the guide (getting emuNAND running). However, part 4 as of now requires a computer to inject FBI into Health & Safety.
 
