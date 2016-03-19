@@ -19,7 +19,7 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 
 *I only have one file ending with a `.tmd` extension:* This was a legitimate downgrade error and you have been saved from a brick; you should restore EmuNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
 
-*I have two or more files ending with a `.tmd` extension:* Because of a limitation of OTPHelper we cannot yet check hashes of titles that have ended up with two TMDs (this can be caused by a variety of rare factors). *This COULD be a false positive; you can either flash to SysNAND at your own risk or wait for an updated version of OTPHelper to be released that can check these.*
+*I have two or more files ending with a `.tmd` extension:* Because of a limitation of OTPHelper we cannot yet check hashes of titles that have ended up with two TMDs (this can be caused by a variety of rare factors). This COULD be a false positive; you can either flash to SysNAND at your own risk or wait for an updated version of OTPHelper to be released that can check these.
 
 Check all of the titles that mismatch with this same method.
 
