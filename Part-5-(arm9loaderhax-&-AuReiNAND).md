@@ -121,6 +121,8 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, you will no longer need EmuNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
+**Please complete the [Official Poll](http://strawpoll.me/7127372) to track success rates on latest version (after March 19, 2016 *only*).**
+
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
 You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.    
