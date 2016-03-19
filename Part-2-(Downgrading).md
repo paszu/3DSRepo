@@ -48,7 +48,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 14. Follow the steps in Part 1 to reinstall menuhax
 15. Check the system settings, you should be on 9.2.0
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
-17. Open EmuNAND9
+17. Open EmuNAND9 **(This can sometimes take a few tries)**
 18. Go to EmuNAND Manager Options, then dump SysNAND to `sysNAND.bin`
 20. Press Select on the main menu to eject your SD card
 21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future
