@@ -31,7 +31,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
-5. Open EmuNAND9
+5. Open EmuNAND9 **(This can sometimes take a few tries)**
 6. Select the "Complete emuNAND setup" option
 9. Ignore the `starter.bin` prompt and continue
 8. Press Select on the main menu to eject your SD card
