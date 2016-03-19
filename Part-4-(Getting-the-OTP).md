@@ -47,7 +47,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 19. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 20. Open OTPHelper
 21. Go to "NAND Backup & Restore"
-19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down to change the name)**
+19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down / Left and Right to change the name)**
 19. Go to the SysNAND file options menu on the main menu
 29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
