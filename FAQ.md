@@ -5,19 +5,7 @@
   **A:** No. Arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware. This guide can be completely done with free software and **(if you are on 10.6.0 or 10.7.0)** a compatible game such as **([Ocarina of Time 3D](http://www.nintendo.com/games/detail/the-legend-of-zelda-ocarina-of-time-3d-3ds) + either a [PowerSaves Pro](http://www.amazon.com/dp/B00IVJ1M7M/) or an already haxed 3DS)** OR **([Cubic Ninja](http://www.amazon.com/dp/B004SG211I) (works without any extras))**
 
 + <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-  **Short answer**
-
-  This guide is well tested and everything is as safe as it can possibly be. Issues can arise occasionally, but most are due to user error and can be avoided by following all instructions.
-
-  **Long answer**
-
-  Parts 1 and 3 are completely safe. There is no risk of bricking your console. If you accidentally update SysNAND in part 3, you may render your console unhackable until new exploits are found, but your console will still be operational.
-
-  Part 2 involves downgrading your SysNAND. You may brick your console if the downgrade fails. In most cases if the downgrader crashes you will only get a softbrick i.e. you can still boot and continue the downgrade, but there is still the possibility that you hardbrick. At this stage, you likely do not yet have a SysNAND backup, and as such if you hardbrick, you will probably need to send it to Nintendo for repair.
-
-  Part 4 also involves downgrading your SysNAND by flashing your EmuNAND that has been downgraded to 2.1, followed by flashing your 9.2 SysNAND backup back to SysNAND. At the time of writing we have no way of booting a 2.1 EmuNAND because of the lack of a FIRM patch for that version, so we cannot verify that the downgrade was completely successful and boots. You may thus brick either because something went wrong during the downgrade and you flashed to it, or either of the two flashes were unsuccessful. At this stage, you have a SysNAND backup and so you can fix your system with a hardmod. This part is the probably most risky, especially on a New 3DS.
-
-  Part 5 involves installing arm9loaderhax which is (to simplify) corrupting your SysNAND FIRM partitions in such a way that it loads our own code at boot time. It also involves flashing your EmuNAND to your SysNAND. If the flash fails (such as if power is lost during the transfer), you may brick. If you use the wrong `otp.bin` to compile arm9loaderhax, you will brick. At this stage, you have a SysNAND backup and so you can fix your system with a hardmod.
+  **A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
 
 + <a name="faq_piracy" />**Q:** *Can I pirate games with this?*    
   **A:** Unfortunately, yes.
