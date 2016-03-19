@@ -6,7 +6,7 @@ If you are between versions 9.9.0 and 10.5.0, you should follow this guide as wr
 
 If you are between versions 10.6.0 and 10.7.0, you can find instructions for using ninjhax (requires Cubic Ninja) [here](http://smealum.github.io/ninjhax2/), OOTHax (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the homebrew launcher) [here](https://github.com/yellows8/oot3dhax). Browserhax was patched with 10.6.0 and will no longer work.
 
-If you are below version 9.0.0 or you have an old browser version (you must have a -20 or highter at the end of your version number to follow this guide; the -XX indicates browser version; i.e: 9.2.0-15U is incompatible), you can find instructions for updating or downgrading to 9.2.0-20U [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support browser versions below 9.0.0 or -20.
+If you are below version 9.0.0, you can find instructions for updating or downgrading to 9.2.0-20U [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support browser versions below 9.0.0.
 
 #### What you need
 
