@@ -13,11 +13,17 @@
 + <a name="faq_piracy_online" />**Q:** *Can I play online with pirated games without getting banned?*    
   **A:** If you installed the CIA file, you won't get banned. If you are using a flashcart, you might be.
 
++ <a name="faq_piracy_header" />**Q:** *Do I need this thing I heard about called a private header?*    
+  **A:** Those are only needed for flashcarts, not CIA installed games.
+
 + <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
   **A:** Yes! Custom Firmware not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
 
 + <a name="faq_arn2cakes" />**Q:** *How do I switch from the old guide to Updated SysNAND + Cakes?*    
   **A:** Just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of Part 5.
+
++ <a name="faq_updates" />**Q:** *Is it safe to update CFW SysNAND?*    
+  **A:** Yes, but if you are feeling apprehensive you can wait until there is confirmation it works.
 
 + <a name="faq_support" />**Q:** *Where should I go for support?*    
   **A:** For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
