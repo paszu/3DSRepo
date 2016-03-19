@@ -86,16 +86,20 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 33. Open OTPHelper
 33. **New 3DS Only:** Select the Unbrick FW 2.1 EmuNAND option and follow instructions. This can take a while.
 34. Go to "NAND Validation Options"
-35. Select "Validate EmuNAND Downgrade" **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore EmuNAND from `emuNAND_formatted.bin`** (*you can press Select to eject your SD card and copy the file*) **and retry from Step 9 of this section)**
+35. Select "Validate EmuNAND Downgrade"     
+    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore EmuNAND from `emuNAND_formatted.bin`** (*you can press Select to eject your SD card and copy the file*) **and retry from Step 9 of this section)**    
+    + *If you still can't get NAND to verify properly, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)*
 33. Go to "NAND Backup & Restore"
 33. Backup EmuNAND to `emuNAND_unbricked.bin`
 34. Restore SysNAND from `emuNAND_unbricked.bin`
 35. Go back to the Main Menu
 34. Go to "NAND Validation Options"
-35. Select "Validate SysNAND Downgrade" **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore SysNAND from `SysNAND_original.bin` and EmuNAND from `emuNAND_formatted.bin`** (*you can press Select to eject your SD card and copy the file*) **and retry from Step 9 of this section)**
+35. Select "Validate SysNAND Downgrade"     
+    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore SysNAND from `SysNAND_original.bin` and EmuNAND from `emuNAND_formatted.bin`** (*you can press Select to eject your SD card and copy the file*) **and retry from Step 9 of this section)**    
+    + *If you still can't get NAND to verify properly, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)*
 35. Cross your fingers
 36. Reboot
-37. If you get a black screen, boot with the SD card remove then reinsert when you see the home menu.
+37. If you get a black screen, boot with the SD card remove then reinsert when you see the home menu. If this fails, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
 
 ##### Section III - Getting the OTP
 
