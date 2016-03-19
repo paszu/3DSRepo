@@ -34,6 +34,10 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
+18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
+11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
+10. Update your **EmuNAND** to the latest version using system settings if it is not already (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
+12. Reboot into SysNAND
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
@@ -54,8 +58,6 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later
 9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
-11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
-10. Update your **EmuNAND** to the latest version using system settings if it is not already (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
 20. Navigate to `TinyFormat.cia` and press A to install
