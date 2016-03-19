@@ -36,7 +36,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-11. Open Decrypt9, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
+11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
