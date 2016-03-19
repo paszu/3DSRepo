@@ -1,1 +1,0 @@
-## [The New 3DS and Old 3DS guides have been merged into a single guide.](https://github.com/Plailect/Guide/wiki/Get-Started)

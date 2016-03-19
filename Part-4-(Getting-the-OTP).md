@@ -107,6 +107,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 2. Copy your `sysNAND_original.bin` backup from Section I to the root of your SD card
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
 3. Go to "NAND Backup & Restore"
-4. Restore SysNAND from `sysNAND_original.bin` (your orignal EmuNAND will replace SysNAND after Part 5, but we need it functional for right now)
+4. Restore SysNAND from `sysNAND_original.bin`
+5. Restore EmuNAND from `emuNAND_original.bin`
 5. Cross your fingers
 6. Reboot!
