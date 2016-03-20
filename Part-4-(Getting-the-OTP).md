@@ -42,7 +42,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
 12. Press Select to eject your SD card, then put it in your computer
-13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+13. Extract Universal Inject Generater, then copy both `hs_emu.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
@@ -115,7 +115,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 ##### Section IV - Restoring the System
 1. Rename `emuNAND_unbricked.bin` on the root of your SD card to `emuNAND_2-1-0.bin` and copy it to a safe folder on your computer so you can downgrade back to 2.1.0 easily if you ever need to. You can delete `emuNAND_2-1-0.bin` and `emuNAND_formatted.bin`from your SD card.
-2. Copy your `sysNAND_original.bin` backup from Section I to the root of your SD card
+2. Copy your `sysNAND_original.bin` and `sysNAND_original.bin` backups from Section I to the root of your SD card
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
 3. Go to "NAND Backup & Restore"
 4. Restore SysNAND from `sysNAND_original.bin`
