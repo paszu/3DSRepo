@@ -4,7 +4,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 1. Restore a backup to EmuNAND. *(You should have one of these)*
 
-#### <a name="ts_bs_emunand" />Black screen on SysNAND boot after injecting `ctrnand.bin`
+#### <a name="ts_bs_emunand" />Black screen on SysNAND boot after injecting CTRNAND
 
 I screwed up in an old version of the guide and had users backup before updating rather than the other way around, so your CFW expects a 10.2+ NAND and gets a 9.2 one instead.
 
