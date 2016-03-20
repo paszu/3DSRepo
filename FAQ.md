@@ -26,7 +26,7 @@
   **A:** Yes, but if you are feeling apprehensive you can wait until there is confirmation it works.
 
 + <a name="faq_support" />**Q:** *Where should I go for support?*    
-  **A:** For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
+  **A:** For support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
 
 + <a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
   **A:** You might be able to make do with 4GB, but any smaller is pushing it, because the emuNAND itself will take up about 1GB of your card and NAND backups are large. You may have to unmount your SD to transfer files to or from your computer more frequently than the guide instructs. Do so at your own risk.
