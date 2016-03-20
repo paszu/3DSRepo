@@ -43,7 +43,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy and merge the `3ds` folder from the SafeA9LHInstaller zip to the root of your SD card
 2. Copy `SafeA9LHInstaller.dat` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
-1. Copy the `3ds` folder, the `aurei` folder, and `arm9loaderhax.bin` from the AuReiNAND zip to the root of your SD card
+1. Copy `arm9loaderhax.bin` and the `aurei` folder from the AuReiNAND zip to the root of your SD card
 4. Create a new folder called `payloads` in the `/aurei/` folder
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/aurei/payloads/` folder on your SD card
 5. In the `/aurei/payloads` folder, rename `Decrypt9WIP.bin` to `default.bin`
