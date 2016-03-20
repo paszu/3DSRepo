@@ -1,5 +1,27 @@
 If you are unable to boot your 3DS, please look for the section relevant to you, and follow the instructions. Once a solution works for you, you can proceed on with the main guide.
 
+#### <a name="ts_bs_emunand" />Black screen on EmuNAND boot
+
+1. Restore a backup to EmuNAND. *(You should have one of these)*
+
+#### <a name="ts_bs_emunand" />Black screen on SysNAND boot after injecting `ctrnand.bin`
+
+I screwed up in an old version of the guide and had users backup before updating rather than the other way around, so your CFW expects a 10.2+ NAND and gets a 9.2 one instead.
+
+#####CakesFW
+
+1. Download [firmware_patched.bin](https://up1.ca/#LQm-QJ3j5htr2vTG6Z2TnA)
+2. Delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card if it exists
+3. Copy the `firmware_patched.bin` you downloaded to the `/cakes/` folder on the root of your SD card
+4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
+
+#####AuReiNAND
+
+1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
+2. Delete `patched_firmware_sys.bin` from the `/rei/` folder on the root of your SD card if it exists
+3. Copy the `patched_firmware_sys.bin` you downloaded to the `/rei/` folder on the root of your SD card
+4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `patched_firmware_sys.bin` from the `/rei/` folder on the root of your SD card to have it generate a new one
+
 #### <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
 
 Check `otphelper.log` on your SD card to see where it fails, then follow the appropriate part to check if it's a  false positive or not.
@@ -28,10 +50,6 @@ Check all of the titles that mismatch with this same method.
 This will happen due to having a fragmented NAND (caused by various things such as rxTools' shitty FBI injection or some Gateway software). OTPHelper cannot check the files of a fragmented NAND, but if you got "Validation Stage 1: SUCCESS" then "Validation Stage 2: FAILED" will rarely be an anything but a false positive.
 
 You can either flash to SysNAND at your own risk, or attempt to defragment your NAND by using Decrypt9 to dump your CTRNAND partition, then mounting it on your computer using something like [OSFMount](http://www.osforensics.com/tools/mount-disk-images.html) and defragging that mounted CTRNAND using something like [Defraggler](https://www.piriform.com/defraggler/download/standard).
-
-#### <a name="ts_bs_emunand" />Black screen on EmuNAND boot
-
-1. Restore a backup to EmuNAND. *(You should have one of these)*
 
 #### <a name="ts_agb_firm" />Loading AGB_FIRM...
 
