@@ -111,7 +111,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 14. Press Select on the main menu to eject your SD card, then put it in your computer
 17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax
 15. Delete `sysNAND-A9LHAX.bin` from your SD card
-15. Delete `NAND.bin` from your SD card
 7. Reinsert your SD card into your 3DS then press Start to reboot
 6. Update your CFW SysNAND to the latest version using system settings
 8. Open Health and Safety (which is now FBI)
