@@ -34,13 +34,18 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `sysUpdater.cia` from the sysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
-18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
-11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
-10. Update your **EmuNAND** to the latest version using system settings if it is not already (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
+18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW 
+    + (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
+11. **MAKE SURE YOU ARE IN EMUNAND 
+    + (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
+10. Update your **EmuNAND** to the latest version using system settings if it is not already 
+    + (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
 12. Reboot into SysNAND
-3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
+3. **Make sure your WiFi is on 
+    + (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
+11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` 
+    + **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
@@ -57,15 +62,18 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later
 9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
-18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
+18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW 
+    + (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI) on EmuNAND
 20. Navigate to `TinyFormat.cia` and press A to install
 21. Press home to exit FBI, then launch TinyFormat using the home menu icon
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
-9. **Repeat steps 29 through 34, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
-10. Remove any TWL modifications done to the device or sysUpdater will throw an error (if you have no idea what this is, don't worry about it; most users will not need to do this)
+9. **Repeat steps 29 through 34, this is not optional 
+    + (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
+10. Remove any TWL modifications done to the device or sysUpdater will throw an error 
+    + (if you have no idea what this is, don't worry about it; most users will not need to do this)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
@@ -89,16 +97,14 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 33. **New 3DS Only:** Select the Unbrick FW 2.1 EmuNAND option and follow instructions. This can take a while.
 34. Go to "NAND Validation Options"
 35. Select "Validate EmuNAND Downgrade"     
-    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore EmuNAND from `emuNAND_formatted.bin`** (*you can press Select to eject your SD card and copy the file*) **and retry from Step 9 of this section)**    
-    + *If you still can't get NAND to verify properly, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshootingts_otphelper_verify_fail)*
+    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**(https://github.com/Plailect/Guide/wiki/Troubleshootingts_otphelper_verify_fail)*
 33. Go to "NAND Backup & Restore"
 33. Backup EmuNAND to `emuNAND_unbricked.bin`
 34. Restore SysNAND from `emuNAND_unbricked.bin`
 35. Go back to the Main Menu
 34. Go to "NAND Validation Options"
 35. Select "Validate SysNAND Downgrade"     
-    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore SysNAND from `SysNAND_original.bin` and EmuNAND from `emuNAND_formatted.bin`** (*you can press Select to eject your SD card and copy the file*) **and retry from Step 9 of this section)**    
-    + *If you still can't get NAND to verify properly, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail)*
+    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore SysNAND from `SysNAND_original.bin` then [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**
 35. Cross your fingers
 36. Reboot
 37. If you get a black screen, boot with the SD card remove then reinsert when you see the home menu. If this fails, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
