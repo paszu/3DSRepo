@@ -66,7 +66,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 13. Launch the arm9loaderhax installer
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 14. Select Full Install
-15. The installer will now install arm9loaderhax on your device
+15. The installer will now install arm9loaderhax on your device (this is very fast)
 16. Your 3DS should reboot into CFW SysNAND. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 
 ##### Enter Decrypt9
