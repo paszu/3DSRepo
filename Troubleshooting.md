@@ -1,10 +1,10 @@
 If you are unable to boot your 3DS, please look for the section relevant to you, and follow the instructions. Once a solution works for you, you can proceed on with the main guide.
 
-#### <a name="ts_bs_emunand" />Black screen on EmuNAND boot
+## <a name="ts_bs_emunand" />Black screen on EmuNAND boot
 
 1. Restore a backup to EmuNAND. *(You should have one of these)*
 
-#### <a name="ts_bs_ctrnand" />Black screen on SysNAND boot after injecting CTRNAND
+## <a name="ts_bs_ctrnand" />Black screen on SysNAND boot after injecting CTRNAND
 
 I screwed up in an old version of the guide and had users backup before updating rather than the other way around, so your CFW expects a 10.2+ NAND and gets a 9.2 one instead.
 
@@ -22,7 +22,7 @@ I screwed up in an old version of the guide and had users backup before updating
 3. Copy the `patched_firmware_sys.bin` you downloaded to the `/aurei/` folder on the root of your SD card
 4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card to have it generate a new one
 
-#### <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
+## <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
 
 Check `otphelper.log` on your SD card to see where it fails, then follow the appropriate part to check if it's a  false positive or not.
 
@@ -51,18 +51,18 @@ This will happen due to having a fragmented NAND (caused by various things such 
 
 You can either flash to SysNAND at your own risk, or attempt to defragment your NAND by using Decrypt9 to dump your CTRNAND partition, then mounting it on your computer using something like [OSFMount](http://www.osforensics.com/tools/mount-disk-images.html) and defragging that mounted CTRNAND using something like [Defraggler](https://www.piriform.com/defraggler/download/standard).
 
-#### <a name="ts_agb_firm" />Loading AGB_FIRM...
+## <a name="ts_agb_firm" />Loading AGB_FIRM...
 
 1. CakesFW AGB_FIRM patching is not complete and this error is normal. You will need to use a [patched AGB_FIRM CIA](https://gbatemp.net/threads/390313/) for GBA game support.
 
-#### <a name="ts_otp_helper" />OTPHelper won't restore / can't find my NAND backup
+## <a name="ts_otp_helper" />OTPHelper won't restore / can't find my NAND backup
 
 1. Try redownloading and recopying the OTPHelper files
 3. Try checking your SD card file system with something like `fsck.vfat <sd partition path>` (on *nix) or `CHKDSK <sd drive letter> /F` (on Windows)
 2. Try backing up your SD card files, then formatting it and copying them back
 5. Try a different SD card
 
-#### <a name="ts_sys_down" />Black screen on SysNAND boot after downgrading
+## <a name="ts_sys_down" />Black screen on SysNAND boot after downgrading
 
 1. Try booting with your SD card out, and then reinserting it after booting.
    1. Power off your 3DS by holding down the power button.
@@ -79,7 +79,7 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
    4. If you enter safe mode, update your 3DS *only if you have an entrypoint for the latest FW version and it is possible to downgrade from it* and attempt the downgrade again.
 4. Your 3DS may be bricked. For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
 
-#### <a name="ts_sys_a9lh" />Black screen on SysNAND boot after installing arm9loaderhax
+## <a name="ts_sys_a9lh" />Black screen on SysNAND boot after installing arm9loaderhax
 
 1. Ensure you have a working payload.
    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
@@ -100,7 +100,7 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
    4. Press A. Your 3DS should power off; this means arm9loaderhax is working and something else is broken; your device is **not** bricked.
 3. Your 3DS may be bricked. For real time support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
 
-#### <a name="ts_sys_blue" />Blue screen on boot (bootrom error)
+## <a name="ts_sys_blue" />Blue screen on boot (bootrom error)
 
 1. Your 3DS is bricked.
 2. You will need to get a [hardmod](https://gbatemp.net/threads/414498/) or repair / replace the device.
