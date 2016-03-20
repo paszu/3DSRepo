@@ -6,7 +6,7 @@ If your SysNAND is ever broken, you have a bricked system, but if your EmuNAND i
 
 EmuNAND, since it is completely separate from your SysNAND, can be updated to the latest version, allowing you to play all games on an exploited system.
 
-Unfortunately, EmuNAND has its own set of drawbacks, which is why we only take advantage of it for the purpose of safely getting our OTP before setting up arm9loaderhax and CFW SysNAND, which is far superior.
+Unfortunately, EmuNAND has its own set of [drawbacks](https://www.reddit.com/r/3dshacks/comments/49qj9w/arm9loaderhax_if_you_dont_like_sysnand_permahax/d0ud80d), which is why we only take advantage of it for the purpose of safely getting our OTP before setting up arm9loaderhax and CFW SysNAND, which is far superior.
 
 This part of the guide will take you through the process of setting up EmuNAND and a CFW on your SD card and device, then through the process of formatting one of the NANDs to unlink them from each other.
 
