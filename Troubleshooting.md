@@ -18,9 +18,9 @@ I screwed up in an old version of the guide and had users backup before updating
 #####AuReiNAND
 
 1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
-2. Delete `patched_firmware_sys.bin` from the `/rei/` folder on the root of your SD card if it exists
-3. Copy the `patched_firmware_sys.bin` you downloaded to the `/rei/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `patched_firmware_sys.bin` from the `/rei/` folder on the root of your SD card to have it generate a new one
+2. Delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card if it exists
+3. Copy the `patched_firmware_sys.bin` you downloaded to the `/aurei/` folder on the root of your SD card
+4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card to have it generate a new one
 
 #### <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
 
@@ -84,8 +84,8 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
 1. Ensure you have a working payload.
    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
    2. If you are following the AuReiNand guide, check that
-      1. `/rei/updatedsysnand` and `/rei/firmware.bin` exist; and
-      2. `/rei/firmware.bin` is the correct one for your console.
+      1. `/aurei/updatedsysnand` and `/aurei/firmware.bin` exist; and
+      2. `/aurei/firmware.bin` is the correct one for your console.
    3. If you are following the CakesFW guide, check that
       1. `/arm9bootloader.bin` exists;
       2. `/Cakes/firmware.bin` and `/Cakes/firmkey.bin` exist and are the correct ones for your console; and
