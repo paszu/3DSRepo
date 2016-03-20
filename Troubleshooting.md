@@ -39,9 +39,9 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched on `Checking title 0004013000003202...` then you would select the `00003202` folder)*
 10. Select `content`
 
-*I only have one file ending with a `.tmd` extension:* This was a legitimate downgrade error and you have been saved from a brick; you should restore EmuNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
+Because of a limitation with OTPHelper this COULD be a false positive; Wait for an updated version of OTPHelper to be released that can check these, or copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of them match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da). 
 
-*I have two or more files ending with a `.tmd` extension:* Because of a limitation of OTPHelper we cannot yet check hashes of titles that have ended up with two TMDs (this can be caused by a variety of rare factors). This COULD be a false positive; you can either flash to SysNAND at your own risk, wait for an updated version of OTPHelper to be released that can check these, or copy both of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of them match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da). If either one of them do then it was a false positive.
+If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive. If, in any folder, **none** of the `.tmd` files match, then this was a legitimate downgrade error and you have been saved from a brick; you should restore EmuNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
 
 Check all of the titles that mismatch with this same method.
 
