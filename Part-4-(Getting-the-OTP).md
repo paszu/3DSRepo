@@ -36,13 +36,11 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
 18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW 
     + (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
-11. **MAKE SURE YOU ARE IN EMUNAND 
-    + (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
+11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
 10. Update your **EmuNAND** to the latest version using system settings if it is not already 
     + (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
 12. Reboot into SysNAND
-3. **Make sure your WiFi is on 
-    + (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
+3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` 
     + **(you can use Up and Down / Left and Right to change the name)**
