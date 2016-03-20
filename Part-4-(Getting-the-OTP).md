@@ -40,12 +40,12 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 12. Reboot into SysNAND
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you will not be able to toggle it in 2.1**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Dump Health & Safety" option
+11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND File Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
-13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder **(you can use Up and Down / Left and Right to change the name)**
+13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Inject Health & Safety" option
+16. Press B on Decrypt9, then go to "EmuNAND File Options" and select the "Health & Safety Inject" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 18. Go to the main menu, then press Start to reboot
 19. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
