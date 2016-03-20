@@ -22,8 +22,6 @@ C, K, and T regions may be able to switch to U, E, or J temporarily but that is 
 
 This guide was written by me with the process refined and software developed by the fine folks over at [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey). See the credits page for the full credits, this guide would not exist without them.
 
-**Once you have completed the guide, please answer the [Official Poll](http://strawpoll.me/7130309) to track success rates on latest version (installs done after March 19, 2016 *only*).**
-
 Sha256Sum | Zip File
 :---: | :---:
 <sub>5736ec8d40303b549f11c06b3811817531e17646a91ee2bb0d94afff69cf3a4e</sub> | <sub>2.1.0E(Full).zip</sub>
