@@ -51,6 +51,6 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 17. Open EmuNAND9 **(This can sometimes take a few tries)**
 18. Go to EmuNAND Manager Options, then dump SysNAND to `sysNAND.bin`
 20. Press Select on the main menu to eject your SD card
-21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future
+21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](http://wiki.gbatemp.net/wiki/3DS_Flashcart_FAQ#What_is_the_correct_size_of_the_NAND_dump.3F) page; if it does not you should delete it and make a new one!)**
 22. You can delete `sysNAND.bin` from your SD card after copying it
 23. Reinsert your SD card into your 3DS, then press Start to reboot
