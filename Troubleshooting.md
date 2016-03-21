@@ -39,7 +39,7 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00003202` folder)*
 10. Select `content`
 
-Because of a limitation with OTPHelper this COULD be a false positive; You can either wait for an updated version of OTPHelper to be released that can check these, or copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da). 
+The latest release of OTPHelper rarely shows false positives, but if you want to you can check manually just to be sure. To do this, copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da). 
 
 If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive and you can continue with the guide, ignoring the error. If, in any folder, **none** of the `.tmd` files match, then this was a legitimate downgrade error and you have been saved from a brick; you should restore EmuNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
 
