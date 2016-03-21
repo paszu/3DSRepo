@@ -1,4 +1,6 @@
-If you appreciate this guide and would like to see more like it in the future, I accept donations at through the following:
+I've added this because it was requested several times.
+
+If you appreciate this guide, I accept donations at through the following:
 
 Paypal: devonmaloney@hotmail.com    
 Bitoin: 1BKtYkpHJmYJSsSnRYBBGPRYRMBaNfpHTB
