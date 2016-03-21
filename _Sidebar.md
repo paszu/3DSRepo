@@ -10,6 +10,7 @@
 [Part 5 - arm9loaderhax](https://github.com/Plailect/Guide/wiki/Part-5-(arm9loaderhax))       
 
 [OTP Info](https://github.com/Plailect/Guide/wiki/OTP-Info)    
+[NAND Size](https://github.com/Plailect/Guide/wiki/NAND-Size)    
 [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update)    
 [Hardmod Downgrade](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade)    
 [Donations](https://github.com/Plailect/Guide/wiki/Donations)    
