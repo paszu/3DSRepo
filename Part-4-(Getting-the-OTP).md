@@ -55,7 +55,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 19. Go to the SysNAND options menu on the main menu
 29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
-8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](http://wiki.gbatemp.net/wiki/3DS_Flashcart_FAQ#What_is_the_correct_size_of_the_NAND_dump.3F) page; if they do not, you should delete them and make new ones!)**
+8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
 9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 11. Open the eShop at least once to allow it to initialize databases
