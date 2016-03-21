@@ -74,10 +74,10 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding L+R on boot
 
 ##### Copying EmuNAND data to SysNAND
-1. Go to "EmuNAND File Options" then "Partition Dump..."
+1. Go to "EmuNAND Options" then "Partition Dump..."
 2. "Dump CTRNAND Partition" to `CTRNAND.bin`
 3. Use B to go back to the Main Menu
-4. Go to "SysNAND File Options" then "Partition Inject..."
+4. Go to "SysNAND Options" then "Partition Inject..."
 5. "Inject CTRNAND Partition" from `CTRNAND.bin`
 
 ##### Removing EmuNAND from your SD
@@ -97,17 +97,17 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 15. **If you already had FBI injected into EmuNAND, you can skip this section**
 16. Hold L+R on boot to launch Decrypt9
-12. Go to "SysNAND File Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
+12. Go to "SysNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat`
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "SysNAND File Options" and select the "Inject Health & Safety" option
+16. Press B on Decrypt9, then go to "SysNAND Options" and select the "Inject Health & Safety" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
 
 ##### Finalising setup
 
-15. From the main menu, go to SysNAND File Options, then make a backup of SysNAND to `sysNAND.bin`
+15. From the main menu, go to SysNAND Options, then make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
 17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](http://wiki.gbatemp.net/wiki/3DS_Flashcart_FAQ#What_is_the_correct_size_of_the_NAND_dump.3F) page; if it does not, you should delete it and make a new one!)**
 15. Delete `sysNAND-A9LHAX.bin` from your SD card
