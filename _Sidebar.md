@@ -12,4 +12,5 @@
 [OTP Info](https://github.com/Plailect/Guide/wiki/OTP-Info)    
 [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update)    
 [Hardmod Downgrade](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade)    
+[Donations](https://github.com/Plailect/Guide/wiki/Donations)    
 [Credits](https://github.com/Plailect/Guide/wiki/Credits)    
