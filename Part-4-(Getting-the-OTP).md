@@ -88,7 +88,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper
 33. Select "One Click Setup" and confirm. This can take a while.        
-    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should *(if the error was related to SysNAND, restore SysNAND from `SysNAND_original.bin` then)* [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**
+    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should** *(if the error was related to SysNAND, restore SysNAND from `SysNAND_original.bin` then)* **[follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**
 35. Cross your fingers
 36. Reboot
 37. If you get a black screen, boot with the SD card remove then reinsert when you see the home menu. If this fails, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
