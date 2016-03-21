@@ -35,8 +35,8 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 5. Open GodMode9 **(Be VERY careful with this tool, it can brick you if you delete something important with it)**
 6. Select (on bottom screen) `EMUNAND CTRNAND`
 7. Select `title`
-8. Select the folder which has the same 8 characters as the beginning of the title that mismatched *(for example, if you mismatched on `Checking title 0004013000003202...` then you would select the `00040130` folder)*
-9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched on `Checking title 0004013000003202...` then you would select the `00003202` folder)*
+8. Select the folder which has the same 8 characters as the beginning of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00040130` folder)*
+9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00003202` folder)*
 10. Select `content`
 
 Because of a limitation with OTPHelper this COULD be a false positive; You can either wait for an updated version of OTPHelper to be released that can check these, or copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da). 
