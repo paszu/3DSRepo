@@ -1,2 +1,2 @@
 For support, contact me or ask for help at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).    
-If you appreciate this guide, I accept PayPal donations at devonmaloney@hotmail.com and Bitoin donations at 1BKtYkpHJmYJSsSnRYBBGPRYRMBaNfpHTB
+If you appreciate this guide, I accept [donations](https://github.com/Plailect/Guide/wiki/Donations).
