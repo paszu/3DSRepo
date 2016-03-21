@@ -2,7 +2,7 @@ The final step of this guide is to install arm9loaderhax and setup CakesFW to ru
 
 This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) of arm9loaderhax.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Cakes, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of this Part.**
+**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Cakes, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* and follow all of this Part.**
 
 **If you currently have Updated SysNAND + AuReiNAND and want to switch to Updated SysNAND + Cakes, just follow "Preparatory work" and "Configuring CakesFW".**
 
