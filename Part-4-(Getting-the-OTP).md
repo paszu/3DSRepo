@@ -87,16 +87,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 31. *EmuNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 EmuNAND (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper
-33. **New 3DS Only:** Select the Unbrick FW 2.1 EmuNAND option and follow instructions. This can take a while.
-34. Go to "NAND Validation Options"
-35. Select "Validate EmuNAND Downgrade"     
-    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**(https://github.com/Plailect/Guide/wiki/Troubleshootingts_otphelper_verify_fail)*
-33. Go to "NAND Backup & Restore"
-33. Backup EmuNAND to `emuNAND_unbricked.bin`
-34. Restore SysNAND from `emuNAND_unbricked.bin`
-35. Go back to the Main Menu
-34. Go to "NAND Validation Options"
-35. Select "Validate SysNAND Downgrade"     
+33. Select "One Click Setup" and confirm. This can take a while.        
     + **(If this fails or gives you an error do NOT continue or you may BRICK; you should restore SysNAND from `SysNAND_original.bin` then [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**
 35. Cross your fingers
 36. Reboot
@@ -113,7 +104,6 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 11. Backup `otp.bin` and `otp0x108.bin` to multiple locations (such as online file storage)
 
 ##### Section IV - Restoring the System
-1. Rename `emuNAND_unbricked.bin` on the root of your SD card to `emuNAND_2-1-0.bin` and copy it to a safe folder on your computer so you can downgrade back to 2.1.0 easily if you ever need to. You can delete `emuNAND_2-1-0.bin` and `emuNAND_formatted.bin`from your SD card.
 2. Copy your `sysNAND_original.bin` and `emuNAND_original.bin` backups from Section I to the root of your SD card
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
 3. Go to "NAND Backup & Restore"
