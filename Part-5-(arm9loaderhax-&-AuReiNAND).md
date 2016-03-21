@@ -109,7 +109,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 15. From the main menu, go to SysNAND Options, then make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
-17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](http://wiki.gbatemp.net/wiki/3DS_Flashcart_FAQ#What_is_the_correct_size_of_the_NAND_dump.3F) page; if it does not, you should delete it and make a new one!)**
+17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 15. Delete `sysNAND-A9LHAX.bin` from your SD card
 7. Reinsert your SD card into your 3DS then press Start to reboot
 6. Update your CFW SysNAND to the latest version using system settings
