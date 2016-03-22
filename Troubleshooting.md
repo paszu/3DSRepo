@@ -1,5 +1,7 @@
 If you are unable to boot your 3DS, please look for the section relevant to you, and follow the instructions. Once a solution works for you, you can proceed on with the main guide.
 
+(The section is fairly long, try using Ctrl+F to search for your issue.)
+
 ## <a name="ts_bs_emunand" />Black screen on EmuNAND boot
 
 1. Restore a backup to EmuNAND. *(You should have one of these)*
