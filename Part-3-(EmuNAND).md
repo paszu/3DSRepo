@@ -40,7 +40,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 9. Put your SD card in your computer, then copy all your files back into it
 10. Reinsert your SD card into your 3DS, then press Start to reboot
 11. Get into the Homebrew Launcher through the entrypoint of your choice
-12. Open CakesFW
+12. Open CakesFW **(This can sometimes take a few tries)**
 13. Go to "Select Patches"
 14. Activate the "Enable EmuNAND" and "Disable Signature Checks" patches, then press Start to continue
 15. Select "Boot CFW" to enter EmuNAND
