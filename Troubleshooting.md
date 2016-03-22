@@ -12,8 +12,7 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 
 ####"FIRM0 hash mismatch!"
 
-#####Failed while checking SysNAND (Rarely Happens)
-1. **STOP; DO NOT TOUCH ANYTHING; A REBOOT RIGHT NOW WILL BRICK YOU**
+1. **STOP; DO NOT TOUCH ANYTHING; A REBOOT RIGHT NOW COULD BRICK YOU**
 3. Download the 2.1.0 [firm.bin](https://mega.nz/#!R0NHBBhZ!R8EjGr9aL5iL_OFoGmDpXxtoIk4bLlFxE68ioo4zLEQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVm55N1dhNmsyZjQ/view?usp=sharing))
 2. On your 3DS, press B until you see the main menu
 3. **Carefully** press the **SELECT** button to eject your SD card
@@ -22,33 +21,15 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 6. Reinsert your SD card into your 3DS
 7. Press **B** until you see the main menu
 8. Select "FIRM Dump & Inject..."
-9. Select "SysNAND FIRM0 Inject" and inject `firm.bin`
-10. Press B to return to the "FIRM Dump & Inject" menu
-11. Select "SysNAND FIRM1 Inject" and inject `firm.bin`
-12. Press B until you see the main menu
-13. Select "NAND Validation Options..." then select "Validate SysNAND Downgrade"
-14. This should now succeed; if it does, you can reboot and continue with the guide
-
-#####Failed while checking EmuNAND (More Common)
-3. Download the 2.1.0 [firm.bin](https://mega.nz/#!R0NHBBhZ!R8EjGr9aL5iL_OFoGmDpXxtoIk4bLlFxE68ioo4zLEQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVm55N1dhNmsyZjQ/view?usp=sharing))
-2. On your 3DS, press B until you see the main menu
-3. Press the select button to eject your SD card
-4. Take your SD card out and put it in your computer
-5. Copy `firm.bin` to the root of your SD card
-6. Reinsert your SD card into your 3DS
-7. Press B until you see the main menu
-8. Select "FIRM Dump & Inject..."
-9. Select "EmuNAND FIRM0 Inject" and inject `firm.bin`
-10. Press B to return to the "FIRM Dump & Inject" menu
-11. Select "EmuNAND FIRM1 Inject" and inject `firm.bin`
+9. Select "SysNAND FIRM0 Inject" from `firm.bin`
+11. Select "SysNAND FIRM1 Inject" from `firm.bin`
+9. Select "EmuNAND FIRM0 Inject" from `firm.bin`
+11. Select "EmuNAND FIRM1 Inject" from `firm.bin`
 12. Press B until you see the main menu
 13. Select "NAND Validation Options..." then select "Validate EmuNAND Downgrade"
-14. This should now succeed; if it does, keep following these steps
-15. Press B until you see the main menu
-16. Select "NAND Backup & Restore" then select "Clone EmuNAND to SysNAND"
-17. Press B until you see the main menu
-18. Select "NAND Validation Options..." then select "Validate SysNAND Downgrade"
-19. This should now succeed; if it does, you can reboot and continue with the guide
+14. This should now succeed; if it does not, restore EmuNAND from `emuNAND_formatted.bin` and SysNAND from `sysNAND_original.bin` and retry from Part 4 - Section II - Step 9
+13. Select "NAND Validation Options..." then select "Validate SysNAND Downgrade"
+14. This should now succeed; if it does not, select "NAND Backup & Restore" from the main menu, then select "Clone EmuNAND to SysNAND" then "Validate SysNAND Downgrade" again
 
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
  
