@@ -8,8 +8,6 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 ## <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
 
-Check `otphelper.log` on your SD card to see where it fails, then follow the appropriate part to check if it's a  false positive or not.
-
 ####"FIRM0 hash mismatch!"
 
 1. **STOP; DO NOT TOUCH ANYTHING; A REBOOT RIGHT NOW COULD BRICK YOU**
