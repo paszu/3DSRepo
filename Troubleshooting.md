@@ -41,7 +41,12 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 11. Select "EmuNAND FIRM1 Inject" and inject `firm.bin`
 12. Press B until you see the main menu
 13. Select "NAND Validation Options..." then select "Validate EmuNAND Downgrade"
-14. This should now succeed; if it does, you can continue with the guide
+14. This should now succeed; if it does, keep following these steps
+15. Press B until you see the main menu
+16. Select "NAND Backup & Restore" then select "Clone EmuNAND to SysNAND"
+17. Press B until you see the main menu
+18. Select "NAND Validation Options..." then select "Validate SysNAND Downgrade"
+19. This should now succeed; if it does, you can reboot and continue with the guide
 
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
  
