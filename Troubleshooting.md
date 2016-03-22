@@ -57,8 +57,9 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
 
 1. CakesFW AGB_FIRM patching is not complete and this error is normal. You will need to use a [patched AGB_FIRM CIA](https://gbatemp.net/threads/390313/) for GBA game support.
 
-## <a name="ts_otp_helper" />OTPHelper won't restore / can't find my NAND backup
+## <a name="ts_otp_helper" />OTPHelper/Decrypt9 won't restore / can't find my NAND backup
 
+1. Make sure you do not have any folder named "Decrypt9" on **the root** of your SD card
 1. Try redownloading and recopying the OTPHelper files
 3. Try checking your SD card file system with something like `fsck.vfat <sd partition path>` (on *nix) or `CHKDSK <sd drive letter> /F` (on Windows)
 2. Try backing up your SD card files, then formatting it and copying them back
