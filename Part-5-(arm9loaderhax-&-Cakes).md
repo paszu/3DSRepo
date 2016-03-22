@@ -87,9 +87,15 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 ##### Copying EmuNAND data to SysNAND
 1. Go to "EmuNAND Options" then "Partition Dump..."
 2. "Dump CTRNAND Partition" to `CTRNAND.bin`
+2. "Dump AGBSAVE Paetition" to `AGBSAVE.bin`
+2. "Dump TWLN Partition" to `TWLN.bin`
+2. "Dump TWLP Partition" to `TWLP.bin`
 3. Use B to go back to the Main Menu
 4. Go to "SysNAND Options" then "Partition Inject..."
 5. "Inject CTRNAND Partition" from `CTRNAND.bin`
+5. "Inject AGBSAVE Partition" from `AGBSAVE.bin`
+5. "Inject TWLN Partition" from `TWLN.bin`
+5. "Inject TWLP Partition" from `TWLP.bin`
 
 ##### Removing EmuNAND from your SD
 
