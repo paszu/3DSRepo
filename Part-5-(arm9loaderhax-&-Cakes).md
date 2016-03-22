@@ -85,6 +85,8 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding X on boot
 
 ##### Copying EmuNAND data to SysNAND
+**Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing this**
+
 1. Go to "EmuNAND Options" then "Partition Dump..."
 2. "Dump CTRNAND Partition" to `CTRNAND.bin`
 2. "Dump AGBSAVE Paetition" to `AGBSAVE.bin`
