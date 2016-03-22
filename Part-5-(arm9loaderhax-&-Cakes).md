@@ -117,7 +117,8 @@ You can skip "Copying EmuNAND data to SysNAND" if you do not care about keeping 
 
 ##### Installing FBI into SysNAND
 
-15. **If you already had FBI injected into EmuNAND, you can skip this section**
+If you already had FBI injected into EmuNAND and copied your EmuNAND data to SysNAND, you can skip this section
+
 16. Hold X on boot to launch Decrypt9
 12. Go to "SysNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
