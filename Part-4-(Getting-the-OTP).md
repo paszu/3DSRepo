@@ -65,8 +65,8 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 29 through 34, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
-10. Remove any TWL modifications done to the device or sysUpdater will throw an error 
-    + (if you have no idea what this is, don't worry about it; most users will not need to do this)
+10. Remove any TWL modifications done to the device or sysUpdater will throw an error      
+(if you have no idea what this is, don't worry about it; most users will not need to do this)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `sysUpdater.cia` and press A to install
@@ -87,8 +87,8 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 31. *EmuNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 EmuNAND (a black screen when you try to load EmuNAND is normal)*
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper
-33. Select "One Click Setup" and confirm. This can take a while.        
-    + **(If this fails or gives you an error do NOT continue or you may BRICK; you should** *(if the error was related to SysNAND, restore SysNAND from `SysNAND_original.bin` then)* **[follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**
+33. Select "One Click Setup" and confirm. This can take a while.         
+**(If this fails or gives you an error do NOT continue or you may BRICK; you should** *(if the error was related to SysNAND, restore SysNAND from `SysNAND_original.bin` then)* **[follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**
 35. Cross your fingers
 36. Reboot
 37. If you get a black screen, boot with the SD card remove then reinsert when you see the home menu. If this fails, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
