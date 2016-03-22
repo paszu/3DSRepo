@@ -24,10 +24,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 9. Select "EmuNAND FIRM0 Inject" from `firm.bin`
 11. Select "EmuNAND FIRM1 Inject" from `firm.bin`
 12. Press B until you see the main menu
-13. Select "NAND Validation Options..." then select "Validate EmuNAND Downgrade"
-14. This should now succeed; if it does not, restore EmuNAND from `emuNAND_formatted.bin` and SysNAND from `sysNAND_original.bin` and retry from Part 4 - Section II - Step 9
-13. Select "NAND Validation Options..." then select "Validate SysNAND Downgrade"
-14. This should now succeed; if it does not, select "NAND Backup & Restore" from the main menu, then select "Clone EmuNAND to SysNAND" then "Validate SysNAND Downgrade" again
+13. Perform "One Click Setup"
 
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
  
