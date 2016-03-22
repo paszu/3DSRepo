@@ -61,7 +61,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch MiniPasta, which will patch your SysNAND and reboot you into the home menu
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice **(You CANNOT use menuhax for this)**
-13. Launch the arm9loaderhax installer
+13. Launch SafeA9LHInstaller
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
