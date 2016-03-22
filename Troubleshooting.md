@@ -4,32 +4,49 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 1. Restore a backup to EmuNAND. *(You should have one of these)*
 
-## <a name="ts_bs_ctrnand" />Black screen on SysNAND boot after injecting CTRNAND
-
-I screwed up in an old version of the guide and had users backup before updating rather than the other way around, so your CFW expects a 10.2+ NAND and gets a 9.2 one instead.
-
-#####CakesFW
-
-1. Download [firmware_patched.bin](https://up1.ca/#LQm-QJ3j5htr2vTG6Z2TnA)
-2. Delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card if it exists
-3. Copy the `firmware_patched.bin` you downloaded to the `/cakes/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
-
-#####AuReiNAND
-
-1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
-2. Delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card if it exists
-3. Copy the `patched_firmware_sys.bin` you downloaded to the `/aurei/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card to have it generate a new one
-
 ## <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
 
 Check `otphelper.log` on your SD card to see where it fails, then follow the appropriate part to check if it's a  false positive or not.
 
-#####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
+####"FIRM0 hash mismatch!"
+
+#####Failed while checking SysNAND
+1. **STOP; DO NOT TOUCH ANYTHING; A REBOOT RIGHT NOW WILL BRICK YOU**
+3. Download the 2.1.0 [firm.bin](https://mega.nz/#!R0NHBBhZ!R8EjGr9aL5iL_OFoGmDpXxtoIk4bLlFxE68ioo4zLEQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVm55N1dhNmsyZjQ/view?usp=sharing))
+2. On your 3DS, press B until you see the main menu
+3. **Carefully** press the **SELECT** button to eject your SD card
+4. **WITHOUT TURNING OFF YOUR 3DS,** take your SD card out and put it in your computer
+5. Copy `firm.bin` to the root of your SD card
+6. Reinsert your SD card into your 3DS
+7. Press **B** until you see the main menu
+8. Select "FIRM Dump & Inject..."
+9. Select "SysNAND FIRM0 Inject" and inject `firm.bin`
+10. Press B to return to the "FIRM Dump & Inject" menu
+11. Select "SysNAND FIRM1 Inject" and inject `firm.bin`
+12. Press B until you see the main menu
+13. Select "NAND Validation Options..." then select "Validate SysNAND Downgrade"
+14. This should now succeed; if it does, you can reboot and continue with the guide
+
+#####Failed while checking EmuNAND
+3. Download the 2.1.0 [firm.bin](https://mega.nz/#!R0NHBBhZ!R8EjGr9aL5iL_OFoGmDpXxtoIk4bLlFxE68ioo4zLEQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVm55N1dhNmsyZjQ/view?usp=sharing))
+2. On your 3DS, press B until you see the main menu
+3. Press the select button to eject your SD card
+4. Take your SD card out and put it in your computer
+5. Copy `firm.bin` to the root of your SD card
+6. Reinsert your SD card into your 3DS
+7. Press B until you see the main menu
+8. Select "FIRM Dump & Inject..."
+9. Select "EmuNAND FIRM0 Inject" and inject `firm.bin`
+10. Press B to return to the "FIRM Dump & Inject" menu
+11. Select "EmuNAND FIRM1 Inject" and inject `firm.bin`
+12. Press B until you see the main menu
+13. Select "NAND Validation Options..." then select "Validate EmuNAND Downgrade"
+14. This should now succeed; if it does, you can continue with the guide
+
+####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
  
 1. Check `otphelper.log` to see which titles the TMD hash mismatches on
-2. Download the latest build of [GodMode9](https://mega.nz/#!9oUSBRKS!OPabQRkS1az88jH8FIBkrb_N_hd4IWaguCENabot1r4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDUUlRbFNZbDZjR2M/view?usp=sharing))
+2. Download the latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
 3. Copy the `GodMode9` folder from the `GodMode9` zip to the `/3ds/` folder on the root of your SD card
 4. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 5. Open GodMode9 **(Be VERY careful with this tool, it can brick you if you delete something important with it)**
@@ -47,11 +64,29 @@ If, in any folder, **none** of the `.tmd` files match, then this was a legitimat
 
 Check all of the titles that mismatch with this same method.
 
-#####"Validation Stage 1: SUCCESS" and "Validation Stage 2: FAILED"
+####"Validation Stage 1: SUCCESS" and "Validation Stage 2: FAILED"
 
 This will happen due to having a fragmented NAND (caused by various things such as rxTools' shitty FBI injection or some Gateway software). OTPHelper cannot check the files of a fragmented NAND, but if you got "Validation Stage 1: SUCCESS" then "Validation Stage 2: FAILED" will rarely be an anything but a false positive.
 
 You can either flash to SysNAND at your own risk, or attempt to defragment your NAND by using Decrypt9 to dump your CTRNAND partition, then mounting it on your computer using something like [OSFMount](http://www.osforensics.com/tools/mount-disk-images.html) and defragging that mounted CTRNAND using something like [Defraggler](https://www.piriform.com/defraggler/download/standard).
+
+## <a name="ts_bs_ctrnand" />Black screen on SysNAND boot after injecting CTRNAND
+
+I screwed up in an old version of the guide and had users backup before updating rather than the other way around, so your CFW expects a 10.2+ NAND and gets a 9.2 one instead.
+
+#####CakesFW
+
+1. Download [firmware_patched.bin](https://up1.ca/#LQm-QJ3j5htr2vTG6Z2TnA)
+2. Delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card if it exists
+3. Copy the `firmware_patched.bin` you downloaded to the `/cakes/` folder on the root of your SD card
+4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
+
+#####AuReiNAND
+
+1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
+2. Delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card if it exists
+3. Copy the `patched_firmware_sys.bin` you downloaded to the `/aurei/` folder on the root of your SD card
+4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card to have it generate a new one
 
 ## <a name="ts_agb_firm" />Loading AGB_FIRM...
 
