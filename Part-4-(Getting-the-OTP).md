@@ -95,6 +95,8 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
 
 ##### Section III - Getting the OTP
 
+*(On 2DS at 2.1.0, the screen being stretched is normal)*
+
 1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3ds
 2. OTPHelper will launch, then select the "Dump otp.bin (0x108)" option
 8. Go back to the main menu, then Select the "Dump otp.bin (0x100)" option
