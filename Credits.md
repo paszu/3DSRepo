@@ -2,7 +2,7 @@
 + AHP_Person for the original code.bin
 + Normmatt for the original load.bin
 + yellows8 for answering my questions
-+ b1l1s (he's back baby) for being fucking amazing
++ b1l1s for being fucking amazing
 + mid-kid for letting us use his channel
 + Gelex for being fucking amazing
 + dank101 for testing
