@@ -92,7 +92,7 @@ You can skip "Copying EmuNAND data to SysNAND" if you do not care about keeping 
 
 1. Go to "EmuNAND Options" then "Partition Dump..."
 2. "Dump CTRNAND Partition" to `CTRNAND.bin`
-2. "Dump AGBSAVE Paetition" to `AGBSAVE.bin`
+2. "Dump AGBSAVE Partition" to `AGBSAVE.bin`
 2. "Dump TWLN Partition" to `TWLN.bin`
 2. "Dump TWLP Partition" to `TWLP.bin`
 3. Use B to go back to the Main Menu
