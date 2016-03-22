@@ -12,7 +12,7 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 
 ####"FIRM0 hash mismatch!"
 
-#####Failed while checking SysNAND
+#####Failed while checking SysNAND (Rarely Happens)
 1. **STOP; DO NOT TOUCH ANYTHING; A REBOOT RIGHT NOW WILL BRICK YOU**
 3. Download the 2.1.0 [firm.bin](https://mega.nz/#!R0NHBBhZ!R8EjGr9aL5iL_OFoGmDpXxtoIk4bLlFxE68ioo4zLEQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVm55N1dhNmsyZjQ/view?usp=sharing))
 2. On your 3DS, press B until you see the main menu
@@ -29,7 +29,7 @@ Check `otphelper.log` on your SD card to see where it fails, then follow the app
 13. Select "NAND Validation Options..." then select "Validate SysNAND Downgrade"
 14. This should now succeed; if it does, you can reboot and continue with the guide
 
-#####Failed while checking EmuNAND
+#####Failed while checking EmuNAND (More Common)
 3. Download the 2.1.0 [firm.bin](https://mega.nz/#!R0NHBBhZ!R8EjGr9aL5iL_OFoGmDpXxtoIk4bLlFxE68ioo4zLEQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVm55N1dhNmsyZjQ/view?usp=sharing))
 2. On your 3DS, press B until you see the main menu
 3. Press the select button to eject your SD card
