@@ -19,4 +19,6 @@
 + Mrrraou for helping with support
 + Raugo for autofirm
 + felipejfc for the a9lhax web compiler
++ AuroraWright for SafeA9LHInstaller
++ d0k3 for OTPHelper, Decrypt9WIP, and EmuNAND9
 + all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome
