@@ -8,7 +8,7 @@
   **A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
 
 + <a name="faq_piracy" />**Q:** *Can I pirate games with this?*    
-  **A:** Unfortunately, yes.
+  **A:** Yes.
 
 + <a name="faq_piracy_online" />**Q:** *Can I play online with pirated games without getting banned?*    
   **A:** If you installed the CIA file, you won't get banned. If you are using a flashcart, you might be.
