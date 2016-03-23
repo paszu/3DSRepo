@@ -16,7 +16,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 * A working emuNAND and CFW (you should have gotten this with Part 3)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
-* The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
+* The latest release of [PlaiSysUpdater](https://github.com/Plailect/PlaiSysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
@@ -32,7 +32,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 1. **Right now is a good time to use a [save manager](https://github.com/meladroit/svdt/releases) to backup any saves you care about (do steps 10 - 18 then install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases) CIA)**
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
-2. Copy `sysUpdater.cia` from the sysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
+2. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
 18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into EmuNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 11. **MAKE SURE YOU ARE IN EMUNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
@@ -65,11 +65,11 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 7. Press Y to format **EmuNAND**
 8. Reboot back into EmuNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 29 through 34, this is not optional (in other words, you must TinyFormat your EmuNAND twice - if you do not, your device may brick when you downgrade)**
-10. Remove any TWL modifications done to the device or sysUpdater will throw an error      
+10. Remove any TWL modifications done to the device or PlaiSysUpdater will throw an error      
 (if you have no idea what this is, don't worry about it; most users will not need to do this)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI)
-20. Navigate to `sysUpdater.cia` and press A to install
+20. Navigate to `PlaiSysUpdater.cia` and press A to install
 
 ##### Section II - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
@@ -80,8 +80,8 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 24. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
 25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 27. Reinsert your SD card into your 3DS then press Start and reboot into emuNAND
-28. Open sysUpdater **on emuNAND**
-29. Press Y to downgrade emuNAND to 2.1.0
+28. Open PlaiSysUpdater **on emuNAND**
+29. Press X to downgrade emuNAND to 2.1.0
 30. If you encounter an error at any point during the downgrade, restore your emuNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on EmuNAND, restoring from backup whenever it fails until it goes through successfully. *This downgrade process can take many many tries in some situations, just keep trying until it works*    
 *If, after many tries, you still repeatedly fail, you can try following the instructions [here](https://github.com/Plailect/Guide/wiki/2.1.0-Downgrade-(Repeated-Failure))*
 31. **EmuNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 EmuNAND (a black screen when you try to load EmuNAND is normal)**
