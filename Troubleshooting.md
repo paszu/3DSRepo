@@ -105,7 +105,7 @@ I screwed up in an old version of the guide and had users backup before updating
 1. Ensure you have a working payload.
    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
    2. If you are following the AuReiNand guide, check that
-      1. `/aurei/updatedsysnand` and `/aurei/firmware.bin` exist; and
+      1. `/aurei/firmware.bin` exist; and
       2. `/aurei/firmware.bin` is the correct one for your console.
    3. If you are following the CakesFW guide, check that
       1. `/arm9bootloader.bin` exists;
