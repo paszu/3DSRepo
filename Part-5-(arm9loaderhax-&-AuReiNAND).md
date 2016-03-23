@@ -14,7 +14,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### What you need
 
-* [AuReiNAND_options.zip](https://mega.nz/#!ApMwEDaS!5QORKPl5ewnr4Ffrsm4J69n1sOC0ijEGsYEKBqBI1TI) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDeU9LRXVhNjgyU2c/view?usp=sharing))
 * [data_input.zip](https://mega.nz/#!Qkth0BoI!pDgWMamN5cu6HZ91j238MNh7q5ROQKq-a6NLC7Q0dhU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZUVfWkJkYlM1UEU/view?usp=sharing))
 * [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
 * [slot0x05KeyY.bin](https://mega.nz/#!E9VDBApA!QJandFwHWGSGM6SRRwlUodL63ynKrYY9rJp98YXy6Ss) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDekc3YVVjN3dUTWs/view?usp=sharing))
@@ -52,7 +51,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 5. In the `/aurei/payloads` folder, rename `EmuNAND9.bin` to `y.bin`
 7. Copy `Uncart.bin` from the Uncart zip to the `/aurei/payloads/` folder on your SD card
 5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `b.bin`
-5. Copy `installeda9lh`, `updatedsysnand`, and `usepatchedfw` from `AuReiNAND_options` folder in the `AuReiNAND_options` zip to the `/aurei/` folder on your SD card
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNAND NTR Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
@@ -67,7 +65,12 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-16. Your 3DS should reboot into CFW SysNAND. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
+16. Your 3DS should reboot into the AuReiNAND menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
+
+##### Configuring AuReiNAND
+
+1. Use the A button and the dpad to turn on "Updated SysNAND mode", "Use pre-patched FIRMs", and "Force A9LH detection"
+2. Press Start to save and reboot
 
 ##### Enter Decrypt9
 
