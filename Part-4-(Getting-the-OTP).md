@@ -1,12 +1,12 @@
 **If you somehow get yourself stuck on 2.1.0, read all information on [this](https://github.com/Plailect/Guide/wiki/3DS-Stuck-(2.1.0-Without-Functional-Browser)) page before attempting anything. It could save you from a brick!**
 
-The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: https://3dbrew.org/wiki/OTP_Registers
+The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how.
 
 The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like CakesFW), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
 
 Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade emuNAND (to ensure we don't partial downgrade) to 2.1, then flash emuNAND to sysNAND to get the OTP.
 
-More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info).
+More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](https://3dbrew.org/wiki/OTP_Registers).
 
 **Your EmuNAND MUST be the same region as your SysNAND or you will BRICK. If you have changed your EmuNAND region, you MUST create a NEW EmuNAND or you will BRICK.**
 
