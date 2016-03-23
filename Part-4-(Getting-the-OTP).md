@@ -98,12 +98,11 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 *(On 2DS at 2.1.0, the screen being stretched is normal)*
 
 1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3ds
-2. OTPHelper will launch, then select the "Dump otp.bin (0x108)" option
-8. Go back to the main menu, then Select the "Dump otp.bin (0x100)" option
+2. OTPHelper will launch, then select the "Dump otp.bin (0x100)" option
 3. Press Select on the main menu to eject your SD card
-4. Put your SD card in your computer, then copy over `otp0x108.bin` and `otp.bin` to a safe folder on your computer.		
-10. Ensure that `otp.bin` is 256 bytes and `otp0x108.bin` is 264 bytes
-11. Backup `otp.bin` and `otp0x108.bin` to multiple locations (such as online file storage)
+4. Put your SD card in your computer, then copy over `otp.bin` to a safe folder on your computer.		
+10. Ensure that `otp.bin` is 256 bytes
+11. Backup `otp.bin` to multiple locations (such as online file storage)
 
 ##### Section IV - Restoring the System
 2. Copy your `sysNAND_original.bin` and `emuNAND_original.bin` backups from Section I to the root of your SD card
