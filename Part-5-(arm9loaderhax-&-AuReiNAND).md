@@ -38,7 +38,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 2. Delete the `Decrypt9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
 3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
-4. **Copy your console specific `OTP.bin` to the `/a9lh/` folder on the root of your SD card**
+4. **Copy your console specific `OTP.bin` (the one you got in Part 4) to the `/a9lh/` folder on the root of your SD card**
 1. Copy and merge the `3ds` folder from the SafeA9LHInstaller zip to the root of your SD card
 2. Copy `SafeA9LHInstaller.dat` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
