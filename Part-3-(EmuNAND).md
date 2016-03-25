@@ -44,7 +44,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 12. Open CakesFW **(This can sometimes take a few tries)**
 13. Go to "Select Patches"
 14. Activate the "Enable EmuNAND" and "Disable Signature Checks" patches, then press Start to continue
-15. Select "Boot CFW" to enter EmuNAND
+15. Select "Boot CFW" to enter EmuNAND (you must launch CakesFW from the Homebrew Launcher every time you want to boot EmuNAND)
 13. If you boot into the home menu, you have successfully launched EmuNAND
 16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher from SysNAND)
 17. Open TinyFormat
