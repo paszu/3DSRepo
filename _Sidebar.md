@@ -6,6 +6,7 @@
 [OTP Info](https://github.com/Plailect/Guide/wiki/OTP-Info)    
 [NAND Size](https://github.com/Plailect/Guide/wiki/NAND-Size)    
 [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update)    
+[Region Changing](https://github.com/Plailect/Guide/wiki/Region-Changing)    
 
 [Part 1 - Homebrew](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew))    
 [Part 2 - Downgrading](https://github.com/Plailect/Guide/wiki/Part-2-(Downgrading))    
