@@ -101,7 +101,7 @@ You can skip "Copying EmuNAND data to SysNAND" if you do not care about keeping 
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 0. Reinsert your SD card into your 3DS.
-2. Hold L+R+Y on boot to launch EmuNAND9
+2. Hold L+Y on boot to launch EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
 5. Select the "Format SD Without EmuNAND" option
 6. Press Select on the main menu to eject your SD card
@@ -138,8 +138,8 @@ If everything has gone according to plan, arm9loaderhax will be installed to you
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
 You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.    
-You can now hold L+R+Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
-You can now hold L+R+B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      
+You can now hold L+Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
+You can now hold L+B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      
 You can remove any extra files from the root of the SD card that are not in the image.    
 
 ![SD Card](http://i.imgur.com/EfVV0pM.png)
