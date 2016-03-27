@@ -8,6 +8,7 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 
 * [SecureInfo_A.zip](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDMlNVa3VJT2N1UFk/view?usp=sharing))
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
+* The latest release of [downgrade_check](https://github.com/svanheulen/downgrade_check/releases)
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:
  +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
  +    [New 3DS 9.2.0 - JAP](https://mega.nz/#!VxcF3TIK!Bm5LgFxo5V4Nepe9ZlWnx7bichE1V7p7pR_HqwimU5M
@@ -23,6 +24,7 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 
 #### Instructions
 
+1. Copy and merge the `3ds` folder from the downgrade_check zip to the root of your SD card
 1. Copy `sysUpdater.cia` from the sysUpdater zip to the root of your SD card
 2. Copy `SecureInfo_A` from the folder of the region you want to switch to from `SecureInfo_A.zip` to the root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
@@ -43,4 +45,7 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 copy over `SecureInfo_A-BACKUP` to a safe folder on your computer in case you need it in the future
 9. Delete `SecureInfo_A-BACKUP` from the root of your SD card
 10. Reinsert your SD card into your 3DS, then press Start to reboot
+12. Get into the homebrew launcher and launch Downgrade Check
+13. Press A to check titles
+14. Any title that does not match the expected version can be removed with FBI as it is leftover from the old region (this is optional)
 11. Update your region changed CFW SysNAND to the latest version
