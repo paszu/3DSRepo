@@ -2,7 +2,8 @@
 
 **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
 
-This is a guide designed to help a user take a completely unmodified 3DS from full stock firmware to arm9loaderhax powered custom firmware (which allows almost full control of the device for things such as installing software to the home menu).
+This guide is designed to help a user take a completely unmodified 3DS from full stock 
+firmware to arm9loaderhax powered custom firmware (which allows almost full control of the device for things such as installing software to the home menu).
 
 **There has been some confusion among users about what devices they own and their names. [This](http://i.imgur.com/ZpSZarzl.jpg) is a 2DS. [This](http://i.imgur.com/uFKhKTVl.jpg) and [this](http://i.imgur.com/Ifvo5rFl.jpg) are Old 3DSs. [This](http://i.imgur.com/bXA6a3Il.jpg) and [this](http://i.imgur.com/UB1210Al.jpg) are New 3DSs. Note the button placement and features of each device.**
 
