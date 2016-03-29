@@ -1,5 +1,3 @@
-Currently, AuReiNAND supports Region Free patches, which enable users to install games from any region without any extra modification or steps.
-
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
   **A:** Normally the answer is no, but at the time of writing the latest version (10.7.0) is hackable as long as you have a compatible game.
 
@@ -24,6 +22,9 @@ Currently, AuReiNAND supports Region Free patches, which enable users to install
 
 + <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
   **A:** Yes! Custom Firmware not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+
++ <a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
+  **A:** AuReiNAND supports Region Free patches, which enable users to install games from any region without any extra modification or steps.
 
 + <a name="faq_arn2cakes" />**Q:** *How do I switch from the old guide to Updated SysNAND + Cakes?*    
   **A:** Just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of Part 5.
