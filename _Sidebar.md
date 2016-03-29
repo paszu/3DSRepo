@@ -3,8 +3,10 @@
 [Troubleshooting](https://github.com/Plailect/Guide/wiki/Troubleshooting)    
 **[Get Started](https://github.com/Plailect/Guide/wiki/Get-Started)**
 
+
 [OTP Info](https://github.com/Plailect/Guide/wiki/OTP-Info)    
 [NAND Size](https://github.com/Plailect/Guide/wiki/NAND-Size)    
+[Device Info](https://github.com/Plailect/Guide/wiki/Device-Info)    
 [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update)    
 [Region Changing](https://github.com/Plailect/Guide/wiki/Region-Changing)    
 
