@@ -69,7 +69,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 ##### Configuring AuReiNAND
 
-1. Use the A button and the dpad to turn on "Updated SysNAND mode", "Use pre-patched FIRMs", and "Force A9LH detection"
+1. Use the A button and the dpad to turn on "Updated SysNAND mode", "Use pre-patched FIRMs", "Force A9LH detection" and "Show current NAND in System Settings"
 2. Press Start to save and reboot
 
 ##### Enter Decrypt9
