@@ -1,5 +1,7 @@
 This page is to help new users differentiate between the different 3DS devices.
 
+The colors may vary, but note the button placement and features of each device carefully.
+
 ##New 3DS
 
 ![New 3DS](http://i.imgur.com/bXA6a3Im.jpg)
