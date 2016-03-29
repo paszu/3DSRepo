@@ -4,6 +4,10 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 
 **You SHOULD have confirmed functional NAND backups of your arm9loaderhax 3DS (such as `sysNAND-A9LHAX.bin`) in case something goes wrong.**
 
+Region changing does not support the eShop through this method, and it will be updated when I am aware of one that does.
+
+Region changing is almost completely unnecessary since AuReiNAND now supports Region Free game installs.
+
 #### What you need
 
 * [SecureInfo_A.zip](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDMlNVa3VJT2N1UFk/view?usp=sharing))
