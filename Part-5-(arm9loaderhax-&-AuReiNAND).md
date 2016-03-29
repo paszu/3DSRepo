@@ -80,8 +80,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing this
 
-You can skip "Copying EmuNAND data to SysNAND" if you do not care about keeping your EmuNAND data
-
 1. Go to "EmuNAND Options" then "Partition Dump..."
 2. "Dump CTRNAND Partition" to `CTRNAND.bin`
 2. "Dump AGBSAVE Partition" to `AGBSAVE.bin`
