@@ -51,7 +51,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 15. Check the system settings, you should be on 9.2.0
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
 17. Open EmuNAND9 **(This can sometimes take a few tries)**
-18. Go to EmuNAND Manager Options, then dump SysNAND to `sysNAND.bin`
+18. Go to EmuNAND Manager Options, then backup SysNAND to `sysNAND.bin`
 20. Press Select on the main menu to eject your SD card
 21. Put your SD card in your computer, then copy `sysNAND.bin` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 22. You can delete `sysNAND.bin` from your SD card after copying it
