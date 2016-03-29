@@ -15,7 +15,7 @@ If you are below version 9.0.0, you can find instructions for updating to 9.2.0-
 
 #### Instructions
 
-1. Copy the contents of `starter.zip` to the root of your SD card
+1. Copy the contents of the `starter` folder in `starter.zip` to the root of your SD card
 2. Open the theme menu, change your theme to any other theme, then switch back. This will initialize the theme data and is required
 3. Launch the Settings application
 4. Change the date to `January 1, 2000`
