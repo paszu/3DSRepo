@@ -1,8 +1,13 @@
+Currently, AuReiNAND supports Region Free patches, which enable users to install games from any region without any extra modification or steps.
+
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
   **A:** Normally the answer is no, but at the time of writing the latest version (10.7.0) is hackable as long as you have a compatible game.
 
 + <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
-  **A:** No. Arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware. This guide can be completely done with free software and **(if you are on 10.6.0 or 10.7.0)** a compatible game such as **([Ocarina of Time 3D](http://www.nintendo.com/games/detail/the-legend-of-zelda-ocarina-of-time-3d-3ds) + either a [PowerSaves Pro](http://www.amazon.com/dp/B00IVJ1M7M/) or an already haxed 3DS)** OR **([Cubic Ninja](http://www.amazon.com/dp/B004SG211I) (works without any extras))**
+  **A:** No. Arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
+
++ <a name="faq_need" />**Q:** *What do I need to do this guide?*    
+  **A:** This guide can be completely done with free software and **(if you are on 10.6.0 or 10.7.0)** a compatible game such as **([Ocarina of Time 3D](http://www.nintendo.com/games/detail/the-legend-of-zelda-ocarina-of-time-3d-3ds) + either a [PowerSaves Pro](http://www.amazon.com/dp/B00IVJ1M7M/) or an already haxed 3DS)** OR **([Cubic Ninja](http://www.amazon.com/dp/B004SG211I) (works without any extras))**
 
 + <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
   **A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
