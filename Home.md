@@ -5,7 +5,7 @@
 This guide is designed to help a user take a completely unmodified 3DS from full stock 
 firmware to arm9loaderhax powered custom firmware (which allows almost full control of the device for things such as installing software to the home menu).
 
-**There has been some confusion among users about what devices they own and their names. See [this](https://github.com/Plailect/Guide/wiki/Device-Info) page for images of each kind of 3DS.
+**There has been some confusion among users about what devices they own and their names. See [this](https://github.com/Plailect/Guide/wiki/Device-Info) page for images of each kind of 3DS.**
 
 This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA regions on firmware 10.7.0 or below.
 
