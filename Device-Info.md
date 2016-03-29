@@ -1,3 +1,5 @@
+This page is to help new users differentiate between the different 3DS devices.
+
 ##New 3DS
 
 ![New 3DS](http://i.imgur.com/bXA6a3Im.jpg)
