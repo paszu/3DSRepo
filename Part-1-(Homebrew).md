@@ -8,6 +8,8 @@ If you are between versions 10.6.0 and 10.7.0, you can find instructions for usi
 
 If you are below version 9.0.0, you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
 
+If you are using a game for hacks, you will need to enter homebrew launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.
+
 #### What you need
 
 + The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
