@@ -1,6 +1,9 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
   **A:** Normally the answer is no, but at the time of writing the latest version (10.7.0) is hackable as long as you have a compatible game.
 
++ <a name="faq_updatecfw" />**Q:** *How do I update CakesFW / AuReiNAND?*    
+  **A:** Usually you just have to copy the latest version to your SD card and overwrite the old version, although the release notes for each may contain additional instructions.
+
 + <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
   **A:** No. Arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
 
