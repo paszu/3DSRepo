@@ -5,6 +5,7 @@
 
 
 [OTP Info](https://github.com/Plailect/Guide/wiki/OTP-Info)    
+[NAND Size](https://github.com/Plailect/Guide/wiki/NAND-Size)    
 [Device Info](https://github.com/Plailect/Guide/wiki/Device-Info)    
 
 
