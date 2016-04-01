@@ -51,13 +51,13 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 19. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 20. Open OTPHelper
 21. Go to "NAND Backup & Restore"
-19. Backup RedNAND to `RedNAND_original.bin` **(you can use Up and Down / Left and Right to change the name)**
+19. Backup EmuNAND to `RedNAND_original.bin` **(you can use Up and Down / Left and Right to change the name)**
 19. Go to the SysNAND options menu on the main menu
 29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `RedNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
 9. Delete `RedNAND_original.bin` and `sysNAND_original.bin` from your SD card
-18. Reinsert your SD card into your 3DS, press start and right for reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
+18. Reinsert your SD card into your 3DS, press start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI) on RedNAND
 20. Navigate to `TinyFormat.cia` and press A to install
@@ -73,7 +73,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 ##### Section II - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-27. Open OTPHelper, then go to "Nand Backup and Restore", then select the "RedNAND Backup" option
+27. Open OTPHelper, then go to "Nand Backup and Restore", then select the "EmuNAND Backup" option
 28. Backup your RedNAND to `RedNAND_formatted.bin`
 29. Press Select on the main menu to eject your SD card
 23. Put your SD card in your computer, then copy over `RedNAND_formatted.bin` to a safe folder on your computer
@@ -105,10 +105,9 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 11. Backup `otp.bin` to multiple locations (such as online file storage)
 
 ##### Section IV - Restoring the System
-2. Copy your `sysNAND_original.bin` and `RedNAND_original.bin` backups from Section I to the root of your SD card
+2. Copy your `sysNAND_original.bin` backup from Section I to the root of your SD card
 2. Reinsert your SD card into your 3DS then press B to return to the main menu
 3. Go to "NAND Backup & Restore"
 4. Restore SysNAND from `sysNAND_original.bin`
-5. Restore EmuNAND from `RedNAND_original.bin`
 5. Cross your fingers
 6. Reboot!

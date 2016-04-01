@@ -54,6 +54,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNAND NTR Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
+2. Copy your `redNAND_original.bin` backups from Section I to the root of your SD card
 
 ##### Installing arm9loaderhax
 
@@ -78,30 +79,21 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 ##### Copying RedNAND data to SysNAND
 
-Make sure you have restored RedNAND from `RedNAND_original.bin` before doing this
-
-1. Go to "EmuNAND Options" then "Partition Dump..."
-2. "Dump CTRNAND Partition" to `CTRNAND.bin`
-2. "Dump AGBSAVE Partition" to `AGBSAVE.bin`
-2. "Dump TWLN Partition" to `TWLN.bin`
-2. "Dump TWLP Partition" to `TWLP.bin`
-3. Use B to go back to the Main Menu
-4. Go to "SysNAND Options" then "Partition Inject..."
-5. "Inject CTRNAND Partition" from `CTRNAND.bin`
-5. "Inject AGBSAVE Partition" from `AGBSAVE.bin`
-5. "Inject TWLN Partition" from `TWLN.bin`
-5. "Inject TWLP Partition" from `TWLP.bin`
+1. Go to "SysNAND Options"
+1. Go to "SysNAND Backup/Restore..."
+2. Select "NAND Restore **(keep a9lh)**"
+3. Confirm and restore from `redNAND_original.bin`
 
 ##### Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
-4. Delete `AGBSAVE.bin`, `CTRNAND.bin`, `TWLN.bin`, and `TWLP.bin` from the root of your SD card
+4. Delete `redNAND_original.bin` from the root of your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 0. Reinsert your SD card into your 3DS.
 2. Hold L+Y on boot to launch EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
-5. Select the "Format SD Without RedNAND" option
+5. Select the "Format SD Without EmuNAND" option
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
