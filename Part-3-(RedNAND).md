@@ -1,14 +1,16 @@
-This part of the guide will use two terms you must be familiar with in order to understand what's going on: SysNAND and EmuNAND. The term SysNAND refers to a physical chip inside your 3DS which contains all system software, the OS, the bootloader, and so on (games, themes, and save files for installed games are stored and encrypted on the SD card). Doing something sketchy to your SysNAND, even if it's just removing a system title, can result in a bricked 3DS (it becomes as useful as a brick).
+This part of the guide will use two terms you must be familiar with in order to understand what's going on: SysNAND and RedNAND (named for **red**irected NAND). The term SysNAND refers to a physical chip inside your 3DS which contains all system software, the OS, the bootloader, and so on (games, themes, and save files for installed games are stored and encrypted on the SD card). Doing something sketchy to your SysNAND, even if it's just removing a system title, can result in a bricked 3DS (it becomes as useful as a brick).
 
 Because of this, we keep the 9.2.0 SysNAND as it is, but we copy it to a partition on your SD card then redirect to it when any Custom Firmware (CFW) is launched. Using this method, you can unlink theses two NANDs and have a fully exploitable 9.2.0 system that can launch a secondary OS at the latest version which is then patched to allow exploits to work.
 
-If your SysNAND is ever broken, you have a bricked system, but if your EmuNAND is broken, you will only have bricked the EmuNAND which is easy to fix. A SysNAND brick can only be recovered by soldering internal components and writing an existing SysNAND backup from your computer to the internal memory (or by using arm9loaderhax), but EmuNAND bricks can be recovered just by using a homebrew application such as EmuNAND9 to restore your EmuNAND from backup.
+If your SysNAND is ever broken, you have a bricked system, but if your RedNAND is broken, you will only have bricked the RedNAND which is easy to fix. A SysNAND brick can only be recovered by soldering internal components and writing an existing SysNAND backup from your computer to the internal memory (or by using arm9loaderhax), but RedNAND bricks can be recovered just by using a homebrew application such as EmuNAND9 to restore your RedNAND from backup.
 
-EmuNAND, since it is completely separate from your SysNAND, can be updated to the latest version, allowing you to play all games on an exploited system.
+RedNAND, since it is completely separate from your SysNAND, can be updated to the latest version, allowing you to play all games on an exploited system.
 
-Unfortunately, EmuNAND has its own set of [drawbacks](https://www.reddit.com/r/3dshacks/comments/49qj9w/arm9loaderhax_if_you_dont_like_sysnand_permahax/d0ud80d), which is why we only take advantage of it for the purpose of safely getting our OTP before setting up arm9loaderhax and CFW SysNAND, which is far superior.
+Unfortunately, RedNAND has its own set of [drawbacks](https://www.reddit.com/r/3dshacks/comments/49qj9w/arm9loaderhax_if_you_dont_like_sysnand_permahax/d0ud80d), which is why we only take advantage of it for the purpose of safely getting our OTP before setting up arm9loaderhax and CFW SysNAND, which is far superior.
 
-This part of the guide will take you through the process of setting up EmuNAND and a CFW on your SD card and device, then through the process of formatting one of the NANDs to unlink them from each other.
+This part of the guide will take you through the process of setting up RedNAND and a CFW on your SD card and device, then through the process of formatting one of the NANDs to unlink them from each other.
+
+Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
 #### What you need
 
@@ -34,7 +36,7 @@ This part of the guide will take you through the process of setting up EmuNAND a
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
 5. Open EmuNAND9 **(This can sometimes take a few tries - if you still can't get it to work after quite a few, you can rerun the downgrade to make sure everything worked properly)**
-6. Select the "Complete emuNAND setup" option
+6. Select the "Complete RedNAND setup" option
 9. Ignore the `starter.bin` prompt and press A to continue
 9. Confirm and wait for it to finish
 8. Press Select on the main menu to eject your SD card
@@ -44,16 +46,16 @@ This part of the guide will take you through the process of setting up EmuNAND a
 12. Open CakesFW **(This can sometimes take a few tries)**
 13. Go to "Select Patches"
 14. Activate the "Enable EmuNAND" and "Disable Signature Checks" patches, then press Start to continue
-15. Select "Boot CFW" to enter EmuNAND (you must launch CakesFW from the Homebrew Launcher every time you want to boot EmuNAND)
-13. If you boot into the home menu, you have successfully launched EmuNAND
+15. Select "Boot CFW" to enter RedNAND (you must launch CakesFW from the Homebrew Launcher every time you want to boot RedNAND)
+13. If you boot into the home menu, you have successfully launched RedNAND
 16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher from SysNAND)
 17. Open TinyFormat
-18. Press Y to format your SysNAND (Don't worry, everything is still saved on EmuNAND)
-19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to EmuNAND to prevent issues
+18. Press Y to format your SysNAND (Don't worry, everything is still saved on RedNAND)
+19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to RedNAND to prevent issues
 13. Create a folder named "SysNAND" on the first page of the home menu
 19. Follow Part 1 to reinstall menuhax on SysNAND as the format will have removed it
-14. Boot EmuNAND, then change your theme in EmuNAND to uninstall menuhax from EmuNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
-13. **If you see the SysNAND folder, then you are not on EmuNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
-10. Update your **EmuNAND** to the latest version using system settings (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
-11. Open the eShop on EmuNAND at least once to allow it to initialize databases (you don't need to sign in)
-15. As your 3DS is setup right now, you must launch CakesFW from the Homebrew Launcher every time you want to boot EmuNAND; by the end of the guide you will boot into CFW SysNAND by default instead of SysNAND
+14. Boot RedNAND, then change your theme in RedNAND to uninstall menuhax from RedNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
+13. **If you see the SysNAND folder, then you are not on RedNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
+10. Update your **RedNAND** to the latest version using system settings (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
+11. Open the eShop on RedNAND at least once to allow it to initialize databases (you don't need to sign in)
+15. As your 3DS is setup right now, you must launch CakesFW from the Homebrew Launcher every time you want to boot RedNAND; by the end of the guide you will boot into CFW SysNAND by default instead of SysNAND

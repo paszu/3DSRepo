@@ -1,8 +1,10 @@
+##### [Para visitar este tutorial en Español pulsa aquí (traducido por egarrote).] (http://www.elotrolado.net/hilo_mega-tuto-instalar-arm9loaderhax-y-aureinand_2162112)
+
 #### Read all of the introductory pages before proceeding.
 
 **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
 
-This guide is designed to help a user take a completely unmodified 3DS from full stock 
+This guide is designed to help a user take a completely unmodified 3DS from full stock
 firmware to arm9loaderhax powered custom firmware (which allows almost full control of the device for things such as installing software to the home menu).
 
 **There has been some confusion among users about what devices they own and their names. See [this](https://github.com/Plailect/Guide/wiki/Device-Info) page for images of each kind of 3DS.**
@@ -15,7 +17,7 @@ This guide will take you through the steps of getting an entrypoint into the hom
 
 **If everything goes according to plan, you will lose no data and end up with everything that you started with (games, nnid, saves, etc will be preserved).**
 
-The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to get their OTP or use arm9loaderhax.
+The China, Korea, and Taiwan regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to get their OTP or use arm9loaderhax.
 
 A large part of this guide is lengthy NAND dumps and downgrades, so the entire process can take *several* hours thanks to the 3DS's slow processor.
 

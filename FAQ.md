@@ -4,6 +4,9 @@
 + <a name="faq_updatecfw" />**Q:** *How do I update CakesFW / AuReiNAND?*    
   **A:** Usually you just have to copy the latest version to your SD card and overwrite the old version, although the release notes for each may contain additional instructions.
 
++ <a name="faq_rednand" />**Q:** *What is the difference between RedNAND and EmuNAND?*    
+  **A:** RedNAND and EmuNAND are both different types of [NAND redirection](http://3dbrew.org/wiki/NAND_Redirection) with small differences in the way they are handled behind the scenes. The main advantage to using RedNAND instead of EmuNAND is that RedNAND will *always* use the smallest [NAND size](https://github.com/Plailect/Guide/wiki/NAND-Size) the device offers, regardless of the size of the SysNAND chip. For example, a New 3DS user with a 1.8GB internal NAND chip will only have to use 1.2GB for all RedNAND backups.
+
 + <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
   **A:** No. Arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
 

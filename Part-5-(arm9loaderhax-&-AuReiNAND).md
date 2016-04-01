@@ -8,7 +8,7 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you used an old revision of this page (and already have Updated SysNAND + AuReiNAND), you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNAND version and follow "Preparatory work."**
 
-This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no EmuNAND required at all.
+This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no RedNAND required at all.
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
@@ -50,7 +50,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/aurei/payloads/` folder on your SD card
 5. In the `/aurei/payloads` folder, rename `EmuNAND9.bin` to `y.bin`
 7. Copy `Uncart.bin` from the Uncart zip to the `/aurei/payloads/` folder on your SD card
-5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `b.bin`
+5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `x.bin`
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNAND NTR Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
@@ -76,9 +76,9 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding L+R on boot
 
-##### Copying EmuNAND data to SysNAND
+##### Copying RedNAND data to SysNAND
 
-Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing this
+Make sure you have restored RedNAND from `RedNAND_original.bin` before doing this
 
 1. Go to "EmuNAND Options" then "Partition Dump..."
 2. "Dump CTRNAND Partition" to `CTRNAND.bin`
@@ -92,7 +92,7 @@ Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing thi
 5. "Inject TWLN Partition" from `TWLN.bin`
 5. "Inject TWLP Partition" from `TWLP.bin`
 
-##### Removing EmuNAND from your SD
+##### Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
 4. Delete `AGBSAVE.bin`, `CTRNAND.bin`, `TWLN.bin`, and `TWLP.bin` from the root of your SD card
@@ -101,13 +101,13 @@ Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing thi
 0. Reinsert your SD card into your 3DS.
 2. Hold L+Y on boot to launch EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
-5. Select the "Format SD Without EmuNAND" option
+5. Select the "Format SD Without RedNAND" option
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
 ##### Installing FBI into SysNAND
 
-If you already had FBI injected into EmuNAND and copied your EmuNAND data to SysNAND, you can skip this section
+If you already had FBI injected into RedNAND and copied your RedNAND data to SysNAND, you can skip this section
 
 16. Hold L+R on boot to launch Decrypt9
 12. Go to "SysNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
@@ -131,13 +131,14 @@ If you already had FBI injected into EmuNAND and copied your EmuNAND data to Sys
 10. Exit with the home button
 10. Launch the homebrew launcher from the home menu icon at least once to download the payload
 
-If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, you will no longer need EmuNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
+If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
+You can now hold Select on boot to launch the AuReiNAND configuration menu.    
 You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.    
-You can now hold L+Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
-You can now hold L+B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      
+You can now hold L+Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
+You can now hold L+X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      
 You can remove any extra files from the root of the SD card that are not in the image.    
 
 ![SD Card](http://i.imgur.com/EfVV0pM.png)

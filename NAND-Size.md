@@ -2,9 +2,9 @@ A valid NAND backup should be one of the following sizes.
 
 **Your backup should match one of the sizes on this page; if it does not, you should delete it and make a new one!**
 
-The brand name refers to the manufacturer of the *internal* NAND chip in your device, **not** your SD card.
+The brand name refers to the manufacturer of the NAND chip in your device, **not** your SD card. 
 
-*Note that DSiWare and anything else that is installed to NAND instead of the SD card may slightly increase the size of your backups.*
+**https://github.com/Plailect/Guide/wiki/FAQ#faq_rednand**
 
 ##2DS:    
 

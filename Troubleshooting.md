@@ -2,11 +2,13 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 (The section is fairly long, try using Ctrl+F to search for your issue.)
 
-## <a name="ts_bs_emunand" />Black screen on EmuNAND boot
+## <a name="ts_bs_rednand" />Black screen on RedNAND boot
 
-1. Restore a backup to EmuNAND. *(You should have one of these)*
+1. Restore a backup to RedNAND. *(You should have one of these)*
 
 ## <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
+
+Do the steps for the error you are getting.
 
 ####"FIRM0 hash mismatch!"
 
@@ -21,8 +23,8 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 8. Select "FIRM Dump & Inject..."
 9. Select "SysNAND FIRM0 Inject" from `firm.bin`
 11. Select "SysNAND FIRM1 Inject" from `firm.bin`
-9. Select "EmuNAND FIRM0 Inject" from `firm.bin`
-11. Select "EmuNAND FIRM1 Inject" from `firm.bin`
+9. Select "RedNAND FIRM0 Inject" from `firm.bin`
+11. Select "RedNAND FIRM1 Inject" from `firm.bin`
 12. Press B until you see the main menu
 13. Perform "One Click Setup"
 
@@ -33,7 +35,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 3. Copy the `GodMode9` folder from the `GodMode9` zip to the `/3ds/` folder on the root of your SD card
 4. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 5. Open GodMode9 **(Be VERY careful with this tool, it can brick you if you delete something important with it)**
-6. Select (on bottom screen) `EMUNAND CTRNAND`
+6. Select (on bottom screen) `RedNAND CTRNAND`
 7. Select `title`
 8. Select the folder which has the same 8 characters as the beginning of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00040130` folder)*
 9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00003202` folder)*
@@ -41,9 +43,9 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 The latest release of OTPHelper rarely shows false positives, but if you want to you can check manually just to be sure. To do this, copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da). 
 
-If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive and you can use "NAND Backup & Restore" -> "Clone EmuNAND to SysNAND" then use "NAND Validation Options" -> "Validate SysNAND Downgrade" and confirm your SysNAND only has the same error as EmuNAND. **If you get a NEW error after cloning EmuNAND to SysNAND, restore SysNAND from `SysNAND_original.bin`, restore EmuNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.** If you do not get a NEW error, continue with the guide, ignoring the error.
+If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive and you can use "NAND Backup & Restore" -> "Clone RedNAND to SysNAND" then use "NAND Validation Options" -> "Validate SysNAND Downgrade" and confirm your SysNAND only has the same error as EmuNAND. **If you get a NEW error after cloning RedNAND to SysNAND, restore SysNAND from `SysNAND_original.bin`, restore RedNAND from `RedNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.** If you do not get a NEW error, continue with the guide, ignoring the error.
 
-If, in any folder, **none** of the `.tmd` files match, then this was a legitimate downgrade error and you have been saved from a brick; you should restore EmuNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
+If, in any folder, **none** of the `.tmd` files match, then this was a legitimate downgrade error and you have been saved from a brick; you should restore RedNAND from `RedNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
 
 Check all of the titles that mismatch with this same method.
 
@@ -62,14 +64,14 @@ I screwed up in an old version of the guide and had users backup before updating
 1. Download [firmware_patched.bin](https://up1.ca/#LQm-QJ3j5htr2vTG6Z2TnA)
 2. Delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card if it exists
 3. Copy the `firmware_patched.bin` you downloaded to the `/cakes/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
+4. Do the rest of Part 5, after updating RedNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
 
 #####AuReiNAND
 
 1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
 2. Delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card if it exists
 3. Copy the `patched_firmware_sys.bin` you downloaded to the `/aurei/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating EmuNAND to the latest version delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card to have it generate a new one
+4. Do the rest of Part 5, after updating RedNAND to the latest version delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card to have it generate a new one
 
 ## <a name="ts_agb_firm" />Loading AGB_FIRM...
 

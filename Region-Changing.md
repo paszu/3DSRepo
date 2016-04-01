@@ -51,5 +51,5 @@ copy over `SecureInfo_A-BACKUP` to a safe folder on your computer in case you ne
 10. Reinsert your SD card into your 3DS, then press Start to reboot
 12. Get into the homebrew launcher and launch Downgrade Check
 13. Press A to check titles
-14. Any title that does not match the expected version can be removed with FBI as it is leftover from the old region (this is optional)
+14. Any extra titles can be removed with FBI as they are leftover from the old region (this is optional)
 11. Update your region changed CFW SysNAND to the latest version

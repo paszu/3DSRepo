@@ -6,7 +6,7 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you currently have Updated SysNAND + AuReiNAND and want to switch to Updated SysNAND + Cakes, just follow "Preparatory work" and "Configuring CakesFW".**
 
-This guide uses "Updated SysNAND" mode, in which we copy our EmuNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no EmuNAND required at all.
+This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no RedNAND required at all.
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
@@ -70,7 +70,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 ##### Configuring CakesFW
 
 17. Go to "Select Patches"
-15. Deactivate the "Enable emuNAND" patch if it is active
+15. Deactivate the "Enable EmuNAND" patch if it is active
 14. Activate the "Block FIRM partition updates" and "Disable Signature Checks" patches, then press Start to continue     
 **(MAKE SURE YOU SELECT THE BLOCK FIRM PARTITION UPDATES PATCH OR THE NEXT SYSTEM UPDATE WILL BRICK YOU)**
 15. Select "More options"
@@ -84,9 +84,9 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding X on boot
 
-##### Copying EmuNAND data to SysNAND
+##### Copying RedNAND data to SysNAND
 
-Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing this
+Make sure you have restored RedNAND from `RedNAND_original.bin` before doing this
 
 1. Go to "EmuNAND Options" then "Partition Dump..."
 2. "Dump CTRNAND Partition" to `CTRNAND.bin`
@@ -100,7 +100,7 @@ Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing thi
 5. "Inject TWLN Partition" from `TWLN.bin`
 5. "Inject TWLP Partition" from `TWLP.bin`
 
-##### Removing EmuNAND from your SD
+##### Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
 4. Delete `AGBSAVE.bin`, `CTRNAND.bin`, `TWLN.bin`, and `TWLP.bin` from the root of your SD card
@@ -109,13 +109,13 @@ Make sure you have restored EmuNAND from `emuNAND_original.bin` before doing thi
 0. Reinsert your SD card into your 3DS.
 2. Hold Y on boot to launch EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
-5. Select the "Format SD Without EmuNAND" option
+5. Select the "Format SD Without RedNAND" option
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
 ##### Installing FBI into SysNAND
 
-If you already had FBI injected into EmuNAND and copied your EmuNAND data to SysNAND, you can skip this section
+If you already had FBI injected into RedNAND and copied your RedNAND data to SysNAND, you can skip this section
 
 16. Hold X on boot to launch Decrypt9
 12. Go to "SysNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
@@ -139,12 +139,13 @@ If you already had FBI injected into EmuNAND and copied your EmuNAND data to Sys
 10. Exit with the home button
 10. Launch the homebrew launcher from the home menu icon at least once to download the payload
 
-If everything has gone according to plan, arm9loaderhax will be installed to your device, your EmuNAND will have been copied to your SysNAND, you will no longer need EmuNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
+If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
 You will no longer be able to boot without the SD card in, that is normal.    
-You will now boot a Custom Firmware based SysNAND by default.      
+You will now boot a Custom Firmware based SysNAND by default.     
+You can now hold L on boot to launch the CakesFW configuration menu.     
 You can now hold X on boot to launch Decrypt9, a full featured NAND tool.    
-You can now hold Y on boot to launch EmuNAND9, a full featured EmuNAND and SD management tool.    
+You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
 You can now hold B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)    
 You can now hold L on boot to enter the CakesFW menu.
 
