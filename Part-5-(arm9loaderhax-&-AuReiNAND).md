@@ -55,7 +55,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNAND NTR Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
-2. Copy your `redNAND_original.bin` backups from Section I to the root of your SD card
+2. Copy your `emuNAND_original.bin` backups from Section I to the root of your SD card
 
 ##### Installing arm9loaderhax
 
@@ -83,12 +83,12 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Go to "SysNAND Options"
 1. Go to "SysNAND Backup/Restore..."
 2. Select "NAND Restore **(keep a9lh)**"
-3. Confirm and restore from `redNAND_original.bin`
+3. Confirm and restore from `emuNAND_original.bin`
 
 ##### Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
-4. Delete `redNAND_original.bin` from the root of your SD card
+4. Delete `emuNAND_original.bin` from the root of your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 0. Reinsert your SD card into your 3DS.
