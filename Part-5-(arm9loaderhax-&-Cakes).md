@@ -48,7 +48,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 3. **Copy `boot_config.ini` from the "What you need" section above the to the root of your SD card (not from the BootCtr9 zip)**
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip and `Uncart.bin` from the Uncart zip to the `/a9lh/` folder on your SD card
-1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, and `slot0x25keyX.bin` to the root of your SD card
+1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the contents of the CakesFW zip to the root of your SD card
 3. Copy `firmware.bin` and `firmkey.bin` to the `Cakes` folder on your SD card
 7. Copy `Cakes.dat` from the CakesFW zip to the `/a9lh/` folder on your SD card
