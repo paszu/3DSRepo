@@ -48,7 +48,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
 14. If you get a black screen after downgrading, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
 14. When you have booted, change your theme to anything else, then change it back to remove the old menuhax version
-14. Follow the steps in Part 1 to reinstall menuhax
+14. Reinstall menuhax using browserhax and the homebrew launcher (you do not need to reconfigure, just press install in the menuhax installer)
 15. Check the system settings, you should be on 9.2.0
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
 17. Open EmuNAND9 **(This can sometimes take a few tries)**
