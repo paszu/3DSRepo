@@ -100,7 +100,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 0. Reinsert your SD card into your 3DS.
-2. Hold L+Y on boot to launch EmuNAND9
+2. Hold Y on boot to launch EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
 5. Select the "Format SD Without EmuNAND" option
 6. Press Select on the main menu to eject your SD card
