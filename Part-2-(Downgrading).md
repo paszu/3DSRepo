@@ -46,7 +46,8 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
 12. If you get an error in the middle of installation, follow the instructions in the beginning for partial downgrades
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
-14. If you get a black screen after downgrading, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down); when you have booted, put the SD card back in, change your theme to anything else, then change it back to remove the old menuhax version
+14. If you get a black screen after downgrading, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
+14. When you have booted, change your theme to anything else, then change it back to remove the old menuhax version
 14. Follow the steps in Part 1 to reinstall menuhax
 15. Check the system settings, you should be on 9.2.0
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
