@@ -6,6 +6,8 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 
 Region changing does not support the eShop through this method, and it will be updated when I am aware of one that does.
 
+Note that region changing is experimental and can break several things.
+
 Region changing is almost completely unnecessary since AuReiNAND now supports Region Free game installs.
 
 #### What you need
