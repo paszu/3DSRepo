@@ -71,7 +71,12 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 ##### Configuring AuReiNAND
 
-1. Use the A button and the dpad to turn on "Updated SysNAND mode", "Use pre-patched FIRMs", "Force A9LH detection", "Show current NAND in System Settings", and "Show GBA boot screen in patched AGB_FIRM"
+1. Use the A button and the dpad to turn on the following:    
+ + "Updated SysNAND mode"
+ + "Use pre-patched FIRMs"
+ + "Force A9LH detection"
+ + "Show current NAND in System Settings"
+ + "Show GBA boot screen in patched AGB_FIRM"
 2. Press Start to save and reboot
 
 ##### Enter Decrypt9
