@@ -15,12 +15,11 @@ Region changing is almost completely unnecessary since AuReiNAND now supports Re
 * [SecureInfo_A.zip](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDMlNVa3VJT2N1UFk/view?usp=sharing))
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
 * The latest release of [downgrade_check](https://github.com/svanheulen/downgrade_check/releases)
-* The 9.2.0 firmware pack zip file for your device and the region you want to switch to:
- +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
- +    [New 3DS 9.2.0 - JAP](https://mega.nz/#!VxcF3TIK!Bm5LgFxo5V4Nepe9ZlWnx7bichE1V7p7pR_HqwimU5M
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
- +    [New 3DS 9.2.0 - USA](https://mega.nz/#!gslWiIoK!SF7uFk9rzWTK6oitCDoeAdvphcCzhKWsnTAMXw7zwOU
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))    
+* The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
+**Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
+ +    [New 3DS 9.2.0 (Region Change) - EUR](https://mega.nz/#!Rg8XlZaR!-q7Xe_GHyt2MEWrLzKc3rxY2fE47QMFk-VN_3PE5i4w) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
+ +    [New 3DS 9.2.0 (Region Change) - JAP](https://mega.nz/#!x0c3CKBA!zJCScD9i_pVyu3s35N8ap4nLLC6M0GmDyz_VdNunGms) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
+ +    [New 3DS 9.2.0 (Region Change) - USA](https://mega.nz/#!1oc0XASa!kAeUYyKEKFwdnE31c2hNHjvavSkE5HThDNLpMqXHH4o) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))    
  ~
  +    [Old 3DS or 2DS 9.2.0 - EUR](https://mega.nz/#!xh0wCRYQ!AaxVlej5jG4YPthojiI403alEtYfrkqq4FfdTy10EcU
 ) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDT0oxaGxPSmJ5Rlk/view?usp=sharing))    
@@ -54,4 +53,5 @@ copy over `SecureInfo_A-BACKUP` to a safe folder on your computer in case you ne
 12. Get into the homebrew launcher and launch Downgrade Check
 13. Press A to check titles
 14. Any extra titles can be removed with FBI as they are leftover from the old region (this is optional)
+14. Any missing titles can be downloaded as CIAs with [3DNUS](https://github.com/zoltx23/3DNUS/releases) and installed with FBI
 11. Update your region changed CFW SysNAND to the latest version
