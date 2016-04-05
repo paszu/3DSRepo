@@ -81,7 +81,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 ##### Enter Decrypt9
 
-11. Reboot, then open Decrypt9 from arm9loaderhax by holding L+R on boot
+11. Reboot, then open Decrypt9 from arm9loaderhax by holding Start on boot
 
 ##### Copying RedNAND data to SysNAND
 
@@ -97,7 +97,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 0. Reinsert your SD card into your 3DS.
-2. Hold L+Y on boot to launch EmuNAND9
+2. Hold Y on boot to launch EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
 5. Select the "Format SD Without EmuNAND" option
 6. Press Select on the main menu to eject your SD card
@@ -107,7 +107,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 If you already had FBI injected into RedNAND and copied your RedNAND data to SysNAND, you can skip this section
 
-16. Hold L+R on boot to launch Decrypt9
+16. Hold Start on boot to launch Decrypt9
 12. Go to "SysNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
