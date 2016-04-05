@@ -129,9 +129,9 @@ If everything has gone according to plan, arm9loaderhax will be installed to you
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
 You can now hold Select on boot to launch the AuReiNAND configuration menu.    
-You can now hold L+R on boot to launch Decrypt9, a full featured NAND tool.    
-You can now hold L+Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
-You can now hold L+X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      
+You can now hold Start on boot to launch Decrypt9, a full featured NAND tool.    
+You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
+You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      
 You can remove any extra files from the root of the SD card that are not in the image.    
 
 ![SD Card](http://i.imgur.com/EfVV0pM.png)
