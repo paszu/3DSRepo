@@ -17,9 +17,9 @@ Region changing is almost completely unnecessary since AuReiNAND now supports Re
 * The latest release of [downgrade_check](https://github.com/svanheulen/downgrade_check/releases)
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
 **Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
- +    [New 3DS 9.2.0 (Region Change) - EUR](https://mega.nz/#!Rg8XlZaR!-q7Xe_GHyt2MEWrLzKc3rxY2fE47QMFk-VN_3PE5i4w) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
- +    [New 3DS 9.2.0 (Region Change) - JAP](https://mega.nz/#!x0c3CKBA!zJCScD9i_pVyu3s35N8ap4nLLC6M0GmDyz_VdNunGms) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
- +    [New 3DS 9.2.0 (Region Change) - USA](https://mega.nz/#!1oc0XASa!kAeUYyKEKFwdnE31c2hNHjvavSkE5HThDNLpMqXHH4o) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))    
+ +    [New 3DS 9.2.0 (Region Change) - EUR](https://mega.nz/#!Rg8XlZaR!-q7Xe_GHyt2MEWrLzKc3rxY2fE47QMFk-VN_3PE5i4w) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSDdEY1d1Zkg3eDg/view?usp=sharing))    
+ +    [New 3DS 9.2.0 (Region Change) - JAP](https://mega.nz/#!x0c3CKBA!zJCScD9i_pVyu3s35N8ap4nLLC6M0GmDyz_VdNunGms) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDTHlWNmlKaFRBM2s/view?usp=sharing))    
+ +    [New 3DS 9.2.0 (Region Change) - USA](https://mega.nz/#!1oc0XASa!kAeUYyKEKFwdnE31c2hNHjvavSkE5HThDNLpMqXHH4o) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDUURZUmc2d0VSVW8/view?usp=sharing))    
  ~
  +    [Old 3DS or 2DS 9.2.0 - EUR](https://mega.nz/#!xh0wCRYQ!AaxVlej5jG4YPthojiI403alEtYfrkqq4FfdTy10EcU
 ) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDT0oxaGxPSmJ5Rlk/view?usp=sharing))    
