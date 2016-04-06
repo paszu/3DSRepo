@@ -13,7 +13,7 @@ Region changing is almost completely unnecessary since AuReiNand now supports Re
 #### What you need
 
 * [SecureInfo_A.zip](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDMlNVa3VJT2N1UFk/view?usp=sharing))
-* The latest release of [PlaiSysUpdater](https://github.com/profi200/PlaiSysUpdater/releases)
+* The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
 * The latest release of [downgrade_check](https://github.com/svanheulen/downgrade_check/releases)
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
 **Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
@@ -30,13 +30,13 @@ Region changing is almost completely unnecessary since AuReiNand now supports Re
 #### Instructions
 
 1. Copy and merge the `3ds` folder from the downgrade_check zip to the root of your SD card
-1. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip to the root of your SD card
+1. Copy `sysUpdater.cia` from the sysUpdater zip to the root of your SD card
 2. Copy `SecureInfo_A` from the folder of the region you want to switch to from `SecureInfo_A.zip` to the root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
-5. Use FBI to install `PlaiSysUpdater.cia`
-6. Get back to the home menu then open PlaiSysUpdater
+5. Use FBI to install `sysUpdater.cia`
+6. Get back to the home menu then open sysUpdater
 7. Press Y to downgrade to the region you want to switch to
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
