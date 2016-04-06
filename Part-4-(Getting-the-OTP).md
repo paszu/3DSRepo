@@ -33,7 +33,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 ##### Section I - Prep Work
 
 1. **Right now is a good time to use a [save manager](https://github.com/meladroit/svdt/releases) to backup any saves you care about (do steps 10 - 18 then install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases) CIA)**
-1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3DS/` folder on your SD card
+1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy and merge the `3DS` folder from the FBI zip to the root of your SD card
 18. Reinsert your SD card into your 3DS, press Start, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the HomeBrew Launcher)
