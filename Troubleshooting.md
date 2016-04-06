@@ -115,7 +115,7 @@ I screwed up in an old version of the guide and had users backup before updating
       3. `/boot_config.ini` exists.
 2. Test booting Decrypt9
    1. On CakesFW, hold X on boot
-   2. On AuReiNand, hold L + R on boot
+   2. On AuReiNand, hold Start on boot
 2. Try [this test payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDanVaR3FTUTFqNFU/view?usp=sharing)).
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.
