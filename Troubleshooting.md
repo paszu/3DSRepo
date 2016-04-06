@@ -29,7 +29,7 @@ Do the steps for the error you are getting.
 13. Perform "One Click Setup"
 
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
- 
+
 1. Check `otphelper.log` to see which titles the TMD hash mismatches on
 2. Download the latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
 3. Copy the `GodMode9` folder from the `GodMode9` zip to the `/3ds/` folder on the root of your SD card
@@ -41,7 +41,7 @@ Do the steps for the error you are getting.
 9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00003202` folder)*
 10. Select `content`
 
-The latest release of OTPHelper rarely shows false positives, but if you want to you can check manually just to be sure. To do this, copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da). 
+The latest release of OTPHelper rarely shows false positives, but if you want to you can check manually just to be sure. To do this, copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da).
 
 If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive and you can use the following steps. **If it is a New 3DS you should unbrick EmuNAND first.** Go to "NAND Backup & Restore" -> "Clone RedNAND to SysNAND" then use "NAND Validation Options" -> "Validate SysNAND Downgrade" and confirm your SysNAND only has the same error as EmuNAND. **If you get a NEW error after cloning RedNAND to SysNAND, restore SysNAND from `SysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.** If you do not get a NEW error, continue with the guide, ignoring the error.
 
@@ -66,7 +66,7 @@ I screwed up in an old version of the guide and had users backup before updating
 3. Copy the `firmware_patched.bin` you downloaded to the `/cakes/` folder on the root of your SD card
 4. Do the rest of Part 5, after updating RedNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
 
-#####AuReiNAND
+#####AuReiNand
 
 1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
 2. Delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card if it exists
@@ -115,7 +115,7 @@ I screwed up in an old version of the guide and had users backup before updating
       3. `/boot_config.ini` exists.
 2. Test booting Decrypt9
    1. On CakesFW, hold X on boot
-   2. On AuReiNAND, hold L + R on boot
+   2. On AuReiNand, hold L + R on boot
 2. Try [this test payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDanVaR3FTUTFqNFU/view?usp=sharing)).
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.

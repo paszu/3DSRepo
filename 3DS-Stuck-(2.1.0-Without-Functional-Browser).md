@@ -14,7 +14,7 @@ If you downgraded to 2.1.0 **New 3DS** and **left Wireless Communication off** (
 
 * A [game cart](http://www.3dsdb.com/) that contains a 4.X update
 * [Decrypt9WIP 20160118](https://github.com/d0k3/Decrypt9WIP/releases/tag/20160118)
-* A valid NAND backup of some kind. 
+* A valid NAND backup of some kind.
 
 #### Instructions
 
@@ -26,4 +26,4 @@ If you downgraded to 2.1.0 **New 3DS** and **left Wireless Communication off** (
 9. Open the browser and go to `http://www.reboot.ms/3ds/load.html?Launcher.dat`
 10. If the exploit was successful, you will have booted into Decrypt9
 11. Go to SysNAND File Options, then select NAND Restore
-12. Restore from NAND Backup bin
+12. Restore from `sysNAND_original.bin`

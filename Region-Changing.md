@@ -8,12 +8,12 @@ Region changing does not support the eShop through this method, and it will be u
 
 Note that region changing is experimental and can break several things.
 
-Region changing is almost completely unnecessary since AuReiNAND now supports Region Free game installs.
+Region changing is almost completely unnecessary since AuReiNand now supports Region Free game installs.
 
 #### What you need
 
 * [SecureInfo_A.zip](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDMlNVa3VJT2N1UFk/view?usp=sharing))
-* The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
+* The latest release of [PlaiSysUpdater](https://github.com/profi200/PlaiSysUpdater/releases)
 * The latest release of [downgrade_check](https://github.com/svanheulen/downgrade_check/releases)
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
 **Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
@@ -30,17 +30,17 @@ Region changing is almost completely unnecessary since AuReiNAND now supports Re
 #### Instructions
 
 1. Copy and merge the `3ds` folder from the downgrade_check zip to the root of your SD card
-1. Copy `sysUpdater.cia` from the sysUpdater zip to the root of your SD card
+1. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip to the root of your SD card
 2. Copy `SecureInfo_A` from the folder of the region you want to switch to from `SecureInfo_A.zip` to the root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
-5. Use FBI to install `sysUpdater.cia`
-6. Get back to the home menu then open sysUpdater
+5. Use FBI to install `PlaiSysUpdater.cia`
+6. Get back to the home menu then open PlaiSysUpdater
 7. Press Y to downgrade to the region you want to switch to
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
-5. Boot into arm9loaderhax Decrypt9 by holding X on CakesFW or L+R on AuReiNAND on boot (you will boot to a black screen otherwise)
+5. Boot into arm9loaderhax Decrypt9 by holding X on CakesFW or L+R on AuReiNand on boot (you will boot to a black screen otherwise)
 6. Go to "SysNAND Options" then "File Dump..."
 7. "Dump SecureInfo_A" to `sysSecureInfo_A` so you have a backup of your original SecureInfo_A
 8. Go back to "SysNAND Options" then "File Inject..."
@@ -50,7 +50,7 @@ Region changing is almost completely unnecessary since AuReiNAND now supports Re
 copy over `SecureInfo_A-BACKUP` to a safe folder on your computer in case you need it in the future
 9. Delete `SecureInfo_A-BACKUP` from the root of your SD card
 10. Reinsert your SD card into your 3DS, then press Start to reboot
-12. Get into the homebrew launcher and launch Downgrade Check
+12. Get into the HomeBrew Launcher and launch Downgrade Check
 13. Press A to check titles
 14. Any extra titles can be removed with FBI as they are leftover from the old region (this is optional)
 14. Any missing titles can be downloaded as CIAs with [3DNUS](https://github.com/zoltx23/3DNUS/releases) and installed with FBI

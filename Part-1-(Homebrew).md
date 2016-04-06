@@ -4,11 +4,11 @@ If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but y
 
 If you are between versions 9.9.0 and 10.5.0, you should follow this guide as written.
 
-If you are between versions 10.6.0 and 10.7.0, you can find instructions for using ninjhax (requires Cubic Ninja) [here](http://smealum.github.io/ninjhax2/), or instructions for using OOTHax (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the homebrew launcher) [here](https://github.com/yellows8/oot3dhax). Browserhax and menuhax were patched with 10.6.0 and will no longer work.
+If you are between versions 10.6.0 and 10.7.0, you can find instructions for using ninjhax (requires Cubic Ninja) [here](http://smealum.github.io/ninjhax2/), or instructions for using oot3dhax (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher) [here](https://github.com/yellows8/oot3dhax). Browserhax and menuhax were patched with 10.6.0 and will no longer work.
 
 If you are below version 9.0.0, you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
 
-If you are using a game for hacks, you will need to enter homebrew launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.
+If you are using a game for hacks, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.
 
 #### What you need
 
@@ -30,7 +30,7 @@ If you are using a game for hacks, you will need to enter homebrew launcher usin
 11. Press A to install, it may show some errors but that's fine as long as it shows "Success" towards the end
 12. Go back to the main menuhax_manager menu, then select "Configure/check haxx trigger..."
 13. Press A to continue, then select "Type1"
-14. Hold down on the dpad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
+14. Hold down on the D-Pad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
 15. Go back to the main menuhax_manager menu, then press B, followed by Start to exit back into the Homebrew Launcher
 16. Use the Start button to reboot
-17. You can now hold dpad down while the system is booting to launch the homebrew menu
+17. You can now hold D-Pad down while the system is booting to launch the homebrew menu

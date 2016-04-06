@@ -2,9 +2,11 @@
 
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how.
 
-The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, RedNAND boot speed almost as fast as regular sysNAND (using something like CakesFW), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
+The OTP is a requirement to use arm9loaderhax, which gets you, among other things, 100% boot rate, RedNAND boot speed almost as fast as regular sysNAND (using something like CakesFW), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
 
 Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade RedNAND (to ensure we don't partial downgrade) to 2.1, then flash RedNAND to sysNAND to get the OTP.
+
+If you have an existing EmuNAND, you can follow this part without switching to RedNAND by following all RedNAND steps as if they said EmuNAND.
 
 More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](https://3dbrew.org/wiki/OTP_Registers).
 
@@ -31,10 +33,10 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 ##### Section I - Prep Work
 
 1. **Right now is a good time to use a [save manager](https://github.com/meladroit/svdt/releases) to backup any saves you care about (do steps 10 - 18 then install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases) CIA)**
-1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
+1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3DS/` folder on your SD card
 2. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
-3. Copy and merge the `3ds` folder from the FBI zip to the root of your SD card
-18. Reinsert your SD card into your 3DS, press start, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
+3. Copy and merge the `3DS` folder from the FBI zip to the root of your SD card
+18. Reinsert your SD card into your 3DS, press Start, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the HomeBrew Launcher)
 11. **MAKE SURE YOU ARE IN RedNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU DO NOT SEE THE SYSNAND FOLDER)**
 10. Update your **RedNAND** to the latest version using system settings if it is not already (**DO NOT ENTER DATA MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)
 12. Reboot into SysNAND
@@ -57,7 +59,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
 9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
-18. Reinsert your SD card into your 3DS, press start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the homebrew launcher)
+18. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the HomeBrew Launcher)
 11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI) on RedNAND
 20. Navigate to `TinyFormat.cia` and press A to install
@@ -73,11 +75,11 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 ##### Section II - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
-27. Open OTPHelper, then go to "Nand Backup and Restore", then select the "EmuNAND Backup" option
+27. Open OTPHelper, then go to "NAND Backup and Restore", then select the "EmuNAND Backup" option
 28. Backup your RedNAND to `emuNAND_formatted.bin`
 29. Press Select on the main menu to eject your SD card
 23. Put your SD card in your computer, then copy over `emuNAND_formatted.bin` to a safe folder on your computer
-24. Delete any existing `updates` folder from your SD card root that may be leftover from a previous downgrade or update
+24. Delete any existing `updates` folder from your SD card root that may be left over from a previous downgrade or update
 25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 27. Reinsert your SD card into your 3DS then press Start and right to reboot into RedNAND
 28. Open PlaiSysUpdater **on RedNAND**
@@ -97,7 +99,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 *(On 2DS at 2.1.0, the screen being stretched is normal)*
 
-1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3ds
+1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
 2. OTPHelper will launch, then select the "Dump otp.bin (0x100)" option
 3. Press Select on the main menu to eject your SD card
 4. Put your SD card in your computer, then copy over `otp.bin` to a safe folder on your computer.		

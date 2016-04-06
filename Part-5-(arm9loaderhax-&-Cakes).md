@@ -4,9 +4,9 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Cakes, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of this Part.**
 
-**If you currently have Updated SysNAND + AuReiNAND and want to switch to Updated SysNAND + Cakes, just follow "Preparatory work" and "Configuring CakesFW".**
+**If you currently have Updated SysNAND + AuReiNand and want to switch to Updated SysNAND + Cakes, just follow "Preparatory work" and "Configuring CakesFW".**
 
-This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no RedNAND required at all.
+This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
@@ -36,7 +36,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 #### Instructions
 
-##### Preparatory work
+##### Section I - Preparatory work
 
 2. Delete the `Decrypt9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
@@ -57,7 +57,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 2. Copy your `emuNAND_original.bin` backups from Section I to the root of your SD card
 
-##### Installing arm9loaderhax
+##### Section II - Installing arm9loaderhax
 
 12. Reinsert your SD card into your 3DS, then press Start to reboot
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
@@ -69,7 +69,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 15. The installer will now install arm9loaderhax on your device (this is very fast)
 16. Your 3DS should reboot into the CakesFW menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 
-##### Configuring CakesFW
+##### Section III - Configuring CakesFW
 
 17. Go to "Select Patches"
 15. Deactivate the "Enable EmuNAND" patch if it is active
@@ -82,18 +82,18 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 19. Press B to get back to the Main Menu
 15. Select "Boot CFW" to enter CFW SysNAND
 
-##### Entering Decrypt9
+##### Section IV - Entering Decrypt9
 
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding X on boot
 
-##### Copying RedNAND data to SysNAND
+##### Section V - Copying RedNAND data to SysNAND
 
 1. Go to "SysNAND Options"
 1. Go to "SysNAND Backup/Restore..."
 2. Select "NAND Restore **(keep a9lh)**"
 3. Confirm and restore from `emuNAND_original.bin`
 
-##### Removing RedNAND from your SD
+##### Section VI - Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
 4. Delete `emuNAND_original.bin` from the root of your SD card
@@ -106,20 +106,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
-##### Installing FBI into SysNAND
-
-If you already had FBI injected into RedNAND and copied your RedNAND data to SysNAND, you can skip this section
-
-16. Hold X on boot to launch Decrypt9
-12. Go to "SysNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
-12. Press Select to eject your SD card, then put it in your computer
-13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
-14. Double click `go.bat` *(or  execute `go.sh`with Terminal on Linux / Mac)*
-15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "SysNAND Options" and select the "Inject Health & Safety" option
-17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-
-##### Finalising setup
+##### Section VII - Finalising setup
 
 15. From the main menu, go to SysNAND Options, then make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
@@ -130,7 +117,7 @@ If you already had FBI injected into RedNAND and copied your RedNAND data to Sys
 8. Open Health and Safety (which is now FBI)
 9. Navigate to `hblauncher_loader.cia` and press A to install
 10. Exit with the home button
-10. Launch the homebrew launcher from the home menu icon at least once to download the payload
+10. Launch the HomeBrew Launcher from the home menu icon at least once to download the payload
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 

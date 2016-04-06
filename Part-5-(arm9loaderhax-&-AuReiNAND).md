@@ -1,16 +1,16 @@
-The final step of this guide is to install arm9loaderhax and setup AuReiNAND to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](http://gbatemp.net/members/46970/).
+The final step of this guide is to install arm9loaderhax and setup AuReiNand to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](http://gbatemp.net/members/46970/).
 
 This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) of arm9loaderhax.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNAND, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of this Part.**
+**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNand, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of this Part.**
 
-**If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNAND, just follow "Preparatory work."**
+**If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNand, just follow "Preparatory work."**
 
-**If you used an old revision of this page (and already have Updated SysNAND + AuReiNAND), you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNAND version and follow "Preparatory work."**
+**If you used an old revision of this page (and already have Updated SysNAND + AuReiNand), you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNand version and follow "Preparatory work."**
 
 **If you used an old revision of this page, you may not have AGB_FIRM and TWL_FIRM patching, if you would like to switch to the new method, download the latest firmware bins and copy them to `/aurei/`.**
 
-This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanant SysNAND hax with no RedNAND required at all.
+This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
@@ -24,23 +24,23 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * [slot0x1BKeyX.bin](https://mega.nz/#!opEjwCAL!6OryL37QQO_K_1UP6QG9hRnWvsWKiGSJjHXFcCCEaOI) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDY0RFYm0zdWFUWDQ/view?usp=sharing))
 * The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
-* The latest release of [AuReiNAND](https://github.com/AuroraWright/AuReiNand/releases)
+* The latest release of [AuReiNand](https://github.com/AuroraWright/AuReiNand/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
 * The latest release of [Uncart for arm9loaderhax](https://mega.nz/#!R1MFUCBb!s9Nei_EbZsGzAdNaAWB5DGDPuDR72wAUL0sWVqIPOBU) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDdFhoQWJZZ0dKYnc/view?usp=sharing))
 * *New 3DS:*
-    + AuReiNAND NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
-    + AuReiNAND AGB [firmware bin](https://mega.nz/#!998DCCqD!lkzeL2FGvP8f2-1vEPwRz71Di2IctcW4bCd6hHzvGQc) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDLVBXN2ZRbXJpbTg)) zip file
-    + AuReiNAND TWL [firmware bin](https://mega.nz/#!1x8WkLCT!Nrcv4gdXLK_a9XoXcQSgFkwynAgmqlSy8sTWKfxxdqM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeEUtN21nX2VtUmM)) zip file
+    + AuReiNand NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
+    + AuReiNand AGB [firmware bin](https://mega.nz/#!998DCCqD!lkzeL2FGvP8f2-1vEPwRz71Di2IctcW4bCd6hHzvGQc) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDLVBXN2ZRbXJpbTg)) zip file
+    + AuReiNand TWL [firmware bin](https://mega.nz/#!1x8WkLCT!Nrcv4gdXLK_a9XoXcQSgFkwynAgmqlSy8sTWKfxxdqM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeEUtN21nX2VtUmM)) zip file
 * *Old 3DS:*
-    + AuReiNAND NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
-    + AuReiNAND AGB [firmware bin](https://mega.nz/#!0k8CFZjR!YNWR5KWFfR06vjJDrB6MvbfybK9Q1GsznU3ZhBtMQmY) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDMGV2T1pxenFwX0U)) zip file
-    + AuReiNAND TWL [firmware bin](https://mega.nz/#!gol0CA4T!AqWB7iiPgPb-0vcRv5jBZzHD8IK93kzRZeXJzxs-7d8) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDVi0zOWl4MGhsYms)) zip file
+    + AuReiNand NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
+    + AuReiNand AGB [firmware bin](https://mega.nz/#!0k8CFZjR!YNWR5KWFfR06vjJDrB6MvbfybK9Q1GsznU3ZhBtMQmY) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDMGV2T1pxenFwX0U)) zip file
+    + AuReiNand TWL [firmware bin](https://mega.nz/#!gol0CA4T!AqWB7iiPgPb-0vcRv5jBZzHD8IK93kzRZeXJzxs-7d8) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDVi0zOWl4MGhsYms)) zip file
 
 #### Instructions
 
-##### Preparatory work
+##### Section I - Preparatory work
 
 2. Delete the `Decrypt9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
@@ -49,7 +49,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy and merge the `3ds` folder from the SafeA9LHInstaller zip to the root of your SD card
 2. Copy `SafeA9LHInstaller.dat` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
-1. Copy `arm9loaderhax.bin` and the `aurei` folder from the AuReiNAND zip to the root of your SD card
+1. Copy `arm9loaderhax.bin` and the `aurei` folder from the AuReiNand zip to the root of your SD card
 4. Create a new folder called `payloads` in the `/aurei/` folder
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/aurei/payloads/` folder on your SD card
 5. In the `/aurei/payloads` folder, rename `Decrypt9WIP.bin` to `default.bin`
@@ -59,13 +59,13 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 7. Copy `Uncart.bin` from the Uncart zip to the `/aurei/payloads/` folder on your SD card
 5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `x.bin`
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
-3. Copy `firmware.bin` from the AuReiNAND NTR Firmware zip to the `/aurei/` folder on your SD card
-3. Copy `firmware_agb.bin` from the AuReiNAND AGB Firmware zip to the `/aurei/` folder on your SD card
-3. Copy `firmware_twl.bin` from the AuReiNAND TWL Firmware zip to the `/aurei/` folder on your SD card
+3. Copy `firmware.bin` from the AuReiNand NTR Firmware zip to the `/aurei/` folder on your SD card
+3. Copy `firmware_agb.bin` from the AuReiNand AGB Firmware zip to the `/aurei/` folder on your SD card
+3. Copy `firmware_twl.bin` from the AuReiNand TWL Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 2. Copy your `emuNAND_original.bin` backups from Section I to the root of your SD card
 
-##### Installing arm9loaderhax
+##### Section II - Installing arm9loaderhax
 
 12. Reinsert your SD card into your 3DS, then press Start to reboot
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
@@ -75,11 +75,11 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-16. Your 3DS should reboot into the AuReiNAND menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
+16. Your 3DS should reboot into the AuReiNand menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 
-##### Configuring AuReiNAND
+##### Section III - Configuring AuReiNand
 
-1. Use the A button and the dpad to turn on the following:    
+1. Use the A button and the D-Pad to turn on the following:    
  + "Updated SysNAND mode"
  + "Use pre-patched FIRMs"
  + "Force A9LH detection"
@@ -87,18 +87,18 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
  + "Show GBA boot screen in patched AGB_FIRM"
 2. Press Start to save and reboot
 
-##### Enter Decrypt9
+##### Section IV - Enter Decrypt9
 
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding Start on boot
 
-##### Copying RedNAND data to SysNAND
+##### Section V - Copying RedNAND data to SysNAND
 
 1. Go to "SysNAND Options"
 1. Go to "SysNAND Backup/Restore..."
 2. Select "NAND Restore **(keep a9lh)**"
 3. Confirm and restore from `emuNAND_original.bin`
 
-##### Removing RedNAND from your SD
+##### Section VI - Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
 4. Delete `emuNAND_original.bin` from the root of your SD card
@@ -111,20 +111,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
-##### Installing FBI into SysNAND
-
-If you already had FBI injected into RedNAND and copied your RedNAND data to SysNAND, you can skip this section
-
-16. Hold Start on boot to launch Decrypt9
-12. Go to "SysNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
-12. Press Select to eject your SD card, then put it in your computer
-13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
-14. Double click `go.bat` *(or  execute `go.sh`with Terminal on Linux / Mac)*
-15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "SysNAND Options" and select the "Inject Health & Safety" option
-17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
-
-##### Finalising setup
+##### Section VII - Finalising setup
 
 15. From the main menu, go to SysNAND Options, then make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
@@ -135,13 +122,13 @@ If you already had FBI injected into RedNAND and copied your RedNAND data to Sys
 8. Open Health and Safety (which is now FBI)
 9. Navigate to `hblauncher_loader.cia` and press A to install
 10. Exit with the home button
-10. Launch the homebrew launcher from the home menu icon at least once to download the payload
+10. Launch the HomeBrew Launcher from the home menu icon at least once to download the payload
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
-You can now hold Select on boot to launch the AuReiNAND configuration menu.    
+You can now hold Select on boot to launch the AuReiNand configuration menu.    
 You can now hold Start on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
 You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      

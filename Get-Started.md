@@ -12,7 +12,7 @@ If you need to format a brand new SD card, you can use [this](http://www.ridgecr
 
 *The following applies to all devices:*
 
-**If you already have a CFW setup on any version between 9.0.0 and 9.2.0, change menuhax to type 1, set your menuhax trigger to dpad down, then start the guide at Part 4.**
+**If you already have a CFW setup on any version between 9.0.0 and 9.2.0, change menuhax to type 1, set your menuhax trigger to D-Pad down, then start the guide at Part 4.**
 
 If your version is below 9.0.0, follow the instructions on the "9.2.0 Update" page to update directly to 9.2.0. 
 
@@ -22,4 +22,4 @@ If your version is between 9.0.0 and 9.2.0, start on "Part 1 - Homebrew" then sk
 
 If your version is between 9.3.0 and 10.7.0, start on "Part 1 - Homebrew" and follow all instructions.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNAND, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of Part 5.**
+**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNand, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of Part 5.**

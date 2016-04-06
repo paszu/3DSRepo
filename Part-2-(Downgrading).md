@@ -1,10 +1,10 @@
-This part of the guide will take you through the process of downgrading to 9.2.0 (the latest version which gives us full control of the system) using sysUpdater.
+This part of the guide will take you through the process of downgrading to 9.2.0 (the latest version which gives us full control of the system) using PlaiSysUpdater.
 
-This version of sysUpdater (which is compatible with >9.2.0 systems) uses an unstable exploit, and because of this it may take many tries just to load the button prompts.
+This version of PlaiSysUpdater (which is compatible with >9.2.0 systems) uses an unstable exploit, and because of this it may take many tries just to load the button prompts.
 
-If sysUpdater crashes at any point during the downgrade (which can happen occasionally), you can power off the system by holding the power button. You will be left with what's called a "partial downgrade" or "partial", which is recoverable.
+If PlaiSysUpdater crashes at any point during the downgrade (which can happen occasionally), you can power off the system by holding the power button. You will be left with what's called a "partial downgrade" or "partial", which is recoverable.
 
-Although a partially downgraded system may show 9.2.0 as the system version, you are not done. You must restart from the beginning and downgrade a second time to install any files that were not installed. Browserhax will work for partial downgrades as long as you are using the recommended version of sysUpdater.
+Although a partially downgraded system may show 9.2.0 as the system version, you are not done. You must restart from the beginning and downgrade a second time to install any files that were not installed. Browserhax will work for partial downgrades as long as you are using the recommended version of PlaiSysUpdater.
 
 **You MUST downgrade with the correct pack for your console/region or you will BRICK.**
 
@@ -36,8 +36,8 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
-5. Boot into the Homebrew Launcher (if you followed the previous part, you can do this by holding dpad down on boot)
-6. Open sysUpdater
+5. Boot into the Homebrew Launcher (if you followed the previous part, you can do this by holding D-Pad down on boot)
+6. Open PlaiSysUpdater
 7. If you do not see the button prompts, power off your 3DS by holding the power button and try again (this can take many tries)
 8. If you see button prompts, proceed
 9. Press Y to downgrade to 9.2.0
@@ -48,7 +48,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
 14. If you get a black screen after downgrading, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
 14. When you have booted, change your theme to anything else, then change it back to remove the old menuhax version
-14. Reinstall menuhax using browserhax and the homebrew launcher (you do not need to reconfigure, just press install in menuhax_manager)
+14. Reinstall menuhax using browserhax and the HomeBrew Launcher (you do not need to reconfigure, just press install in menuhax_manager)
 15. Check the system settings, you should be on 9.2.0
 16. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
 17. Open EmuNAND9 **(This can sometimes take a few tries)**
