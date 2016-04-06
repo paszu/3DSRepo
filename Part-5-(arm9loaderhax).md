@@ -4,7 +4,7 @@ AuReiNAND is a simpler CFW with less options and is more noob friendly, and is r
 
 Currently, AuReiNAND supports Region Free patches, which enable users to install games from any region without any extra modification or steps, and AGB_FIRM/TWL_FIRM patches, which enable users to use installed GBA games and DS homebrew without manually patching files.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNAND, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of one of these Parts.**
+**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNAND/CakesFW, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of one of these Parts.**
 
 **If you currently have Updated SysNAND and want to switch to a different CFW, each link contains instructions for switching to it from the other.**
 
