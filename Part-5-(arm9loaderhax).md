@@ -1,3 +1,5 @@
+**You cannot use another console's OTP or you will brick GUARANTEED.**
+
 This guide will provide you with two options for using Custom Firmware on SysNAND via arm9loaderhax, AuReiNand and CakesFW.
 
 AuReiNand is a more feature rich CFW in addition to being more noob friendly, and is recommended for beginners, while CakesFW is a more complex CFW that is recommended only for advanced users. Otherwise, they perform a similar function and you can use either according to personal preferences.
