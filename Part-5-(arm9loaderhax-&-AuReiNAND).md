@@ -113,7 +113,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 ##### Section VII - Finalising setup
 
-15. From the main menu, go to SysNAND Options, then make a backup of SysNAND to `sysNAND.bin`
+15. From the main menu of Decrypt9, go to SysNAND Options, then make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
 17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 15. Delete `sysNAND-A9LHAX.bin` from your SD card
