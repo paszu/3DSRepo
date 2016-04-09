@@ -67,7 +67,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 ##### Section II - Installing arm9loaderhax
 
-12. Reinsert your SD card into your 3DS, then press Start to reboot
+12. Reinsert your SD card into your 3DS
 13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch MiniPasta, which will patch your SysNAND and reboot your device *(if you use menuhax, you should hold your menuhax key while launching MiniPasta to reboot directly into SysNAND Homebrew Launcher)*
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
