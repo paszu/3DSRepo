@@ -57,5 +57,4 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 14. Boot RedNAND, then change your theme in RedNAND to uninstall menuhax from RedNAND; it can cause problems if you don't and having a different theme on each will help you to tell them apart
 13. **If you see the SysNAND folder, then you are not on RedNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
 10. Update your **RedNAND** to the latest version using system settings (**Once you exit System Settings / Data Management you will be returned to SysNAND, make sure to enter back into RedNAND before updating!**)
-11. Open the eShop on RedNAND at least once to allow it to initialize databases (you don't need to sign in)
 15. As your 3DS is setup right now, you must launch CakesFW from the Homebrew Launcher every time you want to boot RedNAND; by the end of the guide you will boot into CFW SysNAND by default instead of SysNAND
