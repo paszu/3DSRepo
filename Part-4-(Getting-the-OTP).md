@@ -60,7 +60,6 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
 9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching CakesFW from the HomeBrew Launcher)
-11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI) on RedNAND
 20. Navigate to `TinyFormat.cia` and press A to install
 21. Press home to exit FBI, then launch TinyFormat using the home menu icon
@@ -69,7 +68,6 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 9. **Repeat steps 29 through 34, this is not optional (in other words, you must TinyFormat your RedNAND twice - if you do not, your device may brick when you downgrade)**
 10. Remove any TWL modifications done to the device or PlaiSysUpdater will throw an error      
 (if you have no idea what this is, don't worry about it; most users will not need to do this)
-11. Open the eShop at least once to allow it to initialize databases
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to `PlaiSysUpdater.cia` and press A to install
 
