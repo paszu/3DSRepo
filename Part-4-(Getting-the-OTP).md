@@ -84,8 +84,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 27. Reinsert your SD card into your 3DS then press Start and right to reboot into RedNAND
 28. Open PlaiSysUpdater **on RedNAND**
 29. Press X to downgrade RedNAND to 2.1.0
-30. If you encounter an error at any point during the downgrade, restore your RedNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on RedNAND, restoring from backup whenever it fails until it goes through successfully. *This downgrade process can take many many tries in some situations, just keep trying until it works*    
-*If, after many tries, you still repeatedly fail, you can try following the instructions [here](https://github.com/Plailect/Guide/wiki/2.1.0-Downgrade-(Repeated-Failure))*
+30. If you encounter an error at any point during the downgrade, restore your RedNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on RedNAND, restoring from backup whenever it fails until it goes through successfully. *This downgrade process can take many many tries in some situations, just keep trying until it works*     
 31. **RedNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 RedNAND (a black screen when you try to load RedNAND is normal)**
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper
