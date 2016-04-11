@@ -79,7 +79,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 23. Put your SD card in your computer, then copy over `emuNAND_formatted.bin` to a safe folder on your computer
 24. Delete any existing `updates` folder from your SD card root that may be left over from a previous downgrade or update
 25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
-27. Reinsert your SD card into your 3DS then press Start and right to reboot into RedNAND
+27. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW
 28. Open PlaiSysUpdater **on RedNAND**
 29. Press X to downgrade RedNAND to 2.1.0
 30. If you encounter an error at any point during the downgrade, restore your RedNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on RedNAND, restoring from backup whenever it fails until it goes through successfully. *This downgrade process can take many many tries in some situations, just keep trying until it works*     
