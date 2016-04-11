@@ -87,18 +87,15 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
  + "Show GBA boot screen in patched AGB_FIRM"
 2. Press Start to save and reboot
 
-##### Section IV - Enter Decrypt9
+##### Section IV - Copying RedNAND data to SysNAND
 
 11. Reboot, then open Decrypt9 from arm9loaderhax by holding Start on boot
-
-##### Section V - Copying RedNAND data to SysNAND
-
 1. Go to "SysNAND Options"
 1. Go to "SysNAND Backup/Restore..."
 2. Select "NAND Restore **(keep a9lh)**"
 3. Confirm and restore from `emuNAND_original.bin`
 
-##### Section VI - Removing RedNAND from your SD
+##### Section V - Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
 4. Delete `emuNAND_original.bin` from the root of your SD card
@@ -111,7 +108,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
-##### Section VII - Finalising setup
+##### Section VI - Finalising setup
 
 15. From EmuNAND Manager Options, make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
