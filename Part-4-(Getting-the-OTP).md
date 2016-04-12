@@ -21,7 +21,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 * The latest release of [PlaiSysUpdater](https://github.com/Plailect/PlaiSysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
+* The 1.4.17 release of [FBI](https://github.com/Steveice10/FBI/releases/tag/1.4.17)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
  +    [New 3DS / Old 3DS or 2DS 2.1.0 - EUR](https://mega.nz/#!MhcxXJKA!xcx62RvFiu7oKzCveqxUlDX1icv9UI-7BB1MoiWfn-Q) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDajdOM1QyQlhjRUk/view?usp=sharing))    
