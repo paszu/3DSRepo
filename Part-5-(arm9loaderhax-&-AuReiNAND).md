@@ -2,7 +2,7 @@ The final step of this guide is to install arm9loaderhax and setup AuReiNand to 
 
 This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) of arm9loaderhax.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNand, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of this Part.**
+**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNand, just do this entire Part, but skip "Section II - Installing arm9loaderhax"**
 
 **If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + AuReiNand, just follow "Preparatory work."**
 
