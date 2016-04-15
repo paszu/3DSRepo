@@ -8,8 +8,6 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 
 **If you used an old revision of this page (and already have Updated SysNAND + AuReiNand), you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest AuReiNand version and follow "Preparatory work."**
 
-**If you used an old revision of this page, you may not have AGB_FIRM and TWL_FIRM patching, if you would like to switch to the new method, download the latest firmware bins and copy them to `/aurei/`.**
-
 This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
@@ -31,12 +29,8 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * The latest release of [Uncart for arm9loaderhax](https://mega.nz/#!R1MFUCBb!s9Nei_EbZsGzAdNaAWB5DGDPuDR72wAUL0sWVqIPOBU) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDdFhoQWJZZ0dKYnc/view?usp=sharing))
 * *New 3DS:*
     + AuReiNand NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
-    + AuReiNand AGB [firmware bin](https://mega.nz/#!998DCCqD!lkzeL2FGvP8f2-1vEPwRz71Di2IctcW4bCd6hHzvGQc) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDLVBXN2ZRbXJpbTg)) zip file
-    + AuReiNand TWL [firmware bin](https://mega.nz/#!1x8WkLCT!Nrcv4gdXLK_a9XoXcQSgFkwynAgmqlSy8sTWKfxxdqM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeEUtN21nX2VtUmM)) zip file
 * *Old 3DS:*
     + AuReiNand NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
-    + AuReiNand AGB [firmware bin](https://mega.nz/#!0k8CFZjR!YNWR5KWFfR06vjJDrB6MvbfybK9Q1GsznU3ZhBtMQmY) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDMGV2T1pxenFwX0U)) zip file
-    + AuReiNand TWL [firmware bin](https://mega.nz/#!gol0CA4T!AqWB7iiPgPb-0vcRv5jBZzHD8IK93kzRZeXJzxs-7d8) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDVi0zOWl4MGhsYms)) zip file
 
 #### Instructions
 
@@ -60,8 +54,6 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `x.bin`
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNand NTR Firmware zip to the `/aurei/` folder on your SD card
-3. Copy `firmware_agb.bin` from the AuReiNand AGB Firmware zip to the `/aurei/` folder on your SD card
-3. Copy `firmware_twl.bin` from the AuReiNand TWL Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 2. Copy your `emuNAND_original.bin` backups from Section I to the root of your SD card
 
@@ -80,8 +72,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 ##### Section III - Configuring AuReiNand
 
 1. Use the A button and the D-Pad to turn on the following:    
- + "Updated SysNAND mode"
- + "Use pre-patched FIRMs"
+ + "Autoboot SysNAND"
  + "Force A9LH detection"
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
