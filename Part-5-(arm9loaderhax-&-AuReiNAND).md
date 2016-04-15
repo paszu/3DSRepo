@@ -76,6 +76,8 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
  + "Force A9LH detection"
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
+2. If you are using a New 3DS, you should *also* enable the following:
+ + Toggle "New 3DS CPU" to "CLock+L2(x)" for improved game performance
 2. Press Start to save and reboot
 
 ##### Section IV - Copying RedNAND data to SysNAND
