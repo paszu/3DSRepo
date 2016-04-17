@@ -73,6 +73,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 1. Use the A button and the D-Pad to turn on the following:    
  + "Autoboot SysNAND"
+ + "Use SysNAND FIRM as default (A9LH-only)"
  + "Force A9LH detection"
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
