@@ -46,12 +46,12 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy `arm9loaderhax.bin` and the `aurei` folder from the AuReiNand zip to the root of your SD card
 4. Create a new folder called `payloads` in the `/aurei/` folder
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/aurei/payloads/` folder on your SD card
-5. In the `/aurei/payloads` folder, rename `Decrypt9WIP.bin` to `default.bin`
+5. In the `/aurei/payloads` folder, rename `Decrypt9WIP.bin` to `def_Decrypt9.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/aurei/payloads/` folder on your SD card
-5. In the `/aurei/payloads` folder, rename `EmuNAND9.bin` to `y.bin`
+5. In the `/aurei/payloads` folder, rename `EmuNAND9.bin` to `y_EmuNAND9.bin`
 7. Copy `Uncart.bin` from the Uncart zip to the `/aurei/payloads/` folder on your SD card
-5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `x.bin`
+5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `x_Uncart.bin`
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNand NTR Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
