@@ -46,7 +46,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 1. Copy `arm9loaderhax.bin` and the `aurei` folder from the AuReiNand zip to the root of your SD card
 4. Create a new folder called `payloads` in the `/aurei/` folder
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/aurei/payloads/` folder on your SD card
-5. In the `/aurei/payloads` folder, rename `Decrypt9WIP.bin` to `def_Decrypt9.bin`
+5. In the `/aurei/payloads` folder, rename `Decrypt9WIP.bin` to `def_Dec9.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/aurei/payloads/` folder on your SD card
 5. In the `/aurei/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
