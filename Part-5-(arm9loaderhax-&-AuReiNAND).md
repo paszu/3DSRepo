@@ -12,6 +12,8 @@ This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND 
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
+For information on updating AuReiNand, read [this](https://github.com/AuroraWright/AuReiNand/wiki/Installation-and-Upgrade).
+
 #### What you need
 
 * [data_input.zip](https://mega.nz/#!Qkth0BoI!pDgWMamN5cu6HZ91j238MNh7q5ROQKq-a6NLC7Q0dhU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZUVfWkJkYlM1UEU/view?usp=sharing))
