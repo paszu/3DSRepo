@@ -120,10 +120,10 @@ If everything has gone according to plan, arm9loaderhax will be installed to you
 
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.     
+You can now hold Start on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold L on boot to launch the CakesFW configuration menu.     
-You can now hold X on boot to launch Decrypt9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
-You can now hold B on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)    
+You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)    
 You can now hold L on boot to enter the CakesFW menu.
 
 You can remove any extra files from the root of the SD card that are not in the image.
