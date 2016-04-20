@@ -2,6 +2,8 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 (The section is fairly long, try using Ctrl+F to search for your issue.)
 
+**If you still cannot solve your issue and need to reach out for help, please upload all relevant .log files from the root of your SD card to [up1.ca](https://up1.ca/), then come for help prepared with a detailed description of your problem and what you've tried.**
+
 ## <a name="ts_bs_rednand" />Black screen on RedNAND boot
 
 1. Restore a backup to RedNAND. *(You should have one of these)*
