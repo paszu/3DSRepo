@@ -84,7 +84,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 ##### Section IV - Copying RedNAND data to SysNAND
 
-11. Reboot, then open Decrypt9 from arm9loaderhax by holding X on boot
+11. Reboot, then open Decrypt9 from arm9loaderhax by holding Start on boot
 1. Go to "SysNAND Options"
 1. Go to "SysNAND Backup/Restore..."
 2. Select "NAND Restore **(keep a9lh)**"
