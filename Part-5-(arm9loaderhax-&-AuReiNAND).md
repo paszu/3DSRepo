@@ -52,8 +52,8 @@ For information on updating AuReiNand, read [this](https://github.com/AuroraWrig
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/aurei/payloads/` folder on your SD card
 5. In the `/aurei/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
-7. Copy `Uncart.bin` from the Uncart zip to the `/aurei/payloads/` folder on your SD card
-5. In the `/aurei/payloads` folder, rename `Uncart.bin` to `x_Uncart.bin`
+7. Copy `arm9loaderhax.bin` from the Uncart zip to the `/aurei/payloads/` folder on your SD card
+5. In the `/aurei/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the AuReiNand NTR Firmware zip to the `/aurei/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
