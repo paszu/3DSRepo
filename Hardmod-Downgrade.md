@@ -1,4 +1,4 @@
-#### This is no longer needed thanks to a new ARM11 kernel exploit that works on 10.4.0 - 10.6.0.
+#### This is no longer needed thanks to a new ARM11 kernel exploit that works on 10.4.0 - 10.7.0.
 
 #### Just follow the regular guide.
 
