@@ -22,7 +22,6 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 * [slot0x11key96.bin](https://mega.nz/#!IgdFVJiK!TTdhiZ25uxoWlciIySVOynTcHCh8Oyp9JQMzu4opPy4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZzB5dUhtMjlfcnc/view?usp=sharing))
 * [slot0x25keyX.bin](https://mega.nz/#!BoFyzbzT!95N9tJXAi8BfPUzlbwuZC8r8S6Sq6oy-UfuAZz3LhHo) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZ1VNUHpQd2owUlE/view?usp=sharing))
 * [slot0x1BKeyX.bin](https://mega.nz/#!opEjwCAL!6OryL37QQO_K_1UP6QG9hRnWvsWKiGSJjHXFcCCEaOI) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDY0RFYm0zdWFUWDQ/view?usp=sharing))
-* The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
@@ -55,14 +54,11 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 5. In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`
 1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
 3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
-12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 2. Copy your `emuNAND_original.bin` backups from Section I to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
 
 12. Reinsert your SD card into your 3DS
-13. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-13. Launch MiniPasta, which will patch your SysNAND and reboot your device *(if you use menuhax, you should hold your menuhax key while launching MiniPasta to reboot directly into SysNAND Homebrew Launcher)*
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch SafeA9LHInstaller
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
