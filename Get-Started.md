@@ -22,4 +22,4 @@ If your version is between 9.0.0 and 9.2.0, start on "Part 1 - Homebrew" then sk
 
 If your version is between 9.3.0 and 10.7.0, start on "Part 1 - Homebrew" and follow all instructions.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + AuReiNand, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of Part 5.**
+**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Luma3DS, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of Part 5.**

@@ -1,18 +1,21 @@
-The final step of this guide is to install arm9loaderhax and setup CakesFW to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](http://gbatemp.net/members/46970/), then setting it up to work with BootCtr9, a boot manager that lets us load things on boot.
+The final step of this guide is to install arm9loaderhax and setup Luma3DS to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](http://gbatemp.net/members/46970/).
 
 This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) of arm9loaderhax.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Cakes, just do this entire Part, but skip "Section II - Installing arm9loaderhax"**
+**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Luma3DS, just do this entire Part, but skip "Section II - Installing arm9loaderhax"**
 
-**If you currently have Updated SysNAND + Luma3DS / AuReiNand and want to switch to Updated SysNAND + Cakes, just follow "Preparatory work" and "Configuring CakesFW".**
+**If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + Luma3DS, just follow "Preparatory work."**
+
+**If you used an old revision of this page (and already have Updated SysNAND + Luma3DS), you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest Luma3DS version and follow "Preparatory work."**
 
 This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
 
 We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
+For information on updating Luma3DS, read [this](https://github.com/AuroraWright/Luma3DS/wiki/Installation-and-Upgrade).
+
 #### What you need
 
-* [boot_config.ini](https://gist.github.com/Plailect/66566928c286de6ecf61)
 * [data_input.zip](https://mega.nz/#!Qkth0BoI!pDgWMamN5cu6HZ91j238MNh7q5ROQKq-a6NLC7Q0dhU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZUVfWkJkYlM1UEU/view?usp=sharing))
 * [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
 * [slot0x05KeyY.bin](https://mega.nz/#!E9VDBApA!QJandFwHWGSGM6SRRwlUodL63ynKrYY9rJp98YXy6Ss) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDekc3YVVjN3dUTWs/view?usp=sharing))
@@ -21,18 +24,15 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 * [slot0x1BKeyX.bin](https://mega.nz/#!opEjwCAL!6OryL37QQO_K_1UP6QG9hRnWvsWKiGSJjHXFcCCEaOI) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDY0RFYm0zdWFUWDQ/view?usp=sharing))
 * The latest release of [MiniPasta](https://github.com/d0k3/MiniPasta/releases)
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
-* The latest release of [BootCtr9](https://github.com/hartmannaf/BootCtr9/releases/)
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
 * The latest release of [Uncart for arm9loaderhax](https://github.com/AuroraWright/uncart/releases)
-* The latest release of [CakesFW](https://github.com/mid-kid/CakesForeveryWan/releases) (just the .zip file)
 * *New 3DS:*
-    + CakesFW [firmware.bin](https://mega.nz/#!1xdnWDjR!dgy0Vs2VjuJsL23axRYIlAKeLctbYzyQBEvVwh6T-Zw) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR3VUY1BQTjloSDA))
-    + CakesFW [firmkey.bin](https://mega.nz/#!VtdAlB7C!w5aZdVoDjaSYSJao0u9a-La6CoY2mWzjLVFzRvT8MmA) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDOHlpR2t4S2ZlTlU/view?usp=sharing))
+    + Luma3DS NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
 * *Old 3DS:*
-    + CakesFW [firmware.bin](https://mega.nz/#!5kFDTa6Q!xhiYtPIkXoaRlfp65DmHXjXLFW6_-OWodpUqvOtLGtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSW5mOVREcWE0Q2c/view?usp=sharing))
-    + CakesFW [firmkey.bin](https://mega.nz/#!htlGzArZ!AianutIfa4K-WtGfrVZNjDSCL_LaykJwGD20aMxDXtc) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSXRhMlRfNU5OdTA/view?usp=sharing))
+    + Luma3DS NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
 
 #### Instructions
 
@@ -44,17 +44,17 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 4. **Copy your console specific `OTP.bin` (the one you got in Part 4) to the `/a9lh/` folder on the root of your SD card**
 1. Copy and merge the `3ds` folder from the SafeA9LHInstaller zip to the root of your SD card
 2. Copy `SafeA9LHInstaller.dat` from the SafeA9LHInstaller zip to the root of your SD card
-2. Copy `arm9bootloader.bin` and `arm9loaderhax.bin` from the BootCtr9 zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
-3. **Copy `boot_config.ini` from the "What you need" section above the to the root of your SD card (not from the BootCtr9 zip)**
-7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip and `arm9loaderhax.bin` from the Uncart zip to the `/a9lh/` folder on your SD card
-6. Rename `arm9loaderhax.bin` from the Uncart zip in `/a9lh/` to `uncart.bin`
-1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
-2. Copy the contents of the CakesFW zip to the root of your SD card
-3. Copy `firmware.bin` and `firmkey.bin` to the `Cakes` folder on your SD card
-7. Copy `Cakes.dat` from the CakesFW zip to the `/a9lh/` folder on your SD card
+1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
+7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/luma/payloads/` folder on your SD card
+5. In the `/luma/payloads` folder, rename `Decrypt9WIP.bin` to `def_Dec9.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
-2. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/a9lh/` folder on your SD card
+7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card
+5. In the `/luma/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
+7. Copy `arm9loaderhax.bin` from the Uncart zip to the `/luma/payloads/` folder on your SD card
+5. In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`
+1. Copy `slot0x05KeyY.bin`, `slot0x11key96.bin`, `slot0x1BKeyX.bin`, and `slot0x25keyX.bin` to the root of your SD card
+3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
 12. Copy `MiniPasta.3dsx` and `MiniPasta.smdh` to the `/3ds/` folder on your SD card
 2. Copy your `emuNAND_original.bin` backups from Section I to the root of your SD card
 
@@ -68,20 +68,19 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-16. Your 3DS should reboot into the CakesFW menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
+16. Your 3DS should reboot into the Luma3DS menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 
-##### Section III - Configuring CakesFW
+##### Section III - Configuring Luma3DS
 
-17. Go to "Select Patches"
-15. Deactivate the "Enable EmuNAND" patch if it is active
-14. Activate the "Block FIRM partition updates" and "Disable Signature Checks" patches, then press Start to continue     
-**(MAKE SURE YOU SELECT THE BLOCK FIRM PARTITION UPDATES PATCH OR THE NEXT SYSTEM UPDATE WILL BRICK YOU)**
-15. Select "More options"
-16. Select "Toggleable options"
-17. Select "Enable autoboot (Press L to enter the menu)"
-18. Press Start to continue
-19. Press B to get back to the Main Menu
-15. Select "Boot CFW" to enter CFW SysNAND
+1. Use the A button and the D-Pad to turn on the following:    
+ + "Autoboot SysNAND"
+ + "Use SysNAND FIRM as default (A9LH-only)"
+ + "Force A9LH detection"
+ + "Show current NAND in System Settings"
+ + "Show GBA boot screen in patched AGB_FIRM"
+2. If you are using a New 3DS, you should *also* enable the following:
+ + Toggle "New 3DS CPU" to "CLock+L2(x)" for improved game performance
+2. Press Start to save and reboot
 
 ##### Section IV - Copying RedNAND data to SysNAND
 
@@ -108,7 +107,7 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 
 15. From EmuNAND Manager Options, make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
-17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not,  you should delete it and make a new one!)**
+17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 15. Delete `sysNAND-A9LHAX.bin` from your SD card
 7. Reinsert your SD card into your 3DS then press Start to reboot
 6. Update your CFW SysNAND to the latest version using system settings
@@ -120,12 +119,11 @@ We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
 You will no longer be able to boot without the SD card in, that is normal.    
-You will now boot a Custom Firmware based SysNAND by default.     
+You will now boot a Custom Firmware based SysNAND by default.    
+You can now hold Select on boot to launch the Luma3DS configuration menu.    
 You can now hold Start on boot to launch Decrypt9, a full featured NAND tool.    
-You can now hold L on boot to launch the CakesFW configuration menu.     
 You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
-You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)    
+You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/40etaz/) to an installable file. (in the linked guide, replace Brahma with arm9loaderhax)      
+You can remove any extra files from the root of the SD card that are not in the image.    
 
-You can remove any extra files from the root of the SD card that are not in the image.
-
-![SD Card](http://i.imgur.com/Kkh6poF.png)
+![SD Card](http://i.imgur.com/OxjXC1O.png)

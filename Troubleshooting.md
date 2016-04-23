@@ -67,12 +67,12 @@ I screwed up in an old version of the guide and had users backup before updating
 3. Copy the `firmware_patched.bin` you downloaded to the `/cakes/` folder on the root of your SD card
 4. Do the rest of Part 5, after updating RedNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
 
-#####AuReiNand
+#####Luma3DS
 
 1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
-2. Delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card if it exists
-3. Copy the `patched_firmware_sys.bin` you downloaded to the `/aurei/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating RedNAND to the latest version delete `patched_firmware_sys.bin` from the `/aurei/` folder on the root of your SD card to have it generate a new one
+2. Delete `patched_firmware_sys.bin` from the `/luma/` folder on the root of your SD card if it exists
+3. Copy the `patched_firmware_sys.bin` you downloaded to the `/luma/` folder on the root of your SD card
+4. Do the rest of Part 5, after updating RedNAND to the latest version delete `patched_firmware_sys.bin` from the `/luma/` folder on the root of your SD card to have it generate a new one
 
 ## <a name="ts_agb_firm" />Loading AGB_FIRM...
 
@@ -107,16 +107,16 @@ I screwed up in an old version of the guide and had users backup before updating
 
 1. Ensure you have a working payload.
    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
-   2. If you are following the AuReiNand guide, check that
-      1. `/aurei/firmware.bin` exist; and
-      2. `/aurei/firmware.bin` is the correct one for your console.
+   2. If you are following the Luma3DS guide, check that
+      1. `/luma/firmware.bin` exist; and
+      2. `/luma/firmware.bin` is the correct one for your console.
    3. If you are following the CakesFW guide, check that
       1. `/arm9bootloader.bin` exists;
       2. `/Cakes/firmware.bin` and `/Cakes/firmkey.bin` exist and are the correct ones for your console; and
       3. `/boot_config.ini` exists.
 2. Test booting Decrypt9
    1. On CakesFW, hold X on boot
-   2. On AuReiNand, hold Start on boot
+   2. On Luma3DS, hold Start on boot
 2. Try [this test payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDanVaR3FTUTFqNFU/view?usp=sharing)).
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.
