@@ -61,7 +61,7 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-16. Your 3DS should reboot into the Luma3DS menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
+16. Your hold select on boot to enter the Luma3DS menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 
 ##### Section III - Configuring Luma3DS
 
