@@ -67,7 +67,7 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 
 1. Use the A button and the D-Pad to turn on the following:    
  + "Autoboot SysNAND"
- + "Use SysNAND FIRM as default (A9LH-only)"
+ + "SysNAND is updated"
  + "Force A9LH detection"
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
