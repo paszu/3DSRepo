@@ -1,5 +1,5 @@
 [Para visitar este tutorial en Español pulsa aquí (traducido por egarrote).](http://www.elotrolado.net/hilo_mega-tuto-instalar-arm9loaderhax-y-AuReiNand_2162112)    
-[Para visitar este tutorial em Português clique aqui (traduzido por asaver).](https://github.com/HenryLeonheart/Guide_Portuguese/wiki)
+[Para visitar este tutorial em português, clique aqui (traduzido por HenryLeon e asaver).](https://github.com/HenryLeonheart/Guide_Portuguese/wiki)
 
 #### Read all of the introductory pages before proceeding.
 
