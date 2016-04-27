@@ -56,24 +56,6 @@ This will happen due to having a fragmented NAND (caused by various things such 
 
 You can either flash to SysNAND at your own risk, or attempt to defragment your NAND by using Decrypt9 to dump your CTRNAND partition, then mounting it on your computer using something like [OSFMount](http://www.osforensics.com/tools/mount-disk-images.html) and defragging that mounted CTRNAND using something like [Defraggler](https://www.piriform.com/defraggler/download/standard).
 
-## <a name="ts_bs_ctrnand" />Black screen on SysNAND boot after injecting CTRNAND
-
-I screwed up in an old version of the guide and had users backup before updating rather than the other way around, so your CFW expects a 10.2+ NAND and gets a 9.2 one instead.
-
-#####CakesFW
-
-1. Download [firmware_patched.bin](https://up1.ca/#LQm-QJ3j5htr2vTG6Z2TnA)
-2. Delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card if it exists
-3. Copy the `firmware_patched.bin` you downloaded to the `/cakes/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating RedNAND to the latest version delete `firmware_patched.bin` from the `/cakes/` folder on the root of your SD card to have it generate a new one
-
-#####Luma3DS
-
-1. Download [patched_firmware_sys.bin](https://up1.ca/#BBTyUYm47YF3hBwBYhKGsA)
-2. Delete `patched_firmware_sys.bin` from the `/luma/` folder on the root of your SD card if it exists
-3. Copy the `patched_firmware_sys.bin` you downloaded to the `/luma/` folder on the root of your SD card
-4. Do the rest of Part 5, after updating RedNAND to the latest version delete `patched_firmware_sys.bin` from the `/luma/` folder on the root of your SD card to have it generate a new one
-
 ## <a name="ts_agb_firm" />Loading AGB_FIRM...
 
 1. CakesFW AGB_FIRM patching is not complete and this error is normal. You will need to use a [patched AGB_FIRM CIA](https://gbatemp.net/threads/390313/) for GBA game support.
