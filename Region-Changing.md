@@ -40,7 +40,7 @@ Region changing is almost completely unnecessary since Luma3DS now supports Regi
 7. Press Y to downgrade to the region you want to switch to
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
-5. Boot into arm9loaderhax Decrypt9 by holding X on CakesFW or L+R on Luma3DS on boot (you will boot to a black screen otherwise)
+5. Boot into arm9loaderhax Decrypt9 by holding Start
 6. Go to "SysNAND Options" then "File Dump..."
 7. "Dump SecureInfo_A" to `sysSecureInfo_A` so you have a backup of your original SecureInfo_A
 8. Go back to "SysNAND Options" then "File Inject..."
