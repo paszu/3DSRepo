@@ -98,6 +98,7 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 
 ##### Section VI - Finalising setup
 
+14. Reinsert your SD card into your 3DS
 15. From EmuNAND Manager Options, make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
 17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
