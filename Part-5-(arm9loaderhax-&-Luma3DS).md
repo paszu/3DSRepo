@@ -20,12 +20,12 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 * [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
 * [slotkey_input.zip](https://mega.nz/#!R0VQGDLJ!LIUoz_ErqmbXpOO2cBsmyG6KGCgBdR5xjOg7EPci5Ao) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN0ZaTjFfQkpNc3M))
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
-* The latest release of [Luma3DS Updater](http://3ds.intherack.com/files/lumaupdate_1.1.2.cia) (CIA version)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
 * The latest release of [Uncart for arm9loaderhax](https://github.com/AuroraWright/uncart/releases)
+* The latest release of [Luma3DS Updater](https://mega.nz/#!4scyhIgC!TZuJBYYvF0tpGkPeG8_G1VQYWTx9IWVX8DZJahkCrWw) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeFY0VzFGX0g1d0U))
 * *New 3DS:*
     + Luma3DS NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
 * *Old 3DS:*
