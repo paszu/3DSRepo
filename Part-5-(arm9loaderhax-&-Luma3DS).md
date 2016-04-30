@@ -102,6 +102,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 7. Reinsert your SD card into your 3DS then press Start to reboot
 6. Update your CFW SysNAND to the latest version using system settings
 8. Open Health and Safety (which is now FBI)
+9. Select "SD"
 9. Navigate to `hblauncher_loader.cia` and press A to install
 9. Navigate to `lumaupdate_1.1.2.cia` and press A to install
 10. Exit with the home button
