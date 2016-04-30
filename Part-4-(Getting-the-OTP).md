@@ -58,7 +58,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
-9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
+9. Delete `emuNAND_original.bin` from your SD card
 9. If you have a small SD card and require space, also delete `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching Luma3DS from the HomeBrew Launcher)
 19. Launch the Health and Safety Application (which is now FBI) on RedNAND
