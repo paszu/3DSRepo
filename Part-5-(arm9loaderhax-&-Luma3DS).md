@@ -43,7 +43,7 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/luma/payloads/` folder on your SD card
-5. In the `/luma/payloads` folder, rename `Decrypt9WIP.bin` to `def_Dec9.bin`
+5. In the `/luma/payloads` folder, rename `Decrypt9WIP.bin` to `start_Dec9.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card
 5. In the `/luma/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
