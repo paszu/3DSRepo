@@ -20,6 +20,7 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 * [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
 * [slotkey_input.zip](https://mega.nz/#!R0VQGDLJ!LIUoz_ErqmbXpOO2cBsmyG6KGCgBdR5xjOg7EPci5Ao) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN0ZaTjFfQkpNc3M))
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
+* The latest release of [Luma3DS Updater](http://3ds.intherack.com/files/lumaupdate_1.1.2.cia) (CIA version)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
@@ -41,6 +42,7 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 1. Copy and merge the `3ds` folder from the SafeA9LHInstaller zip to the root of your SD card
 2. Copy `SafeA9LHInstaller.dat` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
+4. Copy `lumaupdate_1.1.2.cia` to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/luma/payloads/` folder on your SD card
 5. In the `/luma/payloads` folder, rename `Decrypt9WIP.bin` to `start_Dec9.bin`
@@ -107,10 +109,13 @@ For information on updating Luma3DS, read [this](https://github.com/AuroraWright
 6. Update your CFW SysNAND to the latest version using system settings
 8. Open Health and Safety (which is now FBI)
 9. Navigate to `hblauncher_loader.cia` and press A to install
+9. Navigate to `lumaupdate_1.1.2.cia` and press A to install
 10. Exit with the home button
 10. Launch the HomeBrew Launcher from the home menu icon at least once to download the payload
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
+
+You can now use Luma3DS Updater to update your Luma3DS to the latest version just by opening it and pressing A. *(This is not the same thing as a System Update; it just downloads and extracts the newest Luma3DS files)*
 
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
