@@ -59,6 +59,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
 9. Delete `emuNAND_original.bin` and `sysNAND_original.bin` from your SD card
+9. If you have a small SD card and require space, also delete `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching Luma3DS from the HomeBrew Launcher)
 19. Launch the Health and Safety Application (which is now FBI) on RedNAND
 20. Navigate to `TinyFormat.cia` and press A to install
@@ -86,7 +87,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 31. **RedNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 RedNAND (a black screen when you try to load RedNAND is normal)**
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper
-33. Select "One Click Setup" and confirm. This can take a while.         
+33. Select "One Click Setup" and confirm (you do not need to do an extra backup if asked, but you should make sure that you have copied the backup you made earlier to your computer as you **will** need it later). This can take a while.         
 **(If this fails or gives you an error do NOT continue or you may BRICK; you should [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_otphelper_verify_fail))**
 35. Cross your fingers
 36. Reboot
