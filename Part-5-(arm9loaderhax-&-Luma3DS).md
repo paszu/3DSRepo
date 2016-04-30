@@ -2,15 +2,11 @@ The final step of this guide is to install arm9loaderhax and setup Luma3DS to ru
 
 This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) of arm9loaderhax.
 
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Luma3DS, just do this entire Part, but skip "Section II - Installing arm9loaderhax"**
-
 **If you currently have Updated SysNAND + Cakes and want to switch to Updated SysNAND + Luma3DS, just follow "Preparatory work."**
-
-**If you used an old revision of this page (and already have Updated SysNAND + Luma3DS), you may only have the ability to launch Decrypt9, if you would like to switch to the new method, download the latest Luma3DS version and follow "Preparatory work."**
 
 This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
 
-We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
+We will also setup the ability to launch payloads from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
 #### What you need
 
