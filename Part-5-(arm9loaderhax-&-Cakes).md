@@ -1,14 +1,12 @@
-The final step of this guide is to install arm9loaderhax and setup CakesFW to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](http://gbatemp.net/members/46970/), then setting it up to work with BootCtr9, a boot manager that lets us load things on boot.
+The final step of this guide is to install arm9loaderhax and setup CakesFW to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](http://gbatemp.net/members/46970/), then setting it up to work with BootCtr9, a boot manager that lets us load payloads on boot.
 
 This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) of arm9loaderhax.
-
-**If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Cakes, just do this entire Part, but skip "Section II - Installing arm9loaderhax"**
 
 **If you currently have Updated SysNAND + Luma3DS / AuReiNand and want to switch to Updated SysNAND + Cakes, just follow "Preparatory work" and "Configuring CakesFW".**
 
 This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
 
-We will also setup the ability to launch Decrypt9 from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
+We will also setup the ability to launch payloads from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
 #### What you need
 
