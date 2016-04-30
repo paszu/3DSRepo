@@ -8,6 +8,7 @@ If you are between versions 10.6.0 and 10.7.0, you can find instructions for
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja)    
 + [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher)    
 + [supermysterychunkhax](https://smd.salthax.org/) (requires Pokemon Super Mystery Dungeon and either a powersaves or another 3DS which has the HomeBrew Launcher)    
+
 Browserhax and menuhax were patched with 10.6.0 and will no longer work.
 
 If you are below version 9.0.0, you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
