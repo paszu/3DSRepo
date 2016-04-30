@@ -16,6 +16,8 @@
 + s_99 for emotional support
 + dark_samus for being fucking amazing
 + Urbanshadow for fixing my python script
++ Hamcha for Luma3DS Updater
++ codepoet82 for Luma3DS Updater in CIA format
 + Mrrraou for helping with support
 + Raugo for autofirm
 + felipejfc for the a9lhax web compiler
