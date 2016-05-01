@@ -92,6 +92,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 2. Hold Y on boot to launch EmuNAND9
 4. Go to "SD Format Options", then "Format SD..."
 5. Select the "Format SD Without EmuNAND" option
+9. Ignore the `starter.bin` prompt and continue
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
