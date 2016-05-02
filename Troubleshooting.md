@@ -42,7 +42,7 @@ Do the steps for the error you are getting.
 9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00003202` folder)*
 10. Select `content`
 
-The latest release of OTPHelper rarely shows false positives, but if you want to you can check manually just to be sure. To do this, copy the folder of the `.tmd` files to your SD card (Y button copies and pastes) and manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da).
+The latest release of OTPHelper rarely shows false positives, but if you want to you can check manually just to be sure. To do this, press A on each .tmd and select "Calculate SHA-256" to manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da).
 
 If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive and you can use the following steps. **If it is a New 3DS you should unbrick EmuNAND first.** Go to "NAND Backup & Restore" -> "Clone RedNAND to SysNAND" then use "NAND Validation Options" -> "Validate SysNAND Downgrade" and confirm your SysNAND only has the same error as EmuNAND. **If you get a NEW error after cloning RedNAND to SysNAND, restore SysNAND from `SysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.** If you do not get a NEW error, continue with the guide, ignoring the error.
 
