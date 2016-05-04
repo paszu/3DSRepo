@@ -6,7 +6,10 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 ## <a name="ts_bs_rednand" />Black screen on RedNAND boot
 
-1. Restore a backup to RedNAND. *(You should have one of these)*
+1. Try resetting Luma's config and fix options
+   1. Delete `/luma/config.bin` from your SD card
+   2. Set your options when it boots
+2. Try restoring a backup to RedNAND. *(You should have one of these)*
 
 ## <a name="ts_otphelper_verify_fail" />OTPHelper fails to verify my NAND
 
