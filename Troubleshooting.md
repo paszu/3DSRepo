@@ -91,6 +91,9 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
    2. Check that
       1. `/luma/firmware.bin` exist; and
       2. `/luma/firmware.bin` is the correct one for your console.
+2. Try resetting Luma's config and fix options
+   1. Delete `/luma/config.bin` from your SD card
+   2. Set your options when it boots
 2. Test booting Decrypt9
    2. On Luma3DS, hold Start on boot
 2. Try [this test payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDanVaR3FTUTFqNFU/view?usp=sharing)).
