@@ -56,10 +56,6 @@ This will happen due to having a fragmented NAND (caused by various things such 
 
 You can either flash to SysNAND at your own risk, or attempt to defragment your NAND by using Decrypt9 to dump your CTRNAND partition, then mounting it on your computer using something like [OSFMount](http://www.osforensics.com/tools/mount-disk-images.html) and defragging that mounted CTRNAND using something like [Defraggler](https://www.piriform.com/defraggler/download/standard).
 
-## <a name="ts_agb_firm" />Loading AGB_FIRM...
-
-1. CakesFW AGB_FIRM patching is not complete and this error is normal. You will need to use a [patched AGB_FIRM CIA](https://gbatemp.net/threads/390313/) for GBA game support.
-
 ## <a name="ts_otp_helper" />OTPHelper/Decrypt9 won't restore / can't find my NAND backup
 
 1. Make sure you do not have any folder named "Decrypt9" on **the root** of your SD card
@@ -89,15 +85,10 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
 
 1. Ensure you have a working payload.
    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
-   2. If you are following the Luma3DS guide, check that
+   2. Check that
       1. `/luma/firmware.bin` exist; and
       2. `/luma/firmware.bin` is the correct one for your console.
-   3. If you are following the CakesFW guide, check that
-      1. `/arm9bootloader.bin` exists;
-      2. `/Cakes/firmware.bin` and `/Cakes/firmkey.bin` exist and are the correct ones for your console; and
-      3. `/boot_config.ini` exists.
 2. Test booting Decrypt9
-   1. On CakesFW, hold X on boot
    2. On Luma3DS, hold Start on boot
 2. Try [this test payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDanVaR3FTUTFqNFU/view?usp=sharing)).
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.

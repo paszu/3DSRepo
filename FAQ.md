@@ -1,8 +1,8 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
   **A:** Normally the answer is no, but at the time of writing the latest version (10.7.0) is hackable as long as you have a compatible game.
 
-+ <a name="faq_updatecfw" />**Q:** *How do I update CakesFW / Luma3DS?*    
-  **A:** Usually you just have to copy the latest version to your SD card and overwrite the old version, although the release notes for each may contain additional instructions.
++ <a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
+  **A:** Use Luma3DS Updater
 
 + <a name="faq_rednand" />**Q:** *What is the difference between RedNAND and EmuNAND?*    
   **A:** RedNAND and EmuNAND are both different types of [NAND redirection](http://3dbrew.org/wiki/NAND_Redirection) with small differences in the way they are handled behind the scenes. The main advantage to using RedNAND instead of EmuNAND is that RedNAND will *always* use the smallest [NAND size](https://github.com/Plailect/Guide/wiki/NAND-Size) the device offers, regardless of the size of the SysNAND chip. For example, a New 3DS user with a 1.8GB internal NAND chip will only have to use 1.2GB for all RedNAND backups.
@@ -31,9 +31,6 @@
 
 + <a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
   **A:** Luma3DS supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
-
-+ <a name="faq_arn2cakes" />**Q:** *How do I switch from the old guide to Updated SysNAND + CakesFW / Luma3DS?*    
-  **A:** Just restore your SysNAND from a pre-arm9loaderhax SysNAND backup and follow all of Part 5.
 
 + <a name="faq_updates" />**Q:** *Is it safe to update CFW SysNAND?*    
   **A:** Yes, but if you are feeling apprehensive you can wait until there is confirmation it works.

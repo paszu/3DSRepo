@@ -1,4 +1,4 @@
-This is add-on section for region changing your arm9loaderhax CFW SysNAND. This is done by installing the CIAs for and injecting the SecureInfo_A file from the region you want to switch to. This assumes that you already have a way to in CFW SysNAND; if you do not you should follow [this](https://github.com/Plailect/Guide/wiki/Part-5-%28arm9loaderhax-%26-Cakes%29#installing-fbi-into-sysnand) first.
+This is add-on section for region changing your arm9loaderhax CFW SysNAND. This is done by installing the CIAs for and injecting the SecureInfo_A file from the region you want to switch to.
 
 **You MUST have already completed Part 5 and installed arm9loaderhax or you will BRICK.**
 
@@ -8,7 +8,7 @@ Region changing does not support the eShop through this method, and it will be u
 
 Note that region changing is experimental and can break several things.
 
-Region changing is almost completely unnecessary since Luma3DS now supports Region Free game installs.
+**Region changing is almost completely unnecessary since Luma3DS now supports Region Free game installs and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
 
 #### What you need
 
@@ -44,7 +44,7 @@ Region changing is almost completely unnecessary since Luma3DS now supports Regi
 6. Go to "SysNAND Options" then "File Dump..."
 7. "Dump SecureInfo_A" to `sysSecureInfo_A` so you have a backup of your original SecureInfo_A
 8. Go back to "SysNAND Options" then "File Inject..."
-9. "Inject SecureInfo_A" from `SecureInfo_A` 
+9. "Inject SecureInfo_A" from `SecureInfo_A`
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then rename `sysSecureInfo_A` to `SecureInfo_A-BACKUP`
 copy over `SecureInfo_A-BACKUP` to a safe folder on your computer in case you need it in the future

@@ -2,7 +2,7 @@
 
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how.
 
-The OTP is a requirement to use arm9loaderhax, which gets you, among other things, 100% boot rate, RedNAND boot speed almost as fast as regular sysNAND (using something like CakesFW or Luma3DS), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
+The OTP is a requirement to use arm9loaderhax, which gets you, among other things, 100% boot rate, RedNAND boot speed almost as fast as regular sysNAND (using something like Luma3DS), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
 
 Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade RedNAND (to ensure we don't partial downgrade) to 2.1, then flash RedNAND to sysNAND to get the OTP.
 

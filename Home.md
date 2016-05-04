@@ -16,7 +16,7 @@ This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA region
 
 This guide uses arm9loaderhax, the newest and best method of Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. The benefits of this are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax or rxTools). (We use rxTools in the 9.2.0 update guide because nothing else supports very old software versions.)
 
-This guide will take you through the steps of getting an entrypoint into the HomeBrew Launcher, downgrading to 9.2.0 to re-enable ARM9-kernel exploits that were blocked, downgrading to version 2.1.0 to get the console-unique OTP, restoring back to 9.2.0, and finally installing arm9loaderhax + CakesFW / Luma3DS for permanent homebrew on SysNAND and true custom firmware.
+This guide will take you through the steps of getting an entrypoint into the HomeBrew Launcher, downgrading to 9.2.0 to re-enable ARM9-kernel exploits that were blocked, downgrading to version 2.1.0 to get the console-unique OTP, restoring back to 9.2.0, and finally installing arm9loaderhax + Luma3DS for permanent homebrew on SysNAND and true custom firmware.
 
 **If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).**
 
