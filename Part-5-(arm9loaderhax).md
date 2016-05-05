@@ -53,7 +53,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 5. In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`
 1. Copy the contents of `slotkey_input.zip` to the root of your SD card
 3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
-2. Copy your `emuNAND_original.bin` backups from Section I to the root of your SD card
+2. Copy your `emuNAND_original.bin` backup from Section I to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
 
