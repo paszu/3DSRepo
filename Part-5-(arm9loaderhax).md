@@ -4,7 +4,7 @@
 
 **You cannot use another console's OTP or you will brick GUARANTEED.**
 
-The final step of this guide is to install arm9loaderhax and setup Luma3DS to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](http://gbatemp.net/members/46970/).
+The final step of this guide is to install arm9loaderhax and setup Luma3DS to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](https://github.com/AuroraWright/).
 
 This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) of arm9loaderhax.
 
@@ -13,6 +13,20 @@ This will install [Delebile's Fork](https://github.com/delebile/arm9loaderhax) o
 This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
 
 We will also setup the ability to launch payloads from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
+
+#### Overview of steps
+
+In this section, we will go through the process that all the other steps have led up to: actually installing arm9loaderhax.
+
+This is nearly the best possible kind of device exploit becuase it is permanantly installable into the NAND firm partitions, and runs before most of the OS loads, allowing it to not only work on *all* versions once installed, but also protect itself and recover from most situations that would brick a non-a9lhax 3DS such as a nonfunctional home menu or bad title install.
+
+After installing the payload using the console unique OTP retrieved in Part 4, we then setup a CFW to utilize this exploit. The file `arm9loaderhax.bin` is what is launched by arm9loaderhax itself after it finishes loading off of NAND, and can be any valid arm9 payload. This file can be replaced at any time, although Luma3DS allows for the launch of other arm9 payloads by holding buttons on boot.
+
+In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/) to boot a patched SysNAND directly, allowing us to completely bypass the need for any kind of RedNAND, vastly simplifying the usage of a hacked 3DS in addition to saving SD card space.
+
+Once arm9loaderhax is installed and Luma3DS setup with the correct options, we then backup our SD card and format it using EmuNAND9 to remove the now obolete RedNAND and reclaim the SD card space it previously used.
+
+During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Uncart** *(converts physical cartridge games to digital CIA files)*, **Decrypt9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
 
 #### What you need
 
@@ -50,7 +64,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card
 5. In the `/luma/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
 7. Copy `arm9loaderhax.bin` from the Uncart zip to the `/luma/payloads/` folder on your SD card
-5. In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`
+5. **In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`**
 1. Copy the contents of `slotkey_input.zip` to the root of your SD card
 3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
 2. Copy your `emuNAND_original.bin` backup from Section I to the root of your SD card
@@ -74,7 +88,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
 2. If you are using a New 3DS, you should *also* enable the following:
- + Toggle "New 3DS CPU" to "CLock+L2(x)" for improved game performance
+ + Toggle "New 3DS CPU" to "Clock+L2(x)" for improved game performance
 2. Press Start to save and reboot
 
 ##### Section IV - Copying RedNAND data to SysNAND

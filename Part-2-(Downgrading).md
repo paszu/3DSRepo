@@ -1,5 +1,3 @@
-This part of the guide will take you through the process of downgrading to 9.2.0 (the latest version which gives us full control of the system) using PlaiSysUpdater.
-
 This version of PlaiSysUpdater (which is compatible with >9.2.0 systems) uses an unstable exploit, and because of this it may take many tries just to load the button prompts.
 
 If PlaiSysUpdater crashes at any point during the downgrade (which can happen occasionally), you can power off the system by holding the power button. You will be left with what's called a "partial downgrade" or "partial", which is recoverable.
@@ -7,6 +5,18 @@ If PlaiSysUpdater crashes at any point during the downgrade (which can happen oc
 Although a partially downgraded system may show 9.2.0 as the system version, you are not done. You must restart from the beginning and downgrade a second time to install any files that were not installed. Browserhax will work for partial downgrades as long as you are using the recommended version of PlaiSysUpdater.
 
 **You MUST downgrade with the correct pack for your console/region or you will BRICK.**
+
+#### Overview of steps
+
+The 3DS has two different embedded processors, the arm9 and arm11. The arm11 processor is what runs all game and user intractable applications, while the arm9 handles the main security features such as managing cryptographic keys and verifying signatures.
+
+In getting access to the Homebrew Launcher, we have successfully breached the outer layer of [the 3DS's security system](https://smealum.github.io/3ds/32c3/#/19), the arm11 userland. This means that we can now operate with the same privileges as any other regular game or application. Let's take it further.
+
+The last arm9 kernel exploit that works without extra install steps or hardware was patched with the release of 9.3.0, meaning that in order for us to gain the highest levels of access, which enable arm9loaderhax's installation, we must downgrade to a version below 9.3.0.
+
+In this case, we take advantage of an arm11 kernel exploit, nicknamed ["svchax"](https://github.com/aliaspider/svchax), to gain the ability to install and uninstall system titles, which are components of the OS. This allows us to uninstall current system title versions and replace them with older ones to reopen previously fixed exploits, such as the <9.2.0 arm9 kernel exploit.
+
+For a more detailed explanation of the 3DS's security, see [this](http://yifan.lu/2016/04/06/the-3ds-cryptosystem/) blog post by [yifanlu](https://github.com/yifanlu/).
 
 #### What you need
 
@@ -36,7 +46,8 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
-5. Boot into the Homebrew Launcher (if you followed the previous part, you can do this by holding D-Pad down on boot)
+5. Boot into the Homebrew Launcher (if you followed the previous part, you can do this by holding D-Pad down on boot)    
+**If you are using supermysterychunkhax as your entrypoint, you should open any homebrew application (such as menuhax_manager) then close it back to the Homebrew Launcher (which will fix memory contents). If you do not, svchax will not init properly.**
 6. Open PlaiSysUpdater
 7. If you do not see the button prompts, power off your 3DS by holding the power button and try again (this can take many tries)
 8. If you see button prompts, proceed

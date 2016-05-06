@@ -15,6 +15,20 @@ If you are below version 9.0.0, you can find instructions for updating to 9.2.0-
 
 If you are using a game for hacks, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.
 
+#### Overview of steps
+
+This section will take you through the steps of downloading [smea](https://github.com/smealum)'s Homebrew Starter Pack which includes the necessary file to run the Homebrew Launcher (`boot.3dsx`) along with some other useful utilities (the apps in `/3ds/`).
+
+All \*hax variety entrypoints (which are the most commonly used entrypoints such as Ninjhax, oot3dhax, menuhax, and browserhax), after setting up their exploit code, launch a file named `boot.3dsx`, which is the Homebrew Launcher in this case. The file itself can be any valid `.3dsx` homebrew, but the Homebrew Launcher is prefered because it lets us launch *other* homebrew once it's running.
+
+This guide uses browserhax, which runs the homebrew launcher through an exploit site, to install menuhax, which is an exploited theme that can run the Homebrew Launcher at boot. Both of these exploits were patched in 10.6.0, and as a result if you are using 10.6.0 or higher, you will need one of the alternate entrypoints described at the top.
+
+All versions above 9.9.0 include a browser version check that will not allow you to go to any sites if you are not on the latest system version, which means you'd normally have to update to the latest to run browserhax, but that would result in patching out browserhax.
+
+The [workaround](https://yls8.mtheall.com/3dsbrowserhax.php) for this, discovered by [yellows8](https://github.com/yellows8), is to change the clock to the date detailed below, then initialize the savedata quickly (*before* the 3DS connects to Nintendo to verify browser version). At this point, you can continue to use the browser normally until the clock hits one day later or you exit the browser using the home button.
+
+Following this, we setup menuhax (a custom exploit theme) to launch `boot.3dsx` (in this case the Homebrew Launcher) when we hold D-Pad Down on boot.
+
 #### What you need
 
 + The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
@@ -29,7 +43,8 @@ If you are using a game for hacks, you will need to enter HomeBrew Launcher usin
 5. Change the time to `00:00`
 6. Launch the browser, then open the browser settings as fast as possible
 7. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) as fast as possible
-8. Navigate to `http://yls8.mtheall.com/3dsbrowserhax_auto.php` on your 3DS (if you get a slider, zoom all the way in on it, then tap the very right edge of it; this can take quite a few tries)
+8. Navigate to `http://yls8.mtheall.com/3dsbrowserhax_auto.php` or scan the QR code on your 3DS (if you get a slider, zoom all the way in on it, then tap the very right edge of it; this can take quite a few tries)    
+![browserhax_auto](https://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png)
 9. Your console should load the homebrew menu
 10. Open the menuhax_manager application
 11. Press A to install, it may show some errors but that's fine as long as it shows "Success" towards the end
@@ -38,4 +53,4 @@ If you are using a game for hacks, you will need to enter HomeBrew Launcher usin
 14. Hold down on the D-Pad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
 15. Go back to the main menuhax_manager menu, then press B, followed by Start to exit back into the Homebrew Launcher
 16. Use the Start button to reboot
-17. You can now hold D-Pad down while the system is booting to launch the homebrew menu
+17. You can now hold D-Pad down while the system is booting to launch the Homebrew Launcher

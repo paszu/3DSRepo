@@ -14,6 +14,28 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 **You MUST downgrade with the correct pack for your console region or you will BRICK.**
 
+#### Overview of steps
+
+In this section, we will be downgrading to 2.1.0 in order to take advantage of an oversight in 2.1.0 for the purpose of extracting the [OTP](https://github.com/Plailect/Guide/wiki/OTP-Info) unique to your console. This OTP file is required to install arm9loaderhax, and **cannot** be shared with other consoles.
+
+This is accomplished by making backups of both RedNAND and SysNAND, then preparing them for downgrading. We prepare for downgrading by putting all files for various needed applications on the SD card (including injecting FBI, which is an installer for applications in CIA format), then formatting the RedNAND.
+
+We use the RedNAND for the actual downgrade procedure, rather than SysNAND, because if something installs improperly or goes wrong then you are left with a broken RedNAND (which can be easily restored from SysNAND) rather than being left with a broken SysNAND which would be a brick (nonfunctional console).
+
+Before downgrading the RedNAND, we first format it twice (after making a backup). The formatting itself is done to avoid any conflicts with installed user titles and further increase the safety of the process.
+
+The reason we format twice, rather than just once, is because RedNAND and SysNAND are determined to be linked if they have both been formatted the same number of times.
+
+In the case of most users, since you formatted SysNAND in Part 3, formatting the RedNAND will bring the format count for each NAND up to 1 format which will relink them and cause them to read from the same SD card folders. In our testing, linked NANDs exhibited weird behaviors during the 2.1.0 downgrade process, and because of this we format RedNAND a second time to unlink them again.
+
+Once prepared, the RedNAND is then downgraded to the Old 3DS 2.1.0 firmware. We then use OTPHelper, a handy tool once again created by [d0k3](https://github.com/d0k3/), to do the rest of the 2.1.0 setup by running its One Click Setup.
+
+This setup first checks to see if the console is a New 3DS, and if it finds one it applies some unbricking steps (swapping a NAND header and fixing encryption types) to allow the New 3DS to run an Old 3DS only firmware (since New 3DS shipped with the firmware 8.1.0).
+
+After this New 3DS check, it then (on all consoles) verifies application hashes in RedNAND to ensure the 2.1.0 downgrade successfully completed before copying our RedNAND to SysNAND. It then does some final checks to ensure everything completed successfully, then allows you to reboot.
+
+Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https://github.com/b1l1s/2xrsa) by [Bilis](https://github.com/b1l1s)) to boot OTPHelper and dump the console unique OTP before restoring our SysNAND from backup to go back to 9.2.0.
+
 #### What you need
 
 * A working RedNAND and CFW (you should have gotten this with Part 3)

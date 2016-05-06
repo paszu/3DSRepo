@@ -12,6 +12,18 @@ This part of the guide will take you through the process of setting up RedNAND a
 
 Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
+#### Overview of steps
+
+This section will take you through the steps of setting up a CFW ("Custom Firmware"), specifically Luma3DS by [AuroraWright](https://github.com/AuroraWright/), which can boot a RedNAND partition off the SD card. This requires access to arm9 kernel, and is one of the reasons we downgraded to 9.2.0 earlier.
+
+The actual creation of the RedNAND is handled by an application called EmuNAND9 by [d0k3](https://github.com/d0k3/) which formats your SD card to contain a partition on it which houses a copy of your system's internal memory (NAND Chip).
+
+The NAND does *not* contain any of your user content (games, saves, dlc, themes, etc), rather just all system titles, some console unique files, and a "link" to the folder on your SD card which *does* contain all of your user content. This "link" is what is replaced during a system format, causing the 3DS to look in a new folder for content (with a different encryption key so other NANDs can't use it).
+
+In this process, we will copy the NAND containing this link to your RedNAND and format the SysNAND then perform a process called "unlinking," which is when you format one NAND to completely separate the NANDs from each other, ensuring they do not try to use the same SD card folder, which can cause many weird side effects.
+
+Following this, we update the RedNAND, but not the SysNAND since we still need access to that to perform the arm9 kernel exploit, to the latest version.
+
 #### What you need
 
 * [slot0x11key96.bin](https://mega.nz/#!IgdFVJiK!TTdhiZ25uxoWlciIySVOynTcHCh8Oyp9JQMzu4opPy4) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZzB5dUhtMjlfcnc/view?usp=sharing))
