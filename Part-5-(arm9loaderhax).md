@@ -74,7 +74,6 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 12. Reinsert your SD card into your 3DS
 14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 13. Launch SafeA9LHInstaller
-14. "Exploiting arm9" should be nearly instant, if you get stuck restart and try again
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
 16. Your hold select on boot to enter the Luma3DS menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
