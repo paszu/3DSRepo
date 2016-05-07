@@ -18,7 +18,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 
 In this section, we will go through the process that all the other steps have led up to: actually installing arm9loaderhax.
 
-This is nearly the best possible kind of device exploit becuase it is permanantly installable into the NAND firm partitions, and runs before most of the OS loads, allowing it to not only work on *all* versions once installed, but also protect itself and recover from most situations that would brick a non-a9lhax 3DS such as a nonfunctional home menu or bad title install.
+This is nearly the best possible kind of device exploit because it is permanantly installable into the NAND firm partitions, and runs before most of the OS loads, allowing it to not only work on *all* versions once installed, but also protect itself and recover from most situations that would brick a non-a9lhax 3DS such as a nonfunctional home menu or bad title install.
 
 After installing the payload using the console unique OTP retrieved in Part 4, we then setup a CFW to utilize this exploit. The file `arm9loaderhax.bin` is what is launched by arm9loaderhax itself after it finishes loading off of NAND, and can be any valid arm9 payload. This file can be replaced at any time, although Luma3DS allows for the launch of other arm9 payloads by holding buttons on boot.
 
