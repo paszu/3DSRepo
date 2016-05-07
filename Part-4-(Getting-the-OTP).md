@@ -10,7 +10,7 @@ If you have an existing EmuNAND, you can follow this part without switching to R
 
 More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](https://3dbrew.org/wiki/OTP_Registers).
 
-**Your RedNAND MUST be the same region as your SysNAND or you will BRICK. If you have changed your RedNAND region, you MUST create a NEW RedNAND or you will BRICK.**
+**Your RedNAND SecureInfo_A MUST be the same as your SysNAND SecureInfo_A or you will BRICK. If you have changed your RedNAND region or otherwise modified SecureInfo_A in any way, you MUST create a NEW RedNAND or you will BRICK.**
 
 **You MUST downgrade with the correct pack for your console region or you will BRICK.**
 
