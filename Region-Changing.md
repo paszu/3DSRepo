@@ -1,6 +1,6 @@
 This is add-on section for region changing your arm9loaderhax CFW SysNAND. This is done by installing the CIAs for and injecting the SecureInfo_A file from the region you want to switch to.
 
-**You MUST have already completed Part 5 and installed arm9loaderhax or you will BRICK.**
+**You MUST have already completed Part 5 and installed arm9loaderhax + Luma3DS to use this.**
 
 **You SHOULD have confirmed functional NAND backups of your arm9loaderhax 3DS (such as `sysNAND-A9LHAX.bin`) in case something goes wrong.**
 
@@ -12,9 +12,13 @@ Note that region changing is experimental and can break several things.
 
 #### What you need
 
-* [SecureInfo_A.zip](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDMlNVa3VJT2N1UFk/view?usp=sharing))
+* A hex editor of some kind; I recommend one of the following
+    - Windows: [HxD](https://mh-nexus.de/en/hxd/)
+    - Mac: [Hex Fiend](http://ridiculousfish.com/hexfiend/)
+    - Linux: [Bless](http://home.gna.org/bless/index.html)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
 **Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
  +    [New 3DS 9.2.0 (Region Change) - EUR](https://mega.nz/#!Rg8XlZaR!-q7Xe_GHyt2MEWrLzKc3rxY2fE47QMFk-VN_3PE5i4w) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSDdEY1d1Zkg3eDg/view?usp=sharing))    
@@ -29,9 +33,10 @@ Note that region changing is experimental and can break several things.
 
 #### Instructions
 
+1. Copy `GodMode9.bin` from the GodMode9 zip to the `/luma/payloads` folder on your SD card
+1. Rename `GodMode9.bin` in `/luma/payloads` to `up_GodMode9.bin`
 1. Copy `sysUpdater.cia` from the sysUpdater zip to the root of your SD card
 1. Copy `FBI.cia` from the FBI zip to the root of your SD card
-2. Copy `SecureInfo_A` from the folder of the region you want to switch to from `SecureInfo_A.zip` to the root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
@@ -42,14 +47,24 @@ Note that region changing is experimental and can break several things.
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
 5. Boot into arm9loaderhax Decrypt9 by holding Start
 6. Go to "SysNAND Options" then "File Dump..."
-7. "Dump SecureInfo_A" to `sysSecureInfo_A` so you have a backup of your original SecureInfo_A
-8. Go back to "SysNAND Options" then "File Inject..."
-9. "Inject SecureInfo_A" from `SecureInfo_A`
+7. "Dump SecureInfo_A" to `SecureInfo_A`
 7. Press Select on the main menu to eject your SD card
-8. Put your SD card in your computer, then rename `sysSecureInfo_A` to `SecureInfo_A-BACKUP`
-copy over `SecureInfo_A-BACKUP` to a safe folder on your computer in case you need it in the future
-9. Delete `SecureInfo_A-BACKUP` from the root of your SD card
-10. Reinsert your SD card into your 3DS, then press Start to reboot
+8. Put your SD card in your computer, then rename `SecureInfo_A` to `SecureInfo_C` then copy it to a safe folder on your computer
+9. Delete `SecureInfo_C` from the root of your SD card
+10. Open `SecureInfo_C` on your computer using a hex editor
+11. Go to the beginning of line 00000100 and change the first number pair there to the following pair that corresponds to *the region you want to change to*:
+    - "00" : JPN
+    - "01" : USA
+    - "02" : EUR
+12. Save the file, then copy your edited `SecureInfo_C` to the root of your SD card
+10. Reinsert your SD card into your 3DS, then press Start to reboot and hold Up while the device boots to launch GodMode9    
+**(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
+11. Navigate to `SDCARD`
+12. Press Y on `SecureInfo_C` to copy it
+13. Press B to go back to the main menu
+14. Navigate to `SYSNAND CTRNAND` -> `rw` -> `sys`
+15. Press Y in the folder to paste `SecureInfo_C`, overwrite any existing `SecureInfo_C` file if one exists
+16. Press Start to reboot
 11. Launch the FBI which was installed via CIA earlier
 12. Navigate to the "Titles" menu
 
@@ -57,13 +72,11 @@ Scroll past the green titles until you see the red ones begin. These are system 
 
 **Any red system title that either does not have a Product Code, or has the Product Code "CTR-P-CTAP" should be ignored for the following instructions!**
 
-    Look at the following list.
-    Determine the letter that corresponds to your PREVIOUS device region.
-    This should be the one from BEFORE the region change.
+Look at the following list and determine the letter that corresponds to your PREVIOUS device region. This should be the one from *BEFORE* the region change.
 
-    + E - USA
-    + J - JPN
-    + P - EUR
++ "E" : USA
++ "J" : JPN
++ "P" : EUR
 
 Use the FBI title menu to delete any title whose product code *ends* in the letter corresponding to your previous device region. This will remove leftover system programs designed for your previous region which will cause issues if left installed.
 
