@@ -8,7 +8,7 @@ Region changing does not support the eShop through this method, and it will be u
 
 Note that region changing is experimental and can break several things.
 
-**Region changing is almost completely unnecessary since Luma3DS now supports Region Free game installs and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
+**Region changing is almost completely unnecessary since Luma3DS now supports out of region games and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
 
 #### What you need
 
