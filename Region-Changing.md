@@ -14,7 +14,7 @@ Note that region changing is experimental and can break several things.
 
 * [SecureInfo_A.zip](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDMlNVa3VJT2N1UFk/view?usp=sharing))
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
-* The latest release of [downgrade_check](https://github.com/svanheulen/downgrade_check/releases)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
 **Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
  +    [New 3DS 9.2.0 (Region Change) - EUR](https://mega.nz/#!Rg8XlZaR!-q7Xe_GHyt2MEWrLzKc3rxY2fE47QMFk-VN_3PE5i4w) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSDdEY1d1Zkg3eDg/view?usp=sharing))    
@@ -29,13 +29,13 @@ Note that region changing is experimental and can break several things.
 
 #### Instructions
 
-1. Copy and merge the `3ds` folder from the downgrade_check zip to the root of your SD card
 1. Copy `sysUpdater.cia` from the sysUpdater zip to the root of your SD card
+1. Copy `FBI.cia` from the FBI zip to the root of your SD card
 2. Copy `SecureInfo_A` from the folder of the region you want to switch to from `SecureInfo_A.zip` to the root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
-5. Use FBI to install `sysUpdater.cia`
+5. Use FBI to install `sysUpdater.cia` and `FBI.cia` *(keep track of which FBI was installed via CIA and which was injected into H&S)*
 6. Get back to the home menu then open sysUpdater
 7. Press Y to downgrade to the region you want to switch to
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
@@ -50,8 +50,25 @@ Note that region changing is experimental and can break several things.
 copy over `SecureInfo_A-BACKUP` to a safe folder on your computer in case you need it in the future
 9. Delete `SecureInfo_A-BACKUP` from the root of your SD card
 10. Reinsert your SD card into your 3DS, then press Start to reboot
-12. Get into the HomeBrew Launcher and launch Downgrade Check
-13. Press A to check titles
-14. Any extra titles can be removed with FBI as they are leftover from the old region (this is optional)
-14. Any missing titles can be downloaded as CIAs with [3DNUS](https://github.com/zoltx23/3DNUS/releases) and installed with FBI
-11. Update your region changed CFW SysNAND to the latest version
+11. Launch the FBI which was installed via CIA earlier
+12. Navigate to the "Titles" menu
+
+Scroll past the green titles until you see the red ones begin. These are system titles installed to the internal flash memory of your device, not to the SD card. Many, but not all, of these red system titles will have a "Product Code" on the top screen.
+
+**Any red system title that either does not have a Product Code, or has the Product Code "CTR-P-CTAP" should be ignored for the following instructions!**
+
+    Look at the following list.
+    Determine the letter that corresponds to your PREVIOUS device region.
+    This should be the one from BEFORE the region change.
+
+    + E - USA
+    + J - JPN
+    + P - EUR
+
+Use the FBI title menu to delete any title whose product code *ends* in the letter corresponding to your previous device region. This will remove leftover system programs designed for your previous region which will cause issues if left installed.
+
+**Remember that any red system title that either does not have a Product Code, or has the Product Code "CTR-P-CTAP" (even though it ends in "P") should be ignored!**
+
+You can now update your region changed CFW SysNAND to the latest version
+
+If you experience any strange bugs (especially any related to Super Smash Bros or Monster Hunter 4), you should make a SysNAND backup, then backup your SD card, then try performing a System Format.
