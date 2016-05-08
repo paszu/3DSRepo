@@ -71,4 +71,4 @@ Use the FBI title menu to delete any title whose product code *ends* in the lett
 
 You can now update your region changed CFW SysNAND to the latest version
 
-If you experience any strange bugs (especially any related to Super Smash Bros or Monster Hunter 4), you should make a SysNAND backup, then backup your SD card, then try performing a System Format.
+If you experience any strange bugs (especially any related to Super Smash Bros and Monster Hunter 4 if you are on an Old 3DS), you should make a SysNAND backup, then backup your SD card, then try performing a System Format.
