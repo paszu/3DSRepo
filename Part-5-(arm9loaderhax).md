@@ -76,7 +76,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 13. Launch SafeA9LHInstaller
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-16. Your hold select on boot to enter the Luma3DS menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
+16. Hold select on boot to enter the Luma3DS menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
 
 ##### Section III - Configuring Luma3DS
 
