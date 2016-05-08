@@ -1,4 +1,4 @@
-# I am aware that mtheall's server is currently down, stop messaging me about it.  
+# 6:40 PM \<@yellows8\> *mtheall.com is down due to power outage atm fwiw.
 
 [Pour visiter ce tutoriel en français, cliquez ici (traduit par Ginkyway).](https://github.com/Ginkyway/Guide/wiki/Accueil)    
 [Para visitar este tutorial en Español, pulsa aquí (traducido por egarrote).](http://www.elotrolado.net/hilo_mega-tuto-instalar-arm9loaderhax-y-AuReiNand_2162112)    
