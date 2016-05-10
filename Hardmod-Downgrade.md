@@ -12,7 +12,7 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 
 This will work on both a New and Old 3DS.
 
-**After following these instructions on version 11.0.0, you must have an alternate entry point such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
+**After following these instructions on version 11.0.0, you must have an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
 
 #### What you need
 
@@ -36,4 +36,4 @@ This will work on both a New and Old 3DS.
 
 Your version number will *not* have changed in the settings, but the exploit has worked.
 
-You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew)). Remember that you will still need an alternate entrypoint
+**You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew)). Remember that you will still need an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
