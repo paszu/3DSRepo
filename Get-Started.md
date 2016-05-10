@@ -12,7 +12,7 @@ If you need to format a brand new SD card, you can use [this](http://www.ridgecr
 
 *The following applies to all devices:*
 
-**If you already have a CFW setup on any version between 9.0.0 and 9.2.0, change menuhax to type 1, set your menuhax trigger to D-Pad down, then start the guide at Part 4.**
+**If you already have a CFW setup on any version between 9.0.0 and 9.2.0, change menuhax to type 1, set your menuhax trigger to D-Pad down, then start the guide at Part 4. Note that anywhere "RedNAND" is mentioned, you can pretend it says "EmuNAND" instead as they are very similar and the instructions will be the same other than that.**
 
 If your version is below 9.0.0, follow the instructions on the "9.2.0 Update" page to update directly to 9.2.0. 
 
