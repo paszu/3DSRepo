@@ -31,16 +31,11 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
-* *New 3DS:*
-    + Luma3DS NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
-* *Old 3DS:*
-    + Luma3DS NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
 
 #### Instructions
 
 1. Copy both `slot0x11key96.bin` and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the `Luma3DS.dat` file, the `3ds` folder, and the `luma` folder from the Luma3DS zip to the root of your SD card
-3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
 1. Copy and merge the `3ds` folder from the EmuNAND9 zip to the root of your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**
@@ -63,7 +58,4 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 19. Go through initial setup without linking your Nintendo Network ID, you want it to remain linked only to RedNAND to prevent issues
 19. Reinstall menuhax on SysNAND as the format will have removed it
 14. Boot RedNAND
-14. Open System Settings
-13. **If you do not see "Emu" in front of the version number, then you are not on RedNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
-10. Update your **RedNAND** to the latest version using system settings (**Once you exit System Settings / SD Card Management you will be returned to SysNAND, make sure to enter back into RedNAND before updating!**)
 15. As your 3DS is setup right now, you must launch Luma3DS from the Homebrew Launcher every time you want to boot RedNAND; by the end of the guide you will boot into CFW SysNAND by default instead of SysNAND
