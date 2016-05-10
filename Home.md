@@ -1,3 +1,8 @@
+    8:38 PM <@Plailect> oh fun, 11.0 dropped
+    8:38 PM <@Plailect> I assume a9lhax users encountered no problems updating?
+    8:38 PM <flagrama> I just updated fine
+    8:40 PM <Tohka> Worked fine.
+
 [Pour visiter ce tutoriel en français, cliquez ici (traduit par Ginkyway).](https://github.com/Ginkyway/Guide/wiki/Accueil)    
 [Para visitar este tutorial en Español, pulsa aquí (traducido por egarrote).](http://www.elotrolado.net/hilo_mega-tuto-instalar-arm9loaderhax-y-AuReiNand_2162112)    
 [Para visitar este tutorial em português, clique aqui (traduzido por HenryLeon e asaver).](https://github.com/HenryLeonheart/Guide_Portuguese/wiki)    
