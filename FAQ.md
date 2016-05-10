@@ -1,5 +1,5 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
-  **A:** Normally the answer is no, but at the time of writing the latest version (10.7.0) is hackable as long as you have a compatible game.
+  **A:** Probably not. 11.0.0 *just* released, but until we know more you should stay on 10.7.0 or below.
 
 + <a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
   **A:** Use Luma3DS Updater
