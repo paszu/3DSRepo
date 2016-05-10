@@ -14,12 +14,14 @@ If you need to format a brand new SD card, you can use [this](http://www.ridgecr
 
 **If you already have a CFW setup on any version between 9.0.0 and 9.2.0, change menuhax to type 1, set your menuhax trigger to D-Pad down, then start the guide at Part 4. Note that anywhere "RedNAND" is mentioned, you can pretend it says "EmuNAND" instead as they are very similar and the instructions will be the same other than that.**
 
-If your version is below 9.0.0, follow the instructions on the "9.2.0 Update" page to update directly to 9.2.0. 
+If your version is below 9.0.0, follow the instructions on the "9.2.0 Update" page to update directly to 9.2.0.
 
 If you are on 9.0.0 or 9.1.0 you are fine where you are as both are almost identical to 9.2.0.
 
 If your version is between 9.0.0 and 9.2.0, start on "Part 1 - Homebrew" then skip most of "Part 2 - Downgrading" (more info on that page).
 
 If your version is between 9.3.0 and 10.7.0, start on "Part 1 - Homebrew" and follow all instructions.
+
+If your version is 11.0.0, you must [downgrade your firmware with a hardmod](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade/)
 
 **If you followed an old version of this guide that did not include Updated SysNAND and want to switch to Updated SysNAND + Luma3DS, just restore your SysNAND from a pre-arm9loaderhax SysNAND backup *(such as `sysNAND_original.bin`)* using Decrypt9 and follow all of Part 5.**

@@ -6,6 +6,8 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 
 **You MUST downgrade with the correct pack for your console/region or you will BRICK.**
 
+**If you are on version 11.0.0, you MUST have used a hardmod downgrade to successfully complete this part.**
+
 #### Overview of steps
 
 The 3DS has two different embedded processors, the arm9 and arm11. The arm11 processor is what runs all game and user intractable applications, while the arm9 handles the main security features such as managing cryptographic keys and verifying signatures.

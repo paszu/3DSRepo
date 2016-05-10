@@ -4,10 +4,12 @@ If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but y
 
 If you are between versions 9.9.0 and 10.5.0, you should follow this guide as written.
 
-If you are between versions 10.6.0 and 10.7.0, you can find instructions for     
+If you are between versions 10.6.0 and 11.0.0, you can find instructions for     
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja)    
 + [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher)    
-+ [~~supermysterychunkhax~~](https://smd.salthax.org/) ~~(requires Pokemon Super Mystery Dungeon and either a powersaves or another 3DS which has the HomeBrew Launcher)~~ **supermysterychunkhax is, for now, [incompatible](http://gbatemp.net/threads/supermysterychunkhax-savegame-exploit-for-super-mystery-dungeon.423926/page-9#post-6303617) with downgrading**    
++ [supermysterychunkhax](https://smd.salthax.org/) (requires Pokemon Super Mystery Dungeon and either a powersaves or another 3DS which has the HomeBrew Launcher)
+
+**If you are on version 11.0.0, you MUST have used a hardmod downgrade to successfully complete Part 2 later.**
 
 Browserhax and menuhax were patched with 10.6.0 and will no longer work.
 

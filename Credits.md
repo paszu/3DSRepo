@@ -20,6 +20,7 @@
 + codepoet82 for Luma3DS Updater in CIA format
 + Mrrraou for helping with support
 + Raugo for autofirm
++ Reboot.ms for the modified autofirm version
 + felipejfc for the a9lhax web compiler
 + AuroraWright for SafeA9LHInstaller
 + d0k3 for OTPHelper, Decrypt9WIP, and EmuNAND9
