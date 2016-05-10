@@ -1,4 +1,4 @@
-**The version of autofirm used in this guide was modified from Raugo's original autofirm by [Reboot.ms](https://www.reboot.ms/forum/threads/2403/), it is being rehosted for download by people who do not speak Italian.**
+The version of autofirm used in this guide was modified from [Raugo](https://gbatemp.net/members/356694/)'s original autofirm by [Reboot.ms](https://www.reboot.ms/forum/threads/2403/), it is being rehosted for download by people who do not speak Italian.
 
 If you are on 11.0.0, you must follow this guide to downgrade your NATIVE_FIRM using a hardmod in order to directly dump and restore your NAND.    
 
