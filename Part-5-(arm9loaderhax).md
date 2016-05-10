@@ -38,8 +38,16 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 * The latest release of [Luma3DS Updater](http://3ds.intherack.com/files/lumaupdate_1.2.0.cia)
 * *New 3DS:*
     + Luma3DS NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
+    + The 11.0.0 Homebrew Launcher Payload for your region:
+        + [New 3DS - EUR](https://mega.nz/#!BwsB3ApC!T495cC4EoG74BxKuqxSeCr6xpToYT2IdtCbnbazx6ds) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDWjR2aHg2NEtZX3c))
+        + [New 3DS - JPN](https://mega.nz/#!w9c2WIIB!TJtxWqENoid5evPZaZnvh0uAyfeRinR-167_9TFuAgE) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnV4QWl4VzJveWs))
+        + [New 3DS - USA](https://mega.nz/#!Y5FQFLwZ!aYqnCSB5hZcscObePMcN_1oJ8l70zPcMVI86XRFmnYM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDY0s1Y0dTMXhieDA))
 * *Old 3DS:*
     + Luma3DS NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
+    + The 11.0.0 Homebrew Launcher Payload for your region:
+        + [New 3DS - EUR](https://mega.nz/#!go1XRRoK!CRUBgEAV5gAA95W3bK8yi78mRacXtANXrpUKrJOFCIA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDcHliR0QxeTdBcUE))
+        + [New 3DS - JPN](https://mega.nz/#!RpFyGIbZ!IYjVxnSu33-kL28riaC5SoBR_f832QlgvNKmA721Vhc) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDT0JkMVpYZmc2T0k))
+        + [New 3DS - USA](https://mega.nz/#!R1tGQKhK!Xi7IvjULTVzAkNU3s0opGtGbWLY_clL00BoCwQqk-Zo) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZ3NMZURLa01lbTA))
 
 #### Instructions
 
@@ -63,6 +71,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 5. **In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`**
 1. Copy the contents of `slotkey_input.zip` to the root of your SD card
 3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
+4. **Copy the 11.0.0 Homebrew Launcher Payload to the root of your SD card**
 2. Copy your `emuNAND_original.bin` backup from Section I to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
@@ -136,4 +145,4 @@ You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD ma
 You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/4hwuhf/) to an installable file.    
 You can remove any extra files from the root of the SD card that are not in the image.    
 
-![SD Card](http://i.imgur.com/OxjXC1O.png)
+![SD Card](http://i.imgur.com/jdJxrKY.png)
