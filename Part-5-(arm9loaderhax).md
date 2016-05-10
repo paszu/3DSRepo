@@ -1,7 +1,3 @@
-#### CakesFW has been removed from the guide because of its general developer focus and [lack of popularity with users](http://i.imgur.com/iEC5KHt.png)
-
-(if CakesFW is appropriate for you, then you can set it up without my help)
-
 **You cannot use another console's OTP or you will brick GUARANTEED.**
 
 The final step of this guide is to install arm9loaderhax and setup Luma3DS to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](https://github.com/AuroraWright/).
