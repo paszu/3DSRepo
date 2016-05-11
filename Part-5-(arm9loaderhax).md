@@ -125,7 +125,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and copy it to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 15. Delete `sysNAND-A9LHAX.bin` from your SD card
 7. Reinsert your SD card into your 3DS then press Start to reboot
-6. Update your CFW SysNAND to the latest version using system settings
+6. Update your CFW SysNAND to the latest version using system settings (if it is not already)
 8. Open Health and Safety (which is now FBI)
 9. Select "SD"
 9. Navigate to `hblauncher_loader.cia` and press A to install
