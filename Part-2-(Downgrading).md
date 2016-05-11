@@ -1,4 +1,4 @@
-##https://github.com/Plailect/PlaiSysUpdater/issues/8
+## [READ THIS](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
 
 This version of PlaiSysUpdater (which is compatible with >9.2.0 systems) uses an unstable exploit, and because of this it may take many tries just to load the button prompts.
 
