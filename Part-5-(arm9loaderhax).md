@@ -45,9 +45,9 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 * *Old 3DS:*
     + Luma3DS NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
     + The 11.0.0 Homebrew Launcher Payload for your region:
-        + [New 3DS - EUR](https://mega.nz/#!go1XRRoK!CRUBgEAV5gAA95W3bK8yi78mRacXtANXrpUKrJOFCIA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDcHliR0QxeTdBcUE))
-        + [New 3DS - JPN](https://mega.nz/#!RpFyGIbZ!IYjVxnSu33-kL28riaC5SoBR_f832QlgvNKmA721Vhc) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDT0JkMVpYZmc2T0k))
-        + [New 3DS - USA](https://mega.nz/#!R1tGQKhK!Xi7IvjULTVzAkNU3s0opGtGbWLY_clL00BoCwQqk-Zo) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZ3NMZURLa01lbTA))
+        + [Old 3DS - EUR](https://mega.nz/#!go1XRRoK!CRUBgEAV5gAA95W3bK8yi78mRacXtANXrpUKrJOFCIA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDcHliR0QxeTdBcUE))
+        + [Old 3DS - JPN](https://mega.nz/#!RpFyGIbZ!IYjVxnSu33-kL28riaC5SoBR_f832QlgvNKmA721Vhc) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDT0JkMVpYZmc2T0k))
+        + [Old 3DS - USA](https://mega.nz/#!R1tGQKhK!Xi7IvjULTVzAkNU3s0opGtGbWLY_clL00BoCwQqk-Zo) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZ3NMZURLa01lbTA))
 
 #### Instructions
 
