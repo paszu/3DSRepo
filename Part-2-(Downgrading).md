@@ -1,3 +1,5 @@
+##https://github.com/Plailect/PlaiSysUpdater/issues/8
+
 This version of PlaiSysUpdater (which is compatible with >9.2.0 systems) uses an unstable exploit, and because of this it may take many tries just to load the button prompts.
 
 If PlaiSysUpdater crashes at any point during the downgrade (which can happen occasionally), you can power off the system by holding the power button. You will be left with what's called a "partial downgrade" or "partial", which is recoverable.
