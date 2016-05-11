@@ -62,7 +62,10 @@ If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 3. Copy and merge the `3DS` folder from the FBI zip to the root of your SD card
-18. Reinsert your SD card into your 3DS
+18. Reinsert your SD card into your 3DS, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching Luma3DS from the HomeBrew Launcher)
+11. **MAKE SURE YOU ARE IN RedNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU SEE "EMU" IN FRONT OF THE VERSION NUMBER)**
+10. Update your **RedNAND** to the latest version using system settings if it is not already (**DO NOT ENTER SD CARD MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)		
+12. Reboot into SysNAND
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you can only toggle it by pulling the battery which resets it to be on**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND Options", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
