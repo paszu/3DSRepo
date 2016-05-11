@@ -6,6 +6,7 @@ If you are between versions 9.9.0 and 10.5.0, you should follow this guide as wr
 
 If you are between versions 10.6.0 and 11.0.0, you use the following instructions for various alternate entrypoints *in place of* Part 1    
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja) **(temporarily broken on 11.0.0; wait for an update)**    
++ [smashbroshax](https://gbatemp.net/threads/397194/) (requires Super Smash Bros. and **only works on New 3DS**) 
 + [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher) **(temporarily broken on 11.0.0; wait for an update)**    
 + [supermysterychunkhax](https://smd.salthax.org/) (requires Pokemon Super Mystery Dungeon and another 3DS which has the HomeBrew Launcher)
 
