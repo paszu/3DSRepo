@@ -12,7 +12,7 @@
 
 + <a name="faq_need" />**Q:** *What do I need to do this guide?*    
   **A:** This guide can be completely done with free software and **(if you are on 10.6.0 or 10.7.0)** a compatible game   
-    *Note: If you are using a game for hacks, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.*
+    *Note: If you are using a game for hacks, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.*
 
 + <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
   **A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
