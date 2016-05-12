@@ -45,6 +45,7 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 
 **If you are already on 9.2.0-20, skip to step 18.**
 
+1. **Set DNS settings to auto and ensure you have a valid connection setup, otherwise recovery mode cannot save you from any issues.**
 1. Copy and merge the `3ds` folder from the PlaiSysUpdater zip to root of your SD card
 2. Copy and merge the `3ds` folder from the EmuNAND9 zip to root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
