@@ -1,5 +1,5 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
-  **A:** Probably not. 11.0.0 *just* released, but until we know more this will probably only work on versions 10.7.0 and below.
+  **A:** See [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/).
 
 + <a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
   **A:** Use Luma3DS Updater
