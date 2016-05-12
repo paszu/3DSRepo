@@ -1,5 +1,7 @@
 ## [READ THIS](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
 
+*If you encounter this error and cannot use recovery mode, you can edit the connection settings as long as the 3DS completely fails to connect to any access point (such as if the point being out of range).*
+
 This version of PlaiSysUpdater (which is compatible with >9.2.0 systems) uses an unstable exploit, and because of this it may take many tries just to load the button prompts.
 
 If PlaiSysUpdater crashes at any point during the downgrade (which can happen occasionally), you can power off the system by holding the power button. You will be left with what's called a "partial downgrade" or "partial", which is recoverable.
@@ -45,7 +47,6 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 
 **If you are already on 9.2.0-20, skip to step 18.**
 
-1. **Set DNS settings to auto and ensure you have a valid connection setup, otherwise recovery mode cannot save you from any issues.**
 1. Copy and merge the `3ds` folder from the PlaiSysUpdater zip to root of your SD card
 2. Copy and merge the `3ds` folder from the EmuNAND9 zip to root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
