@@ -4,7 +4,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 **If you still cannot solve your issue and need to reach out for help, please upload all relevant .log files from the root of your SD card to [Up1](https://up1.ca/), then come for help prepared with a detailed description of your problem and what you've tried.**
 
-## <a name="ts_safe_a9lh" />After installing arm9loaderhax it boots directly SafeA9LHInstalle
+## <a name="ts_safe_a9lh" />After installing arm9loaderhax it boots directly SafeA9LHInstaller
 1. You copied the wrong arm9loaderhax.bin file to your SD card (you were only supposed to copy the `3ds` folder and `SafeA9LHInstaller.dat` file).
    1. Copy `arm9loaderhax.bin` from the Luma3DS zip to the root of your SD card
    2. Reboot and continue
