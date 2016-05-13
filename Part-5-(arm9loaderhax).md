@@ -59,7 +59,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 4. **Copy your console specific `OTP.bin` (the one you got in Part 4) to the `/a9lh/` folder on the root of your SD card**
 1. Copy and merge the `3ds` folder from the SafeA9LHInstaller zip to the root of your SD card
 2. Copy `SafeA9LHInstaller.dat` from the SafeA9LHInstaller zip to the root of your SD card
-3. Copy `hblauncher_loader.cia` from the `hblauncher_loader` zip to the root of your SD card
+3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
 4. Copy `lumaupdate_1.2.0.cia` to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/luma/payloads/` folder on your SD card
@@ -81,7 +81,9 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 13. Launch SafeA9LHInstaller
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-16. Hold select on boot to enter the Luma3DS menu. If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).
+16. Hold select on boot to enter the Luma3DS menu.     
+  + If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).    
+  + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_safe_a9lh).
 
 ##### Section III - Configuring Luma3DS
 
