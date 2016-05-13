@@ -9,7 +9,7 @@ You copied the wrong `arm9loaderhax.bin` file to your SD card (you were only sup
 
 1. Use the correct `arm9loaderhax.bin`
    1. Copy `arm9loaderhax.bin` from the Luma3DS zip to the root of your SD card
-   2. Reboot and continue
+   2. Reboot holding select and continue
 
 ## <a name="ts_bs_rednand" />Black screen on RedNAND boot
 
