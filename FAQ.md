@@ -1,6 +1,9 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
   **A:** See [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/).
 
++ <a name="faq_n3ds" />**Q:** *Do I have to do anything different for New 3DS vs and Old 3DS or 2DS?*    
+  **A:** All device models are done in the same way; OTPHelper autodetects which model you are using and does the correct action for it when you select One Click Setup, including unbricking RedNAND on New 3DS.
+
 + <a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
   **A:** Use Luma3DS Updater
 
@@ -51,7 +54,7 @@
   **A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
 
 + <a name="faq_systransfer" />**Q:** *What about System Transfers?*    
-  **A:** Once you have completed the guide, you can system transfer to and from an arm9loaderhax'd 3DS or 2DS exactly like you would a regular stock console (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
+  **A:** Once you have completed the guide, you can system transfer to and from an arm9loaderhax'd 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
 
 + <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
   **A:** You may be able to complete up to part 3 of the guide (getting emuNAND running). However, part 4 as of now requires a computer to inject FBI into Health & Safety.
