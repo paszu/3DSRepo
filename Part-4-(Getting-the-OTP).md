@@ -110,7 +110,8 @@ If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must
 25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 27. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW
 28. Open PlaiSysUpdater **on RedNAND**
-29. Press X to downgrade RedNAND to 2.1.0
+29. Press X to downgrade RedNAND to 2.1.0    
+  + **If you encounter an error in downgrading related to NFIRM, make sure you have read the information just above the "Overview of steps" and done all relevant instructions**
 30. If you encounter an error at any point during the downgrade, restore your RedNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on RedNAND, restoring from backup whenever it fails until it goes through successfully. *This downgrade process can take many many tries in some situations, just keep trying until it works*     
 31. **RedNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 RedNAND (a black screen when you try to load RedNAND is normal)**
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
