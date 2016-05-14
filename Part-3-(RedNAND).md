@@ -40,7 +40,7 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 
 1. Copy both `slot0x11key96.bin` and `slot0x25keyX.bin` to the root of your SD card
 2. Copy the `Luma3DS.dat` file, the `3ds` folder, and the `luma` folder from the Luma3DS zip to the root of your SD card
-3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
+3. **Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card**
 1. Copy and merge the `3ds` folder from the EmuNAND9 zip to the root of your SD card
 2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**
