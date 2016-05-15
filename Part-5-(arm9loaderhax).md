@@ -20,7 +20,7 @@ After installing the payload using the console unique OTP retrieved in Part 4, w
 
 In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/) to boot a patched SysNAND directly, allowing us to completely bypass the need for any kind of RedNAND, vastly simplifying the usage of a hacked 3DS in addition to saving SD card space.
 
-Once arm9loaderhax is installed and Luma3DS setup with the correct options, we then backup our SD card and format it using EmuNAND9 to remove the now obsolete RedNAND and reclaim the SD card space it previously used.
+Once arm9loaderhax is installed and Luma3DS is setup with the correct options, we then backup our SD card and format it using EmuNAND9 to remove the now obsolete RedNAND and reclaim the SD card space it previously used.
 
 During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Uncart** *(converts physical cartridge games to digital CIA files)*, **Decrypt9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
 
