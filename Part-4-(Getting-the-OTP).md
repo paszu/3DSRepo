@@ -63,7 +63,6 @@ If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must
 1. **Right now is a good time to use a [save manager](https://github.com/meladroit/svdt/releases) to backup any saves you care about (do steps 10 - 18 then install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases) CIA) (just in case something goes wrong unexpectedly)**
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
-3. Copy and merge the `3DS` folder from the FBI zip to the root of your SD card
 18. Reinsert your SD card into your 3DS, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching Luma3DS from the HomeBrew Launcher)
 11. **MAKE SURE YOU ARE IN RedNAND (IF YOU FOLLOWED PART 3, MAKE SURE THAT YOU SEE "EMU" IN FRONT OF THE VERSION NUMBER)**
 10. Update your **RedNAND** to the latest version using system settings if it is not already (**DO NOT ENTER SD CARD MANAGEMENT OR EXIT SYSTEM SETTINGS AS THIS WILL REBOOT YOU INTO SYSNAND**)		
@@ -94,7 +93,7 @@ If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must
 21. Press home to exit FBI, then launch TinyFormat using the home menu icon
 7. Press Y to format **RedNAND**
 8. Reboot back into RedNAND and complete initial setup *without* signing into your Nintendo Network ID
-9. **Repeat steps 30 through 34, this is not optional (in other words, you must TinyFormat your RedNAND twice - if you do not, your device may brick when you downgrade)**
+9. **Repeat steps 29 through 33, this is not optional (in other words, you must TinyFormat your RedNAND twice - if you do not, your device may brick when you downgrade)**
 10. Remove any TWL modifications done to the device or PlaiSysUpdater will throw an error      
 (if you have no idea what this is, don't worry about it; most users will not need to do this)
 19. Launch the Health and Safety Application (which is now FBI)
