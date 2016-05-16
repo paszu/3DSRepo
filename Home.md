@@ -4,7 +4,7 @@
 [Para visitar este tutorial en Español, pulsa aquí (traducido por egarrote).](http://www.elotrolado.net/hilo_mega-tuto-instalar-arm9loaderhax-y-AuReiNand_2162112)    
 [Para visitar este tutorial em português, clique aqui (traduzido por HenryLeon e asaver).](https://github.com/HenryLeonheart/Guide_Portuguese/wiki)    
 [Para visitar este tutorial em Português Brasileiro, clique aqui (traduzido por Haagenti).](https://github.com/Haagenti/Guide-pt_BR/wiki)    
-[Für den Deutschen Guide klickt hier (Übersetzt von Konsolenumbau.Expert).](https://github.com/KonsoleHL/Guide/wiki).   
+[Für den Deutschen Guide klickt hier (Übersetzt von Konsolenumbau.Expert).](https://github.com/KonsoleHL/Guide/wiki)    
 
 #### Read all of the introductory pages before proceeding.
 
