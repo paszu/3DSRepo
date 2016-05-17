@@ -53,7 +53,7 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
 5. Boot into the Homebrew Launcher (if you followed the previous part, you can do this by holding D-Pad down on boot)    
-**If you are using supermysterychunkhax as your entrypoint, you should open any homebrew application (such as menuhax_manager) then close it back to the Homebrew Launcher (which will fix memory contents). If you do not, svchax will not init properly.**
+**If you are using supermysterychunkhax or smashbroshax as your entrypoint, you should open any homebrew application (such as menuhax_manager) then close it back to the Homebrew Launcher (which will fix memory contents). If you do not, svchax will not init properly.**
 6. Open PlaiSysUpdater
 7. If you do not see the button prompts, power off your 3DS by holding the power button and try again (this can take many tries)
 8. If you see button prompts, proceed
