@@ -1,4 +1,4 @@
-##[11.0.0-33 : The Aftermath](https://www.reddit.com/r/3dshacks/comments/4iry4s/)
+##[AGE (a9lh guide enhancement)](http://bob.me.tz/age/)
 
 [Pour visiter ce tutoriel en français, cliquez ici (traduit par Ginkyway).](https://github.com/Ginkyway/Guide/wiki/Accueil)    
 [Para visitar este tutorial en Español, pulsa aquí (traducido por egarrote).](http://www.elotrolado.net/hilo_mega-tuto-instalar-arm9loaderhax-y-AuReiNand_2162112)    
