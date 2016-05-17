@@ -14,7 +14,7 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 **You MUST downgrade with the correct pack for your console region or you will BRICK.**
 
-*If you are using ReiNand, you should either compile the latest commit or switch to a different CFW such as Luma3DS. The latest binary release of ReiNand does not include the [fix](https://github.com/Reisyukaku/ReiNand/commit/110668eb75d9db3f2d750cf2caf75ac73958a564) for being unable to downgrade NATIVE_FIRM on EmuNAND/RedNAND and as such PlaiSysUpdater will fail 100% of the time on ReiNand v4.0.*
+*If you are using ReiNand, you MUST be using the latest version (v4.1 or above) or you will be unable to downgrade NATIVE_FIRM on EmuNAND/RedNAND and PlaiSysUpdater will fail 100% of the time.*
 
 **If you are using Luma3DS and DID NOT follow Part 3, you should copy the appropriate `firmware.bin` from Part 3 to the `/luma/` folder on your SD card, otherwise the downgrade will fail.**
 
