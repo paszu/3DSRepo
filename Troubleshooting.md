@@ -42,7 +42,7 @@ Do the steps for the error you are getting.
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
 
 **THIS APPLIES ONLY TO .TMD RELATED ERRORS, NOT .APP RELATED ERRORS**    
-**If you got a .app related error, you should restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.**
+**If you got a .app related error, you should restore SysNAND from `sysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9..**
 
 1. Check `otphelper.log` to see which titles the TMD hash mismatches on
 2. Download the latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
@@ -59,7 +59,7 @@ The latest release of OTPHelper rarely shows false positives, but if you want to
 
 If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive and you can use the following steps. **If it is a New 3DS you should unbrick EmuNAND first.** Go to "NAND Backup & Restore" -> "Clone RedNAND to SysNAND" then use "NAND Validation Options" -> "Validate SysNAND Downgrade" and confirm your SysNAND only has the same error as EmuNAND. **If you get a NEW error after cloning RedNAND to SysNAND, restore SysNAND from `SysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.** If you do not get a NEW error, continue with the guide, ignoring the error.
 
-If, in any folder, **none** of the `.tmd` files match, then this was a legitimate downgrade error and you have been saved from a brick; you should restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9
+If, in any folder, **none** of the `.tmd` files match, then this was a legitimate downgrade error and you have been saved from a brick; you should restore SysNAND from `sysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.
 
 Check all of the titles that mismatch with this same method.
 
