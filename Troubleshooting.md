@@ -41,7 +41,8 @@ Do the steps for the error you are getting.
 
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
 
-**THIS APPLIES ONLY TO .TMD RELATED ERRORS, NOT .APP RELATED ERRORS**
+**THIS APPLIES ONLY TO .TMD RELATED ERRORS, NOT .APP RELATED ERRORS**    
+**If you got a .app related error, you should restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.**
 
 1. Check `otphelper.log` to see which titles the TMD hash mismatches on
 2. Download the latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
