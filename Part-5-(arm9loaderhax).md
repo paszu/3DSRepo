@@ -54,6 +54,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 ##### Section I - Preparatory work
 
 2. Delete the `Decrypt9` folder from the root of your SD card if you have one
+2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
 3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
 4. **Copy your console specific `OTP.bin` (the one you got in Part 4) to the `/a9lh/` folder on the root of your SD card**
