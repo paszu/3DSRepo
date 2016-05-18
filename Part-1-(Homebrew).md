@@ -4,7 +4,7 @@ If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but y
 
 If you are between versions 9.9.0 and 10.5.0, you should follow this guide as written.
 
-If you are between versions 10.6.0 and 11.0.0, you use the following instructions for various alternate entrypoints *in place of* Part 1    
+If you are between versions 10.6.0 and 11.0.0, or have a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**, you must use the following instructions for various alternate entrypoints *in place of* Part 1    
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja) **(temporarily broken on 11.0.0 FIRM; wait for an update; this does not apply to hardmod downgrade users)**    
 + [smashbroshax](https://gbatemp.net/threads/397194/) (requires Super Smash Bros. and **only works on New 3DS**) 
 + [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher) **(temporarily broken on 11.0.0 FIRM; wait for an update; this does not apply to hardmod downgrade users)**       
