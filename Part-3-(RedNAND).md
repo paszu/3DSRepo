@@ -53,7 +53,7 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 9. Put your SD card in your computer, then copy all your files back into it
 10. Reinsert your SD card into your 3DS, then press Start to reboot
 11. Get into the Homebrew Launcher through the entrypoint of your choice
-12. Open Luma3DS
+12. Open Luma3DS (this can sometimes black screen, just try again)
 14. Activate "Show current NAND in System Settings"
 15. Press Start to boot RedNAND (you must launch Luma3DS from the Homebrew Launcher every time you want to boot RedNAND)
 13. If you boot into the home menu, you have successfully launched RedNAND
