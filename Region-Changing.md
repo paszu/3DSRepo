@@ -29,7 +29,7 @@ Note that region changing is experimental and can break several things.
 
 #### Instructions
 
-**Some consoles have a `SecureInfo_B` instead of `SecureInfo_A`; this is fine and you should use `SecureInfo_B` for the relevant steps.**
+**Some consoles have a `SecureInfo_B` instead of `SecureInfo_A`; this is fine and you should use `SecureInfo_B` for the relevant steps.**    
 1. Copy `GodMode9.bin` from the GodMode9 zip to the `/luma/payloads` folder on your SD card
 1. Rename `GodMode9.bin` in `/luma/payloads` to `up_GodMode9.bin`
 1. Copy `sysUpdater.cia` from the sysUpdater zip to the root of your SD card
