@@ -14,7 +14,7 @@ Note that region changing is experimental and can break several things.
 
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
-* The latest build of [GodMode9](https://mega.nz/#!9oUSBRKS!OPabQRkS1az88jH8FIBkrb_N_hd4IWaguCENabot1r4) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZTJhMVpTeURsVUU))
+* The latest build of [GodMode9](https://mega.nz/#!Fh0SHSCJ!wca8zg6cSIGwVVjmPJH_kda9h1BfG5pNYxrPrnd-c6Y) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUnhRRjhJTVZOQ0k))
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
 **Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
  +    [New 3DS 9.2.0 (Region Change) - EUR](https://mega.nz/#!Rg8XlZaR!-q7Xe_GHyt2MEWrLzKc3rxY2fE47QMFk-VN_3PE5i4w) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSDdEY1d1Zkg3eDg/view?usp=sharing))    
@@ -47,14 +47,12 @@ Note that region changing is experimental and can break several things.
 **(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
 14. Navigate to `SYSNAND CTRNAND` -> `rw` -> `sys`
 15. Press Y on `SecureInfo_A` to copy it
-13. Press B until you see the main menu
-11. Navigate to `SDCARD` (this can take some time to load on large SD cards, it is not frozen)
 16. Press Y to paste a copy of `SecureInfo_A`
 17. Select "Copy path(s)"
-18. Scroll down to the `SecureInfo_A` you just pasted
-19. Hold the R trigger while pressing X to rename the file
-20. Use the D-Pad to rename the file to `SecureInfo_C`, pressing A when you're done
-21. Press A on `SecureInfo_A` then select "Show in Hexeditor"
+18. Press A to unlock SysNAND writing, then input the key combo given
+20. Use the D-Pad to rename the file to `SecureInfo_C`, pressing A when you're done (overwrite any existing `SecureInfo_C`)
+18. Scroll down to the `SecureInfo_C` you just pasted
+21. Press A on `SecureInfo_C` then select "Show in Hexeditor"
 22. Press A to continue
 23. Press A to enter edit mode
 11. Go to the beginning of line 00000100 and press A on it
@@ -64,12 +62,6 @@ Note that region changing is experimental and can break several things.
     - "01" : USA
     - "02" : EUR
 13. Press B to exit edit mode, then press B again to return to the directory
-14. Press Y to copy `SecureInfo_C`
-13. Press B to get to the main menu
-14. Navigate to `SYSNAND CTRNAND` -> `rw` -> `sys`
-15. Press Y to paste `SecureInfo_C` (overwrite any existing `SecureInfo_C` if one exists)
-17. Select "Copy path(s)"
-18. Press A to unlock SysNAND writing, then input the key combo given
 19. You should see both a `SecureInfo_A` and `SecureInfo_C` if everything was done properly. (`SecureInfo_C` is used in place of `SecureInfo_A` when using Luma3DS if it detects the file on boot)
 16. Press Start to reboot
 11. Launch the FBI which was installed via CIA earlier
