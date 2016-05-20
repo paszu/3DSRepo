@@ -73,7 +73,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 1. Copy the contents of `slotkey_input.zip` to the root of your SD card
 3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
 4. **Copy the 11.0.0 Homebrew Launcher Payload to the root of your SD card**
-2. Copy your `emuNAND_original.bin` backup from Section I to the root of your SD card
+2. Copy your `emuNAND_original.bin` backup from Section I of Part 4 to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
 
