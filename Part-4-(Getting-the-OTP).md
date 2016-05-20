@@ -75,10 +75,10 @@ If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must
 14. Double click `go.bat` *(or  execute `go.sh`with Terminal on Linux / Mac)*
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
 16. Press B on Decrypt9, then go to "EmuNAND Options" and select the "Health & Safety Inject" option
-17. Press down once to select `FBI_inject_with_banner.app`, then press A to inject
+17. Press down once to select `FBI_inject_with_banner.app`, then press A and confirm to inject
 18. Go to the main menu, then press Start to reboot
 19. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-20. Open OTPHelper
+20. Open OTPHelper (this can take a few tries in some situations)
 21. Go to "NAND Backup & Restore"
 19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down / Left and Right to change the name)**
 19. Go to the SysNAND options menu on the main menu
