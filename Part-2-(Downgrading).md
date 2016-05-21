@@ -47,6 +47,7 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 
 **If you are already on 9.2.0-20, skip to step 18.**
 
+1. **Right now is a good time to use a [save manager](https://github.com/meladroit/svdt/releases) to backup any saves you care about (just in case something goes wrong unexpectedly)**
 1. Copy and merge the `3ds` folder from the PlaiSysUpdater zip to root of your SD card
 2. Copy and merge the `3ds` folder from the EmuNAND9 zip to root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
