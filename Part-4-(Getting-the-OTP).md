@@ -81,7 +81,6 @@ If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must
 20. Open OTPHelper (this can take a few tries in some situations)
 21. Go to "NAND Backup & Restore"
 19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down / Left and Right to change the name)**
-19. Go to the SysNAND options menu on the main menu
 29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin` and `emuNAND_original.bin` to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
