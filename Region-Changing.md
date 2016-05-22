@@ -4,7 +4,7 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 
 **You SHOULD have confirmed functional NAND backups of your arm9loaderhax 3DS (such as `sysNAND-A9LHAX.bin`) in case something goes wrong.**
 
-*For the eShop to be functional, you MUST [delete your NNID](http://en-americas-support.nintendo.com/app/answers/detail/a_id/2224/~/how-to-delete-a-nintendo-network-id) then format the system once you have completed all steps. You will lose all user data such as games, DLC, themes, and saves (unless you back them up with something like [JK Save Manager](https://gbatemp.net/threads/413143/)).*
+*For the eShop to be functional, you MUST [delete your eShop account](http://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) then format the system once you have completed all steps. You will lose all user data such as games, DLC, themes, and saves (unless you back them up with something like [JK Save Manager](https://gbatemp.net/threads/413143/)).*
 Note that region changing is experimental and can break several things.
 
 **Region changing is almost completely unnecessary since Luma3DS now supports out of region games and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
@@ -84,4 +84,4 @@ You can now update your region changed CFW SysNAND to the latest version
 
 If you experience any strange bugs (especially any related to Super Smash Bros and Monster Hunter 4 if you are on an Old 3DS), you should make a SysNAND backup, then backup your SD card, then try performing a System Format.
 
-*For the eShop to be functional, you MUST [delete your NNID](http://en-americas-support.nintendo.com/app/answers/detail/a_id/2224/~/how-to-delete-a-nintendo-network-id) then format the system now that you have completed all steps. You will lose all user data such as games, DLC, themes, and saves (unless you back them up with something like [JK Save Manager](https://gbatemp.net/threads/413143/)).*
+*For the eShop to be functional, you MUST [delete your eShop account](http://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) then format the system now that you have completed all steps. You will lose all user data such as games, DLC, themes, and saves (unless you back them up with something like [JK Save Manager](https://gbatemp.net/threads/413143/)).*
