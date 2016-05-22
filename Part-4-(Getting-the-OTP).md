@@ -124,6 +124,8 @@ If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must
 
 *(On 2DS at 2.1.0, the screen being stretched is normal)*
 
+**There have been multiple reports of bricks caused by leaving a 2.1.0 New 3DS in sleep mode for long periods of time. Because of this, you should avoid leaving the device in sleep mode and could complete the remainder of Part IV without delay (this strictly applied to devices left in sleep mode for long periods of time, not devices that are being used).**
+
 1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
 2. OTPHelper will launch, then select the "Dump otp.bin (0x100)" option
 3. Press Select on the main menu to eject your SD card
