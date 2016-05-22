@@ -56,7 +56,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 
 #### Instructions
 
-If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must either put the NTR `firmware.bin` from part 5 into the `/luma/` folder *or* restore your EmuNAND from a backup of an older version to be able to downgrade. This is because 11.0.0's FIRM broke downgrading.
+If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must either put the NTR `firmware.bin` from Part 3 into the `/luma/` folder *or* restore your EmuNAND from a backup of an older version to be able to downgrade. This is because 11.0.0's FIRM broke downgrading.
 
 ##### Section I - Prep Work
 
