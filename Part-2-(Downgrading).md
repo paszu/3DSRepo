@@ -1,4 +1,14 @@
-## [READ THIS](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
+### [READ THIS](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
+
+**All** variations of sysUpdater, *not* just PlaiSysUpdater, has a *very* small chance of causing a "soft brick" once the downgrade is complete and the device reboots. This will cause the system to boot directly to the [Nintendo error screen](https://www.3dbrew.org/wiki/ErrDisp) instructing users to power off the device.
+
+The reason for this is unknown, but can be prevented by performing a system format *before* downgrading. It seems to happen very often on systems with ambassador status or who have DSiWare installed.
+
+Once this error happens, it can *only* be fixed by using safe mode (A + R + L + Up on the D-Pad) to update to the latest system version. 
+
+As of the time this is written, the latest version (11.0.0) has completely blocked all software downgrading, and if someone encounters this error they will be locked out of any further downgrading unless they use a [hardmod exploit](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade).
+
+---
 
 *If you encounter this error and cannot use recovery mode, you can edit the connection settings as long as the 3DS completely fails to connect to any access point (such as if the point being out of range).*
 
