@@ -56,8 +56,6 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 
 #### Instructions
 
-If your RedNAND / EmuNAND has been updated to version 11.0.0 or higher, you must either put the NTR `firmware.bin` from Part 3 into the `/luma/` folder *or* restore your EmuNAND from a backup of an older version to be able to downgrade. This is because 11.0.0's FIRM broke downgrading.
-
 ##### Section I - Prep Work
 
 1. **Right now is a good time to use a [save manager](https://github.com/meladroit/svdt/releases) to backup any saves you care about (do steps 10 - 18 then install the [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases) CIA) (just in case something goes wrong unexpectedly)**
