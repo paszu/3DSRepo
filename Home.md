@@ -15,7 +15,7 @@ firmware to arm9loaderhax powered custom firmware (which allows almost full cont
 
 **There has been some confusion among users about what devices they own and their names. See [this](https://github.com/Plailect/Guide/wiki/Device-Info) page for images of each kind of 3DS.**
 
-This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JAP, or USA regions on firmware 11.0.0 or below.
+This guide will work on New 3DS, Old 3DS, and 2DS in the EUR, JPN, or USA regions on firmware 11.0.0 or below.
 
 This guide uses arm9loaderhax, the newest and best method of Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. The benefits of this are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax or rxTools). (We use rxTools in the 9.2.0 update guide because nothing else supports very old software versions.)
 
