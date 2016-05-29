@@ -22,7 +22,7 @@ In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/)
 
 Once arm9loaderhax is installed and Luma3DS is setup with the correct options, we then backup our SD card and format it using EmuNAND9 to remove the now obsolete RedNAND and reclaim the SD card space it previously used.
 
-During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Uncart** *(converts physical cartridge games to digital CIA files)*, **Decrypt9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
+During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Uncart** *(converts physical cartridge games to digital CIA files)*, **Hourglass9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
 
 #### What you need
 
@@ -31,7 +31,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 * [slotkey_input.zip](https://mega.nz/#!R0VQGDLJ!LIUoz_ErqmbXpOO2cBsmyG6KGCgBdR5xjOg7EPci5Ao) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN0ZaTjFfQkpNc3M))
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
-* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
+* The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
 * The latest release of [Uncart for arm9loaderhax](https://github.com/AuroraWright/uncart/releases)
@@ -53,7 +53,6 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 
 ##### Section I - Preparatory work
 
-2. Delete the `Decrypt9` folder from the root of your SD card if you have one
 2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
 3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
@@ -63,8 +62,8 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
 4. Copy `lumaupdate_1.2.0.cia` to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
-7. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/luma/payloads/` folder on your SD card
-5. In the `/luma/payloads` folder, rename `Decrypt9WIP.bin` to `start_Dec9.bin`
+7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card
+5. In the `/luma/payloads` folder, rename `Hourglass9.bin` to `start_Hg9.bin`
 1. Copy and merge the `3DS` folder from the EmuNAND9 zip to the root of your SD card
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card
 5. In the `/luma/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
@@ -100,7 +99,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 
 ##### Section IV - Copying RedNAND data to SysNAND
 
-11. Reboot, then open Decrypt9 from arm9loaderhax by holding Start on boot
+11. Reboot, then open Hourglass9 from arm9loaderhax by holding Start on boot
 1. Go to "SysNAND Options"
 1. Go to "SysNAND Backup/Restore..."
 2. Select "NAND Restore **(keep a9lh)**"
@@ -146,7 +145,7 @@ You can now use Luma3DS Updater to update your Luma3DS to the latest version jus
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
 You can now hold Select on boot to launch the Luma3DS configuration menu.    
-You can now hold Start on boot to launch Decrypt9, a full featured NAND tool.    
+You can now hold Start on boot to launch Hourglass9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
 You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/4hwuhf/) to an installable file.    
 You can remove any extra files from the root of the SD card that are not in the image.    
