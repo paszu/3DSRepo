@@ -13,7 +13,7 @@ Note that region changing is experimental and can break several things.
 
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases)
-* The latest build of [GodMode9](https://mega.nz/#!Fh0SHSCJ!wca8zg6cSIGwVVjmPJH_kda9h1BfG5pNYxrPrnd-c6Y) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUnhRRjhJTVZOQ0k))
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/)
 * The 9.2.0 firmware pack zip file for your device and the region you want to switch to:    
 **Note that the New 3DS 9.2.0 packs are not the same as the ones in Part 2**
  +    [New 3DS 9.2.0 (Region Change) - EUR](https://mega.nz/#!Rg8XlZaR!-q7Xe_GHyt2MEWrLzKc3rxY2fE47QMFk-VN_3PE5i4w) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDSDdEY1d1Zkg3eDg/view?usp=sharing))    
