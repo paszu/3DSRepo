@@ -100,9 +100,8 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 ##### Section IV - Copying RedNAND data to SysNAND
 
 11. Reboot, then open Hourglass9 from arm9loaderhax by holding Start on boot
-1. Go to "SysNAND Options"
 1. Go to "SysNAND Backup/Restore..."
-2. Select "NAND Restore **(keep a9lh)**"
+2. Select "SysNAND Restore"
 3. Confirm and restore from `emuNAND_original.bin`
 
 ##### Section V - Removing RedNAND from your SD
