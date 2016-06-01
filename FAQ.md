@@ -13,6 +13,9 @@
 + <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
   **A:** No. arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
 
++ <a name="faq_gatewaysaves" />**Q:** *How do I move saves from an existing Gateway setup to device installed games?*    
+  **A:** See [this](https://gbatemp.net/threads/425743/)
+
 + <a name="faq_need" />**Q:** *What do I need to do this guide?*    
   **A:** This guide can be completely done with free software and **(if you are on 10.6.0 or 10.7.0)** a compatible game   
     *Note: If you are using a game for hacks, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.*
