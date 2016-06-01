@@ -86,7 +86,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 9. If you have a small SD card and require space, also delete `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching Luma3DS from the HomeBrew Launcher)
 19. Launch the Health and Safety Application (which is now FBI) on RedNAND
-20. Navigate to `TinyFormat.cia` and press A to install
+20. Navigate to SD then `TinyFormat.cia` and press A to install
 21. Press home to exit FBI, then launch TinyFormat using the home menu icon
 7. Press Y to format **RedNAND**
 8. Reboot back into RedNAND and complete initial setup *without* signing into your Nintendo Network ID
@@ -94,7 +94,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 10. Remove any TWL modifications done to the device or PlaiSysUpdater will throw an error      
 (if you have no idea what this is, don't worry about it; most users will not need to do this)
 19. Launch the Health and Safety Application (which is now FBI)
-20. Navigate to `PlaiSysUpdater.cia` and press A to install
+20. Navigate to SD then `PlaiSysUpdater.cia` and press A to install
 
 ##### Section II - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
