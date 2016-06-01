@@ -69,6 +69,7 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 7. If you do not see the button prompts, power off your 3DS by holding the power button and try again (this can take many tries)
 8. If you see button prompts, proceed
 9. Press Y to downgrade to 9.2.0
+7. If you are stuck on "HAX INIT", power off your 3DS by holding the power button and try again (this can take many tries)
 10. Wait; do not touch anything even if it appears to freeze
 10. If, after around 30 seconds, it is still frozen, it is safe to power off and try again
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
