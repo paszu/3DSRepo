@@ -42,7 +42,7 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 2. Copy the `Luma3DS.dat` file, the `3ds` folder, and the `luma` folder from the Luma3DS zip to the root of your SD card
 3. **Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card**
 1. Copy and merge the `3ds` folder from the EmuNAND9 zip to the root of your SD card
-2. Copy the `TinyFormat` folder from the TinyFormat zip to the `/3ds/` folder on your SD card
+2. Copy and merge the `3ds` folder from the TinyFormat zip to the root of your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
 5. Open EmuNAND9 **(This can sometimes take a few tries - if you still can't get it to work after quite a few, you can rerun the downgrade to make sure everything worked properly)**
