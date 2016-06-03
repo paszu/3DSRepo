@@ -133,8 +133,6 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 9. Navigate to `lumaupdate_1.2.0.cia` and press A to install
 10. Exit with the home button
 10. Launch the Homebrew Launcher from the home menu icon at least once to ensure the payload is functional
-12. Reboot from the Homebrew Launcher with the Start button and launch Luma Update
-13. Select "Install latest hourly" to install the latest commit build which fixes a couple bugs present in the latest release
 14. Reboot!
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
