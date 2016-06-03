@@ -28,7 +28,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 
 * [data_input.zip](https://mega.nz/#!Qkth0BoI!pDgWMamN5cu6HZ91j238MNh7q5ROQKq-a6NLC7Q0dhU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZUVfWkJkYlM1UEU/view?usp=sharing))
 * [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
-* [slotkey_input.zip](https://mega.nz/#!R0VQGDLJ!LIUoz_ErqmbXpOO2cBsmyG6KGCgBdR5xjOg7EPci5Ao) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN0ZaTjFfQkpNc3M))
+* [aeskeydb.bin](https://mega.nz/#!lhMnnDRJ!1ss7wJNU6ep02nCzEBHLytZd6he79UAnvq7G9hzL2uk) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdGRPbzltTzJTRzg))
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
@@ -38,16 +38,8 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 * The latest release of [Luma3DS Updater](http://3ds.intherack.com/files/lumaupdate_1.2.0.cia)
 * *New 3DS:*
     + Luma3DS NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
-    + The 11.0.0 Homebrew Launcher Payload for your region:
-        + [New 3DS - EUR](https://mega.nz/#!BwsB3ApC!T495cC4EoG74BxKuqxSeCr6xpToYT2IdtCbnbazx6ds) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDWjR2aHg2NEtZX3c))
-        + [New 3DS - JPN](https://mega.nz/#!w9c2WIIB!TJtxWqENoid5evPZaZnvh0uAyfeRinR-167_9TFuAgE) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnV4QWl4VzJveWs))
-        + [New 3DS - USA](https://mega.nz/#!Y5FQFLwZ!aYqnCSB5hZcscObePMcN_1oJ8l70zPcMVI86XRFmnYM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDY0s1Y0dTMXhieDA))
 * *Old 3DS:*
     + Luma3DS NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
-    + The 11.0.0 Homebrew Launcher Payload for your region:
-        + [Old 3DS - EUR](https://mega.nz/#!go1XRRoK!CRUBgEAV5gAA95W3bK8yi78mRacXtANXrpUKrJOFCIA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDcHliR0QxeTdBcUE))
-        + [Old 3DS - JPN](https://mega.nz/#!RpFyGIbZ!IYjVxnSu33-kL28riaC5SoBR_f832QlgvNKmA721Vhc) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDT0JkMVpYZmc2T0k))
-        + [Old 3DS - USA](https://mega.nz/#!R1tGQKhK!Xi7IvjULTVzAkNU3s0opGtGbWLY_clL00BoCwQqk-Zo) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZ3NMZURLa01lbTA))
 
 #### Instructions
 
@@ -69,9 +61,8 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 5. In the `/luma/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
 7. Copy `arm9loaderhax.bin` from the Uncart zip to the `/luma/payloads/` folder on your SD card
 5. **In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`**
-1. Copy the contents of `slotkey_input.zip` to the root of your SD card
+1. Copy `aeskeydb.bin` to the root of your SD card
 3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
-4. **Copy the 11.0.0 Homebrew Launcher Payload to the root of your SD card**
 2. Copy your `emuNAND_original.bin` backup from Section I of Part 4 to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
