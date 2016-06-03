@@ -138,4 +138,4 @@ You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD ma
 You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/4hwuhf/) to an installable file.    
 You can remove any extra files from the root of the SD card that are not in the image.    
 
-![SD Card](http://i.imgur.com/jdJxrKY.png)
+![SD Card](http://i.imgur.com/TbXejSM.png)
