@@ -1,6 +1,6 @@
 The Homebrew Launcher has many different entrypoints, or methods of launching. The most common is browserhax, which launches the Homebrew Launcher using nothing more than the included browser. This can then be used to install menuhax, which lets you hold a button while the console is booting up to launch the Homebrew Launcher before the rest of the system starts.
 
-If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but you can skip changing the date and time in the beginning.
+If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but you can skip changing the date and time and initializing savedata in the beginning.
 
 If you are between versions 9.9.0 and 10.5.0, you should follow this guide as written.
 
