@@ -27,7 +27,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 * [data_input.zip](https://mega.nz/#!Qkth0BoI!pDgWMamN5cu6HZ91j238MNh7q5ROQKq-a6NLC7Q0dhU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZUVfWkJkYlM1UEU/view?usp=sharing))
 * [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
 * [aeskeydb.bin](https://mega.nz/#!lhMnnDRJ!1ss7wJNU6ep02nCzEBHLytZd6he79UAnvq7G9hzL2uk) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdGRPbzltTzJTRzg))
-* d0k3's fork of [SafeA9LHInstaller](https://mega.nz/#!kwcXGDyA!Gf0BKbi6LGRcixzCqzfZmAwpQcCyaiQGCMAjxYXGA64) ([mirror]())
+* d0k3's fork of [SafeA9LHInstaller](https://mega.nz/#!kwcXGDyA!Gf0BKbi6LGRcixzCqzfZmAwpQcCyaiQGCMAjxYXGA64) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDNy1ydlRQbV9HbkU))
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
