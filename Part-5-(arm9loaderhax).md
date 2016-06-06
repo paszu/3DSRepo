@@ -48,7 +48,6 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
 3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
-4. **Copy your console specific `OTP.bin` (the one you got in Part 4) to the `/a9lh/` folder on the root of your SD card**
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
 4. Copy `lumaupdate_1.2.0.cia` to the root of your SD card
