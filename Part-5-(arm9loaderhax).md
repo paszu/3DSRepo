@@ -69,13 +69,13 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 14. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-16. Hold select on boot to enter the Luma3DS menu.     
-  + If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).    
-  + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_safe_a9lh).
 18. Copy your console specific `OTP.bin` from the `/a9lh/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage)
 
 ##### Section III - Configuring Luma3DS
 
+1. Hold select on boot to enter the Luma3DS menu.     
+  + If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).    
+  + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_safe_a9lh).
 1. Use the A button and the D-Pad to turn on the following:    
  + "Autoboot SysNAND"
  + "SysNAND is updated"
