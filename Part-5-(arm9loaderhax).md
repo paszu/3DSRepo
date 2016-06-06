@@ -110,7 +110,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 6. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
 
-##### Section VI - Finalising setup
+##### Section VI - Finalizing setup
 
 14. Reinsert your SD card into your 3DS
 15. From EmuNAND Manager Options, make a backup of SysNAND to `sysNAND.bin`
