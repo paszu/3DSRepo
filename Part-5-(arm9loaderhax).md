@@ -59,7 +59,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 5. **In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`**
 1. Copy `aeskeydb.bin` to the root of your SD card
 3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
-2. Copy your `emuNAND_original.bin` backup from Section I of Part 4 to the root of your SD card
+2. Copy `emuNAND_original.bin` and `emuNAND_original.sha` from Section I of Part 4 to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
 
@@ -97,7 +97,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 ##### Section V - Removing RedNAND from your SD
 
 2. Press Select on the main menu to eject your SD card
-4. Delete `emuNAND_original.bin` from the root of your SD card
+4. Delete `emuNAND_original.bin` and `emuNAND_original.sha` from the root of your SD card
 3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 0. Reinsert your SD card into your 3DS.
