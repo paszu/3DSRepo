@@ -69,6 +69,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 14. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
+18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
 18. Copy your console specific `OTP.bin` from the `/a9lh/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage)
 
 ##### Section III - Configuring Luma3DS
@@ -85,6 +86,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 2. If you are using a New 3DS, you should *also* enable the following:
  + Toggle "New 3DS CPU" to "Clock+L2(x)" for improved game performance
 2. Press Start to save and reboot
+18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
 
 ##### Section IV - Copying RedNAND data to SysNAND
 
@@ -92,6 +94,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 1. Go to "SysNAND Backup/Restore..."
 2. Select "SysNAND Restore"
 3. Confirm and restore from `emuNAND_original.bin`
+4. Your device should now be able to boot properly once more.
 
 ##### Section V - Removing RedNAND from your SD
 
