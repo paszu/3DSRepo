@@ -109,7 +109,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 29. Press X to downgrade RedNAND to 2.1.0    
   + **If you encounter an error in downgrading related to NFIRM, make sure you have read the information just above the "Overview of steps" and done all relevant instructions**
 30. If you encounter an error at any point during the downgrade, restore your RedNAND backup from `emuNAND_formatted.bin` using OTPHelper through the Homebrew Menu on SysNAND. Afterwards, you can retry the downgrade on RedNAND, restoring from backup whenever it fails until it goes through successfully. *This downgrade process can take many many tries in some situations, just keep trying until it works*     
-31. **RedNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 RedNAND (a black screen when you try to load RedNAND is normal)**
+31. **RedNAND will be bricked by the downgrade on New 3DS (not on Old 3DS), but you will no longer be able to get into it on either since no current CFW can boot a 2.1.0 RedNAND (a black screen when you try to load RedNAND iss normal)**
 32. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 33. Open OTPHelper
 33. Select "One Click Setup" and confirm (you do not need to do an extra backup if asked, but you should make sure that you have copied the backup you made earlier to your computer as you **will** need it later). This can take a while.         
@@ -118,23 +118,6 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 36. Reboot
 37. If you get a black screen, boot with the SD card remove then reinsert when you see the home menu. If this fails, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_down)
 
-##### Section III - Getting the OTP
-
 *(On 2DS at 2.1.0, the screen being stretched is normal)*
 
-**There have been multiple reports of bricks caused by leaving a 2.1.0 New 3DS in sleep mode for long periods of time. Because of this, you should avoid leaving the device in sleep mode and could complete the remainder of Part IV without delay (this strictly applied to devices left in sleep mode for long periods of time, not devices that are being used).**
-
-1. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
-2. OTPHelper will launch, then select the "Dump otp.bin (0x100)" option
-3. Press Select on the main menu to eject your SD card
-4. Put your SD card in your computer, then copy over `otp.bin` to a safe folder on your computer.		
-10. Ensure that `otp.bin` is 256 bytes
-11. Backup `otp.bin` to multiple locations (such as online file storage)
-
-##### Section IV - Restoring the System
-2. Copy your `sysNAND_original.bin` backup from Section I to the root of your SD card
-2. Reinsert your SD card into your 3DS then press B to return to the main menu
-3. Go to "NAND Backup & Restore"
-4. Restore SysNAND from `sysNAND_original.bin`
-5. Cross your fingers
-6. Reboot!
+**There have been multiple reports of bricks caused by leaving a 2.1.0 New 3DS in sleep mode for long periods of time. Because of this, you should avoid leaving the device in sleep mode and could complete Part V without delay (this strictly applies to devices left in sleep mode for long periods of time, not devices that are being used).**

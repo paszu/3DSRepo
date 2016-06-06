@@ -29,11 +29,11 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 * [data_input.zip](https://mega.nz/#!Qkth0BoI!pDgWMamN5cu6HZ91j238MNh7q5ROQKq-a6NLC7Q0dhU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZUVfWkJkYlM1UEU/view?usp=sharing))
 * [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
 * [aeskeydb.bin](https://mega.nz/#!lhMnnDRJ!1ss7wJNU6ep02nCzEBHLytZd6he79UAnvq7G9hzL2uk) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdGRPbzltTzJTRzg))
+* d0k3's fork of [SafeA9LHInstaller](https://mega.nz/#!kwcXGDyA!Gf0BKbi6LGRcixzCqzfZmAwpQcCyaiQGCMAjxYXGA64) ([mirror]())
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
-* The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
 * The latest release of [Uncart for arm9loaderhax](https://github.com/AuroraWright/uncart/releases)
 * The latest release of [Luma3DS Updater](http://3ds.intherack.com/files/lumaupdate_1.2.0.cia)
 * *New 3DS:*
@@ -49,8 +49,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
 3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
 4. **Copy your console specific `OTP.bin` (the one you got in Part 4) to the `/a9lh/` folder on the root of your SD card**
-1. Copy and merge the `3ds` folder from the SafeA9LHInstaller zip to the root of your SD card
-2. Copy `SafeA9LHInstaller.dat` from the SafeA9LHInstaller zip to the root of your SD card
+2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
 4. Copy `lumaupdate_1.2.0.cia` to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
@@ -67,14 +66,14 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 
 ##### Section II - Installing arm9loaderhax
 
-12. Reinsert your SD card into your 3DS
-14. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-13. Launch SafeA9LHInstaller
+12. Reinsert your SD card into your 2.1.0 3DS
+14. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
 16. Hold select on boot to enter the Luma3DS menu.     
   + If you get a black screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_sys_a9lh).    
   + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_safe_a9lh).
+18. Copy your console specific `OTP.bin` from the `/a9lh/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage)
 
 ##### Section III - Configuring Luma3DS
 
@@ -90,7 +89,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 
 ##### Section IV - Copying RedNAND data to SysNAND
 
-11. Reboot, then open Hourglass9 from arm9loaderhax by holding Start on boot
+1. Open Hourglass9 from arm9loaderhax by holding Start on boot
 1. Go to "SysNAND Backup/Restore..."
 2. Select "SysNAND Restore"
 3. Confirm and restore from `emuNAND_original.bin`
