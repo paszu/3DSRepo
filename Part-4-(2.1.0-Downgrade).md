@@ -43,7 +43,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 #### What you need
 
 * A working RedNAND and CFW (you should have gotten this with Part 3)
-* The previous release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/tag/20160505)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
 * The latest release of [PlaiSysUpdater](https://github.com/Plailect/PlaiSysUpdater/releases/)
 * The latest release of [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/)
