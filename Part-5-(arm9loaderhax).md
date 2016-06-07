@@ -33,7 +33,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [Uncart for arm9loaderhax](https://github.com/AuroraWright/uncart/releases)
-* The latest release of [Luma3DS Updater](http://3ds.intherack.com/files/lumaupdate_1.2.0.cia)
+* The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 * *New 3DS:*
     + Luma3DS NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
 * *Old 3DS:*
@@ -43,14 +43,14 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 
 ##### Section I - Preparatory work
 
-1. **Copy `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, and `ticket_emergency.db` from the root of your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss (after further research and development is completed)**
-2. Delete `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, and `ticket_emergency.db` from the root of your SD card
+1. **Copy `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, `ticket_emergency.db`, and `firm0firm1.xorpad` from the root of your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss (after further research and development is completed)**
+2. Delete `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, `ticket_emergency.db`, and `firm0firm1.xorpad` from the root of your SD card
 2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
 3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
-4. Copy `lumaupdate_1.2.0.cia` to the root of your SD card
+4. Copy `lumaupdate.cia` from the Luma3DS Updater zip to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card
 5. In the `/luma/payloads` folder, rename `Hourglass9.bin` to `start_Hg9.bin`
@@ -122,7 +122,7 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 8. Open Health and Safety (which is now FBI)
 9. Select "SD"
 9. Navigate to `hblauncher_loader.cia` and press A to install
-9. Navigate to `lumaupdate_1.2.0.cia` and press A to install
+9. Navigate to `lumaupdate.cia` and press A to install
 10. Exit with the home button
 10. Launch the Homebrew Launcher from the home menu icon at least once to ensure the payload is functional
 14. Reboot!
