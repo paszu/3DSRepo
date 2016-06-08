@@ -48,8 +48,8 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 1. **Copy `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, `ticket_emergency.db`, and `firm0firm1.xorpad` from the root of your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss (after further research and development is completed)**
 2. Delete `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, `ticket_emergency.db`, and `firm0firm1.xorpad` from the root of your SD card
 2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
-3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
-3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
+3. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
+3. Copy and merge the `a9lh` folder from `payload_input_v2.zip` to the root of your SD Card
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
 4. Copy `lumaupdate.cia` from the Luma3DS Updater zip to the root of your SD card
