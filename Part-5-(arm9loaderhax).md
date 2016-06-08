@@ -22,14 +22,12 @@ Once arm9loaderhax is installed and Luma3DS is setup with the correct options, w
 
 During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Uncart** *(converts physical cartridge games to digital CIA files)*, **Hourglass9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
 
-#### Do NOT use the original `payload_input.zip` or `data_input.zip` with SafeA9LHInstaller v2 or you will BRICK!
-
 #### What you need
 
-* [data_input**_v2**.zip](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
-* [payload_input**_v2**.zip](https://mega.nz/#!4gN3TQCT!OTdMy6xvyKLQTEcjyqEaUfsktG8sdAftvWEB7qj-GDs) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeFZoaUR3bEo5dzA))
+* [data_input.zip](https://mega.nz/#!Qkth0BoI!pDgWMamN5cu6HZ91j238MNh7q5ROQKq-a6NLC7Q0dhU) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZUVfWkJkYlM1UEU/view?usp=sharing))
+* [payload_input.zip](https://mega.nz/#!YhNRVZAB!Dyx315T174kdy9E3IyOfeXEek-L8262BJnozHHMcez4) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRjh1eXZDRmhXWUk/view?usp=sharing))
 * [aeskeydb.bin](https://mega.nz/#!lhMnnDRJ!1ss7wJNU6ep02nCzEBHLytZd6he79UAnvq7G9hzL2uk) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdGRPbzltTzJTRzg))
-* The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
+* d0k3's fork of [SafeA9LHInstaller](https://mega.nz/#!kwcXGDyA!Gf0BKbi6LGRcixzCqzfZmAwpQcCyaiQGCMAjxYXGA64) ([mirror](https://github.com/Plailect/Guide/wiki/Part-5-(arm9loaderhax)/69d8cada9361ff8240955abf7e74eb7fdb30fb07))
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
@@ -48,8 +46,8 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 1. **Copy `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, `ticket_emergency.db`, and `firm0firm1.xorpad` from the root of your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss (after further research and development is completed)**
 2. Delete `SecureInfo_A_emergency`, `movable_emergency.sed`, `title_emergency.db`, `ticket_emergency.db`, and `firm0firm1.xorpad` from the root of your SD card
 2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
-3. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
-3. Copy and merge the `a9lh` folder from `payload_input_v2.zip` to the root of your SD Card
+3. Copy the `a9lh` folder from `data_input.zip` to the root of your SD Card
+3. Copy and merge the `a9lh` folder from `payload_input.zip` to the root of your SD Card
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
 4. Copy `lumaupdate.cia` from the Luma3DS Updater zip to the root of your SD card
