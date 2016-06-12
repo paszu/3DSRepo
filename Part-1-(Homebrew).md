@@ -50,6 +50,7 @@ Following this, we setup menuhax (a custom exploit theme) to launch `boot.3dsx` 
 7. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) as fast as possible
 8. Navigate to `http://yls8.mtheall.com/3dsbrowserhax_auto.php` or scan the QR code on your 3DS (if you get a slider, zoom all the way in on it, then tap the very right edge of it; this can take quite a few tries)    
 ![browserhax_auto](https://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png)
+    + If you get am error, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_browser)
 9. Your console should load the homebrew menu
 10. Open the menuhax_manager application
 11. Press A to install, it may show some errors but that's fine as long as it shows "Success" towards the end
