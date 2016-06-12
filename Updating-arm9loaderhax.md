@@ -20,14 +20,14 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 
 #### Instructions
 
-1. Rename `arm9loaderhax.bin` on the root of your SD card to `arm9loaderhax.bin.bak`
-2. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller zip to the root of your SD card
+2. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller zip to the `/luma/payloads` root of your SD card
+1. Renam `arm9loaderhax.bin` in `/luma/payloads` to `down_safea9lhinstaller.bin`
 3. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
 4. Copy `payload_stage1.bin` and `payload_stage2.bin` from the arm9loaderhax zip to `a9lh` folder on your SD card
 5. Reinsert your SD card into your 3DS
-6. Boot the device
+6. Boot the device while holding D-Pad down
 7. Press Select to update arm9loaderhax
 8. Power off the device and put your SD card back in your computer
-9. Delete `arm9loaderhax.bin` from the root of your SD card
-10. Rename `arm9loaderhax.bin.bak` on the root of your SD card to `arm9loaderhax.bin`
+9. Delete the `a9lh` folder from the root of your SD card
+10. Delete `down_safea9lhinstaller.bin` from `/luma/payloads`
 11. Reinsert your SD card into your 3DS and boot
