@@ -83,6 +83,6 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 17. Open EmuNAND9 **(This can sometimes take a few tries)**
 18. Go to EmuNAND Manager Options, then backup SysNAND to `sysNAND.bin`
 20. Press Select on the main menu to eject your SD card
-21. Put your SD card in your computer, then copy `sysNAND.bin` and `sysNAND.sha` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
-22. You can delete `sysNAND.bin` and `sysNAND.sha` from your SD card after copying it
+21. Put your SD card in your computer, then copy `sysNAND.bin` and `sysNAND.bin.sha` to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+22. You can delete `sysNAND.bin` and `sysNAND.bin.sha` from your SD card after copying it
 23. Reinsert your SD card into your 3DS, then press Start to reboot

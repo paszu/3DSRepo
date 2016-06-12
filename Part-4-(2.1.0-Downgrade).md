@@ -81,7 +81,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 19. Backup EmuNAND to `emuNAND_original.bin` **(you can use Up and Down / Left and Right to change the name)**
 29. Backup SysNAND to `sysNAND_original.bin`
 7. Press Select on the main menu to eject your SD card
-8. Put your SD card in your computer, then copy over `sysNAND_original.bin`, `emuNAND_original.bin`, `sysNAND_original.sha`, and `emuNAND_original.sha`  to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
+8. Put your SD card in your computer, then copy over `sysNAND_original.bin`, `emuNAND_original.bin`, `sysNAND_original.bin.sha`, and `emuNAND_original.bin.sha`  to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
 9. Delete `emuNAND_original.bin` from your SD card
 9. If you have a small SD card and require space, also delete `sysNAND_original.bin` from your SD card
 18. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching Luma3DS from the HomeBrew Launcher)
@@ -101,7 +101,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 27. Open OTPHelper, then go to "NAND Backup and Restore", then select the "EmuNAND Backup" option
 28. Backup your RedNAND to `emuNAND_formatted.bin`
 29. Press Select on the main menu to eject your SD card
-23. Put your SD card in your computer, then copy over `emuNAND_formatted.bin` and `emuNAND_formatted.sha` to a safe folder on your computer
+23. Put your SD card in your computer, then copy over `emuNAND_formatted.bin` and `emuNAND_formatted.bin.sha` to a safe folder on your computer
 24. Delete any existing `updates` folder from your SD card root that may be left over from a previous downgrade or update
 25. Copy the `updates` folder from the 2.1.0 firmware zip to the root of your SD card
 27. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW
