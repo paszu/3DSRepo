@@ -10,6 +10,7 @@ If you are between versions 10.6.0 and 11.0.0, or have a browser version (the la
 + [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher)       
 + [supermysterychunkhax](https://smd.salthax.org/) (requires Pokemon Super Mystery Dungeon and another 3DS which has the HomeBrew Launcher)
 + [freakyhax](http://plutooo.github.io/freakyhax/) (requires Freakyforms Deluxe)
++ [basehaxx](http://mrnbayoh.github.io/basehaxx/) (requires Pokemon Omega Ruby/Alpha Sapphire ver 1.0/1.4 with the ability to have a secret base and another 3DS which has the HomeBrew Launcher)
 
 **If you are on version 11.0.0, you MUST have used a hardmod downgrade to successfully complete Part 2 later.**
 
