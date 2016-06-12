@@ -26,7 +26,7 @@ We use the RedNAND for the actual downgrade procedure, rather than SysNAND, beca
 
 Before downgrading the RedNAND, we first format it twice (after making a backup). The formatting itself is done to avoid any conflicts with installed user titles and further increase the safety of the process.
 
-The reason we format twice, rather than just once, is because RedNAND and SysNAND are determined to be linked if they have both been formatted the same number of times.
+The reason we format twice, rather than just once, is because RedNAND and SysNAND are determined to be linked if they have both been formatted the same number of times (since the creation of RedNAND).
 
 In the case of most users, since you formatted SysNAND in Part 3, formatting the RedNAND will bring the format count for each NAND up to 1 format which will relink them and cause them to read from the same SD card folders. In our testing, linked NANDs exhibited weird behaviors during the 2.1.0 downgrade process, and because of this we format RedNAND a second time to unlink them again.
 
