@@ -1,6 +1,6 @@
-The actual installation of arm9loaderhax itself consists of payload files installed into the firmware partitions on your device's NAND chip, which is soldered to the motherboard itself. These payloads are updated rarely and only really serve the purpose of launching `arm9loaderhax.bin` from the SD Card, which in our case is Luma3DS.
+The actual installation of arm9loaderhax itself consists of payload files installed into the firmware partitions on your device's NAND chip, which is soldered to the motherboard itself. These payloads are updated rarely and only really serve the purpose of launching `arm9loaderhax.bin` from the SD Card, which is, in our case, Luma3DS.
 
-So far arm9loaderhax itself has only been majorly updated once.
+So far, arm9loaderhax itself has only been majorly updated once.
 
 The old version of arm9loaderhax (sometimes referred to as v1 because it was installed using SafeA9LHInstaller v1) was the latest version of [Delebile's initial implementation](https://github.com/delebile/arm9loaderhax).
 
