@@ -2,13 +2,13 @@ The actual installation of arm9loaderhax itself consists of payload files instal
 
 So far, arm9loaderhax itself has only been majorly updated once.
 
-The old version of arm9loaderhax (sometimes referred to as v1 because it was installed using SafeA9LHInstaller v1) was the latest version of [Delebile's initial implementation](https://github.com/delebile/arm9loaderhax).
+The old version of arm9loaderhax (sometimes referred to as "v1" because it was installed using SafeA9LHInstaller v1) was the latest version of [Delebile's initial implementation](https://github.com/delebile/arm9loaderhax).
 
-The new version of arm9loaderhax (sometimes referred to as v2 because it is installed using SafeA9LHInstaller v2 or FIRM81 because of its use of 8.1's firmware files to make room for larger payloads) is the latest version of [AuroraWright's Fork](https://github.com/AuroraWright/arm9loaderhax) of [Delebile's initial implementation](https://github.com/delebile/arm9loaderhax).
+The new version of arm9loaderhax (sometimes referred to as "v2" because it is installed using SafeA9LHInstaller v2 or FIRM81 because of its use of 8.1's firmware files to make room for larger payloads) is the latest version of [AuroraWright's Fork](https://github.com/AuroraWright/arm9loaderhax) of [Delebile's initial implementation](https://github.com/delebile/arm9loaderhax).
 
 The advantages to updating at this time are very minor and only really ensure compatibility with future `arm9loaderhax.bin` files, and is as such completely optional.
 
-**At this time, the latest version (v2) appears to break compatibility with [CtrBootManager9](https://github.com/AuroraWright/SafeA9LHInstaller/issues/13).**
+**At this time, the latest version ("v2") appears to break compatibility with [CtrBootManager9](https://github.com/AuroraWright/SafeA9LHInstaller/issues/13).**
 
 Screeninit arm9loaderhax payloads turn on the screen before handing control over to arm9loaderhax.bin (making sure it works with all arm9loaderhax.bin files), while noscreeninit arm9loaderhax payloads do not (allowing arm9loaderhax.bin to control things like brightness during boot). You can choose to use either (the guide used to only have screeninit payloads).
 
