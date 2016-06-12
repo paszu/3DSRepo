@@ -141,6 +141,9 @@ You can now hold Select on boot to launch the Luma3DS configuration menu.
 You can now hold Start on boot to launch Hourglass9, a full featured NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
 You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/4hwuhf/) to an installable file.    
+
+You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](https://github.com/Plailect/Guide/wiki/Updating-arm9loaderhax/) page.
+
 You can remove any extra files from the root of the SD card that are not in the image.    
 
 ![SD Card](http://i.imgur.com/TbXejSM.png)
