@@ -17,7 +17,8 @@
 
 [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update)    
 [Region Changing](https://github.com/Plailect/Guide/wiki/Region-Changing)      
-[Hardmod Downgrade](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade/)
+[Hardmod Downgrade](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade/)    
+[Updating arm9loaderhax](https://github.com/Plailect/Guide/wiki/Updating-arm9loaderhax/)    
 
 [Donations](https://github.com/Plailect/Guide/wiki/Donations)    
 [Credits](https://github.com/Plailect/Guide/wiki/Credits)    
