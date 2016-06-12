@@ -47,8 +47,8 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 
 ##### Section I - Preparatory work
 
-1. **Copy `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, and `firm0firm1.xorpad` from the root of your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss (after further research and development is completed)**
-2. Delete `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, and `firm0firm1.xorpad` from the root of your SD card
+1. **Copy `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the root of your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss (after further research and development is completed)**
+2. Delete `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the root of your SD card
 2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
 3. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
 3. Copy `payload_stage1.bin` and `payload_stage2.bin` from the arm9loaderhax zip to `a9lh` folder on your SD card
