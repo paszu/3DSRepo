@@ -4,6 +4,13 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 **If you still cannot solve your issue and need to reach out for help, please upload all relevant .log files from the root of your SD card to [Up1](https://up1.ca/), then come for help prepared with a detailed description of your problem and what you've tried.**
 
+## <a name="ts_browser" />A browser based exploit is not working
+Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
+
+1. Open the browser, then open the browser settings
+   1. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) 
+   2. Try the exploit again
+
 ## <a name="ts_safe_a9lh" />System boots directly SafeA9LHInstaller
 You copied the wrong `arm9loaderhax.bin` file to your SD card (you were only supposed to copy the `3ds` folder and `SafeA9LHInstaller.dat` file from the SafeA9LHInstaller zip).
 
