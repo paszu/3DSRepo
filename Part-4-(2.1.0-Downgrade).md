@@ -16,8 +16,6 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 *If you are using ReiNand, you MUST be using the latest version (v4.1 or above) or you will be unable to downgrade NATIVE_FIRM on EmuNAND/RedNAND and PlaiSysUpdater will fail 100% of the time.*
 
-**If you are using Luma3DS and DID NOT follow Part 3, you should copy the appropriate `firmware.bin` from Part 3 to the `/luma/` folder on your SD card, otherwise the downgrade will fail.**
-
 #### Overview of steps
 
 In this section, we will be downgrading to 2.1.0 in order to take advantage of an oversight in 2.1.0 for the purpose of extracting the [OTP](https://github.com/Plailect/Guide/wiki/OTP-Info) unique to your console. This OTP file is required to install arm9loaderhax, and **cannot** be shared with other consoles.
