@@ -20,7 +20,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 
 #### Instructions
 
-2. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller zip to the `/luma/payloads` root of your SD card
+2. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller zip to the `/luma/payloads` folder on your SD card
 1. Rename `arm9loaderhax.bin` in `/luma/payloads` to `down_safea9lhinstaller.bin`
 3. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
 4. Copy `payload_stage1.bin` and `payload_stage2.bin` from the arm9loaderhax zip to `a9lh` folder on your SD card
