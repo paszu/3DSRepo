@@ -48,27 +48,9 @@ Do the steps for the error you are getting.
 
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
 
-**THIS APPLIES ONLY TO .TMD RELATED ERRORS, NOT .APP RELATED ERRORS**    
-**If you got a .app related error, you should restore SysNAND from `sysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9..**
+The workaround for this issue was confusing and bricked a few users, so it has been removed.
 
-1. Check `otphelper.log` to see which titles the TMD hash mismatches on
-2. Download the latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
-3. Copy the `GodMode9` folder from the `GodMode9` zip to the `/3ds/` folder on the root of your SD card
-4. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-5. Open GodMode9 **(Be VERY careful with this tool, it can brick you if you delete something important with it)**
-6. Select (on bottom screen) `emuNAND CTRNAND`
-7. Select `title`
-8. Select the folder which has the same 8 characters as the beginning of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00040130` folder)*
-9. Select the folder which has the same 8 characters as the end of the title that mismatched *(for example, if you mismatched after `Checking title 0004013000003202...` then you would select the `00003202` folder)*
-10. Select `content`
-
-The latest release of OTPHelper rarely shows false positives, but if you want to you can check manually just to be sure. To do this, press A on each .tmd and select "Calculate SHA-256" to manually compare to see if at least one of the `.tmd` files in each folder match a Sha256Sum to [this list](https://gist.github.com/Plailect/a6789c6a87a2eee575da).
-
-If, in each folder, **at least one** of the `.tmd` files matches a hash on the list, this was a a false positive and you can use the following steps. **If it is a New 3DS you should unbrick EmuNAND first.** Go to "NAND Backup & Restore" -> "Clone RedNAND to SysNAND" then use "NAND Validation Options" -> "Validate SysNAND Downgrade" and confirm your SysNAND only has the same error as EmuNAND. **If you get a NEW error after cloning RedNAND to SysNAND, restore SysNAND from `SysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.** If you do not get a NEW error, continue with the guide, ignoring the error.
-
-If, in any folder, **none** of the `.tmd` files match, then this was a legitimate downgrade error and you have been saved from a brick; you should restore SysNAND from `sysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.
-
-Check all of the titles that mismatch with this same method.
+You should restore SysNAND from `sysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section II - Step 9.
 
 ####"Validation Stage 1: SUCCESS" and "Validation Stage 2: FAILED"
 
