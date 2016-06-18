@@ -89,8 +89,11 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 7. Press Y to format **RedNAND**
 8. Reboot back into RedNAND and complete initial setup *without* signing into your Nintendo Network ID
 9. **Repeat steps 28 through 32, this is not optional (in other words, you must TinyFormat your RedNAND twice - if you do not, your device may brick when you downgrade)**
-10. Remove any TWL modifications done to the device or PlaiSysUpdater will throw an error      
-(if you have no idea what this is, don't worry about it; most users will not need to do this)
+10. Remove any TWL_FIRM modifications done to the device or PlaiSysUpdater will throw an error      
+(if you have no idea what this is, don't worry about it; most users will not need to do this)    
+    + To do this, use [3DNUS](https://github.com/zoltx23/3DNUS/releases) to download the stock TWL_FIRM as a CIA, then install it
+    + New 3DS TWL_FIRM Title ID: `0004013820000102`
+    + Old 3DS / 2DS TWL_FIRM Title ID: `0004013800000102`
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to SD then `PlaiSysUpdater.cia` and press A to install
 
