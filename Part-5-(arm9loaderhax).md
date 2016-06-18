@@ -38,10 +38,6 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [Uncart for arm9loaderhax](https://github.com/AuroraWright/uncart/releases)
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
-* *New 3DS:*
-    + Luma3DS NTR [firmware bin](https://mega.nz/#!p0tTDJIQ!aikEtlvB8cjq-aJG9jC6GKx4uvlwN6oI9X2m1OY_ylE) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDM016eHZBQV95anc/view?usp=sharing)) zip file
-* *Old 3DS:*
-    + Luma3DS NTR [firmware bin](https://mega.nz/#!04lmVQxD!7IMsl4ChzKhkEaPXhCvEPmbEq_PpD9i06EzrIjtVSIQ) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDVFhnaVNzMlR4SVk/view?usp=sharing)) zip file
 
 #### Instructions
 
@@ -64,7 +60,6 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 7. Copy `arm9loaderhax.bin` from the Uncart zip to the `/luma/payloads/` folder on your SD card
 5. **In the `/luma/payloads` folder, rename `arm9loaderhax.bin` to `x_Uncart.bin`**
 1. Copy `aeskeydb.bin` to the root of your SD card
-3. Copy `firmware.bin` from the Luma3DS NTR Firmware zip to the `/luma/` folder on your SD card
 2. Copy `emuNAND_original.bin` and `emuNAND_original.bin.sha` from Section I of Part 4 to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
@@ -144,6 +139,8 @@ You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD ma
 You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/4hwuhf/) to an installable file.    
 
 You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](https://github.com/Plailect/Guide/wiki/Updating-arm9loaderhax/) page.
+
+To use [NTR CFW](https://github.com/44670/BootNTR/), get `ntr.bin` from the appropriate zip on [this](https://github.com/44670/BootNTR/releases) page and copy it to the root of your SD card, then install `BootNTR.cia` from [this](https://github.com/astronautlevel2/BootNTR/releases/) page.
 
 You can remove any extra files from the root of the SD card that are not in the image.    
 
