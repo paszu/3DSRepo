@@ -37,7 +37,7 @@ Note that region changing is experimental and can break several things.
 2. Delete any existing `updates` folder from your SD card if there is one
 3. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 4. Eject your SD card and put it back in your 3DS
-5. Use FBI to install `sysUpdater.cia` and `FBI.cia` *(keep track of which FBI was installed via CIA and which was injected into H&S)*
+5. Use FBI to install `sysUpdater.cia` and `FBI.cia`
 6. Get back to the home menu then open sysUpdater
 7. Press Y to downgrade to the region you want to switch to
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
@@ -63,7 +63,7 @@ Note that region changing is experimental and can break several things.
 13. Press B to exit edit mode, then press B again to return to the directory
 19. You should see both a `SecureInfo_A` and `SecureInfo_C` if everything was done properly. (`SecureInfo_C` is used in place of `SecureInfo_A` when using Luma3DS if it detects the file on boot)
 16. Press Start to reboot
-11. Launch the FBI which was installed via CIA earlier
+11. Launch the FBI
 12. Navigate to the "Titles" menu
 
 Scroll past the green titles until you see the red ones begin. These are system titles installed to the internal flash memory of your device, not to the SD card. Many, but not all, of these red system titles will have a "Product Code" on the top screen.
