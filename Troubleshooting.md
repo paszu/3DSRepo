@@ -93,7 +93,7 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
 2. Try resetting Luma's config and fix options
    1. Delete `/luma/config.bin` from your SD card
    2. Set your options when it boots
-2. Test booting Decrypt9
+2. Test booting Hourglss9
    2. On Luma3DS, hold Start on boot
 2. Try [this test payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDanVaR3FTUTFqNFU/view?usp=sharing)).
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
