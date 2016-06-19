@@ -8,7 +8,7 @@ The new version of arm9loaderhax (sometimes referred to as "v2" because it is in
 
 The advantages to updating at this time are very minor and only really ensure compatibility with future `arm9loaderhax.bin` files, and is as such completely optional.
 
-[CtrBootManager9 users, you must use [OperationNT414C's fork of CtrBootManager](https://github.com/OperationNT414C/CtrBootManager/releases/tag/V7) which is compatible with arm9loaderhax v2.
+CtrBootManager9 users, you must use [OperationNT414C's fork of CtrBootManager](https://github.com/OperationNT414C/CtrBootManager/releases/tag/V7) which is compatible with arm9loaderhax v2.
 
 Screeninit arm9loaderhax payloads turn on the screen before handing control over to arm9loaderhax.bin (making sure it works with all arm9loaderhax.bin files), while noscreeninit arm9loaderhax payloads do not (allowing arm9loaderhax.bin to control things like brightness during boot). You can choose to use either (the guide used to only have screeninit payloads).
 
