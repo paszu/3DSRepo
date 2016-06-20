@@ -36,7 +36,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
-* The latest release of [Uncart for arm9loaderhax](https://github.com/AuroraWright/uncart/releases)
+* The latest release of [Uncart for arm9loaderhax](https://github.com/AileSc/uncart/releases)
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 
 #### Instructions
