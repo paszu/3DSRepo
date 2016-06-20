@@ -87,9 +87,6 @@ You can either flash to SysNAND at your own risk, or attempt to defragment your 
 
 1. Ensure you have a working payload.
    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
-   2. Check that
-      1. `/luma/firmware.bin` exist; and
-      2. `/luma/firmware.bin` is the correct one for your console.
 2. Try resetting Luma's config and fix options
    1. Delete `/luma/config.bin` from your SD card
    2. Set your options when it boots
