@@ -73,6 +73,9 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 16. Press B on Decrypt9, then go to "Miscellaneous... (EmuNAND)" and select the "Health & Safety Inject" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A and confirm to inject
 18. Go to the main menu, then press Start to reboot
+
+##### Section II - NAND Backups
+
 19. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
 20. Open OTPHelper (this can take a few tries in some situations)
 21. Go to "NAND Backup & Restore"
@@ -82,12 +85,16 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 8. Put your SD card in your computer, then copy over `sysNAND_original.bin`, `emuNAND_original.bin`, `sysNAND_original.bin.sha`, and `emuNAND_original.bin.sha`  to a safe folder on your computer, you will need them later **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if they do not, you should delete them and make new ones!)**
 9. Delete `emuNAND_original.bin` from your SD card
 9. If you have a small SD card and require space, also delete `sysNAND_original.bin` from your SD card
+
+##### Section III - RedNAND Prep
+
 18. Reinsert your SD card into your 3DS, press Start and right at the same time to reboot, then boot your 3DS into RedNAND using any CFW (if you followed Part 3 of this guide, you can do this by launching Luma3DS from the HomeBrew Launcher)
 19. Launch the Health and Safety Application (which is now FBI) on RedNAND
 20. Navigate to SD then `TinyFormat.cia` and press A to install
 21. Press home to exit FBI, then launch TinyFormat using the home menu icon
 7. Press Y to format **RedNAND**
 8. Reboot back into RedNAND and complete initial setup *without* signing into your Nintendo Network ID
+  + Be patient, this boot after format has been reported take as long as two minutes for some users!
 9. **Repeat steps 28 through 32, this is not optional (in other words, you must TinyFormat your RedNAND twice - if you do not, your device may brick when you downgrade)**
 10. Remove any TWL_FIRM modifications done to the device or PlaiSysUpdater will throw an error      
 (if you have no idea what this is, don't worry about it; most users will not need to do this)    
@@ -97,7 +104,7 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 19. Launch the Health and Safety Application (which is now FBI)
 20. Navigate to SD then `PlaiSysUpdater.cia` and press A to install
 
-##### Section II - Downgrading
+##### Section IV - Downgrading
 26. Reboot into SysNAND, then get into the Homebrew Launcher through the entrypoint of your choice
 27. Open OTPHelper, then go to "NAND Backup and Restore", then select the "EmuNAND Backup" option
 28. Backup your RedNAND to `emuNAND_formatted.bin`
