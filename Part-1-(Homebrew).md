@@ -1,10 +1,12 @@
 The Homebrew Launcher has many different entrypoints, or methods of launching. The most common is browserhax, which launches the Homebrew Launcher using nothing more than the included browser. This can then be used to install menuhax, which lets you hold a button while the console is booting up to launch the Homebrew Launcher before the rest of the system starts.
 
-If you are between versions 9.0.0 and 9.8.0, you should follow this guide, but you can skip changing the date and time and initializing savedata in the beginning.
+9.0.0 - 9.8.0: Follow this guide, but skip changing the date and time and initializing savedata in the beginning.
 
-If you are between versions 9.9.0 and 10.5.0, you should follow this guide as written.
+9.9.0 - 10.5.0: Follow this guide as written.
 
-If you are between versions 10.6.0 and 11.0.0, or have a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**, you must use the following instructions for various alternate entrypoints *in place of* Part 1    
+10.6.0 - 11.0.0, or have a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**:    
+Use the following instructions for various alternate entrypoints *in place of* Part 1 (as Browserhax and menuhax were patched with 10.6.0 and will no longer work.)
+    
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja)    
 + [smashbroshax](https://gbatemp.net/threads/397194/) (requires Super Smash Bros. and **only works on New 3DS**) 
 + [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher)       
@@ -12,13 +14,11 @@ If you are between versions 10.6.0 and 11.0.0, or have a browser version (the la
 + [freakyhax](http://plutooo.github.io/freakyhax/) (requires Freakyforms Deluxe)
 + [basehaxx](http://mrnbayoh.github.io/basehaxx/) (requires Pokemon Omega Ruby/Alpha Sapphire ver 1.0/1.4 with the ability to have a secret base and another 3DS which has the HomeBrew Launcher)
 
-**If you are on version 11.0.0, you MUST have used a hardmod downgrade to successfully complete Part 2 later.**
+**11.0.0: You MUST have used a hardmod downgrade to successfully complete Part 2 later.**
 
-Browserhax and menuhax were patched with 10.6.0 and will no longer work.
+<9.0.0: you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
 
-If you are below version 9.0.0, you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
-
-If you are using a game for hacks, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.
+If you are using a game for hax, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.
 
 #### Overview of steps
 
