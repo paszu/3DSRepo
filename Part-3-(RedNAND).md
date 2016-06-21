@@ -47,7 +47,9 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 11. Get into the Homebrew Launcher through the entrypoint of your choice
 12. Open Luma3DS (this can sometimes black screen, just try again)
 14. Activate "Show current NAND in System Settings"
-15. Press Start to boot RedNAND (you must launch Luma3DS from the Homebrew Launcher every time you want to boot RedNAND)
+15. Press Start to boot RedNAND     
+  + You must launch Luma3DS from the Homebrew Launcher every time you want to boot RedNAND
+  + Be patient, this initial boot has been reported take as long as two minutes for some users!
 13. If you boot into the home menu, you have successfully launched RedNAND
 16. Reboot into SysNAND and get into the Homebrew Launcher through the entrypoint of your choice (menuhax will always launch the Homebrew Launcher from SysNAND)
 17. Open TinyFormat
