@@ -14,13 +14,13 @@ The brand name refers to the manufacturer of the NAND chip in your device, **not
       988.807.168 bytes = 943 MiB    
 
     + Toshiba NAND:    
-      1.979.711.488 bytes = 1.84GiB    
+      1.979.711.488 bytes = 1.84 GiB    
 
     + Samsung NAND:    
       1.000.341.504 bytes = 954 MiB    
 
     + Samsung NAND:    
-      1.300.234.240 bytes = 1.21GiB    
+      1.300.234.240 bytes = 1.21 GiB    
 
 ## Old 3DS:    
 
@@ -33,7 +33,7 @@ The brand name refers to the manufacturer of the NAND chip in your device, **not
 ## New 3DS:    
 
     + Toshiba NAND:    
-      1.979.711.488 bytes = 1.84GiB    
+      1.979.711.488 bytes = 1.84 GiB    
 
     + Samsung NAND:    
-      1.300.234.240 bytes = 1.21GiB    
+      1.300.234.240 bytes = 1.21 GiB    
