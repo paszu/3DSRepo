@@ -57,7 +57,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 5. In the `/luma/payloads` folder, rename `Hourglass9.bin` to `start_Hg9.bin`
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card
 5. In the `/luma/payloads` folder, rename `EmuNAND9.bin` to `y_EmuN9.bin`
-7. Copy `uncart_arm9loaderhax.bin` from the Uncart zip to the `/luma/payloads/` folder on your SD card
+7. Copy `uncart_arm9loaderhax.bin` to the `/luma/payloads/` folder on your SD card
 5. In the `/luma/payloads` folder, rename `uncart_arm9loaderhax.bin` to `x_Uncart.bin`
 1. Copy `aeskeydb.bin` to the root of your SD card
 2. Copy `emuNAND_original.bin` and `emuNAND_original.bin.sha` from Section I of Part 4 to the root of your SD card
