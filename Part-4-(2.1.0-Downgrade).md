@@ -65,12 +65,12 @@ Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https:
 12. Reboot into SysNAND
 3. **Make sure your WiFi is on (it has not been disabled from the SysNAND home menu settings), you can only toggle it by pulling the battery which resets it to be on**
 2. Get into the Homebrew Launcher on SysNAND through the entrypoint of your choice
-11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "Miscellaneous... (EmuNAND)", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
+11. Open Decrypt9 **(This can sometimes take a few tries)**, then go to "EmuNAND Options", then "Miscellaneous...", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generator, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat` *(or  execute `go.sh`with Terminal on Linux / Mac)*
 15. Copy `FBI_inject_with_banner.app` to the root of your SD card and reinsert your SD card into your 3DS
-16. Press B on Decrypt9, then go to "Miscellaneous... (EmuNAND)" and select the "Health & Safety Inject" option
+16. Press B on Decrypt9, then go to "EmuNAND Options", then "Miscellaneous...", and select the "Health & Safety Inject" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A and confirm to inject
 18. Go to the main menu, then press Start to reboot
 
