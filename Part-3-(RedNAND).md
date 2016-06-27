@@ -58,6 +58,7 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 19. Reinstall menuhax on SysNAND as the format will have removed it
 14. Boot RedNAND
 14. Open System Settings
+15. Make sure your DNS settings are on Auto-Obtain
 13. **If you do not see "Emu" in front of the version number, then you are not on RedNAND. DO NOT UPDATE, FIND WHAT WENT WRONG**
 10. Update your **RedNAND** to the latest version using system settings (**Once you exit System Settings / SD Card Management you will be returned to SysNAND, make sure to enter back into RedNAND before updating!**)
 15. As your 3DS is setup right now, you must launch Luma3DS from the Homebrew Launcher every time you want to boot RedNAND; by the end of the guide you will boot into CFW SysNAND by default instead of having to use RedNAND
