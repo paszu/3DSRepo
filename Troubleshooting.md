@@ -11,12 +11,12 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
    1. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) 
    2. Try the exploit again
 
-## <a name="ts_browser" />A browser based exploit is not working
-Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
+## <a name="ts_safe_a9lh" />System boots directly SafeA9LHInstaller
+You copied the wrong `arm9loaderhax.bin` file to your SD card (you were only supposed to copy the `3ds` folder and `SafeA9LHInstaller.dat` file from the SafeA9LHInstaller zip).
 
-1. Open the browser, then open the browser settings
-   1. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) 
-   2. Try the exploit again
+1. Use the correct `arm9loaderhax.bin`
+   1. Copy `arm9loaderhax.bin` from the Luma3DS zip to the root of your SD card
+   2. Reboot holding select and continue
 
 ## <a name="ts_safe_a9lh_screen" />SafeA9LHInstaller shows a glitched screen
 This happens occasionally, but the reason is unknown. The buttons will still work, but the screen will be glitched looking. 
