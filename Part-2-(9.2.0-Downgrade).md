@@ -2,7 +2,7 @@
 
 [The reason for this is unknown, but can be prevented by performing a system format *before* downgrading. It seems to happen very often on systems with ambassador status or who have DSiWare installed.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
 
-[Once this error happens, it can *only* be fixed by using safe mode (A + R + L + Up on the D-Pad) to update to the latest system version.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857) 
+[Once this error happens, it can *only* be fixed by using recovery mode (A + R + L + Up on the D-Pad) to update to the latest system version.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857) 
 
 [As of the time this is written, the latest version (11.0.0) has completely blocked all software downgrading, and if someone encounters this error they will be locked out of any further downgrading unless they use a hardmod exploit.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
 
