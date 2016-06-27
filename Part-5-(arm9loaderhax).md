@@ -63,7 +63,8 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 
 12. Reinsert your SD card into your 2.1.0 3DS
 14. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
-    + If you get am error, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_browser)
+    + If you get an error, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_browser)
+    + If you get a glitched screen, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_safe_a9lh_screen)
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
 18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
