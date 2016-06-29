@@ -24,8 +24,6 @@ During this process, we also setup programs such as **FBI** *(installs CIA forma
 
 Screeninit arm9loaderhax payloads turn on the screen before handing control over to arm9loaderhax.bin (making sure it works with all arm9loaderhax.bin files), while noscreeninit arm9loaderhax payloads do not (allowing arm9loaderhax.bin to control things like brightness during boot). You can choose to use either (the guide used to only have screeninit payloads).
 
-#### Do NOT use the original `payload_input.zip` or `data_input.zip` with SafeA9LHInstaller v2 or you will BRICK!
-
 #### What you need
 
 * [data_input**_v2**.zip](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
