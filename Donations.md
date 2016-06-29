@@ -1,4 +1,4 @@
-<p align="center">If you appreciate this guide and the work I put into maintaining it, I accept donations.</p>
+<p align="center">If you appreciate this guide, I accept donations.</p>
 
 ---
 
