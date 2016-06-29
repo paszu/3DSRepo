@@ -20,7 +20,7 @@ In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/)
 
 Once arm9loaderhax is installed and Luma3DS is setup with the correct options, we then backup our SD card and format it using EmuNAND9 to remove the now obsolete RedNAND and reclaim the SD card space it previously used.
 
-During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Uncart** *(converts physical cartridge games to digital CIA files)*, **Hourglass9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
+During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Decrypt9** *(NAND + decryption tool which can also convert physical cartridge games to digital CIA files)*, **Hourglass9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
 
 Screeninit arm9loaderhax payloads turn on the screen before handing control over to arm9loaderhax.bin (making sure it works with all arm9loaderhax.bin files), while noscreeninit arm9loaderhax payloads do not (allowing arm9loaderhax.bin to control things like brightness during boot). You can choose to use either (the guide used to only have screeninit payloads).
 
@@ -35,7 +35,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
-* The latest release of [Uncart for arm9loaderhax](https://github.com/AileSc/uncart/releases)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 
 #### Instructions
@@ -53,7 +53,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card and rename `EmuNAND9.bin` to `y_EmuNAND9.bin`
-7. Copy `uncart_arm9loaderhax.bin` to the `/luma/payloads/` folder on your SD card and rename `uncart_arm9loaderhax.bin` to `x_Uncart.bin`
+7. Copy `Decrypt9WIP.bin` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `x_Decrypt9WIP.bin`
 1. Copy `aeskeydb.bin` to the root of your SD card
 2. Copy `emuNAND_original.bin` and `emuNAND_original.bin.sha` from Section II of Part 4 to the root of your SD card
 
@@ -129,9 +129,9 @@ You can now use Luma3DS Updater to update your Luma3DS to the latest version jus
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
 You can now hold Select on boot to launch the Luma3DS configuration menu.    
-You can now hold Start on boot to launch Hourglass9, a full featured NAND tool.    
+You can now hold Start on boot to launch Hourglass9, an arm9loaderhax safe NAND tool.    
 You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
-You can now hold X on boot to launch Uncart, a tool for [converting a physical game cart](https://www.reddit.com/r/3dshacks/comments/4hwuhf/) to an installable file.    
+You can now hold X on boot to launch Decrypt9, a full featured NAND + decryption tool which can also be used to [convert a physical game cart](https://www.reddit.com/r/3dshacks/comments/4qgap3/) to an installable file.    
 
 You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](https://github.com/Plailect/Guide/wiki/Updating-arm9loaderhax/) page.
 
