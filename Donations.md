@@ -1,4 +1,5 @@
 <h4 align="center">If you appreciate this guide, I accept donations.</h4>
+<p align="center"><sub><i>(these images are links, click them)</i></sub></p>
 
 ---
 
