@@ -2,7 +2,7 @@ If you are unable to boot your 3DS, please look for the section relevant to you,
 
 (The section is fairly long, try using Ctrl+F to search for your issue.)
 
-**If you still cannot solve your issue and need to reach out for help, please upload all relevant .log files from the root of your SD card to [Up1](https://up1.ca/), then come for help prepared with a detailed description of your problem and what you've tried.**
+**If you still cannot solve your issue and need to reach out for help, please paste the contents of all relevant .log files from the root of your SD card into a [Gist](https://gist.github.com/), then come for help prepared with a detailed description of your problem and what you've tried.**
 
 ## <a name="ts_browser" />A browser based exploit is not working
 Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
