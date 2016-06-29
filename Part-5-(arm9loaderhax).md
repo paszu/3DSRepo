@@ -37,6 +37,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
+* The latest release of [DspDump](https://github.com/Cruel/DspDump/releases)
 
 #### Instructions
 
@@ -55,6 +56,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card and rename `EmuNAND9.bin` to `y_EmuNAND9.bin`
 7. Copy `Decrypt9WIP.bin` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `x_Decrypt9WIP.bin`
 1. Copy `aeskeydb.bin` to the root of your SD card
+2. Copy DspDump.3dsx to the `/3ds/` folder on your SD card
 2. Copy `emuNAND_original.bin` and `emuNAND_original.bin.sha` from Section II of Part 4 to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
@@ -119,7 +121,9 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 9. Navigate to `hblauncher_loader.cia` and press A to install
 9. Navigate to `lumaupdate.cia` and press A to install
 10. Exit with the home button
-10. Launch the Homebrew Launcher from the home menu icon at least once to ensure the payload is functional
+10. Launch the Homebrew Launcher from the home menu
+12. Select "DSP Dump"
+13. Press Start when prompted to exit
 14. Reboot!
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
