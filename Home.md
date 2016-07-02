@@ -1,12 +1,11 @@
 ##[AGE (a9lh guide enhancement)](http://bob.me.tz/age/)
 
+[Para visitar este tutorial en Español, pulsa aquí (traducido por Fernando51 e Armastan).](https://github.com/Armastan/Guia/wiki)
 [Pour visiter ce tutoriel en français, cliquez ici (traduit par Ginkyway).](https://github.com/Ginkyway/Guide/wiki/Accueil)    
 [Para visitar este tutorial em português, clique aqui (traduzido por HenryLeon e asaver).](https://github.com/HenryLeonheart/Guide_Portuguese/wiki)     
 [Für den Deutschen Guide klickt hier (Übersetzt von Konsolenumbau.Expert).](https://github.com/KonsoleHL/Guide/wiki)    
 [如需查看本教程的中文版，请点击这里（由majia67翻译）](
 https://github.com/majia67/3DS-ARM9LoaderHax-Guide/wiki/)
-
-The previously linked Spanish translation is vastly outdated. Anyone willing to make a new one based off the current guide, please contact me!
 
 #### Read all of the introductory pages before proceeding.
 
