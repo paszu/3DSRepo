@@ -1,6 +1,6 @@
 ##[AGE (a9lh guide enhancement)](http://bob.me.tz/age/)
 
-[Para visitar este tutorial en Español, pulsa aquí (traducido por Fernando51 e Armastan).](https://github.com/Armastan/Guia/wiki)
+[Para visitar este tutorial en Español, pulsa aquí (traducido por Fernando51 e Armastan).](https://github.com/Armastan/Guia/wiki)    
 [Pour visiter ce tutoriel en français, cliquez ici (traduit par Ginkyway).](https://github.com/Ginkyway/Guide/wiki/Accueil)    
 [Para visitar este tutorial em português, clique aqui (traduzido por HenryLeon e asaver).](https://github.com/HenryLeonheart/Guide_Portuguese/wiki)     
 [Für den Deutschen Guide klickt hier (Übersetzt von Konsolenumbau.Expert).](https://github.com/KonsoleHL/Guide/wiki)    
