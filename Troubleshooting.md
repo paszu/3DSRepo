@@ -55,8 +55,6 @@ Do the steps for the error you are getting.
 
 ####"Validation Stage 1: FAILED" and "Validation Stage 2: FAILED"  
 
-The workaround for this issue was confusing and bricked a few users, so it has been removed.
-
 You should restore SysNAND from `sysNAND_original.bin`, restore RedNAND from `emuNAND_formatted.bin` and retry from Part 4 - Section IV - Step 9.
 
 ####"Validation Stage 1: SUCCESS" and "Validation Stage 2: FAILED"
