@@ -7,6 +7,6 @@
 <p align="center"><i>1BKtYkpHJmYJSsSnRYBBGPRYRMBaNfpHTB</i></p></div>
 
 <div align="center">
-<img border="0" alt="W3Schools" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg">
+<img border="0" alt="W3Schools" src="http://i.imgur.com/igzN9wS.jpg">
 <p align="center"><i>devonmaloney@hotmail.com</i></p>
 </div>
