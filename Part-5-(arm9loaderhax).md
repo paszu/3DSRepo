@@ -102,6 +102,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 (if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
 0. Reinsert your SD card into your 3DS.
 2. Hold Y on boot to launch EmuNAND9
+  + If you get a black screen, [follow this troubleshooting guide](https://github.com/AuroraWright/Luma3DS/wiki/FAQ-and-Troubleshooting#i-get-a-black-screen-on-boot-with-an-old-3ds-which-has-been-downgraded-from-the-gateway-menu-in-the-past)
 4. Go to "SD Format Options", then "Format SD..."
 5. Select the "Format SD (No EmuNAND)" option
 6. Press Select on the main menu to eject your SD card
