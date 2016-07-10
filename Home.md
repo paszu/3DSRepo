@@ -1,3 +1,11 @@
+##### I will be out of town (without internet) until July 15th. The following users (all OPs at [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey)) have been given collaborator status and can edit any of these pages:    
+  + [@d0k3](https://github.com/d0k3)
+  + [@dark-samus](https://github.com/dark-samus/)
+  + [@gemarcano](https://github.com/gemarcano)
+  + [@mid-kid](https://github.com/mid-kid)
+
+---
+
 ##[AGE (a9lh guide enhancement)](http://bob.me.tz/age/)
 
 [Para visitar este tutorial en Español, pulsa aquí (traducido por Fernando51 e Armastan).](https://github.com/Armastan/Guia/wiki)    
