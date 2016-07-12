@@ -12,7 +12,6 @@
 [Pour visiter ce tutoriel en français, cliquez ici (traduit par Ginkyway).](https://github.com/Ginkyway/Guide/wiki/Accueil)    
 [Para visitar este tutorial em português, clique aqui (traduzido por HenryLeon e asaver).](https://github.com/HenryLeonheart/Guide_Portuguese/wiki)     
 [Für den Deutschen Guide klickt hier (Übersetzt von Konsolenumbau.Expert).](https://github.com/KonsoleHL/Guide/wiki)    
-[Pentru traducere in limba romana click aici (tradus de DAVIDRO999000999).](https://github.com/DAVIDRO999000999/Guide/wiki/Pagina-de-Start)            
 [如需查看本教程的中文版，请点击这里（由majia67翻译）](
 https://github.com/majia67/3DS-ARM9LoaderHax-Guide/wiki/)
 
