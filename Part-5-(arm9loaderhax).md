@@ -38,6 +38,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 * The latest release of [DspDump](https://github.com/Cruel/DspDump/releases)
+* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 
 #### Instructions
 
@@ -51,6 +52,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
 4. Copy `lumaupdate.cia` from the Luma3DS Updater zip to the root of your SD card
+2. Copy `FBI.cia` from the FBI zip to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card and rename `EmuNAND9.bin` to `y_EmuNAND9.bin`
@@ -119,13 +121,17 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 6. Update your CFW SysNAND to the latest version using system settings (if it is not already)
 8. Open Health and Safety (which is now FBI)
 9. Select "SD"
+9. Navigate to `FBI.cia` and press A to install
 9. Navigate to `hblauncher_loader.cia` and press A to install
 9. Navigate to `lumaupdate.cia` and press A to install
 10. Exit with the home button
 10. Launch the Homebrew Launcher from the home menu
 12. Select "DSP Dump"
 13. Press Start when prompted to exit
-14. Reboot!
+14. Reboot while holding Start to launch Hourglass9
+15. Go to SysNAND Backup/Restore, then select Health&Safety Inject
+16. Select `hs.app` (the original one from Part 4), then press A and confirm to inject
+17. Press Start on the main menu to reboot!
 
 If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
