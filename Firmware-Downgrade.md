@@ -1,6 +1,4 @@
-If you are on 11.0.0, you must follow this guide to downgrade your NATIVE_FIRM using one of the following to directly dump and restore your NAND:    
- + A [hardmod](https://gbatemp.net/threads/414498/)
- + DSiWare and a second 3DS which has already has a Custom Firmware installed on it  
+If you are on 11.0.0, you must follow this guide to downgrade your firmware using one of the methods at the bottom of this page to directly dump and restore your NAND.
 
 If you are below version 9.0.0 then you should follow [this](https://github.com/Plailect/plailect.github.io/wiki/9.2.0-Update) guide instead to update.    
 
