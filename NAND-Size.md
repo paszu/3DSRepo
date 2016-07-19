@@ -37,3 +37,6 @@ The brand name refers to the manufacturer of the NAND chip in your device, **not
 
     + Samsung NAND:    
       1.300.234.240 bytes = 1.21 GiB    
+    
+    + Unknown NAND:
+      1.954.545.664 bytes = 1.82 GiB
