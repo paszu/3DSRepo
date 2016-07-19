@@ -53,7 +53,7 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 
 #### Instructions
 
-**If you are already on 9.2.0-20, skip to step 22.**
+**If you are already on 9.2.0-20, do up to step 3 then skip to step 22.**
 
 1. **Right now is a good time to use a [save manager](https://github.com/J-D-K/JKSM/releases) to backup any saves you care about (just in case something goes wrong unexpectedly)**
 1. Copy and merge the `3ds` folder from the PlaiSysUpdater zip to root of your SD card
