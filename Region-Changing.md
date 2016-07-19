@@ -42,13 +42,14 @@ Note that region changing is experimental and can break several things.
 7. Press Y to downgrade to the region you want to switch to
 11. If you get an error before installation, power off your 3DS by holding the power button and try again (this can take many tries)
 13. If you freeze on the "Rebooting in 10 seconds" line for longer than 10 seconds, it is safe to power off your 3DS by holding the power button
-5. Boot into arm9loaderhax GodMode9 by holding Up    
+5. Boot into arm9loaderhax GodMode9 by holding Up during boot    
 **(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
 14. Navigate to `SYSNAND CTRNAND` -> `rw` -> `sys`
 15. Press Y on `SecureInfo_A` to copy it
 16. Press Y to paste a copy of `SecureInfo_A`
 17. Select "Copy path(s)"
 18. Press A to unlock SysNAND writing, then input the key combo given
+20. Select "Choose new name"
 20. Use the D-Pad to rename the file to `SecureInfo_C`, pressing A when you're done (overwrite any existing `SecureInfo_C`)
 18. Scroll down to the `SecureInfo_C` you just pasted
 21. Press A on `SecureInfo_C` then select "Show in Hexeditor"
