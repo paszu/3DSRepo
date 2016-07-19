@@ -112,7 +112,7 @@ System Transfers can only be performed once a week.
 4. Place both NATIVE_FIRM CIAs that correspond to your device in the `autofirm_Reboot_11.0` folder
 7. Run "autofirm_ENG.bat" and select which device the NAND backup is for
 8. Wait while the script runs
-8. If everything worked, then you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
+8. If everything worked, then your original NAND will have been renamed to `backup_nand.bin` and you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
 3. Rename the modified backup back to the original name it was backed up to
 1. Put the modified NAND backup into the same folder on **3DS #2's** SD card (overwrite the original)
 2. Launch Fieldrunners on **3DS #2**
