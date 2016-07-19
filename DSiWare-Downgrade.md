@@ -124,7 +124,7 @@ System Transfers can only be performed once a week.
   + Old 3DS: select "Restore nand_o3ds.bin"
 9. Keep `backup_nand.bin` and `nand.bin` in a safe folder on your computer; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 
-##### Section VII - Restoring 3DS #1    
+##### Section VI - Restoring 3DS #1    
 **This section can be completed now or after completing Part 5 - Section V on 3DS #2**
 
 13. If **3DS #1** previously had a Nintendo Network ID on it, you must format **3DS #2** using System Settings so that **3DS #1** can use it again:
