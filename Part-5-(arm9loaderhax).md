@@ -115,7 +115,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 14. Reinsert your SD card into your 3DS
 15. Still from EmuNAND9, go to EmuNAND Manager Options and make a backup of SysNAND to `sysNAND.bin`
 14. Press Select on the main menu to eject your SD card, then put it in your computer
-17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin`, `sysNAND.bin.sha` `sysNAND-A9LHAX.bin.sha`, and copy both to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and `sysNAND.bin.sha` to `sysNAND-A9LHAX.bin.sha`, then copy both to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a 
 15. Delete `sysNAND-A9LHAX.bin` and `sysNAND-A9LHAX.bin.sha` from your SD card
 7. Reinsert your SD card into your 3DS then press Start to reboot
 6. Update your CFW SysNAND to the latest version using system settings (if it is not already)
