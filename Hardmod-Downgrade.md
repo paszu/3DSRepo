@@ -31,7 +31,7 @@ This will work on both a New and Old 3DS.
 4. Place both NATIVE_FIRM CIAs that correspond to your device in the `autofirm_Reboot_11.0` folder
 7. Run "autofirm_ENG.bat" and select which device the NAND backup is for
 8. Wait while the script runs
-8. If everything worked, then you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
+8. If everything worked, then your original NAND will have been renamed to `backup_nand.bin` and you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
 9. Flash this `nand.bin` to your device with your hardmod
 
 Your version number will *not* have changed in the settings, but the exploit has worked.
