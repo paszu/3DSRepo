@@ -1,8 +1,4 @@
-#### This will ONLY work for the USA region due to missing save files!
-
-#### If *anyone* has fieldrunhax installed on a EUR Region DSi, please extract the save using [this tool](https://gbatemp.net/attachments/dsi_sav_extract-zip.22221/), upload it, and create a github issue with the link
-
-Fieldrunners was never released for the JPN region, so this method will never work for JPN 3DSs
+#### Fieldrunners will only work for the USA region due to missing save files. If *anyone* has fieldrunhax installed on a EUR Region DSi, please extract the save using [this tool](https://gbatemp.net/attachments/dsi_sav_extract-zip.22221/), upload it, and create a github issue with the link
 
 The version of autofirm used in this guide was modified from [Raugo](https://gbatemp.net/members/356694/)'s original autofirm by [Reboot.ms](https://www.reboot.ms/forum/threads/2403/), it is being rehosted [with permission](http://archive.is/KOrWp)
 
@@ -32,10 +28,13 @@ System Transfers can only be performed once a week.
 * Two 3DS systems
   + **3DS #1**: the 3DS running some kind of custom firmware (arm9loaderhax or some form of EmuNAND/RedNAND)
   + **3DS #2**: the 3DS on stock firmware  
-* A legitimately purchased copy of the DSiWare game Fieldrunners on **3DS #1** (a pirated copy of the game will **not** work)
-* The exploited save for your region of Fieldrunners:
-  + USA Region: [`public.sav`](https://mega.nz/#!I5ljGDiD!wIVzpWxMVmj1u-n4do_5qRleawwCVySyYAx11ydt3UA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTk1oOW9od09OVWM))
-  + EUR Region: `MISSING!`
+* A legitimately purchased copy of one of the follwing exploitable DSiWare games on **3DS #1** (a pirated copy of the game will **not** work)
+  + Fieldrunners (USA, EUR save missing and never released for JPN)
+  + Legends of Exidia (USA + EUR, JPN title pulled from eShop)
+* The exploited save for your game and region:
+  + Fieldrunners USA Region: [`public.sav`](https://mega.nz/#!I5ljGDiD!wIVzpWxMVmj1u-n4do_5qRleawwCVySyYAx11ydt3UA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTk1oOW9od09OVWM))
+  + Fieldrunners EUR Region: `MISSING!`
+  + Legends of Exidia ALL Regions: [`public.sav`](https://mega.nz/#!FxNDBDDJ!mLAhdDyd5HcMFYaqcOI0ydiDDzTQ4VWPh_DE5kmEpXs) ([mirror](https://drive.google.com/open?id=0B32_U2tx5LXfdmNGMU03dkNoWWM))
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
 * fwTool 1.6.0: [`boot.nds`](https://mega.nz/#!A09F1LqZ!J2Co681BrnDiMe9LCdiemUCU-70pKx4aITYek2XkxII) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZlNVR2x4VzBoVG8))
 * [Autofirm 11.0 - Reboot edition](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
@@ -54,7 +53,7 @@ System Transfers can only be performed once a week.
 1. Copy `public.sav` to the root of **3DS #1's** SD card
 2. Copy `GodMode9.bin` from the GodMode9 zip to the `/luma/payloads` folder on **3DS #1's** SD card
 2. Rename `GodMode9.bin` in `/luma/payloads` on **3DS #1's** SD card to `up_GodMode9.bin`
-3. Launch Fieldrunners on **3DS #1** and play it enough to create a save file
+3. Launch your DSiWare game on **3DS #1** and play it enough to create a save file
 
 ##### Section II - Installing the save
 
@@ -63,7 +62,11 @@ System Transfers can only be performed once a week.
 5. Navigate to `SD`
 7. Press Y on `public.sav` to copy it
 6. Press B to get back to the main menu
-5. Navigate to `SYSNAND TWLN` -> `title` -> `00030004` -> `4b464445` -> `data`
+5. Navigate to the folder for your game and region:
+  + Fieldrunners USA Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b464445` -> `data`
+  + ~~Fieldrunners EUR Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b464445` -> `data`~~
+  + Legends of Exidia USA Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b4c4545` -> `data`
+  + Legends of Exidia EUR Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b4c4556` -> `data`
 16. Press Y to paste a copy of `public.sav`
 17. Select "Copy path(s)"
 18. Press A to unlock SysNAND writing, then input the key combo given
@@ -99,8 +102,10 @@ System Transfers can only be performed once a week.
 
 ##### Section V - Backing up 3DS #2's NAND
 2. Copy `boot.nds` to the root of **3DS #2's** SD card
-2. Launch Fieldrunners on **3DS #2**
-3. Tap "scores" to launch fwTool 1.6.0
+2. Launch your DSiWare game on **3DS #2**
+3. Launch fwTool 1.6.0 using your DSiWare game
+  + Fieldrunners: Touch the 'Scores' button at the main menu
+  + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
 4. Use fwTool to backup **3DS #2's** NAND (this takes a *very* long time)
   + New 3DS: select "N3DS_NAND.bin backup"
   + Old 3DS: select "O3DS_NAND.bin backup"
@@ -115,8 +120,10 @@ System Transfers can only be performed once a week.
 8. If everything worked, then your original NAND will have been renamed to `backup_nand.bin` and you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
 3. Rename the modified backup back to the original name it was backed up to
 1. Put the modified NAND backup into the same folder on **3DS #2's** SD card (overwrite the original)
-2. Launch Fieldrunners on **3DS #2**
-3. Tap "scores" to launch fwTool 1.6.0
+2. Launch your DSiWare game on **3DS #2**
+3. Launch fwTool 1.6.0 using your DSiWare game
+  + Fieldrunners: Touch the 'Scores' button at the main menu
+  + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
 4. Use fwTool to restore **3DS #2's** NAND (this takes a *very* long time)
   + New 3DS: select "N3DS_NAND.bin restore"
   + Old 3DS: select "O3DS_NAND.bin restore"
