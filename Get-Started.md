@@ -21,5 +21,4 @@ If you need to format a brand new SD card, you can use [this](http://www.ridgecr
 
 9.3.0 - 10.7.0: Start on "Part 1 - Homebrew" and follow all instructions.
 
-11.0.0: You must [downgrade your firmware with a hardmod](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade/)
-
+11.0.0: You must [downgrade your firmware](https://github.com/Plailect/Guide/wiki/Firmware-Downgrade/)

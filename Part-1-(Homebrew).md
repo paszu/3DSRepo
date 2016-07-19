@@ -6,16 +6,16 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 10.6.0 - 11.0.0, or have a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**:    
 Use the following instructions for various alternate entrypoints *in place of* Part 1 (as Browserhax and menuhax were patched with 10.6.0 and will no longer work and versions less than -20 cannot be used with Browserhax.)
-    
+
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja)    
-+ [smashbroshax](https://gbatemp.net/threads/397194/) (requires Super Smash Bros. and **only works on New 3DS**) 
++ [smashbroshax](https://gbatemp.net/threads/397194/) (requires Super Smash Bros. and **only works on New 3DS**)
 + [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher)       
 + [supermysterychunkhax](https://smd.salthax.org/) (requires Pokemon Super Mystery Dungeon and another 3DS which has the HomeBrew Launcher)
 + [freakyhax](http://plutooo.github.io/freakyhax/) (requires Freakyforms Deluxe)
 + [basehaxx](http://mrnbayoh.github.io/basehaxx/) (requires Pokemon Omega Ruby/Alpha Sapphire ver 1.0/1.4 with the ability to have a secret base and another 3DS which has the HomeBrew Launcher)
 + [BASICSploit](https://mrnbayoh.github.io/basicsploit/) (requires SmileBASIC)
 
-**11.0.0: You MUST have used a hardmod downgrade to successfully complete Part 2 later.**
+**11.0.0: You MUST have [downgraded your firmware](https://github.com/Plailect/Guide/wiki/Firmware-Downgrade) in order to successfully complete Part 2 later.**
 
 <9.0.0: you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
 

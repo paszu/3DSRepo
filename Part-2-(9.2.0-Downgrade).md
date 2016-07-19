@@ -2,9 +2,9 @@
 
 [The reason for this is unknown, but can be prevented by performing a system format *before* downgrading. It seems to happen very often on systems with ambassador status or who have DSiWare installed.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
 
-[Once this error happens, it can *only* be fixed by using recovery mode (A + R + L + Up on the D-Pad) to update to the latest system version.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857) 
+[Once this error happens, it can *only* be fixed by using recovery mode (A + R + L + Up on the D-Pad) to update to the latest system version.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
 
-[As of the time this is written, the latest version (11.0.0) has completely blocked all software downgrading, and if someone encounters this error they will be locked out of any further downgrading unless they use a hardmod exploit.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
+[As of the time this is written, the latest version (11.0.0) has completely blocked all software downgrading, and if someone encounters this error they will be locked out of any further downgrading unless they downgrade their firmware.](https://github.com/Plailect/PlaiSysUpdater/issues/8#issuecomment-218588857)
 
 ---
 
@@ -18,7 +18,7 @@ Although a partially downgraded system may show 9.2.0 as the system version, you
 
 **You MUST downgrade with the correct pack for your console/region or you will BRICK.**
 
-**If you are on version 11.0.0, you MUST have used a hardmod downgrade to successfully complete this part.**
+**If you are on version 11.0.0, you MUST have [downgraded your firmware](https://github.com/Plailect/Guide/wiki/Firmware-Downgrade) to successfully complete this part.**
 
 #### Overview of steps
 
@@ -55,7 +55,7 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 
 **If you are already on 9.2.0-20, skip to step 22.**
 
-1. **Right now is a good time to use a [save manager](https://github.com/meladroit/svdt/releases) to backup any saves you care about (just in case something goes wrong unexpectedly)**
+1. **Right now is a good time to use a [save manager](https://github.com/J-D-K/JKSM/releases) to backup any saves you care about (just in case something goes wrong unexpectedly)**
 1. Copy and merge the `3ds` folder from the PlaiSysUpdater zip to root of your SD card
 2. Copy and merge the `3ds` folder from the EmuNAND9 zip to root of your SD card
 2. Delete any existing `updates` folder from your SD card if there is one
