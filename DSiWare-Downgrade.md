@@ -1,6 +1,6 @@
 #### This will ONLY work for the USA region due to missing save files!
 
-#### If *anyone* has fieldrunnerhax installed on a EUR Region DSi, please extract the save using [this tool](https://gbatemp.net/attachments/dsi_sav_extract-zip.22221/), upload it, and create a github issue with the link
+#### If *anyone* has fieldrunhax installed on a EUR Region DSi, please extract the save using [this tool](https://gbatemp.net/attachments/dsi_sav_extract-zip.22221/), upload it, and create a github issue with the link
 
 Fieldrunners was never released for the JPN region, so this method will never work for JPN 3DSs
 
