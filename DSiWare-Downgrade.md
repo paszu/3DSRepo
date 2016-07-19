@@ -28,7 +28,7 @@ System Transfers can only be performed once a week.
 * Two 3DS systems
   + **3DS #1**: the 3DS running some kind of custom firmware (arm9loaderhax or some form of EmuNAND/RedNAND)
   + **3DS #2**: the 3DS on stock firmware  
-* A legitimately purchased copy of one of the follwing exploitable DSiWare games on **3DS #1** (a pirated copy of the game will **not** work)
+* A legitimately purchased copy of one of the following exploitable DSiWare games on **3DS #1** (a pirated copy of the game will **not** work)
   + **Fieldrunners**: Works for **USA** (EUR save missing and never released for JPN)
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
 * The exploited save for your game and region:
