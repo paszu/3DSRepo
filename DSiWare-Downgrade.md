@@ -26,7 +26,7 @@ System Transfers can only be performed once a week.
 #### What you need
 
 * Two 3DS systems
-  + **3DS #1**: the 3DS running some kind of custom firmware (arm9loaderhax or some form of EmuNAND/RedNAND)
+  + **3DS #1**: the 3DS running some kind of custom firmware (arm9loaderhax or some form of EmuNAND/RedNAND) with Hourglass9 and FBI
   + **3DS #2**: the 3DS on stock firmware  
 * A legitimately purchased copy of one of the following exploitable DSiWare games on **3DS #1** (a pirated copy of the game will **not** work)
   + **Fieldrunners**: Works for **USA** (EUR save missing and never released for JPN)
@@ -35,7 +35,6 @@ System Transfers can only be performed once a week.
   + Fieldrunners USA Region: [`public.sav`](https://mega.nz/#!I5ljGDiD!wIVzpWxMVmj1u-n4do_5qRleawwCVySyYAx11ydt3UA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTk1oOW9od09OVWM))
   + Fieldrunners EUR Region: `MISSING!`
   + Legends of Exidia ALL Regions: [`public.sav`](https://mega.nz/#!FxNDBDDJ!mLAhdDyd5HcMFYaqcOI0ydiDDzTQ4VWPh_DE5kmEpXs) ([mirror](https://drive.google.com/open?id=0B32_U2tx5LXfdmNGMU03dkNoWWM))
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases)
 * fwTool 1.6.0: [`boot.nds`](https://mega.nz/#!A09F1LqZ!J2Co681BrnDiMe9LCdiemUCU-70pKx4aITYek2XkxII) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZlNVR2x4VzBoVG8))
 * [Autofirm 11.0 - Reboot edition](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
 * The 10.4.0 and 11.0.0 decrypted NATIVE_FIRM CIAs for your device:
@@ -51,27 +50,23 @@ System Transfers can only be performed once a week.
 1. **Use a [save manager](https://github.com/J-D-K/JKSM/releases) to backup any saves you care about on 3DS #2 (it will be formatted!)**
 2. **Backup every file on both 3DS's SD cards to two separate folders on your computer, all files will be deleted!**
 1. Copy `public.sav` to the root of **3DS #1's** SD card
-2. Copy `GodMode9.bin` from the GodMode9 zip to the `/luma/payloads` folder on **3DS #1's** SD card
-2. Rename `GodMode9.bin` in `/luma/payloads` on **3DS #1's** SD card to `up_GodMode9.bin`
-3. Launch your DSiWare game on **3DS #1** and play it enough to create a save file
 
 ##### Section II - Installing the save
 
-5. Boot into arm9loaderhax GodMode9 by holding Up during boot    
-**(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
+5. Launch FBI on **3DS #1**
 5. Navigate to `SD`
-7. Press Y on `public.sav` to copy it
+7. Press A on `public.sav` and copy it
 6. Press B to get back to the main menu
+5. Navigate to `TWL NAND` -> `title` -> `00030004`
 5. Navigate to the folder for your game and region:
-  + Fieldrunners USA Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b464445` -> `data`
-  + ~~Fieldrunners EUR Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b464445` -> `data`~~
-  + Legends of Exidia USA Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b4c4545` -> `data`
-  + Legends of Exidia EUR Region: `SYSNAND TWLN` -> `title` -> `00030004` -> `4b4c4556` -> `data`
-16. Press Y to paste a copy of `public.sav`
-17. Select "Copy path(s)"
-18. Press A to unlock SysNAND writing, then input the key combo given
-15. Select "Overwrite file(s)"
-18. Press Start to reboot
+  + Fieldrunners USA Region: `4b464445` -> `data`
+  + ~~Fieldrunners EUR Region: `4b464445` -> `data`~~
+  + Legends of Exidia USA Region: `4b4c4545` -> `data`
+  + Legends of Exidia EUR Region: `4b4c4556` -> `data`
+16. Press A on the existing `public.sav` and delete it
+16. Press A on the current directory and paste `public.sav`
+16. Press B to get back to the main menu
+18. Press Start to exit
 
 ##### Section III - System Transfer
 
