@@ -95,13 +95,7 @@ System Transfers can only be performed once a week.
   + Make sure neither device's battery dies during the transfer
 13. Copy any removed files back onto the corresponding 3DS's SD card
 
-##### Section IV - Restoring 3DS #1
-
-12. If **3DS #1** previously had a Nintendo Network ID on it, you must sign back into that NNID and complete initial setup before restoring its NAND in the next step
-14. Reboot **3DS #1** while holding Start to launch Hourglass9
-16. Go to SysNAND Backup/Restore and restore SysNAND from `sysNAND-A9LHAX.bin`
-
-##### Section V - Backing up 3DS #2's NAND
+##### Section IV - Backing up 3DS #2's NAND
 2. Copy `boot.nds` to the root of **3DS #2's** SD card
 2. Launch your DSiWare game on **3DS #2**
 3. Launch fwTool 1.6.0 using your DSiWare game
@@ -110,9 +104,9 @@ System Transfers can only be performed once a week.
 4. Use fwTool to backup **3DS #2's** NAND (this takes a *very* long time)
   + New 3DS: select "N3DS_NAND.bin backup"
   + Old 3DS: select "O3DS_NAND.bin backup"
-5. Make note of the NAND backup's location
+5. Make note of the NAND backup's location **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 
-##### Section VI - Downgrading Firmware
+##### Section V - Downgrading Firmware
 1. Extract the `autofirm_Reboot_11.0.zip` file to a folder called `autofirm_Reboot_11.0`
 2. Place a copy of **3DS #2's** NAND backup (named `nand.bin`) in the `autofirm_Reboot_11.0` folder
 4. Place both NATIVE_FIRM CIAs that correspond to your device in the `autofirm_Reboot_11.0` folder
@@ -128,9 +122,17 @@ System Transfers can only be performed once a week.
 4. Use fwTool to restore **3DS #2's** NAND (this takes a *very* long time)
   + New 3DS: select "N3DS_NAND.bin restore"
   + Old 3DS: select "O3DS_NAND.bin restore"
+9. Keep `backup_nand.bin` and `nand.bin` in a safe folder on your computer; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 
-Format **3DS #2** at the end of the Guide to remove **3DS #1's** NNID
+##### Section VII - Restoring 3DS #1    
+**This section can be completed now or after completing Part 5 - Section V on 3DS #2**
 
-Your version number will *not* have changed in the settings, but the exploit has worked
+13. If **3DS #1** previously had a Nintendo Network ID on it, you must format **3DS #2** using System Settings so that **3DS #1** can use it again:
+  + Go to the fifth page of "Other Settings" and select "Format System Memory", then follow all instructions
+12. If **3DS #1** previously had a Nintendo Network ID on it, you must sign back into that NNID and complete initial setup before restoring its NAND in the next step
+14. Reboot **3DS #1** while holding Start to launch Hourglass9
+16. Go to SysNAND Backup/Restore and restore SysNAND from `sysNAND-A9LHAX.bin`
 
-**You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew)). Remember that you will still need an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
+**3DS #2's** version number will *not* have changed in the settings, but the exploit has worked
+
+**You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew)) on **3DS #2**. Remember that you will still need an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
