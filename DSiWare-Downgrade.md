@@ -102,8 +102,8 @@ System Transfers can only be performed once a week.
   + Fieldrunners: Touch the 'Scores' button at the main menu
   + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
 4. Use fwTool to backup **3DS #2's** NAND (this takes a *very* long time)
-  + New 3DS: select "N3DS_NAND.bin backup"
-  + Old 3DS: select "O3DS_NAND.bin backup"
+  + New 3DS: select "Dump nand_n3ds.bin"
+  + Old 3DS: select "Dump nand_o3ds.bin"
 5. Make note of the NAND backup's location **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 
 ##### Section V - Downgrading Firmware
@@ -120,8 +120,8 @@ System Transfers can only be performed once a week.
   + Fieldrunners: Touch the 'Scores' button at the main menu
   + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
 4. Use fwTool to restore **3DS #2's** NAND (this takes a *very* long time)
-  + New 3DS: select "N3DS_NAND.bin restore"
-  + Old 3DS: select "O3DS_NAND.bin restore"
+  + New 3DS: select "Restore nand_n3ds.bin"
+  + Old 3DS: select "Restore nand_o3ds.bin"
 9. Keep `backup_nand.bin` and `nand.bin` in a safe folder on your computer; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 
 ##### Section VII - Restoring 3DS #1    
