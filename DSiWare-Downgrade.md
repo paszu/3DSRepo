@@ -79,7 +79,8 @@ System Transfers can only be performed once a week.
 19. If you do not have `sysNAND-A9LHAX.bin` on your computer from Part 5 already, do the following:    
   + Go to SysNAND Backup/Restore and backup SysNAND to `sysNAND.bin`
   + Press Select on the main menu to eject your SD card, then put it in your computer
-  + Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and `sysNAND.bin.sha` to `sysNAND-A9LHAX.bin.sha`, then copy both to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+  + Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and `sysNAND.bin.sha` to `sysNAND-A9LHAX.bin.sha`
+  + Copy both to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 10. Press Select on the main menu to eject **3DS #1's** SD card, then put it in your computer
 12. Put **3DS #2's** SD card into your computer
 12. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
