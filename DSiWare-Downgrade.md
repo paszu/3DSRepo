@@ -1,5 +1,3 @@
-#### Fieldrunners will only work for the USA region due to missing save files. If *anyone* has fieldrunhax installed on a EUR Region DSi, please extract the save using [this tool](https://gbatemp.net/attachments/dsi_sav_extract-zip.22221/), upload it, and create a github issue with the link
-
 The version of autofirm used in this guide was modified from [Raugo](https://gbatemp.net/members/356694/)'s original autofirm by [Reboot.ms](https://www.reboot.ms/forum/threads/2403/), it is being rehosted [with permission](http://archive.is/KOrWp)
 
 If you are on 11.0.0, you must follow this guide to downgrade your NATIVE_FIRM using DSiWare and a second 3DS which has already has a Custom Firmware installed on it in order to dump and restore your NAND.    
@@ -32,9 +30,9 @@ System Transfers can only be performed once a week.
   + **Fieldrunners**: Works for **USA** (EUR save missing and never released for JPN)
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
 * The exploited save for your game and region:
-  + Fieldrunners USA Region: [`public.sav`](https://mega.nz/#!I5ljGDiD!wIVzpWxMVmj1u-n4do_5qRleawwCVySyYAx11ydt3UA) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTk1oOW9od09OVWM))
-  + Fieldrunners EUR Region: `MISSING!`
-  + Legends of Exidia ALL Regions: [`public.sav`](https://mega.nz/#!FxNDBDDJ!mLAhdDyd5HcMFYaqcOI0ydiDDzTQ4VWPh_DE5kmEpXs) ([mirror](https://drive.google.com/open?id=0B32_U2tx5LXfdmNGMU03dkNoWWM))
+  + Fieldrunners USA Region: [`public.sav`](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
+  + Fieldrunners EUR Region: [`public.sav`](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
+  + Legends of Exidia ALL Regions: [`public.sav`](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
 * fwTool 1.6.0: [`boot.nds`](https://mega.nz/#!A09F1LqZ!J2Co681BrnDiMe9LCdiemUCU-70pKx4aITYek2XkxII) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZlNVR2x4VzBoVG8))
 * [Autofirm 11.0 - Reboot edition](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
 * The 10.4.0 and 11.0.0 decrypted NATIVE_FIRM CIAs for your device:
@@ -60,7 +58,7 @@ System Transfers can only be performed once a week.
 5. Navigate to `TWL NAND` -> `title` -> `00030004`
 5. Navigate to the folder for your game and region:
   + Fieldrunners USA Region: `4b464445` -> `data`
-  + ~~Fieldrunners EUR Region: `4b464445` -> `data`~~
+  + Fieldrunners EUR Region: `4b464456` -> `data`
   + Legends of Exidia USA Region: `4b4c4545` -> `data`
   + Legends of Exidia EUR Region: `4b4c4556` -> `data`
 16. Press A on the existing `public.sav` and delete it
