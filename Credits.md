@@ -26,6 +26,7 @@
 + yifan_lu for original 8.1.0-0 update info
 + ashinnblunts for first 8.1.0-0 update guide
 + coder65535 for original fieldrunners downgrade guide
++ DinohScene for ripping the EUR fieldrunners save
 + AuroraWright for SafeA9LHInstaller
 + d0k3 for OTPHelper, Decrypt9WIP, Hourglass9, and EmuNAND9
 + elSeledonio for tip about eShop on Region Changed systems
