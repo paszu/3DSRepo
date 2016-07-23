@@ -6,6 +6,8 @@ If you are between 9.0.0 and 10.7.0 you can just follow the instructions [here](
 
 This takes advantage of an oversight which allows DSiWare titles to read and write anywhere in NAND.
 
+This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
+
 This guide will assume the CFW 3DS is running arm9loaderhax and was setup with this guide, but will work (with slight modifications such as doing all SysNAND steps on RedNAND) on systems running an EmuNAND or RedNAND.
 
 This exploit requires you to [System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/) from a CFW 3DS to a stock 3DS as part of the steps. System Transfers will work in the following directions *only*:
