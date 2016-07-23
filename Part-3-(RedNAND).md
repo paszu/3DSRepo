@@ -39,7 +39,6 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 4. Reinsert your SD card into your 3DS, then get into the Homebrew Launcher through the entrypoint of your choice
 5. Open EmuNAND9 **(This can sometimes take a few tries - if you still can't get it to work after quite a few, you can rerun the downgrade to make sure everything worked properly)**
 6. Select the "Complete RedNAND setup" option
-9. Ignore the `starter.bin` prompt and press A to continue
 9. Confirm and wait for it to finish
 8. Press Select on the main menu to eject your SD card
 9. Put your SD card in your computer, then copy all your files back into it
