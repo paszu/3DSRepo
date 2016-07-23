@@ -6,6 +6,8 @@ If you are between 9.0.0 and 10.7.0 you can just follow the instructions [here](
 
 This takes advantage of an oversight which allows DSiWare titles to read and write anywhere in NAND.
 
+This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
+
 This guide will assume the CFW 3DS is running arm9loaderhax and was setup with this guide, but will work (with slight modifications such as doing all SysNAND steps on RedNAND) on systems running an EmuNAND or RedNAND.
 
 This exploit requires you to [System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/) from a CFW 3DS to a stock 3DS as part of the steps. System Transfers will work in the following directions *only*:
@@ -16,8 +18,6 @@ This exploit requires you to [System Transfer](http://en-americas-support.ninten
 Both systems MUST be from the same region.
 
 System Transfers can only be performed once a week.
-
-The reason we format and do the system transfer on a newly created NNID is that the NNID which is transferred cannot be moved back to the first device (except by a system transfer back, which isn't always an option since going from O3DS -> N3DS can't be done in reverse).
 
 **After following these instructions on version 11.0.0, you must have an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
 
@@ -35,13 +35,10 @@ The reason we format and do the system transfer on a newly created NNID is that 
   + Legends of Exidia ALL Regions: [`public.sav`](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
-* fwTool 1.6.0: [`boot.nds`](https://mega.nz/#!A09F1LqZ!J2Co681BrnDiMe9LCdiemUCU-70pKx4aITYek2XkxII) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZlNVR2x4VzBoVG8))
-* [Autofirm 11.0 - Reboot edition](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
-* The 10.4.0 and 11.0.0 decrypted NATIVE_FIRM CIAs for your device:
-    + [Old 3DS 10.4.0 - 0004013800000002 v23341](https://mega.nz/#!I5EmyCZC!pU-bG9Esg30LINlasTP43Sei6aDNnTIzh1ojwECKOrU) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUGxYbmkwVThSUHc))    
-    + [Old 3DS 11.0.0 - 0004013800000002 v24368](https://mega.nz/#!AgUGAbKD!0iNXI1ioLM7mBzACfBrPLotYk8g-LzcdTgcuTsQCmHQ) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaG1jbERyQ1BGcHc))    
-    + [New 3DS 10.4.0 - 0004013820000002 v23341](https://mega.nz/#!1xcEAApQ!anu5UenuD-uEm6z14n680rQThEgViAsytWh5ZuTa_hc) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRHlOTWJZNGtxVkk))
-    + [New 3DS 11.0.0 - 0004013820000002 v24368](https://mega.nz/#!dk8BgZaJ!8EM0Wk4NHl6-_O4hhcatIpAx-vfkjMKZs7uQh__OKRw) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeVhnUU1semtNQjQ))
+* The latest release of [dgTool](https://github.com/Plailect/dgTool/releases)
+* The dgTool zip for your device:
+    + [Old 3DS 11.0.0 -> 10.4.0](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
+    + [New 3DS 11.0.0 -> 10.4.0](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
 
 #### Instructions
 
@@ -104,6 +101,17 @@ The reason we format and do the system transfer on a newly created NNID is that 
 
 ##### Section V - System Transfer
 
+12. Hold Start on boot to launch Hourglass9
+19. If you do not have `sysNAND-A9LHAX.bin` on your computer from Part 5 already, do the following:    
+  + Go to SysNAND Backup/Restore and backup SysNAND to `sysNAND.bin`
+  + Press Select on the main menu to eject your SD card, then put it in your computer
+  + Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and `sysNAND.bin.sha` to `sysNAND-A9LHAX.bin.sha`
+  + Copy both to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+10. Press Select on the main menu to eject **3DS #1's** SD card, then put it in your computer
+12. Put **3DS #2's** SD card into your computer
+12. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
+11. Reinsert each SD card back into their corresponding 3DS
+11. Press Start to reboot
 12. If **3DS #2** has a Nintendo Network ID on it, you must format the device using System Settings:
   + Go to the last page of "Other Settings" and select "Format System Memory", then follow all instructions
 12. Read the following:
@@ -120,34 +128,30 @@ The reason we format and do the system transfer on a newly created NNID is that 
 14. Reboot **3DS #1** while holding Start to launch Hourglass9
 16. Go to SysNAND Backup/Restore and restore SysNAND from `sysNAND-A9LHAX.bin`
 
-##### Section VII - Backing up 3DS #2's NAND
-2. Copy `boot.nds` to the root of **3DS #2's** SD card
-2. Launch your DSiWare game on **3DS #2**
-3. Launch fwTool 1.6.0 using your DSiWare game
-  + Fieldrunners: Touch the 'Scores' button at the main menu
-  + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
-4. Use fwTool to backup **3DS #2's** NAND (this takes a *very* long time)
-  + New 3DS: select "Dump nand_n3ds.bin"
-  + Old 3DS: select "Dump nand_o3ds.bin"
-5. Make note of the NAND backup's location **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+##### Section VII - Backing up 3DS #2's firmware
 
-##### Section VIII - Downgrading Firmware
-1. Extract the `autofirm_Reboot_11.0.zip` file to a folder called `autofirm_Reboot_11.0`
-2. Place a copy of **3DS #2's** NAND backup (named `nand.bin`) in the `autofirm_Reboot_11.0` folder
-4. Place both NATIVE_FIRM CIAs that correspond to your device in the `autofirm_Reboot_11.0` folder
-7. Run "autofirm_ENG.bat" and select which device the NAND backup is for
-8. Wait while the script runs
-8. If everything worked, then your original NAND will have been renamed to `backup_nand.bin` and you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
-3. Rename the modified backup back to the original name it was backed up to
-1. Put the modified NAND backup into the same folder on **3DS #2's** SD card (overwrite the original)
+2. Copy `boot.nds` to the root of **3DS #2's** SD card
+3. Copy the `dgTool` folder for your device to the root of **3DS #2's** SD card
 2. Launch your DSiWare game on **3DS #2**
-3. Launch fwTool 1.6.0 using your DSiWare game
+3. Launch dgTool using your DSiWare game
   + Fieldrunners: Touch the 'Scores' button at the main menu
   + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
-4. Use fwTool to restore **3DS #2's** NAND (this takes a *very* long time)
-  + New 3DS: select "Restore nand_n3ds.bin"
-  + Old 3DS: select "Restore nand_o3ds.bin"
-9. Keep `backup_nand.bin` and `nand.bin` in a safe folder on your computer; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backups should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+4. Use dgTool to flash the 10.4.0 firmware bin to **3DS #2**
+  + New 3DS: select "Dump F0F1_N3DS.bin"
+  + Old 3DS: select "Dump F0F1_O3DS.bin"
+5. Make note of the firmware backup's location
+5. Exit dgTool
+6. Put your SD card in your computer, then copy `F0F1_N3DS.bin` or `F0F1_O3DS.bin` (depending on your device) to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong
+
+##### Section VIII - Flashing 3DS #2's firmware
+
+2. Launch your DSiWare game on **3DS #2**
+3. Launch dgTool using your DSiWare game
+  + Fieldrunners: Touch the 'Scores' button at the main menu
+  + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
+4. Select "Downgrade FIRM to 10.4" and confirm to flash the 10.4.0 firmware bin to **3DS #2**
+5. Exit dgTool
+6. Reboot
 
 **3DS #2's** version number will *not* have changed in the settings, but the exploit has worked
 
