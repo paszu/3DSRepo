@@ -104,17 +104,6 @@ The reason we format and do the system transfer on a newly created NNID is that 
 
 ##### Section V - System Transfer
 
-12. Hold Start on boot to launch Hourglass9
-19. If you do not have `sysNAND-A9LHAX.bin` on your computer from Part 5 already, do the following:    
-  + Go to SysNAND Backup/Restore and backup SysNAND to `sysNAND.bin`
-  + Press Select on the main menu to eject your SD card, then put it in your computer
-  + Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and `sysNAND.bin.sha` to `sysNAND-A9LHAX.bin.sha`
-  + Copy both to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
-10. Press Select on the main menu to eject **3DS #1's** SD card, then put it in your computer
-12. Put **3DS #2's** SD card into your computer
-12. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
-11. Reinsert each SD card back into their corresponding 3DS
-11. Press Start to reboot
 12. If **3DS #2** has a Nintendo Network ID on it, you must format the device using System Settings:
   + Go to the last page of "Other Settings" and select "Format System Memory", then follow all instructions
 12. Read the following:
