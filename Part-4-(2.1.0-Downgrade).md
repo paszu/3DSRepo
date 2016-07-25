@@ -36,8 +36,6 @@ This setup first checks to see if the console is a New 3DS, and if it finds one 
 
 After this New 3DS check, it then (on all consoles) verifies application hashes in RedNAND to ensure the 2.1.0 downgrade successfully completed before copying our RedNAND to SysNAND. It then does some final checks to ensure everything completed successfully, then allows you to reboot.
 
-Upon booting 2.1.0, we use a browser-based arm9 kernel exploit (["2xrsa"](https://github.com/b1l1s/2xrsa) by [Bilis](https://github.com/b1l1s)) to boot OTPHelper and dump the console unique OTP before restoring our SysNAND from backup to go back to 9.2.0.
-
 #### What you need
 
 * A working RedNAND and CFW (you should have gotten this with Part 3)
