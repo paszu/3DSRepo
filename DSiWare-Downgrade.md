@@ -19,6 +19,8 @@ Both systems MUST be from the same region.
 
 System Transfers can only be performed once a week.
 
+The reason we buy the game and perform a transfer on a disposable NNID is that the NNID which is transfered cannot be moved back to the first device (except by a system transfer back, which isn't always an option since going from O3DS -> N3DS can't be done in reverse)
+
 **After following these instructions on version 11.0.0, you must have an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
 
 #### What you need
