@@ -1,4 +1,4 @@
-## This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/blob/master/torrent_files.zip) torrents!
+## This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/raw/master/torrent_files.zip) torrents!
 
 #### Check out the [a9lh guide enhancement](http://bob.me.tz/age/) browser extension
 
