@@ -38,18 +38,13 @@ For a more detailed explanation of the 3DS's security, see [this](http://yifan.l
 * The latest release of [PlaiSysUpdater](https://github.com/Plailect/PlaiSysUpdater/releases/)
 * The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The 9.2.0 firmware pack zip file for your device and region:
- +    [New 3DS 9.2.0 - EUR](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY
-) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
- +    [New 3DS 9.2.0 - JPN](https://mega.nz/#!VxcF3TIK!Bm5LgFxo5V4Nepe9ZlWnx7bichE1V7p7pR_HqwimU5M
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
- +    [New 3DS 9.2.0 - USA](https://mega.nz/#!gslWiIoK!SF7uFk9rzWTK6oitCDoeAdvphcCzhKWsnTAMXw7zwOU
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))        
+ +    <a href="magnet:?xt=urn:btih:4e22cf8bc71c99a70bb846c7cf416d4caafbe58e&dn=9.2.0-20E%28Full%29_n3DS.zip">New 3DS 9.2.0 - EUR</a> ([mirror](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
+ +    <a href="magnet:?xt=urn:btih:c8630ed31b53637b9023bd4dc1ce38362bb8ecd9&dn=9.2.0-20J%28Full%29_n3DS.zip">New 3DS 9.2.0 - JPN</a> ([mirror](https://mega.nz/#!VxcF3TIK!Bm5LgFxo5V4Nepe9ZlWnx7bichE1V7p7pR_HqwimU5M)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
+ +    <a href="magnet:?xt=urn:btih:1e670b71b7f26f2765bbe55d0f6cb8c0459d2e8c&dn=9.2.0-20U%28Full%29_n3DS.zip">New 3DS 9.2.0 - USA</a> ([mirror](https://mega.nz/#!gslWiIoK!SF7uFk9rzWTK6oitCDoeAdvphcCzhKWsnTAMXw7zwOU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))        
 ~    
- +    [Old 3DS or 2DS 9.2.0 - EUR](https://mega.nz/#!xh0wCRYQ!AaxVlej5jG4YPthojiI403alEtYfrkqq4FfdTy10EcU
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDT0oxaGxPSmJ5Rlk/view?usp=sharing))    
- +    [Old 3DS or 2DS 9.2.0 - JPN](https://mega.nz/#!dxMUgTDL!sWvpVP4yWL_H66sOMG9VCJh3xMGG0_GgaX22gTpRE24
-) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDNnNrXzh4UlFPNzQ/view?usp=sharing))    
- +    [Old 3DS or 2DS 9.2.0 - USA](https://mega.nz/#!VsMTFDIR!-TfpWoCcCNEky-EfWHFDb1Cf6Ob0VJL0oF01J2YD2Cs) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRVY4YWVsMjVqTkU/view?usp=sharing))
+ +    <a href="magnet:?xt=urn:btih:844006eb64474c115bd5b847f6c59d333be3397a&dn=9.2.0-20E%28Full%29.zip">Old 3DS or 2DS 9.2.0 - EUR</a> ([mirror](https://mega.nz/#!xh0wCRYQ!AaxVlej5jG4YPthojiI403alEtYfrkqq4FfdTy10EcU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDT0oxaGxPSmJ5Rlk/view?usp=sharing))    
+ +    <a href="magnet:?xt=urn:btih:bb27a53a524276b6527d3b139395b2afc7affe1a&dn=9.2.0-20J%28Full%29.zip">Old 3DS or 2DS 9.2.0 - JPN</a> ([mirror](https://mega.nz/#!dxMUgTDL!sWvpVP4yWL_H66sOMG9VCJh3xMGG0_GgaX22gTpRE24)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDNnNrXzh4UlFPNzQ/view?usp=sharing))    
+ +    <a href="magnet:?xt=urn:btih:940d6479a3972a99daeb85c499f0d6e4e24a2c8b&dn=9.2.0-20U%28Full%29.zip">Old 3DS or 2DS 9.2.0 - USA</a> ([mirror](https://mega.nz/#!VsMTFDIR!-TfpWoCcCNEky-EfWHFDb1Cf6Ob0VJL0oF01J2YD2Cs)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRVY4YWVsMjVqTkU/view?usp=sharing))
 
 #### Instructions
 

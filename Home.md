@@ -1,6 +1,12 @@
-##[AGE (a9lh guide enhancement)](http://bob.me.tz/age/)
+## This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/blob/master/torrent_files.zip) torrents!
+
+#### Check out the [a9lh guide enhancement](http://bob.me.tz/age/) browser extension
+
+#### To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links in this guide, you will need a torrent client like [this](https://sourceforge.net/projects/trqtw/) one
 
 #### Read all of the introductory pages before proceeding.
+
+___
 
 **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
 
@@ -23,7 +29,7 @@ A large part of this guide is lengthy NAND dumps and downgrades, so the entire p
 
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
-This guide was written by me with the process refined and software developed by the fine folks over at [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey). See the credits page for the full credits, this guide would not exist without them.
+This guide was written by me with the process refined and software developed by the fine folks over at #Cakey on Freenode. See the credits page for the full credits, this guide would not exist without them.
 
 Sha256Sum | Zip File
 :---: | :---:

@@ -14,8 +14,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 
 #### What you need
 
-* [data_input**_v2**.zip](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
-* The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases)
+* <a href="magnet:?xt=urn:btih:35ed29e5e14908ba4d7f1f806baec98428c85643&dn=data_input_v2.zip">data_input_v2.zip</a> ([mirror](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))* The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases)
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
 
 #### Instructions

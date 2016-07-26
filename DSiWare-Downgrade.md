@@ -1,8 +1,8 @@
 If you are on 11.0.0, you must follow this guide to downgrade your NATIVE_FIRM using DSiWare and a second 3DS which has already has a Custom Firmware installed on it in order to dump and restore your NAND.    
 
-If you are below version 9.0.0 then you should follow [this](https://github.com/Plailect/plailect.github.io/wiki/9.2.0-Update) guide instead to update.    
+If you are below version 9.0.0 then you should follow [this](https://github.com/Plailect/Guide/wiki/9.2.0-Update) guide instead to update.    
 
-If you are between 9.0.0 and 10.7.0 you can just follow the instructions [here](https://github.com/Plailect/plailect.github.io/wiki/Get-Started).    
+If you are between 9.0.0 and 10.7.0 you can just follow the instructions [here](https://github.com/Plailect/Guide/wiki/Get-Started).    
 
 This takes advantage of an oversight which allows DSiWare titles to read and write anywhere in NAND.
 
@@ -32,15 +32,15 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
   + **Fieldrunners**: Works for **USA + EUR** (never released for JPN)
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
 * The exploited save for your game and region:
-  + Fieldrunners USA Region: [`public.sav`](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
-  + Fieldrunners EUR Region: [`public.sav`](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
-  + Legends of Exidia ALL Regions: [`public.sav`](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
+  + Fieldrunners USA Region: <a href="magnet:?xt=urn:btih:34d12dbde622aff3c43736f4668162c3bb2d05a9&dn=fieldrunners_usa_save.zip">`public.sav`</a> ([mirror](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
+  + Fieldrunners EUR Region: <a href="magnet:?xt=urn:btih:a342e4a43ca6c5a4ec03f5891fd5b954bf4ab34e&dn=fieldrunners_eur_save.zip">`public.sav`</a> ([mirror](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
+  + Legends of Exidia ALL Regions: <a href="magnet:?xt=urn:btih:5ab3518f63994d275c6f7352c396c618541bb4d0&dn=exidia_save.zip">`public.sav`</a> ([mirror](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The latest release of [dgTool](https://github.com/Plailect/dgTool/releases)
 * The dgTool zip for your device:
-    + [Old 3DS 11.0.0 -> 10.4.0](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
-    + [New 3DS 11.0.0 -> 10.4.0](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU) ([Mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
+    + <a href="magnet:?xt=urn:btih:2afdcf51d3a49c005062967a27e5618dad541759&dn=dgTool_o3ds.zip">Old 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
+    + <a href="magnet:?xt=urn:btih:83def8c4d566811ccd67c0f7d88774d736e0d0ab&dn=dgTool_n3ds.zip">New 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
 
 #### Instructions
 
