@@ -89,6 +89,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 5. Purchase one of the following exploitable DSiWare games (a pirated copy of the game will **not** work)
   + **Fieldrunners**: Works for **USA + EUR**
   + **Legends of Exidia**: Works for **USA + EUR**
+  + **Guitar Rock Tour**: You must have already purchased this for **EUR**
 5. Launch FBI on **3DS #1**
 5. Navigate to `SD`
 7. Press A on `public.sav` and copy it
@@ -99,6 +100,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
   + Fieldrunners EUR Region: `4b464456` -> `data`
   + Legends of Exidia USA Region: `4b4c4545` -> `data`
   + Legends of Exidia EUR Region: `4b4c4556` -> `data`
+  + Guitar Rock Tour EUR Region: `4B475256` -> `data`
 16. Press A on the existing `public.sav` and delete it
 16. Press A on the current directory and paste `public.sav`
 16. Press B to get back to the main menu
@@ -142,6 +144,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 3. Launch dgTool using your DSiWare game
   + Fieldrunners: Touch the 'Scores' button at the main menu
   + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
+  + Guitar Rock Tour: Scroll down and go to High-Scores -> Drums -> Easy
 4. Use dgTool to flash the 10.4.0 firmware bin to **3DS #2**
   + New 3DS: select "Dump F0F1_N3DS.bin"
   + Old 3DS: select "Dump F0F1_O3DS.bin"
@@ -155,6 +158,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 3. Launch dgTool using your DSiWare game
   + Fieldrunners: Touch the 'Scores' button at the main menu
   + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
+  + Guitar Rock Tour: Scroll down and go to High-Scores -> Drums -> Easy
 4. Select "Downgrade FIRM to 10.4" and confirm to flash the 10.4.0 firmware bin to **3DS #2**
 5. Exit dgTool
 6. Reboot
