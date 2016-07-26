@@ -32,15 +32,15 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
   + **Fieldrunners**: Works for **USA + EUR** (never released for JPN)
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
 * The exploited save for your game and region:
-  + Fieldrunners USA Region: <a href="magnet:?xt=urn:btih:34d12dbde622aff3c43736f4668162c3bb2d05a9&dn=fieldrunners_usa_save.zip" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
-  + Fieldrunners EUR Region: <a href="magnet:?xt=urn:btih:a342e4a43ca6c5a4ec03f5891fd5b954bf4ab34e&dn=fieldrunners_eur_save.zip" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
-  + Legends of Exidia ALL Regions: <a href="magnet:?xt=urn:btih:5ab3518f63994d275c6f7352c396c618541bb4d0&dn=exidia_save.zip" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
+  + Fieldrunners USA Region: <a href="https://plailect.github.io/Guide/fieldrunners_usa_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
+  + Fieldrunners EUR Region: <a href="https://plailect.github.io/Guide/fieldrunners_eur_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
+  + Legends of Exidia ALL Regions: <a href="https://plailect.github.io/Guide/exidia_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The latest release of [dgTool](https://github.com/Plailect/dgTool/releases)
 * The dgTool zip for your device:
-    + <a href="magnet:?xt=urn:btih:2afdcf51d3a49c005062967a27e5618dad541759&dn=dgTool_o3ds.zip" target="_blank">Old 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
-    + <a href="magnet:?xt=urn:btih:83def8c4d566811ccd67c0f7d88774d736e0d0ab&dn=dgTool_n3ds.zip" target="_blank">New 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
+    + <a href="https://plailect.github.io/Guide/dgTool_o3ds.torrent" target="_blank">Old 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
+    + <a href="https://plailect.github.io/Guide/dgTool_n3ds.torrent" target="_blank">New 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
 
 #### Instructions
 
