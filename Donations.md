@@ -4,7 +4,7 @@
 
 <div align="center">
 <img border="0" alt="W3Schools" src="https://blockchain.info/Resources/buttons/donate_64.png">
-<p align="center"><i>1JuNS4JdxREXJKskWLUkhispzARsSgMXED</i></p></div>
+<p align="center"><i>1BKtYkpHJmYJSsSnRYBBGPRYRMBaNfpHTB	</i></p></div>
 
 <br>
 
