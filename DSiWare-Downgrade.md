@@ -31,9 +31,11 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 * (**DO NOT BUY THIS YET**) You will purchase one of the following exploitable DSiWare games (a pirated copy of the game will **not** work) **as part of the instructions**.
   + **Fieldrunners**: Works for **USA + EUR** (never released for JPN)
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
+  + **Guitar Rock Tour**: Works for **EUR Only** (game has been pulled in all regions, you must have installed it already)
 * The exploited save for your game and region:
   + Fieldrunners USA Region: <a href="https://plailect.github.io/Guide/fieldrunners_usa_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
   + Fieldrunners EUR Region: <a href="https://plailect.github.io/Guide/fieldrunners_eur_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
+  + Guitar Rock Tour EUR Region: <a href="https://plailect.github.io/Guide/grtpwn_eur_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!IsFizRgJ!WU9ULl2uKHJm1VWsBWBMuDxsh_RJD2AWczZLFWin-JY)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDd1luS0FpRTlZY00))
   + Legends of Exidia ALL Regions: <a href="https://plailect.github.io/Guide/exidia_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
