@@ -64,7 +64,8 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 
 1. On **3DS #1**, Go to the last page of "Other Settings" and select "Format System Memory", then follow all instructions
 2. Copy all files from your backup back onto the device **except** the `Nintendo 3DS` folder (it only makes this slower and you don't need it)
-3. Boot your device, then use initial setup to create a **new** Nintendo Network ID **(if you use an existing NNID, it will be stuck on 3DS #2!)**
+3. Boot your device, then complete initial setup 
+4. Go to the settings on **3DS #1** and create a **new** Nintendo Network ID **(if you use an existing NNID, it will be stuck on 3DS #2!)**
 
 ##### Section III - Injecting FBI
 
@@ -126,7 +127,8 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 
 ##### Section VI - Restoring 3DS #1
 
-12. On **3DS #1**, sign back into your initial NNID and complete initial setup before restoring its NAND in the next step
+12. On **3DS #1**, complete initial setup
+12. Go to the settings and sign back into your initial NNID before restoring its NAND in the next step
 14. Reboot **3DS #1** while holding Start to launch Hourglass9
 16. Go to SysNAND Backup/Restore and restore SysNAND from `sysNAND-A9LHAX.bin`
 
