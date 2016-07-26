@@ -17,12 +17,12 @@ This will work on both a New and Old 3DS.
 #### What you need
 
 * Your 11.0.0 NAND extracted using your [hardmod](https://gbatemp.net/threads/414498/)
-* <a href="magnet:?xt=urn:btih:233fd2c61bbd6f90f6f4761a7fb822f02f442e5d&dn=autofirm_Reboot_11.0.zip">Autofirm 11.0 - Reboot edition</a> ([mirror](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
+* <a href="magnet:?xt=urn:btih:233fd2c61bbd6f90f6f4761a7fb822f02f442e5d&dn=autofirm_Reboot_11.0.zip" target="_blank">Autofirm 11.0 - Reboot edition</a> ([mirror](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
 * The 10.4.0 and 11.0.0 decrypted NATIVE_FIRM CIAs for your device:
-    + <a href="magnet:?xt=urn:btih:60b86dec3757c0707037c7f2e0e7db0892044606&dn=o3DS+10.4.cia">Old 3DS 10.4.0 - 0004013800000002 v23341</a> ([mirror](https://mega.nz/#!I5EmyCZC!pU-bG9Esg30LINlasTP43Sei6aDNnTIzh1ojwECKOrU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUGxYbmkwVThSUHc))    
-    + <a href="magnet:?xt=urn:btih:4466d82b06aff18c9f4a438281f6389d565fdb9a&dn=o3DS+11.0.cia">Old 3DS 11.0.0 - 0004013800000002 v24368</a> ([mirror](https://mega.nz/#!AgUGAbKD!0iNXI1ioLM7mBzACfBrPLotYk8g-LzcdTgcuTsQCmHQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaG1jbERyQ1BGcHc))    
-    + <a href="magnet:?xt=urn:btih:0cd996818e3edb0dd2cad1e5b44f80c1b5a876f4&dn=n3DS+10.4.cia">New 3DS 10.4.0 - 0004013820000002 v23341</a> ([mirror](https://mega.nz/#!1xcEAApQ!anu5UenuD-uEm6z14n680rQThEgViAsytWh5ZuTa_hc)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRHlOTWJZNGtxVkk))
-    + <a href="magnet:?xt=urn:btih:81875690d5bb03e9e7038b4948130be94eeaa681&dn=n3DS+11.0.cia">New 3DS 11.0.0 - 0004013820000002 v24368</a> ([mirror](https://mega.nz/#!dk8BgZaJ!8EM0Wk4NHl6-_O4hhcatIpAx-vfkjMKZs7uQh__OKRw)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeVhnUU1semtNQjQ))
+    + <a href="magnet:?xt=urn:btih:60b86dec3757c0707037c7f2e0e7db0892044606&dn=o3DS+10.4.cia" target="_blank">Old 3DS 10.4.0 - 0004013800000002 v23341</a> ([mirror](https://mega.nz/#!I5EmyCZC!pU-bG9Esg30LINlasTP43Sei6aDNnTIzh1ojwECKOrU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUGxYbmkwVThSUHc))    
+    + <a href="magnet:?xt=urn:btih:4466d82b06aff18c9f4a438281f6389d565fdb9a&dn=o3DS+11.0.cia" target="_blank">Old 3DS 11.0.0 - 0004013800000002 v24368</a> ([mirror](https://mega.nz/#!AgUGAbKD!0iNXI1ioLM7mBzACfBrPLotYk8g-LzcdTgcuTsQCmHQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaG1jbERyQ1BGcHc))    
+    + <a href="magnet:?xt=urn:btih:0cd996818e3edb0dd2cad1e5b44f80c1b5a876f4&dn=n3DS+10.4.cia" target="_blank">New 3DS 10.4.0 - 0004013820000002 v23341</a> ([mirror](https://mega.nz/#!1xcEAApQ!anu5UenuD-uEm6z14n680rQThEgViAsytWh5ZuTa_hc)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRHlOTWJZNGtxVkk))
+    + <a href="magnet:?xt=urn:btih:81875690d5bb03e9e7038b4948130be94eeaa681&dn=n3DS+11.0.cia" target="_blank">New 3DS 11.0.0 - 0004013820000002 v24368</a> ([mirror](https://mega.nz/#!dk8BgZaJ!8EM0Wk4NHl6-_O4hhcatIpAx-vfkjMKZs7uQh__OKRw)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeVhnUU1semtNQjQ))
 
 #### Instructions
 

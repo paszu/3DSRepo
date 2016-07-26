@@ -46,9 +46,9 @@ After this New 3DS check, it then (on all consoles) verifies application hashes 
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 2.1.0 firmware zip file for your device and region:
- +    <a href="magnet:?xt=urn:btih:ac8349b75d3af54ba92d561662d80a96cac4aa7f&dn=2.1.0E%28Full%29.zip">New 3DS / Old 3DS or 2DS 2.1.0 - EUR</a> ([mirror](https://mega.nz/#!MhcxXJKA!xcx62RvFiu7oKzCveqxUlDX1icv9UI-7BB1MoiWfn-Q)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDajdOM1QyQlhjRUk/view?usp=sharing))    
- +    <a href="magnet:?xt=urn:btih:3eaa80ea853ff800bc865fcd0ee2ff262a0a05f3&dn=2.1.0J%28Full%29.zip">New 3DS / Old 3DS or 2DS 2.1.0 - JPN</a> ([mirror](https://mega.nz/#!Ix9Fnb6Q!33ujhZnFLL48aY6mE_jEXuMFtCB7cugdg1eRH1geK94)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDYzBIckVEcW5IcW8/view?usp=sharing))   
- +    <a href="magnet:?xt=urn:btih:b76b9faf3684cdaee014f9e6941228e906d688eb&dn=2.1.0U%28Full%29.zip">New 3DS / Old 3DS or 2DS 2.1.0 - USA</a> ([mirror](https://mega.nz/#!EpExwB6K!jfMSznN3_aT14N7LyM_BDBonBQz0mQTs0fx5pURoneU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDWWtBODVzQWxpZ3c/view?usp=sharing))    
+ +    <a href="magnet:?xt=urn:btih:ac8349b75d3af54ba92d561662d80a96cac4aa7f&dn=2.1.0E%28Full%29.zip" target="_blank">New 3DS / Old 3DS or 2DS 2.1.0 - EUR</a> ([mirror](https://mega.nz/#!MhcxXJKA!xcx62RvFiu7oKzCveqxUlDX1icv9UI-7BB1MoiWfn-Q)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDajdOM1QyQlhjRUk/view?usp=sharing))    
+ +    <a href="magnet:?xt=urn:btih:3eaa80ea853ff800bc865fcd0ee2ff262a0a05f3&dn=2.1.0J%28Full%29.zip" target="_blank">New 3DS / Old 3DS or 2DS 2.1.0 - JPN</a> ([mirror](https://mega.nz/#!Ix9Fnb6Q!33ujhZnFLL48aY6mE_jEXuMFtCB7cugdg1eRH1geK94)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDYzBIckVEcW5IcW8/view?usp=sharing))   
+ +    <a href="magnet:?xt=urn:btih:b76b9faf3684cdaee014f9e6941228e906d688eb&dn=2.1.0U%28Full%29.zip" target="_blank">New 3DS / Old 3DS or 2DS 2.1.0 - USA</a> ([mirror](https://mega.nz/#!EpExwB6K!jfMSznN3_aT14N7LyM_BDBonBQz0mQTs0fx5pURoneU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDWWtBODVzQWxpZ3c/view?usp=sharing))    
 
 #### Instructions
 

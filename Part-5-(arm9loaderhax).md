@@ -26,8 +26,8 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 
 #### What you need
 
-* <a href="magnet:?xt=urn:btih:35ed29e5e14908ba4d7f1f806baec98428c85643&dn=data_input_v2.zip">data_input_v2.zip</a> ([mirror](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
-* <a href="magnet:?xt=urn:btih:d71130f55c4ee5f1c25949355330094527076214&dn=aeskeydb.bin">aeskeydb.bin</a> ([mirror](https://mega.nz/#!lhMnnDRJ!1ss7wJNU6ep02nCzEBHLytZd6he79UAnvq7G9hzL2uk)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdGRPbzltTzJTRzg))
+* <a href="magnet:?xt=urn:btih:35ed29e5e14908ba4d7f1f806baec98428c85643&dn=data_input_v2.zip" target="_blank">data_input_v2.zip</a> ([mirror](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
+* <a href="magnet:?xt=urn:btih:d71130f55c4ee5f1c25949355330094527076214&dn=aeskeydb.bin" target="_blank">aeskeydb.bin</a> ([mirror](https://mega.nz/#!lhMnnDRJ!1ss7wJNU6ep02nCzEBHLytZd6he79UAnvq7G9hzL2uk)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdGRPbzltTzJTRzg))
 * The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases)    
    + See above paragraphs for explanation of "screeninit" and "noscreeninit"
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
