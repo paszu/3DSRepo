@@ -100,7 +100,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
   + Fieldrunners EUR Region: `4b464456` -> `data`
   + Legends of Exidia USA Region: `4b4c4545` -> `data`
   + Legends of Exidia EUR Region: `4b4c4556` -> `data`
-  + Guitar Rock Tour EUR Region: `4B475256` -> `data`
+  + Guitar Rock Tour EUR Region: `4b475256` -> `data`
 16. Press A on the existing `public.sav` and delete it
 16. Press A on the current directory and paste `public.sav`
 16. Press B to get back to the main menu
