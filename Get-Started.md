@@ -8,6 +8,8 @@ The New 3DS is a more complicated device to perform this installation on, since 
 
 The Old 3DS and 2DS are extremely similar devices internally. The only major difference that matters for this guide is that, although you are never instructed to do this, you must never perform a system format on a 2DS while it is below firmware version 6.0.0, or you will be unable to complete the initial setup and will be stuck.
 
+**Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/)**.
+
 If you need to format a brand new SD card, you can use [this](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) tool set to an Allocation Unit Size of 32K.
 
 *The following applies to all devices:*
