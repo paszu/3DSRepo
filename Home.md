@@ -2,7 +2,7 @@
 
 #### Check out the [a9lh guide enhancement](http://bob.me.tz/age/) browser extension
 
-#### To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links in this guide, you will need a torrent client like [this](https://sourceforge.net/projects/trqtw/) one
+#### To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [this](https://sourceforge.net/projects/trqtw/) one
 
 #### Read all of the introductory pages before proceeding.
 
