@@ -4,7 +4,7 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 9.9.0 - 10.5.0: Follow this guide as written.
 
-Browser Version (the last number in the version, such as 11.0.0**-33**) of less than **-20**:    
+\>9.0.0 but with a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**:    
 Use the following instructions for various alternate entrypoints *in place of* Part 1
 
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja)    
