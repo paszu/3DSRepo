@@ -12,8 +12,6 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 
 This will work on both a New and Old 3DS.
 
-**After following these instructions on version 11.0.0, you must have an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
-
 #### What you need
 
 * Your 11.0.0 NAND extracted using your [hardmod](https://gbatemp.net/threads/414498/)
@@ -35,5 +33,3 @@ This will work on both a New and Old 3DS.
 9. Flash this `nand.bin` to your device with your hardmod
 
 Your version number will *not* have changed in the settings, but the exploit has worked.
-
-**You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew)). Remember that you will still need an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
