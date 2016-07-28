@@ -20,7 +20,7 @@ Use the following instructions for various alternate entrypoints *in place of* P
 
 <9.0.0: you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
 
-If you are using a game for hax, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax while on 10.6.0/10.7.0. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.
+If you are using a game for hax because your browser version is incompatible, you will need to enter HomeBrew Launcher using it and install menuhax. After installing menuhax, you no longer need the game to complete the rest of the guide.
 
 #### Overview of steps
 
@@ -28,7 +28,7 @@ This section will take you through the steps of downloading [smea](https://githu
 
 All \*hax variety entrypoints (which are the most commonly used entrypoints such as Ninjhax, oot3dhax, menuhax, and browserhax), after setting up their exploit code, launch a file named `boot.3dsx`, which is the Homebrew Launcher in this case. The file itself can be any valid `.3dsx` homebrew, but the Homebrew Launcher is prefered because it lets us launch *other* homebrew once it's running.
 
-This guide uses browserhax, which runs the homebrew launcher through an exploit site, to install menuhax, which is an exploited theme that can run the Homebrew Launcher at boot. Both of these exploits were patched in 10.6.0, and as a result if you are using 10.6.0 or higher, you will need one of the alternate entrypoints described at the top.
+This guide uses browserhax, which runs the homebrew launcher through an exploit site, to install menuhax, which is an exploited theme that can run the Homebrew Launcher at boot. Browserhax does not work on some browser versions, and as a result if you are on one of these browser versions, you will need one of the alternate entrypoints described at the top.
 
 All versions above 9.9.0 include a browser version check that will not allow you to go to any sites if you are not on the latest system version, which means you'd normally have to update to the latest to run browserhax, but that would result in patching out browserhax.
 
