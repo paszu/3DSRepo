@@ -21,8 +21,6 @@ System Transfers can only be performed once a week.
 
 The reason we buy the game and perform a transfer on a disposable NNID is that the NNID which is transfered cannot be moved back to the first device (except by a system transfer back, which isn't always an option since going from O3DS -> N3DS can't be done in reverse)
 
-**After following these instructions on version 11.0.0, you must have an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
-
 #### What you need
 
 * Two 3DS systems
@@ -164,5 +162,3 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 6. Reboot
 
 **3DS #2's** version number will *not* have changed in the settings, but the exploit has worked
-
-**You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew)) on 3DS #2. Remember that you will still need an alternate entrypoint such as one of the ones detailed in [Get Started](https://github.com/Plailect/Guide/wiki/Get-Started) in order to enter the homebrew launcher and downgrade.**
