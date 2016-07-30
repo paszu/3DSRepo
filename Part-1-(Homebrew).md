@@ -15,6 +15,7 @@ Use the following instructions for various alternate entrypoints *in place of* P
 + [basehaxx](http://mrnbayoh.github.io/basehaxx/) (requires Pokemon Omega Ruby/Alpha Sapphire ver 1.0/1.4 with the ability to have a secret base and another 3DS which has the HomeBrew Launcher)
 + [BASICSploit](https://mrnbayoh.github.io/basicsploit/) (requires SmileBASIC)
 + [smilehax](https://plutooo.github.io/smilehax/) (requires SmileBASIC)
++ [stickerhax](https://github.com/yellows8/stickerhax) (requires Paper Mario: Sticker Star and either a powersaves or another 3DS which has the HomeBrew Launcher)
 
 **11.0.0: You MUST have [downgraded your firmware](https://github.com/Plailect/Guide/wiki/Firmware-Downgrade) in order to successfully complete Part 2 later.**
 
