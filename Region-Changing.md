@@ -59,7 +59,7 @@ Note that region changing is experimental and can break several things.
     - "00" : JPN
     - "01" : USA
     - "02" : EUR
-13. Press B to exit edit mode, then press B again to return to the directory
+13. Press B to exit edit mode, then save changes, then press B again to return to the directory
 19. You should see both a `SecureInfo_A` and `SecureInfo_C` if everything was done properly. (`SecureInfo_C` is used in place of `SecureInfo_A` when using Luma3DS if it detects the file on boot)
 16. Press Start to reboot
 11. Launch the FBI
