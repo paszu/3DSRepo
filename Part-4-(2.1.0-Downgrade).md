@@ -54,6 +54,7 @@ After this New 3DS check, it then (on all consoles) verifies application hashes 
 
 ##### Section I - Prep Work
 
+1. Delete the `PlaiSysUpdater` folder from the `3ds` folder on your SD card
 1. Copy both the `OTPHelper` folder from the OTPHelper zip and the `Decrypt9WIP` folder from the Decrypt9 zip to the `/3ds/` folder on your SD card
 2. Copy `PlaiSysUpdater.cia` from the PlaiSysUpdater zip, `TinyFormat.cia` from the TinyFormat zip, and `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
 2. Delete the `Decrypt9` folder from the root of your SD card if you have one
