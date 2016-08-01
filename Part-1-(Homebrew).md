@@ -2,7 +2,7 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 9.0.0 - 9.8.0: Follow this guide, but skip changing the date and time and initializing savedata in the beginning.
 
-9.9.0 - 10.5.0: Follow this guide as written.
+9.9.0 - 10.6.0: Follow this guide as written.
 
 \>=9.9.0 but with a browser version (the last number in the version, such as 11.0.0**-33**) of greater than **-32**:.   
 Set your primary DNS to `107.211.140.065` so as not to trigger the browser version check.
