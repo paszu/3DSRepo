@@ -2,9 +2,13 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 9.0.0 - 9.8.0: Follow this guide, but skip changing the date and time and initializing savedata in the beginning.
 
-9.9.0 - 10.7.0: Follow this guide as written.
+9.9.0 - 10.5.0: Follow this guide as written.
 
-\>9.0.0 but with a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**:    
+\>=9.9.0 but with a browser version (the last number in the version, such as 11.0.0**-33**) of greater than **-32**:.   
+Set your primary DNS to `107.211.140.065` so as not to trigger the browser version check.
+  + If on this browser version, you ever receive a message to update your browser, you will need an alternate entry point from below as your browser will have detected it is not running the latest version.
+
+\>=9.0.0 but with a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**:    
 Use the following instructions for various alternate entrypoints *in place of* Part 1
 
 + [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja)    
