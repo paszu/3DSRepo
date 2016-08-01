@@ -4,7 +4,7 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 9.9.0 - 10.6.0: Follow this guide as written.
 
-\>=9.9.0 but with a browser version (the last number in the version, such as 11.0.0**-33**) of greater than **-32**:.   
+\>=10.7.0:   
 Set your primary DNS to `107.211.140.065` so as not to trigger the browser version check.
   + If on this browser version, you ever receive a message to update your browser, you will need an alternate entry point from below as your browser will have detected it is not running the latest version.
   + Once this message appears for the first time, it is impossible to get rid of it so you must get an alternate entrypoint.
