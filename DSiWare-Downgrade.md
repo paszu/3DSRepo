@@ -15,18 +15,18 @@ This exploit requires you to [System Transfer](http://en-americas-support.ninten
   + Old 3DS -> Old 3DS
   + Old 3DS -> New 3DS
 
+**3DS #1's NNID will be stuck on 3DS #2 unless you either system transfer back or call Nintendo! (details in the instructions)**
+
 Both systems MUST be from the same region.
 
 System Transfers can only be performed once a week.
-
-The reason we buy the game and perform a transfer on a disposable NNID is that the NNID which is transfered cannot be moved back to the first device (except by a system transfer back, which isn't always an option since going from O3DS -> N3DS can't be done in reverse)
 
 #### What you need
 
 * Two 3DS systems
   + **3DS #1**: the 3DS running some kind of custom firmware (arm9loaderhax or some form of EmuNAND/RedNAND)
   + **3DS #2**: the 3DS on stock firmware  
-* (**DO NOT BUY THIS YET**) You will purchase one of the following exploitable DSiWare games (a pirated copy of the game will **not** work) **as part of the instructions**.
+* Purchase one of the following exploitable DSiWare games (a pirated copy of the game will **not** work)
   + **Fieldrunners**: Works for **USA + EUR** (never released for JPN)
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
   + **Guitar Rock Tour**: Works for **EUR Only** (game has been pulled in all regions, you must have installed it already)
@@ -60,14 +60,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 11. Reinsert each SD card back into their corresponding 3DS
 11. Press Start to reboot
 
-##### Section II - Formatting 3DS #1
-
-1. On **3DS #1**, Go to the last page of "Other Settings" and select "Format System Memory", then follow all instructions
-2. Copy all files from your backup back onto the device **except** the `Nintendo 3DS` folder (it only makes this slower and you don't need it)
-3. Boot your device, then complete initial setup 
-4. Go to the settings on **3DS #1** and create a **new** Nintendo Network ID **(if you use an existing NNID, it will be stuck on 3DS #2!)**
-
-##### Section III - Injecting FBI
+##### Section II - Injecting FBI
 
 **If FBI is still injected into Health and Safety (check now), you can skip this section!**
 
@@ -82,7 +75,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 18. Go to the main menu, then press Start to reboot
 
 
-##### Section IV - Installing the save
+##### Section III - Installing the save
 
 5. Purchase one of the following exploitable DSiWare games (a pirated copy of the game will **not** work)
   + **Fieldrunners**: Works for **USA + EUR**
@@ -104,7 +97,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 16. Press B to get back to the main menu
 18. Press Start to exit
 
-##### Section V - System Transfer
+##### Section IV - System Transfer
 
 12. Hold Start on boot to launch Hourglass9
 19. If you do not have `sysNAND-A9LHAX.bin` on your computer from Part 5 already, do the following:    
@@ -127,14 +120,16 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
   + Make sure neither device's battery dies during the transfer
 12. Go to [this link](http://en-americas-support.nintendo.com/app/answers/detail/a_id/227/) and follow Nintendo's official instructions for System Transferring from one system to another while keeping in mind what you just read
 
-##### Section VI - Restoring 3DS #1
+##### Section V - Restoring 3DS #1
 
 12. On **3DS #1**, complete initial setup
-12. Go to the settings and sign back into your initial NNID before restoring its NAND in the next step
+12. Do one of the following *(or neither if you don't mind **3DS #1's** NNID being nonfunctional)*
+    + Do the rest of the sections and then the full guide on **3DS #2**, then wait one week, then System Transfer from **3DS #2** back to **3DS #1** *(remember you cannot transfer back from a New 3DS to an Old 3DS)*
+    + Go to the settings and attempt sign back into your initial NNID, then call Nintendo and ask about the error you get
 14. Reboot **3DS #1** while holding Start to launch Hourglass9
 16. Go to SysNAND Backup/Restore and restore SysNAND from `sysNAND-A9LHAX.bin`
 
-##### Section VII - Backing up 3DS #2's firmware
+##### Section VI - Backing up 3DS #2's firmware
 
 2. Copy `boot.nds` to the root of **3DS #2's** SD card
 3. Copy the `dgTool` folder for your device to the root of **3DS #2's** SD card
@@ -150,7 +145,7 @@ The reason we buy the game and perform a transfer on a disposable NNID is that t
 5. Exit dgTool
 6. Put your SD card in your computer, then copy `F0F1_N3DS.bin` or `F0F1_O3DS.bin` (depending on your device) to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong
 
-##### Section VIII - Flashing 3DS #2's firmware
+##### Section VII - Flashing 3DS #2's firmware
 
 2. Launch your DSiWare game on **3DS #2**
 3. Launch dgTool using your DSiWare game
