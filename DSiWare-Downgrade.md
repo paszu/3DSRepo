@@ -138,7 +138,7 @@ System Transfers can only be performed once a week.
   + Fieldrunners: Touch the 'Scores' button at the main menu
   + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
   + Guitar Rock Tour: Scroll down and go to High-Scores -> Drums -> Easy
-4. Use dgTool to flash the 10.4.0 firmware bin to **3DS #2**
+4. Use dgTool to backup **3DS #2's** firmware
   + New 3DS: select "Dump F0F1_N3DS.bin"
   + Old 3DS: select "Dump F0F1_O3DS.bin"
 5. Make note of the firmware backup's location
