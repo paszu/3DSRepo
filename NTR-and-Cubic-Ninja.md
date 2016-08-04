@@ -60,4 +60,4 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
     + `write(0x15E463, tuple(map(ord, "http://192.168.1.200/update.php\0")), pid=0x25)`
 12. Update your 3DS by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
 
-You can now follow the rest of this guide from Part 3 [here](https://github.com/Plailect/Guide/wiki/Part-3-(RedNAND)).
+You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Get-Started).

@@ -10,33 +10,30 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
 
 #### What you need
 
-* [RxTools-3.0-beta_2.zip](https://github.com/roxas75/rxTools/releases/download/3.0-beta_2/RxTools-3.0-beta_2.zip)
-* <a href="https://plailect.github.io/Guide/firm.torrent" target="_blank">firm.zip</a> ([mirror](https://mega.nz/#!0tsBlDRa!h-Q1fODAUVWPlptA0hCh_C7fC6KI5KyuPbN2jPDxBU4)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDajMtZ1BxbjFCVEk))
-* <a href="https://plailect.github.io/Guide/slot0x25KeyX.torrent" target="_blank">slot0x25keyX.bin</a> ([mirror](https://mega.nz/#!BoFyzbzT!95N9tJXAi8BfPUzlbwuZC8r8S6Sq6oy-UfuAZz3LhHo)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZ1VNUHpQd2owUlE/view?usp=sharing))
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
+* The latest release of [Freeway](https://github.com/Wolfvak/freeway/releases/)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The 9.2.0 firmware pack zip file for your device and region:
+ +    <a href="https://plailect.github.io/Guide/9.2.0-20E(Full)_n3DS.torrent" target="_blank">New 3DS 9.2.0 - EUR</a> ([mirror](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))  
+ +    <a href="https://plailect.github.io/Guide/9.2.0-20J(Full)_n3DS.torrent" target="_blank">New 3DS 9.2.0 - JPN</a> ([mirror](https://mega.nz/#!VxcF3TIK!Bm5LgFxo5V4Nepe9ZlWnx7bichE1V7p7pR_HqwimU5M)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
+ +    <a href="https://plailect.github.io/Guide/9.2.0-20U(Full)_n3DS.torrent" target="_blank">New 3DS 9.2.0 - USA</a> ([mirror](https://mega.nz/#!gslWiIoK!SF7uFk9rzWTK6oitCDoeAdvphcCzhKWsnTAMXw7zwOU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))    
+~
  +    <a href="https://plailect.github.io/Guide/9.2.0-20E(Full).torrent" target="_blank">Old 3DS or 2DS 9.2.0 - EUR</a> ([mirror](https://mega.nz/#!xh0wCRYQ!AaxVlej5jG4YPthojiI403alEtYfrkqq4FfdTy10EcU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDT0oxaGxPSmJ5Rlk/view?usp=sharing))    
  +    <a href="https://plailect.github.io/Guide/9.2.0-20J(Full).torrent" target="_blank">Old 3DS or 2DS 9.2.0 - JPN</a> ([mirror](https://mega.nz/#!dxMUgTDL!sWvpVP4yWL_H66sOMG9VCJh3xMGG0_GgaX22gTpRE24)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDNnNrXzh4UlFPNzQ/view?usp=sharing))    
  +    <a href="https://plailect.github.io/Guide/9.2.0-20U(Full).torrent" target="_blank">Old 3DS or 2DS 9.2.0 - USA</a> ([mirror](https://mega.nz/#!VsMTFDIR!-TfpWoCcCNEky-EfWHFDb1Cf6Ob0VJL0oF01J2YD2Cs)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRVY4YWVsMjVqTkU/view?usp=sharing))
 
-
 #### Instructions
 
-1. Copy the `rxTools` folder from `RxTools-3.0-beta_2.zip` to the root of your SD card
-2. Copy the `firm` folder from `firm.zip` to the `/rxTools/` folder on your SD card
-2. Copy `slot0x25keyX.bin` to the root of your SD card
-3. Delete any existing `updates` folder from your SD card if there is one
-4. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
-5. Copy sysUpdater.cia from the sysUpdater zip to the root of your SD card
-3. Copy `Launcher.dat` and `Decrypt9WIP.dat` from the Decrypt9WIP zip to the root of your SD card
-6. Eject your SD card and put it back in your 3DS
-9. Open the browser and go to one of the following URLs on your 3DS
-    + `http://go.gateway-3ds.com/`
-    + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
-    + `http://dukesrg.github.io/?Decrypt9WIP.dat`
+2. Copy `Freeway.dat` to the root of your SD card
+3. Copy `Decrypt9WIP.dat` from the Decrypt9WIP zip to the root of your SD card
+5. Delete any existing `updates` folder from your SD card if there is one
+6. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
+7. Copy sysUpdater.cia from the sysUpdater zip to the root of your SD card
+8. Eject your SD card and put it back in your 3DS
+9. Open the browser and go to the following URL on your 3DS
+    + `https://dukesrg.github.io/?Decrypt9WIP.dat`
 10. If the exploit was successful, you will have booted into Decrypt9
 10. Go to "SysNAND Options", then "Miscellaneous...", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
@@ -54,13 +51,12 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
 9. Copy over `sysNAND-OLD.bin` and `emuNAND-OLD.bin` *(If you have one)* to a safe folder on your computer in case you ever want to revert to this version
 10. Delete `sysNAND-OLD.bin` and `emuNAND-OLD.bin` *(If you have one)* from your SD card
 18. Reinsert your SD card into your 3DS, then press Start to restart your 3DS
-9. Go to `https://dukesrg.github.io/?rxTools/sys/code.bin` on your 3DS
-10. Hold L while it boots rxTools (press L again if you get an error)
-12. Go to the right until you get to "Advanced Options"
-13. Select Pasta Mode
-14. Your 3DS will reboot back into the home menu
+9. Open the browser and go to the following URL on your 3DS
+    + `https://dukesrg.github.io/?Freeway.dat`
+    + If you get an error, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_browser)
+24. Your 3DS will reboot back into the home menu
 25. Launch the Health and Safety Application (which is now FBI)
 26. Navigate to `sysUpdater.cia` and press A to install
 28. Press the home button to go to the home menu, then open the sysUpdater application and press the A button to install
 
-You can now follow the rest of this guide from Part 3 [here](https://github.com/Plailect/Guide/wiki/Part-3-(RedNAND)).
+You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Get-Started).

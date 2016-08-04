@@ -10,9 +10,9 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
 
 #### What you need
 
-* <a href="https://plailect.github.io/Guide/slot0x25KeyX.torrent" target="_blank">slot0x25keyX.bin</a> ([mirror](https://mega.nz/#!BoFyzbzT!95N9tJXAi8BfPUzlbwuZC8r8S6Sq6oy-UfuAZz3LhHo)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZ1VNUHpQd2owUlE/view?usp=sharing))
-* [rxTools 2.5.2](https://github.com/roxas75/rxTools/releases/download/2.5.2/release.rar) ([mirror](http://rxtools.net/php/downloads.php?dl=rxTools%20v2.5.2))
+* DS flashcard that works on your 3DS version
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
+* The latest release of [Freeway](https://github.com/Wolfvak/freeway/releases/)
 * The latest release of [sysUpdater](https://github.com/profi200/sysUpdater/releases/)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
@@ -21,20 +21,19 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
  +    <a href="https://plailect.github.io/Guide/9.2.0-20J(Full).torrent" target="_blank">Old 3DS or 2DS 9.2.0 - JPN</a> ([mirror](https://mega.nz/#!dxMUgTDL!sWvpVP4yWL_H66sOMG9VCJh3xMGG0_GgaX22gTpRE24)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDNnNrXzh4UlFPNzQ/view?usp=sharing))    
  +    <a href="https://plailect.github.io/Guide/9.2.0-20U(Full).torrent" target="_blank">Old 3DS or 2DS 9.2.0 - USA</a> ([mirror](https://mega.nz/#!VsMTFDIR!-TfpWoCcCNEky-EfWHFDb1Cf6Ob0VJL0oF01J2YD2Cs)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDRVY4YWVsMjVqTkU/view?usp=sharing))
 
+
 #### Instructions
 
-2. Copy `slot0x25keyX.bin` to the root of your SD card
-2. Copy `rxTools.dat` from the rxTools zip to the root of your SD card
-3. Copy `Launcher.dat` and `Decrypt9WIP.dat` from the Decrypt9WIP zip to the root of your SD card
-5. Delete any existing `updates` folder from your SD card if there is one
-6. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
-7. Copy sysUpdater.cia from the sysUpdater zip to the root of your SD card
-8. Eject your SD card and put it back in your 3DS
-9. Open the browser and go to one of the following URLs on your 3DS
-    + `http://go.gateway-3ds.com/`
-    + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
-    + `http://dukesrg.github.io/?Decrypt9WIP.dat`
-10. If the exploit was successful, you will have booted into Decrypt9
+2. Copy `Freeway.dat` to the root of your SD card
+3. Delete any existing `updates` folder from your SD card if there is one
+4. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
+5. Copy sysUpdater.cia from the sysUpdater zip to the root of your SD card
+6. Eject your SD card and put it back in your 3DS
+8. Copy `Decrypt9.dat` from the Decrypt9 zip to the root of your SD card
+8. Put `Decrypt9.nds` from the Decrypt9 zip on your DS flashcard
+9. Start your DS flashcard from your 3DS
+10. Boot `Decrypt9.nds` using your flashcart and allow it to install the MSET exploit
+11. Reboot the system, then go to System Settings, then "Other Settings", then "Profile", then "Nintendo DS Profile" to load Decrypt9
 10. Go to "SysNAND Options", then "Miscellaneous...", then select the "Health & Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generater, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
@@ -51,11 +50,14 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
 9. Copy over `sysNAND-OLD.bin` and `emuNAND-OLD.bin` *(If you have one)* to a safe folder on your computer in case you ever want to revert to this version
 10. Delete `sysNAND-OLD.bin` and `emuNAND-OLD.bin` *(If you have one)* from your SD card
 18. Reinsert your SD card into your 3DS, then press Start to restart your 3DS
-19. Open the browser and go to `http://www.reboot.ms/3ds/load.html?rxTools.dat`
-20. If the exploit was successful, you will have booted into rxTools and it will prompt you to press the R button, which you should do
-21. Let it install any files it needs to
-23. Select `Devmode`
-24. Your 3DS will reboot back into the home menu
+7. Put `Freeway.nds` from the Freeway zip on your DS flashcard
+9. Start your DS flashcard from your 3DS
+10. Boot `Freeway.nds` using your flashcart
+10. Select the correct option for your system version
+    + 4.X.X -> "4.x Freeway.dat"
+    + 6.X.X -> "6.x Freeway.dat"
+11. Go to System Settings, then "Other Settings", then "Profile", then "Nintendo DS Profile"
+14. Your 3DS will reboot back into the home menu
 25. Launch the Health and Safety Application (which is now FBI)
 26. Navigate to `sysUpdater.cia` and press A to install
 28. Press the home button to go to the home menu, then open the sysUpdater application and press the A button to install
