@@ -32,6 +32,7 @@ Following this, we update the RedNAND, but not the SysNAND since we still need a
 
 #### Instructions
 
+1. Delete any existing `luma` folder from the root of your SD card
 2. Copy the `Luma3DS.dat` file, the `3ds` folder, and the `luma` folder from the Luma3DS zip to the root of your SD card
 1. Copy and merge the `3ds` folder from the EmuNAND9 zip to the root of your SD card
 2. Copy and merge the `3ds` folder from the TinyFormat zip to the root of your SD card
