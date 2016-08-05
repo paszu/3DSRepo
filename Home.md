@@ -1,10 +1,9 @@
 #### This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/archive/gh-pages.zip) torrents!
 
+#### To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [this](https://sourceforge.net/projects/trqtw/) one
 ___
 
 #### Check out the [a9lh guide enhancement](http://bob.me.tz/age/) browser extension
-
-#### To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [this](https://sourceforge.net/projects/trqtw/) one
 
 #### Read all of the introductory pages before proceeding.
 
