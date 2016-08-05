@@ -55,7 +55,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 3. Copy `payload_stage1.bin` and `payload_stage2.bin` from the arm9loaderhax zip to `a9lh` folder on your SD card
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
-4. Copy `lumaupdate.cia` from the Luma3DS Updater zip to the root of your SD card
+4. Copy `lumaupdater.cia` from the Luma3DS Updater zip to the root of your SD card
 2. Copy `FBI.cia` from the FBI zip to the root of your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
@@ -128,7 +128,7 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 9. Select "SD"
 9. Navigate to `FBI.cia` and press A to install
 9. Navigate to `hblauncher_loader.cia` and press A to install
-9. Navigate to `lumaupdate.cia` and press A to install
+9. Navigate to `lumaupdater.cia` and press A to install
 10. Exit with the home button
 10. Launch the Homebrew Launcher from the home menu
 12. Select "DSP Dump"
