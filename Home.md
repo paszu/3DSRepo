@@ -1,4 +1,6 @@
-## This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/archive/gh-pages.zip) torrents!
+#### This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/archive/gh-pages.zip) torrents!
+
+___
 
 #### Check out the [a9lh guide enhancement](http://bob.me.tz/age/) browser extension
 
