@@ -28,8 +28,8 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
 3. Delete any existing `updates` folder from your SD card if there is one
 4. Copy the `updates` folder from the 9.2.0 firmware zip to the root of your SD card
 5. Copy sysUpdater.cia from the sysUpdater zip to the root of your SD card
-6. Eject your SD card and put it back in your 3DS
 8. Copy `Decrypt9.dat` from the Decrypt9 zip to the root of your SD card
+6. Eject your SD card and put it back in your 3DS
 8. Put `Decrypt9.nds` from the Decrypt9 zip on your DS flashcard
 9. Start your DS flashcard from your 3DS
 10. Boot `Decrypt9.nds` using your flashcart and allow it to install the MSET exploit
