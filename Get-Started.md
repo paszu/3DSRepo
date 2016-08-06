@@ -12,6 +12,8 @@ The Old 3DS and 2DS are extremely similar devices internally. The only major dif
 
 If you need to format a brand new SD card, you can use [this](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) tool set to an Allocation Unit Size of 32K.
 
+___
+
 ### The following applies to all devices:
 
 **<9.0.0 [WITH BROWSER]**: You can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax (used in Part 1) does not support versions below 9.0.0.
