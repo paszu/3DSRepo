@@ -1,33 +1,5 @@
 The Homebrew Launcher has many different entrypoints, or methods of launching. The most common is browserhax, which launches the Homebrew Launcher using nothing more than the included browser. This can then be used to install menuhax, which lets you hold a button while the console is booting up to launch the Homebrew Launcher before the rest of the system starts.
 
-9.0.0 - 9.8.0: Follow this guide, but skip changing the date and time and initializing savedata in the beginning.
-
-9.9.0 - 10.6.0: Follow this guide as written.
-
-\>=10.7.0:   
-Set your primary DNS to `107.211.140.065` so as not to trigger the browser version check.
-  + If on this browser version, you ever receive a message to update your browser, you will need an alternate entry point from below as your browser will have detected it is not running the latest version.
-  + Once this message appears for the first time, it is impossible to get rid of it so you must get an alternate entrypoint.
-
-\>=9.0.0 but with a browser version (the last number in the version, such as 11.0.0**-33**) of less than **-20**:    
-Use the following instructions for various alternate entrypoints *in place of* Part 1
-
-+ [Ninjhax](http://smealum.github.io/ninjhax2/) (requires Cubic Ninja)    
-+ [smashbroshax](https://gbatemp.net/threads/397194/) (requires Super Smash Bros. and **only works on New 3DS**)
-+ [oot3dhax](https://github.com/yellows8/oot3dhax) (requires Ocarina of Time 3D and either a powersaves or another 3DS which has the HomeBrew Launcher)       
-+ [supermysterychunkhax](https://smd.salthax.org/) (requires Pokemon Super Mystery Dungeon and another 3DS which has the HomeBrew Launcher)
-+ [freakyhax](http://plutooo.github.io/freakyhax/) (requires Freakyforms Deluxe)
-+ [basehaxx](http://mrnbayoh.github.io/basehaxx/) (requires Pokemon Omega Ruby/Alpha Sapphire ver 1.0/1.4 with the ability to have a secret base and another 3DS which has the HomeBrew Launcher)
-+ [BASICSploit](https://mrnbayoh.github.io/basicsploit/) (requires SmileBASIC)
-+ [smilehax](https://plutooo.github.io/smilehax/) (requires SmileBASIC)
-+ [stickerhax](https://github.com/yellows8/stickerhax) (requires Paper Mario: Sticker Star and another 3DS which has the HomeBrew Launcher)
-
-**11.0.0: You MUST have [downgraded your firmware](https://github.com/Plailect/Guide/wiki/Firmware-Downgrade) in order to successfully complete Part 2 later.**
-
-<9.0.0: you can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax does not support versions below 9.0.0.
-
-If you are using a game for hax because your browser version is incompatible, you will need to enter HomeBrew Launcher using it and install menuhax. After installing menuhax, you no longer need the game to complete the rest of the guide.
-
 #### Overview of steps
 
 This section will take you through the steps of downloading [smea](https://github.com/smealum)'s Homebrew Starter Pack which includes the necessary file to run the Homebrew Launcher (`boot.3dsx`) along with some other useful utilities (the apps in `/3ds/`).
