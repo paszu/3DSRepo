@@ -18,7 +18,7 @@ ___
 
 **<9.0.0 [WITH BROWSER]**: You can find instructions for updating to 9.2.0-20 [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update). Browserhax (used in Part 1) does not support versions below 9.0.0.
 
-**9.0.0 - 9.2.0 (with an existing CFW)**: Change menuhax to type 1, set your menuhax trigger to D-Pad down, then start the guide at Part 3
+**9.0.0 - 9.2.0 (with an existing CFW)**: Change menuhax to type 1, set your menuhax trigger to D-Pad down, then start the guide at Part 4.
 
 **9.0.0 - 9.2.0 (without an existing CFW) [WITH BROWSER]**: Start on "Part 1 - Homebrew" then skip most of "Part 2 - 9.2.0 Downgrade" (more info on that page).    
   + (9.0.0 and 9.1.0 are virtually identical to 9.2.0)
