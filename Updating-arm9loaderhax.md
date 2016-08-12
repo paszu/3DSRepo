@@ -21,7 +21,7 @@ These steps will also update your various payloads and the AES key database.
 
 **For all of these instructions, OVERWRITE any existing files on your SD card.**
 
-1. Delete any existingg `aeskeydb.bin` from the root of your SD card
+1. Delete any existing `aeskeydb.bin` from the root of your SD card
 2. Copy `aeskeydb.bin` to the `/files9/` folder on your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
 7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card and rename `EmuNAND9.bin` to `y_EmuNAND9.bin`
