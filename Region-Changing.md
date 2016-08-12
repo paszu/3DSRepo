@@ -14,7 +14,7 @@ Note that region changing is experimental and can break several things.
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/)
 * The 9.2.0 ctrtransfer image for your device and region:
-  +    <a href="https://plailect.github.io/Guide/9.2.0-20E_ctrtransfer_n3DS.torrent" target="\_blank">New 3DS 9.2.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())  
+  +    <a href="https://plailect.github.io/Guide/9.2.0-20E_ctrtransfer_n3DS.torrent" target="_blank">New 3DS 9.2.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())  
   +    <a href="https://plailect.github.io/Guide/9.2.0-20J_ctrtransfer_n3DS.torrent" target="_blank">New 3DS 9.2.0 - JPN - ctrtransfer</a> ([mirror]()) ([mirror]())    
   +    <a href="https://plailect.github.io/Guide/9.2.0-20U_ctrtransfer_n3DS.torrent" target="_blank">New 3DS 9.2.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())    
 ~
