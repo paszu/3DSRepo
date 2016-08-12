@@ -6,22 +6,25 @@ The old version of arm9loaderhax (sometimes referred to as "v1" because it was i
 
 The new version of arm9loaderhax (sometimes referred to as "v2" because it is installed using SafeA9LHInstaller v2 or FIRM81 because of its use of 8.1's firmware files to make room for larger payloads) is the latest version of [AuroraWright's Fork](https://github.com/AuroraWright/arm9loaderhax) of [Delebile's initial implementation](https://github.com/delebile/arm9loaderhax).
 
-The advantages to updating at this time are very minor and only really ensure compatibility with future `arm9loaderhax.bin` files, and is as such completely optional.
-
-CtrBootManager9 users, you must use [OperationNT414C's fork of CtrBootManager](https://github.com/OperationNT414C/CtrBootManager/releases/) which is compatible with arm9loaderhax v2.
-
-Screeninit arm9loaderhax payloads turn on the screen before handing control over to arm9loaderhax.bin (making sure it works with all arm9loaderhax.bin files), while noscreeninit arm9loaderhax payloads do not (allowing arm9loaderhax.bin to control things like brightness during boot). You can choose to use either (the guide used to only have screeninit payloads).
+These steps will also update your various payloads and the AES key database.
 
 #### What you need
 
 * <a href="https://plailect.github.io/Guide/data_input_v2.torrent" target="_blank">data_input_v2.zip</a> ([mirror](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
 * The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases)
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
+* The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
+* The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 
 #### Instructions
 
-1. Delete any existing `aeskeydb.bin` from the root of your SD card
+**For all of these instructions, OVERWRITE any existing files on your SD card.**
+
 2. Copy `aeskeydb.bin` to the root of your SD card
+7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
+7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card and rename `EmuNAND9.bin` to `y_EmuNAND9.bin`
+7. Copy `Decrypt9WIP.bin` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `x_Decrypt9WIP.bin`
 3. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller zip to the `/luma/payloads` folder on your SD card
 4. Rename `arm9loaderhax.bin` in `/luma/payloads` to `down_safea9lhinstaller.bin`
 5. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
