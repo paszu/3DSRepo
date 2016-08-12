@@ -1,33 +1,40 @@
-Most 3DS CFW applications and software are designed for use with a SysNAND version between 9.0.0 and 9.2.0. If you are below version 9.0.0, you will need to use this guide to update your 3DS without going all the way to the latest version.    
+This guide relies on the new feature in Decrypt9, CTRNAND injection. As such Part 1 is now entirely based on using one of many possible entrypoints to launch Decrypt9.
 
-If you are on versions 9.0.0 through 10.7.0 you can just follow the instructions [here](https://github.com/Plailect/Guide/wiki/Get-Started).
+If you already have a RedNAND setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND.
 
 Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
-
-This section of the guide is just a part of the larger [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update) section.
 
 #### What you need
 
 * The latest release of [OTPHelper](https://github.com/d0k3/OTPHelper/releases/)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
 
 #### Instructions
-1. Copy `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
-1. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3DS
-2. OTPHelper will launch, then select the "Dump otp.bin (0x100)" option
-3. Press Select on the main menu to eject your SD card
-4. Put your SD card in your computer, then copy over `otp.bin` to a safe folder on your computer.
-5. Ensure that `otp.bin` is 256 bytes
-6. Backup `otp.bin` to multiple locations (such as online file storage)
 
-You can now do the following **in order**:
-+ Update to 9.2.0 with one of the methods in the relevant section of the 9.2.0 Update chart [here](https://github.com/Plailect/Guide/wiki/9.2.0-Update) 
-+ Do [Part 1 - Homebrew](https://github.com/Plailect/Guide/wiki/Part-1-(Homebrew))
-+ Do [Part 4 - 2.1.0 Downgrade](https://github.com/Plailect/Guide/wiki/Part-4-(2.1.0-Downgrade)#section-ii---injecting-fbi) (Section II - Injecting FBI **Only**, use "SysNAND Options" instead of "EmuNAND Options")
-+ Do [Part 5 - arm9loaderhax](https://github.com/Plailect/Guide/wiki/Part-5-(arm9loaderhax)) 
-    + Copy SafeA9LHInstaller's 3ds folder and dat file instead of the arm9 and arm11 bin files
-    + Copy `otp.bin` to `/a9lh/`
-    + Launch SafeA9LHInstaller from Homebrew menu instead of browser
-    + Skip steps related to "emergency files"
-    + Skip steps related to "RedNAND"
-    + Skip Section IV and Section V
-    + Update to the latest system version after completing Section VI
+##### Section I - Getting the OTP
+
+1. Create a folder named `files9` on the root of your SD card if it does not already exist
+2. Copy `arm11.bin` and `arm9.bin` from the OTPHelper zip to the root of your SD card
+3. Reinsert your SD card into your 3DS
+4. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3DS
+5. OTPHelper will launch, then select the "Dump otp.bin (0x100)" option
+6. Press Select on the main menu to eject your SD card
+7. Put your SD card in your computer, then copy over `otp.bin` from `/files9/` to a safe folder on your computer.
+8. Ensure that `otp.bin` is 256 bytes
+9. Backup `otp.bin` to multiple locations (such as online file storage)
+
+##### Section II - Launching Decrypt9
+
+1. Delete `arm9.bin` from the root of your SD card
+2. Copy `Decrypt9WIP.bin` to the root of your SD card
+3. Rename `Decrypt9WIP.bin` to `arm9.bin` on the root of your SD card
+4. Reinsert your SD card into your 3DS
+5. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3DS
+    + If you get an error, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_browser)
+6. If the exploit was successful, you will have booted into Decrypt9
+
+##### Section III - Injecting CTRNAND
+
+// ???
+
+You can now continue from [Part 2 - 2.1.0 CTRNAND](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-CTRNAND)).

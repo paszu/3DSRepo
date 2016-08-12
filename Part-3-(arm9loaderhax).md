@@ -12,58 +12,57 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 
 In this section, we will go through the process that all the other steps have led up to: actually installing arm9loaderhax.
 
-This is nearly the best possible kind of device exploit because it is permanantly installable into the NAND firm partitions, and runs before most of the OS loads, allowing it to not only work on *all* versions once installed, but also protect itself and recover from most situations that would brick a non-a9lhax 3DS such as a nonfunctional home menu or bad title install.
+This is nearly the best possible kind of device exploit because it is permanently installable into the NAND firm partitions, and runs before most of the OS loads, allowing it to not only work on *all* versions once installed, but also protect itself and recover from most situations that would brick a non-a9lhax 3DS such as a nonfunctional home menu or bad title install.
 
 The file `arm9loaderhax.bin` is what is launched by arm9loaderhax itself after it finishes loading off of NAND, and can be any valid arm9 payload. This file can be replaced at any time, although Luma3DS allows for the launch of other arm9 payloads by holding buttons on boot.
 
 In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/) to boot a patched SysNAND directly, allowing us to completely bypass the need for any kind of RedNAND, vastly simplifying the usage of a hacked 3DS in addition to saving SD card space.
 
-Once arm9loaderhax is installed and Luma3DS is setup with the correct options, we then backup our SD card and format it using EmuNAND9 to remove the now obsolete RedNAND and reclaim the SD card space it previously used.
+Once arm9loaderhax is installed and Luma3DS is setup with the correct options, we then restore our previous backup.
 
-During this process, we also setup programs such as **FBI** *(installs CIA formatted games and applications)*, **Luma3DS Updater** *(updates our CFW installation easily)*, **Decrypt9** *(NAND + decryption tool which can also convert physical cartridge games to digital CIA files)*, **Hourglass9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*, and **EmuNAND9** *(manages RedNAND installations in addition to several miscellaneous features)*.
-
-Screeninit arm9loaderhax payloads turn on the screen before handing control over to arm9loaderhax.bin (making sure it works with all arm9loaderhax.bin files), while noscreeninit arm9loaderhax payloads do not (allowing arm9loaderhax.bin to control things like brightness during boot). You can choose to use either (the guide used to only have screeninit payloads).
+During this process, we also setup programs such as the following:
++  **FBI** *(installs CIA formatted games and applications)*
++  **Luma3DS Updater** *(updates our CFW installation easily)*
++  **Decrypt9** *(decryption tool which can also convert physical cartridge games to digital CIA files)*
++  **Hourglass9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*
 
 #### What you need
 
 * <a href="https://plailect.github.io/Guide/data_input_v2.torrent" target="_blank">data_input_v2.zip</a> ([mirror](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
 * <a href="https://plailect.github.io/Guide/aeskeydb.torrent" target="_blank">aeskeydb.bin</a> ([mirror](https://mega.nz/#!Y5UEyIJb!_FLHUUqjtfLaez8FNEM3tG7NHWrkkwmyj93ZNUeOUxI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTm5VZW1ZcHZ1NzQ))
-* The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases)    
-   + See above paragraphs for explanation of "screeninit" and "noscreeninit"
+* The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases) *(noscreeninit)*    
 * The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
-* The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 * The latest release of [DspDump](https://github.com/Cruel/DspDump/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
-+ The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### Instructions
 
-##### Section I - Preparatory work
+##### Section I - Prep work
 
-1. **Copy `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the root of your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss (after further research and development is completed)**
-2. Delete `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the root of your SD card
-2. Delete the `EmuNAND9` folder from the root of your SD card if you have one
-3. Delete the `3ds` folder from the root of your SD card
-1. Copy the contents of the `starter` folder in `starter.zip` to the root of your SD card    
-  + *(this will reset homebrew launcher apps to default, you don't need the others from before)*
+1. **Copy `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the `/files9/` folder on your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss**
+2. Delete `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the `/files9/` folder on your SD card
+1. Create a folder named `files9` on the root of your SD card if it does not already exist
+1. Create a folder named `cias` on the root of your SD card if it does not already exist
+3. Delete the `3ds` folder from the root of your SD card if it exists
+1. Copy the contents of `starter.zip` to the root of your SD card    
+2. Copy `NANDmin.bin` and `NANDmin.bin.sha` to the `/files9/` folder on your SD card
 3. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
 3. Copy `payload_stage1.bin` and `payload_stage2.bin` from the arm9loaderhax zip to `a9lh` folder on your SD card
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
-3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the root of your SD card
-4. Copy `lumaupdater.cia` from the Luma3DS Updater zip to the root of your SD card
-2. Copy `FBI.cia` from the FBI zip to the root of your SD card
+3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the `/cias/` folder on your SD card
+4. Copy `lumaupdater.cia` from the Luma3DS Updater zip to the `/cias/` folder on your SD card
+2. Copy `FBI.cia` from the FBI zip to the `/cias/` folder on your SD card
 1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
-7. Copy `EmuNAND9.bin` from the EmuNAND9 zip to the `/luma/payloads/` folder on your SD card and rename `EmuNAND9.bin` to `y_EmuNAND9.bin`
 7. Copy `Decrypt9WIP.bin` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `x_Decrypt9WIP.bin`
-1. Copy `aeskeydb.bin` to the root of your SD card
+1. Copy `aeskeydb.bin` to the `/files9/` folder on your SD card
 2. Copy `DspDump.3dsx` to the `/3ds/` folder on your SD card
-2. Copy `emuNAND_original.bin` and `emuNAND_original.bin.sha` from Section II of Part 4 to the root of your SD card
 
 ##### Section II - Installing arm9loaderhax
 
@@ -92,40 +91,33 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 2. Press Start to save and reboot
 18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
 
-##### Section IV - Copying RedNAND data to SysNAND
+##### Section IV - Restoring the System
 
 1. Open Hourglass9 from arm9loaderhax by holding Start on boot
 1. Go to "SysNAND Backup/Restore..."
 2. Select "SysNAND Restore"
-3. Confirm and restore from `emuNAND_original.bin`
+3. Confirm and restore from `NANDmin.bin`
 4. Your device should now be able to boot properly once more.
   + If you get a black screen, [follow this troubleshooting guide](https://github.com/AuroraWright/Luma3DS/wiki/FAQ-and-Troubleshooting#i-get-a-black-screen-on-boot-with-an-old-3ds-which-has-been-downgraded-from-the-gateway-menu-in-the-past)
 
-##### Section V - Removing RedNAND from your SD
+##### Section II - Injecting FBI
 
-2. Press Select on the main menu to eject your SD card
-4. Delete `emuNAND_original.bin` and `emuNAND_original.bin.sha` from the root of your SD card
-3. **Backup every file on your SD card to a folder on your computer, all files will be deleted in the next step**    
-(if you followed Part 3 of this guide, you can delete the SD card backup from that - this will replace it)
-0. Reinsert your SD card into your 3DS.
-2. Hold Y on boot to launch EmuNAND9
-4. Go to "SD Format Options", then "Format SD..."
-5. Select the "Format SD (No EmuNAND)" option
-6. Press Select on the main menu to eject your SD card
-9. Put your SD card in your computer, then copy all your files back into it
+1. Open Hourglass9 from arm9loaderhax by holding Start on boot
+11. Go to "SysNAND Backup/Restore", then select the "Health&Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
+12. Press Select to eject your SD card, then put it in your computer
+13. Extract Universal Inject Generator, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
+14. Double click `go.bat` *(or  execute `go.sh` with Terminal on Linux, or double click `Mac_inject_launcher.app` on Mac)*
+15. Copy `FBI_inject_with_banner.app` to the `/files9/` folder on your SD card and reinsert your SD card into your 3DS
+16. Press B, then go to "SysNAND Backup/Restore", then select the "Health&Safety Inject" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press A and confirm to inject
+18. Go to the main menu, then press Start to reboot
 
 ##### Section VI - Finalizing setup
 
-14. Reinsert your SD card into your 3DS
-15. Still from EmuNAND9, go to EmuNAND Manager Options and make a backup of SysNAND to `sysNAND.bin`
-14. Press Select on the main menu to eject your SD card, then put it in your computer
-17. Rename `sysNAND.bin` to `sysNAND-A9LHAX.bin` and `sysNAND.bin.sha` to `sysNAND-A9LHAX.bin.sha`
-18. Copy both to a safe location on your computer; this is a SysNAND backup containing arm9loaderhax **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
-15. Delete `sysNAND-A9LHAX.bin` and `sysNAND-A9LHAX.bin.sha` from your SD card
-7. Reinsert your SD card into your 3DS then press Start to reboot
 6. Update your CFW SysNAND to the latest version using system settings (if it is not already)
 8. Open Health and Safety (which is now FBI)
 9. Select "SD"
+9. Select "cias"
 9. Navigate to `FBI.cia` and press A to install
 9. Navigate to `hblauncher_loader.cia` and press A to install
 9. Navigate to `lumaupdater.cia` and press A to install
@@ -134,11 +126,9 @@ Screeninit arm9loaderhax payloads turn on the screen before handing control over
 12. Select "DSP Dump"
 13. Press Start when prompted to exit
 14. Reboot while holding Start to launch Hourglass9
-15. Go to SysNAND Backup/Restore, then select Health&Safety Inject
-16. Select `hs.app` (the original one from Part 4), then press A and confirm to inject
+15. Go to "SysNAND Backup/Restore", then select "Health&Safety Inject"
+16. Select `hs.app` (the original one that doesn't contain FBI), then press A and confirm to inject
 17. Press Start on the main menu to reboot!
-
-If everything has gone according to plan, arm9loaderhax will be installed to your device, your RedNAND will have been copied to your SysNAND, you will no longer need RedNAND, you will have a CIA installer, and you'll be able to launch the Homebrew Launcher from an icon on your home menu. Your device will now automatically launch into CFW SysNAND.
 
 You can now use Luma3DS Updater to update your Luma3DS to the latest version just by opening it and pressing A. *(This is not the same thing as a System Update; it just downloads and extracts the newest Luma3DS files)*
 
@@ -146,12 +136,13 @@ You will no longer be able to boot without the SD card in, that is normal.
 You will now boot a Custom Firmware based SysNAND by default.    
 You can now hold Select on boot to launch the Luma3DS configuration menu.    
 You can now hold Start on boot to launch Hourglass9, an arm9loaderhax safe NAND tool.    
-You can now hold Y on boot to launch EmuNAND9, a full featured RedNAND and SD management tool.    
-You can now hold X on boot to launch Decrypt9, a full featured NAND + decryption tool which can also be used to [convert a physical game cart](https://www.reddit.com/r/3dshacks/comments/4qgap3/) to an installable file.    
+You can now hold X on boot to launch Decrypt9, a full featured NAND + decryption tool which can also be used to convert a physical game cart to an installable file *(Gamecard Dumper Options -> Dump Cart to CIA)*.    
 
 You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](https://github.com/Plailect/Guide/wiki/Updating-arm9loaderhax/) page.
 
 To use [NTR CFW](https://github.com/44670/BootNTR/), get `ntr.bin` from the appropriate zip on [this](https://github.com/44670/BootNTR/releases) page and copy it to the root of your SD card, then install `BootNTR.cia` from [this](https://github.com/astronautlevel2/BootNTR/releases/) page.
+
+Keep your `NANDmin.bin` file, it can be restored by Hourglass9 to save you from a brick in the future.
 
 You can remove any extra files from the root of the SD card that are not in the image.    
 

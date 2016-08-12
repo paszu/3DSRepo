@@ -1,8 +1,8 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
-  **A:** See [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/).
+  **A:** Yes, but only by [downgrading its firmware](https://github.com/Plailect/Guide/wiki/Firmware-Downgrade/) (see [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
 
 + <a name="faq_n3ds" />**Q:** *Do I have to do anything different for New 3DS vs and Old 3DS or 2DS?*    
-  **A:** All device models are done in the same way; OTPHelper autodetects which model you are using and does the correct action for it when you select One Click Setup, including unbricking RedNAND on New 3DS.
+  **A:** All device models are done in the same way with the software used autodetecting which device you have
 
 + <a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
   **A:** Use Luma3DS Updater
@@ -17,8 +17,7 @@
   **A:** See [this](https://gbatemp.net/threads/425743/)
 
 + <a name="faq_need" />**Q:** *What do I need to do this guide?*    
-  **A:** This guide can be completely done with free software and **(if you are on 10.6.0 or 10.7.0)** a compatible game   
-    *Note: If you are using a game for hacks, you will need to enter HomeBrew Launcher using it instead of browserhax or menuhax. After completing the initial 9.2.0 downgrade, you no longer need the game to complete the rest of the guide.*
+  **A:** This guide can be completely done with free software and **(if you have no browser)** a compatible game   
 
 + <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
   **A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
@@ -42,10 +41,10 @@
   **A:** Yes, but if you are feeling apprehensive you can wait until there is confirmation it works.
 
 + <a name="faq_support" />**Q:** *Where should I go for support?*    
-  **A:** For support, contact me or any other channel operator at [#3dshacks on Rizon IRC](https://qchat.rizon.net/?channels=3dshacks&uio=d4).
+  **A:** For support, ask for help at [#3dshacks on Rizon IRC](https://gate.omicron.pw).  
 
 + <a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
-  **A:** You might be able to make do with 4GB, but any smaller is pushing it, because the emuNAND itself will take up about 1GB of your card and NAND backups are large. You may have to unmount your SD to transfer files to or from your computer more frequently than the guide instructs. Do so at your own risk.
+  **A:** Thanks to the new CTRNAND method, yes!
 
 + <a name="faq_ge128gbsd" />**Q:** *Can I use a 128 GB (or larger) SD card?*    
   **A:** Yes, but some users have reported slowdowns when using such large sizes. Note that you cannot format the card with exFAT; you need to format it with FAT32.
@@ -60,7 +59,7 @@
   **A:** Once you have completed the guide, you can system transfer to and from an arm9loaderhax'd 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
 
 + <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-  **A:** You may be able to complete up to part 3 of the guide (getting emuNAND running). However, part 4 as of now requires a computer to inject FBI into Health & Safety.
+  **A:** This guide, as of now, requires a computer to inject FBI into Health & Safety.
 
 + <a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
   **A:** Please look at the [[troubleshooting guide|Troubleshooting]].

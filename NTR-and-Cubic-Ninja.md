@@ -6,11 +6,10 @@ If you already have a RedNAND setup, this guide deals exclusively with SysNAND a
 
 Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
-This section of the guide is just a part of the larger [9.2.0 Update](https://github.com/Plailect/Guide/wiki/9.2.0-Update) section.
-
 #### What you need
 
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I)
+* The latest release of [Decrypt9WIP9](https://github.com/d0k3/Decrypt9WIP/releases)
 * <a href="https://plailect.github.io/Guide/3ds-private-update-server.torrent" target="_blank">3ds-private-update-server.zip</a> ([mirror](https://mega.nz/#!pgESgZYB!7ijunOSRA3kLF4BUOptrU6etNhuSHOddUvv1gCmdcAU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUmFNaUVFQVBtQzQ))
 * [WAMPSERVER (PHP 5.5) 2.5](http://www.wampserver.com/en/#download-wrapper)
 * [`node.exe`](http://nodejs.org/dist/latest/win-x86/node.exe)
@@ -41,6 +40,8 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
 6. Click the WAMP icon in your system tray, then click "Put Online"
 7. Use the command "ipconfig" in CMD to get your computer's IPv4 Address, you will need it soon
 8. Copy `ntr.bin` to the root of your SD card
+1. Create a folder named `files9` on the root of your SD card if it does not already exist
+2. Copy and merge the `3ds` folder from the Decrypt9WIP zip to root of your SD card
 
 ##### Section II - Updating
 
@@ -58,6 +59,12 @@ This section of the guide is just a part of the larger [9.2.0 Update](https://gi
     + `write(0x15E424, tuple(map(ord, "http://192.168.1.200/update.php\0")), pid=0x25)`
     + `write(0x15E0EC, tuple(map(ord, "http://192.168.1.200/update.php\0")), pid=0x25)`
     + `write(0x15E463, tuple(map(ord, "http://192.168.1.200/update.php\0")), pid=0x25)`
-12. Update your 3DS by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
+11. Update your 3DS by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
 
-You can now follow the rest of this guide from [here](https://github.com/Plailect/Guide/wiki/Get-Started).
+##### Section III - Decrypt9
+
+1. Check the system settings, you should be on 9.2.0
+2. Launch the Homebrew Launcher using the entrypoint of your choice (such as [ninjhax2](https://smealum.github.io/ninjhax2/))
+3. Open Decrypt9WIP **(This can sometimes take a few tries)**
+
+You can now continue from [Part 2 - 2.1.0 CTRNAND](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-CTRNAND)).

@@ -2,10 +2,6 @@ The version of autofirm used in this guide was modified from [Raugo](https://gba
 
 If you are on 11.0.0, you must follow this guide to downgrade your NATIVE_FIRM using a hardmod in order to directly dump and restore your NAND.    
 
-If you are below version 9.0.0 then you should follow [this](https://github.com/Plailect/Guide/wiki/9.2.0-Update) guide instead to update.    
-
-If you are between 9.0.0 and 10.7.0 you can just follow the instructions [here](https://github.com/Plailect/Guide/wiki/Get-Started).    
-
 **An excellent guide to getting a hardmod can be found [here](https://gbatemp.net/threads/414498/).**
 
 This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
@@ -26,10 +22,12 @@ This will work on both a New and Old 3DS.
 
 1. Extract the `autofirm_Reboot_11.0.zip` file to a folder called `autofirm_Reboot_11.0`
 2. Place a copy of your NAND backup (named `nand.bin`) in the `autofirm_Reboot_11.0` folder
-4. Place both NATIVE_FIRM CIAs that correspond to your device in the `autofirm_Reboot_11.0` folder
-7. Run "autofirm_ENG.bat" and select which device the NAND backup is for
-8. Wait while the script runs
-8. If everything worked, then your original NAND will have been renamed to `backup_nand.bin` and you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
-9. Flash this `nand.bin` to your device with your hardmod
+3. Place both NATIVE_FIRM CIAs that correspond to your device in the `autofirm_Reboot_11.0` folder
+4. Run "autofirm_ENG.bat" and select which device the NAND backup is for
+5. Wait while the script runs
+6. If everything worked, then your original NAND will have been renamed to `backup_nand.bin` and you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM on version 11.0.0
+7. Flash this `nand.bin` to your device with your hardmod
 
 Your version number will *not* have changed in the settings, but the exploit has worked.
+
+You can now continue from either [Homebrew Launcher (No Browser)](https://github.com/Plailect/Guide/wiki/Homebrew-Launcher-(No-Browser)) or [Homebrew Launcher (Browser)](https://github.com/Plailect/Guide/wiki/Homebrew-Launcher-(Browser)), depending on what the [Part 1 - Decrypt9](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9)) chart specified for your version.
