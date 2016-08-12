@@ -14,17 +14,17 @@ More info [here](https://github.com/Plailect/Guide/wiki/OTP-Info) and [here](htt
 
 In this section, we will be flashing your console's [CTRNAND](https://www.3dbrew.org/wiki/Flash_Filesystem#CTR_partition) partition to 2.1.0 in order to take advantage of an oversight in 2.1.0 for the purpose of extracting the [OTP](https://github.com/Plailect/Guide/wiki/OTP-Info) unique to your console. This OTP file is required to install arm9loaderhax, and **cannot** be shared with other consoles.
 
-This is accomplished by installing a premade CTRNAND image containing 2.1.0, copying your console specific files (such as `moveable.sed` and `SecureInfo_A`) to it, then fixing the title databases.
+This is accomplished by installing a premade ctrtransfer image containing 2.1.0, copying your console specific files (such as `moveable.sed` and `SecureInfo_A`) to it, then fixing the title databases.
 
 On New 3DS, it also swaps CTRNAND's encryption slot and installs an Old 3DS NCSD header to NAND, allowing it to boot the Old 3DS only 2.1.0 firmware.
 
 #### What you need
 
 * You will need to have booted into Decrypt9 via one of the [Part 1 - Decrypt9](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9)) entrypoints
-* The 2.1.0 CTRNAND image for your device and region:
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4E_CTRNAND.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - EUR - CTRNAND</a> ([mirror]()) ([mirror]())    
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4J_CTRNAND.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - JPN - CTRNAND</a> ([mirror]()) ([mirror]())    
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4U_CTRNAND.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - USA - CTRNAND</a> ([mirror]()) ([mirror]())
+* The 2.1.0 ctrtransfer image for your device and region:
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4E_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())    
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4J_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - JPN - ctrtransfer</a> ([mirror]()) ([mirror]())    
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4U_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())
 
 #### Instructions
 
@@ -35,7 +35,8 @@ You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [P
 1. Go to SysNAND Options, then SysNAND Backup/Restore, then backup **(min size)** SysNAND to `NANDmin.bin`
 2. Press Select on the main menu to eject your SD card
 3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
-4. You can delete `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on SD card after copying it
+4. Delete `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card after copying it
+5. Copy the 2.1.0 ctrtransfer image to the `/files9/` folder on your SD card
 5. Reinsert your SD card into your 3DS
 
 ##### Section II - Injecting CTRNAND

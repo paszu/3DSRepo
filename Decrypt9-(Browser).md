@@ -12,7 +12,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 
 1. Create a folder named `files9` on the root of your SD card if it does not already exist
 2. Copy `Launcher.dat` and `Decrypt9WIP.dat` from the Decrypt9WIP zip to the root of your SD card
-3. Copy the 9.2.0 CTRNAND image to the `/files9/` folder on your SD card
+3. Copy the 9.2.0 ctrtransfer image to the `/files9/` folder on your SD card
 4. Eject your SD card and put it back in your 3DS
 5. Open the browser and go to one of the following URLs on your 3DS
     + `https://dukesrg.github.io/?Decrypt9WIP.dat`

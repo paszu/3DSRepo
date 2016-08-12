@@ -39,15 +39,14 @@ During this process, we also setup programs such as the following:
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 * The latest release of [DspDump](https://github.com/Cruel/DspDump/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
-* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)_
 
 #### Instructions
 
 ##### Section I - Prep work
 
-1. **Copy `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the `/files9/` folder on your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); they do not replace NAND backups, but in the event of lost backups could save you from total data loss**
-2. Delete `emergency_SecureInfo_A`, `emergency_movable.sed`, `emergency_title.db`, `emergency_ticket.db`, `NCSD_header_[o/n]3ds.bin`, and `firm0firm1.xorpad` from the `/files9/` folder on your SD card
-1. Create a folder named `files9` on the root of your SD card if it does not already exist
+1. **Copy the `/files9/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage); the files inside, in the event of lost backups, could save you from total data loss**
+2. Delete the contents of the `/files9/` folder on your SD card
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
 3. Delete the `3ds` folder from the root of your SD card if it exists
 1. Copy the contents of `starter.zip` to the root of your SD card    
