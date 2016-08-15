@@ -19,7 +19,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 1. Do [Part 3 - arm9loaderhax - Section I - Prep work](https://github.com/Plailect/Guide/wiki/Part-3-(arm9loaderhax)#section-i---prep-work)
 2. Do [Part 3 - arm9loaderhax - Section II - Installing arm9loaderhax](https://github.com/Plailect/Guide/wiki/Part-3-(arm9loaderhax)#section-ii---installing-arm9loaderhax)
 3. Do [Part 3 - arm9loaderhax - Section III - Configuring Luma3DS](https://github.com/Plailect/Guide/wiki/Part-3-(arm9loaderhax)#section-iii---configuring-luma3ds)
-4. Copy the 9.2.0 ctrtransfer image to the `/files9/` folder on your SD card
+4. Copy the 9.2.0 ctrtransfer image `.bin` and `.bin.sha` from the ctrtransfer zip to the `/files9/` folder on your SD card
 5. Reinsert your SD card into your 3DS
 6. Open Decrypt9 from arm9loaderhax by holding X during boot
 7. Do [2.1.0 Stuck - Section III - 9.2.0 ctrtransfer](https://github.com/Plailect/Guide/wiki/2.1.0-stuck#section-iii---9.2.0-ctrtransfer)

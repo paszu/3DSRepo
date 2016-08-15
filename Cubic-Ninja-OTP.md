@@ -7,6 +7,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 #### What you need
 
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I)
+* A [game cart](http://www.3dsdb.com/) that contains a version above 4.0.0
 * <a href="https://plailect.github.io/Guide/code.torrent" target="_blank">code.bin</a> ([mirror](https://mega.nz/#!90ExEJBa!_w5KYJIEM4NX0C5YwjCNSkt0nR2Bj-wc9C58fB3dFu0)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdjBMRGV5TW85aVk))
 * <a href="https://plailect.github.io/Guide/load.torrent" target="_blank">load.bin</a> ([mirror](https://mega.nz/#!lss0VQwY!eDBMwrbpw3wapA82cNOYCJOAxYQPoHZz0AuW-dMOIqo)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeF9NbVZOTjdKRlU))
 * The Cubic Ninja QR Code for your version    
@@ -26,10 +27,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 7. Select "Create", then "QR Code", then "Scan QR Code"
 8. Scan the QR Code in the "What you need" section for your console vesrion
 9. Put your SD card in your computer
-10. Ensure that `otp.bin` has changed to 256 bytes (using `right click -> properties` or something similar)
+10. Ensure that `otp.bin` has changed to 256 bytes (using `right click -> properties`)
 11. Copy `otp.bin` to a safe folder on your computer
 12. Backup `otp.bin` to multiple locations (such as online file storage)
-
-You can now continue by performing a [(4.X.X or 6.X.X) Cart Update](https://github.com/Plailect/Guide/wiki/Cart-Update) then doing [Decrypt9 (MSET)](https://github.com/Plailect/Guide/wiki/Decrypt9-(MSET)).
-
-You can instead also continue by [cart updating](https://github.com/Plailect/Guide/wiki/Cart-Update) to a version 9.0.0 or above and following the appropriate steps in [Part 1 - Decrypt9](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9))
+13. [Cart update](https://github.com/Plailect/Guide/wiki/Cart-Update) to a version above 4.0.0 and follow then appropriate steps in [Part 1 - Decrypt9](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9))

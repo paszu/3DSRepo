@@ -28,7 +28,7 @@ Note that region changing is experimental and can break several things.
 
 1. Copy `GodMode9.bin` from the GodMode9 zip to the `/luma/payloads` folder on your SD card
 1. Rename `GodMode9.bin` in `/luma/payloads` to `up_GodMode9.bin`
-1. Copy the 9.2.0 ctrtransfer image to the `/files9/` folder on your SD card
+1. Copy the 9.2.0 ctrtransfer image `.bin` and `.bin.sha` from the ctrtransfer zip to the `/files9/` folder on your SD card
 4. Reinsert your SD card into your 3DS
 4. Open Decrypt9 from arm9loaderhax by holding X during boot
 1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
