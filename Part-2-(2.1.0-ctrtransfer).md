@@ -39,8 +39,9 @@ You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [P
 2. Once the transfer is complete, press Select to eject your SD card
 3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
 4. Delete the 2.1.0 ctrtransfer image from the `/files9/` folder on your SD card after copying it
-5. Reinsert your SD card into your 3DS
-6. Press Start to reboot
+5. Leave your SD card out of your 3DS
+6. Press Start to reboot with no SD card inserted
+    + You can insert the SD card on 2.1 after the device has reached the home menu, but it will not complete the bootup process if you insert it before then
 
 *(On 2DS at 2.1.0, the screen being stretched is normal)*
 
