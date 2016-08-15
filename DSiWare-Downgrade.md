@@ -22,7 +22,7 @@ System Transfers can only be performed once a week.
 * Two 3DS systems
   + **3DS #1**: the 3DS running some kind of custom firmware (arm9loaderhax or some form of EmuNAND/RedNAND)
   + **3DS #2**: the 3DS on stock firmware  
-* Purchase one of the following exploitable DSiWare games (a pirated copy of the game will **not** work)
+* Purchase one of the following exploitable DSiWare games (a pirated copy of the game will **not** work) on **3DS #1**
   + **Fieldrunners**: Works for **USA + EUR** (never released for JPN)
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
   + **Guitar Rock Tour**: Works for **EUR Only** (game has been pulled in all regions, you must have installed it already)
