@@ -28,20 +28,19 @@ On New 3DS, it also swaps CTRNAND's encryption slot and installs an Old 3DS NCSD
 
 #### Instructions
 
-##### Section I - Prep Work
-
 You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [Part 1 - Decrypt9](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9))
 
-1. Go to SysNAND Options, then SysNAND Backup/Restore, then backup **(min size)** SysNAND to `NANDmin.bin`
-2. Press Select on the main menu to eject your SD card
+1. Copy the 2.1.0 ctrtransfer image for your device and region to the `/files9/` folder on your SD card
+2. Reinsert your SD card into your 3DS
+1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
+2. Select the 2.1.0 ctrtransfer image when prompted by pressing A
+2. Backup SysNAND to `NANDmin.bin` when prompted by pressing A
+3. Allow the transfer process to proceed automatically, this may take some time
+2. Once the transfer is complete, press Select to eject your SD card
 3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
-4. Delete `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card after copying it
-5. Copy the 2.1.0 ctrtransfer image to the `/files9/` folder on your SD card
+4. Delete the 2.1.0 ctrtransfer image from the `/files9/` folder on your SD card after copying it
 5. Reinsert your SD card into your 3DS
-
-##### Section II - Injecting CTRNAND
-
-// ???
+6. Press Start to reboot
 
 *(On 2DS at 2.1.0, the screen being stretched is normal)*
 

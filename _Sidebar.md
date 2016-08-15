@@ -8,7 +8,7 @@
 
 
 [Part 1 - Decrypt9](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9))      
-[Part 2 - 2.1.0 CTRNAND](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-CTRNAND))    
+[Part 2 - 2.1.0 ctrtransfer](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-ctrtransfer))    
 [Part 3 - arm9loaderhax](https://github.com/Plailect/Guide/wiki/Part-3-(arm9loaderhax))     
 
 [Region Changing](https://github.com/Plailect/Guide/wiki/Region-Changing)     

@@ -13,7 +13,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 1. Create a folder named `files9` on the root of your SD card if it does not already exist
 2. Copy `Launcher.dat` and `Decrypt9WIP.dat` from the Decrypt9WIP zip to the root of your SD card
 3. Copy the 9.2.0 ctrtransfer image to the `/files9/` folder on your SD card
-4. Eject your SD card and put it back in your 3DS
+4. Reinsert your SD card into your 3DS
 5. Open the browser and go to one of the following URLs on your 3DS
     + `https://dukesrg.github.io/?Decrypt9WIP.dat`
     + `http://go.gateway-3ds.com/`
@@ -22,4 +22,4 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
     + If you get an error, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_browser)
 6. If the exploit was successful, you will have booted into Decrypt9
 
-You can now continue from [Part 2 - 2.1.0 CTRNAND](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-CTRNAND)).
+You can now continue from [Part 2 - 2.1.0 ctrtransfer](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-ctrtransfer)).

@@ -2,8 +2,6 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 
 **You MUST have already completed Part 5 and installed arm9loaderhax + Luma3DS to use this.**
 
-**You SHOULD have confirmed functional NAND backups of your arm9loaderhax 3DS (such as `NANDmin.bin`) in case something goes wrong.**
-
 *For the eShop to be functional (Old 3DS only, New 3DS cannot access eShop after region change), you MUST [delete your eShop account](http://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) before starting then format the system once you have completed all steps. You must then create a new eShop account. You will lose all user data such as games, DLC, themes, and saves (unless you back them up with something like [JK Save Manager](https://gbatemp.net/threads/413143/)).*
 
 Note that region changing is experimental and can break several things.
@@ -13,27 +11,38 @@ Note that region changing is experimental and can break several things.
 #### What you need
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/)
-* The 9.2.0 ctrtransfer image for your device and region:
+* The 9.2.0 ctrtransfer image for your device and the region you want to switch to:
   +    <a href="https://plailect.github.io/Guide/9.2.0-20E_ctrtransfer_n3DS.torrent" target="_blank">New 3DS 9.2.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())  
   +    <a href="https://plailect.github.io/Guide/9.2.0-20J_ctrtransfer_n3DS.torrent" target="_blank">New 3DS 9.2.0 - JPN - ctrtransfer</a> ([mirror]()) ([mirror]())    
   +    <a href="https://plailect.github.io/Guide/9.2.0-20U_ctrtransfer_n3DS.torrent" target="_blank">New 3DS 9.2.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())    
 ~
   +    <a href="https://plailect.github.io/Guide/9.2.0-20E_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())    
   +    <a href="https://plailect.github.io/Guide/9.2.0-20J_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - JPN - ctrtransfer</a> ([mirror]()) ([mirror]())    
-  +    <a href="https://plailect.github.io/Guide/9.2.0-20U_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())_
+  +    <a href="https://plailect.github.io/Guide/9.2.0-20U_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())
 
 #### Instructions
 
 **Some consoles have a `SecureInfo_B` instead of `SecureInfo_A`; this is fine and you should use `SecureInfo_B` for the relevant steps.**    
 
+##### Section I - Prep work
+
 1. Copy `GodMode9.bin` from the GodMode9 zip to the `/luma/payloads` folder on your SD card
 1. Rename `GodMode9.bin` in `/luma/payloads` to `up_GodMode9.bin`
-4. Eject your SD card and put it back in your 3DS
-4. Boot into arm9loaderhax Decrypt9 by holding X during boot
+1. Copy the 9.2.0 ctrtransfer image to the `/files9/` folder on your SD card
+4. Reinsert your SD card into your 3DS
+4. Open Decrypt9 from arm9loaderhax by holding X during boot
+1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
+2. Select the 9.2.0 ctrtransfer image when prompted by pressing A
+2. Backup SysNAND to `NANDmin.bin` when prompted by pressing A
+3. Allow the transfer process to proceed automatically, this may take some time
+2. Once the transfer is complete, press Select to eject your SD card
+3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+4. Delete the 9.2.0 ctrtransfer image from the `/files9/` folder on your SD card after copying it
+5. Reinsert your SD card into your 3DS
 
-// ???
+##### Section II - Editing SecureInfo
 
-5. Boot into arm9loaderhax GodMode9 by holding Up during boot    
+6. Press Start then hold Up to reboot into arm9loaderhax GodMode9
 **(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
 14. Navigate to `SYSNAND CTRNAND` -> `rw` -> `sys`
 15. Press Y on `SecureInfo_A` to copy it

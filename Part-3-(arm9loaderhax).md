@@ -99,7 +99,7 @@ During this process, we also setup programs such as the following:
 4. Your device should now be able to boot properly once more.
   + If you get a black screen, [follow this troubleshooting guide](https://github.com/AuroraWright/Luma3DS/wiki/FAQ-and-Troubleshooting#i-get-a-black-screen-on-boot-with-an-old-3ds-which-has-been-downgraded-from-the-gateway-menu-in-the-past)
 
-##### Section II - Injecting FBI
+##### Section V - Injecting FBI
 
 1. Open Hourglass9 from arm9loaderhax by holding Start on boot
 11. Go to "SysNAND Backup/Restore", then select the "Health&Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**

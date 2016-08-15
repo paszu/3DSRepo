@@ -67,4 +67,4 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 2. Launch the Homebrew Launcher using the entrypoint of your choice (such as [ninjhax2](https://smealum.github.io/ninjhax2/))
 3. Open Decrypt9WIP **(This can sometimes take a few tries)**
 
-You can now continue from [Part 2 - 2.1.0 CTRNAND](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-CTRNAND)).
+You can now continue from [Part 2 - 2.1.0 ctrtransfer](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-ctrtransfer)).

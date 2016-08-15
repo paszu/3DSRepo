@@ -14,7 +14,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 1. Create a folder named `files9` on the root of your SD card if it does not already exist
 2. Copy `Launcher.dat` and `Decrypt9WIP.dat` from the Decrypt9WIP zip to the root of your SD card
 3. Copy the 9.2.0 ctrtransfer image to the `/files9/` folder on your SD card
-4. Eject your SD card and put it back in your 3DS
+4. Reinsert your SD card into your 3DS
 5. Put `Decrypt9.nds` from the Decrypt9 zip on your DS flashcard
 6. Start your DS flashcard from your 3DS
 7. Boot `Decrypt9.nds` using your flashcart
@@ -24,4 +24,4 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 9. Reboot the system, then go to System Settings, then "Other Settings", then "Profile", then "Nintendo DS Profile"
 10. If the exploit was successful, you will have booted into Decrypt9
 
-You can now continue from [Part 2 - 2.1.0 CTRNAND](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-CTRNAND)).
+You can now continue from [Part 2 - 2.1.0 ctrtransfer](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-ctrtransfer)).
