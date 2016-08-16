@@ -57,7 +57,9 @@ During this process, we also setup programs such as the following:
 3. Copy `hblauncher_loader.cia` from the hblauncher_loader zip to the `/cias/` folder on your SD card
 4. Copy `lumaupdater.cia` from the Luma3DS Updater zip to the `/cias/` folder on your SD card
 2. Copy `FBI.cia` from the FBI zip to the `/cias/` folder on your SD card
-1. Copy `arm9loaderhax.bin` and the `luma` folder from the Luma3DS zip to the root of your SD card
+1. Copy `arm9loaderhax.bin` from the Luma3DS zip to the root of your SD card
+2. Create a folder named `luma` on the root of your SD card
+3. Create a folder named `payloads` in the `luma` folder on your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
 7. Copy `Decrypt9WIP.bin` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `x_Decrypt9WIP.bin`
 1. Copy `aeskeydb.bin` to the `/files9/` folder on your SD card
