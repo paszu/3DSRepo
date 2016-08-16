@@ -18,10 +18,8 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 * <a href="https://plailect.github.io/Guide/update.torrent" target="_blank">`update.php`</a> ([mirror](https://gist.githubusercontent.com/Plailect/caaf720be3e131de15d9a335e17cd21e/raw/503077b992ec7ca9a085f69cf9990ae011aa2de9/update.php))
 * The v3.2 release of [NTR CFW](https://github.com/44670/BootNTR/releases/tag/3.2)
 * The latest release of <a href="https://plailect.github.io/Guide/NTR%20Debugger.torrent" target="_blank">NTR Debugger</a> ([mirror](https://mega.nz/#!R1FRhLwa!5QzqrSQJoo7ZSJN0jyPeHcArtUTGbSrixDUEqEH2qY4)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDVndWRkFLV0ZsbVk))
-* The 9.2.0 firmware pack zip file for your device and region:
- +    <a href="https://plailect.github.io/Guide/9.2.0-20E(Full)_n3DS.torrent" target="_blank">New 3DS 9.2.0 - EUR</a> ([mirror](https://mega.nz/#!F4U32b4B!tPhl3G0HEmzg5Pd5zQ29ndf1icQqU_LBoogygSL13EY)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDOWpMTWdybzF3TUU))    
+* The 9.2.0 firmware pack zip file for your device and region:  
  +    <a href="https://plailect.github.io/Guide/9.2.0-20J(Full)_n3DS.torrent" target="_blank">New 3DS 9.2.0 - JPN</a> ([mirror](https://mega.nz/#!VxcF3TIK!Bm5LgFxo5V4Nepe9ZlWnx7bichE1V7p7pR_HqwimU5M)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDU2plUWwxa2gtV0E/view?usp=sharing))    
- +    <a href="https://plailect.github.io/Guide/9.2.0-20U(Full)_n3DS.torrent" target="_blank">New 3DS 9.2.0 - USA</a> ([mirror](https://mega.nz/#!gslWiIoK!SF7uFk9rzWTK6oitCDoeAdvphcCzhKWsnTAMXw7zwOU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDbEV2aTRjb1oxekE/view?usp=sharing))        
 ~    
  +    <a href="https://plailect.github.io/Guide/9.2.0-20E(Full).torrent" target="_blank">Old 3DS or 2DS 9.2.0 - EUR</a> ([mirror](https://mega.nz/#!xh0wCRYQ!AaxVlej5jG4YPthojiI403alEtYfrkqq4FfdTy10EcU)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDT0oxaGxPSmJ5Rlk/view?usp=sharing))    
  +    <a href="https://plailect.github.io/Guide/9.2.0-20J(Full).torrent" target="_blank">Old 3DS or 2DS 9.2.0 - JPN</a> ([mirror](https://mega.nz/#!dxMUgTDL!sWvpVP4yWL_H66sOMG9VCJh3xMGG0_GgaX22gTpRE24)) ([mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDNnNrXzh4UlFPNzQ/view?usp=sharing))    
