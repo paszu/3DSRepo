@@ -49,7 +49,7 @@ System Transfers can only be performed once a week.
 4. If you do not have `NANDmin.bin` on your computer from Part 2 already, do the following:    
   + Go to SysNAND Options, then SysNAND Backup/Restore, then backup **(min size)** SysNAND to `NANDmin.bin`
   + Press Select on the main menu to eject your SD card, then put it in your computer
-  + Copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
+  + Copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](../NAND-Size) page; if it does not, you should delete it and make a new one!)**
 5. Press Select on the main menu to eject **3DS #1's** SD card, then put it in your computer
 6. Put **3DS #2's** SD card into your computer
 7. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
@@ -146,4 +146,4 @@ System Transfers can only be performed once a week.
 
 **3DS #2's** version number will *not* have changed in the settings, but the exploit has worked
 
-You can now continue from either [Homebrew Launcher (No Browser)](https://github.com/Plailect/Guide/wiki/Homebrew-Launcher-(No-Browser)) or [Homebrew Launcher (Browser)](https://github.com/Plailect/Guide/wiki/Homebrew-Launcher-(Browser)), depending on what the [Part 1 - Decrypt9](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9)) chart specified for your version.
+You can now continue from either [Homebrew Launcher (No Browser)](../Homebrew-Launcher-(No-Browser)) or [Homebrew Launcher (Browser)](../Homebrew-Launcher-(Browser)), depending on what the [Part 1 - Decrypt9](../Part-1-(Decrypt9)) chart specified for your version.

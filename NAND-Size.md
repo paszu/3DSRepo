@@ -8,7 +8,7 @@ The brand name refers to the manufacturer of the NAND chip in your device, **not
 
 Note that a *min size* NAND will always be the smallest possible size for the purpose of saving space, and may not match the size of other NAND backups from your device. This is fine, just make sure that it matches one of the sizes on this page.
 
-**https://github.com/Plailect/Guide/wiki/FAQ#faq_rednand**
+**../FAQ#faq_rednand**
 
 ## 2DS:    
 

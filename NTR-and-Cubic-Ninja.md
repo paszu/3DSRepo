@@ -1,6 +1,6 @@
 Most 3DS CFW applications and software are designed for use with a SysNAND version between 9.0.0 and 9.2.0. If you are below version 9.0.0, you will need to use this guide to update your 3DS without going all the way to the latest version.    
 
-If you are on versions 9.0.0 through 10.7.0 you can just follow the instructions [here](https://github.com/Plailect/Guide/wiki/Get-Started).
+If you are on versions 9.0.0 through 10.7.0 you can just follow the instructions [here](../Get-Started).
 
 If you already have a RedNAND setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND.
 
@@ -67,4 +67,4 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 2. Launch the Homebrew Launcher using the entrypoint of your choice (such as [ninjhax2](https://smealum.github.io/ninjhax2/))
 3. Open Decrypt9WIP **(This can sometimes take a few tries)**
 
-You can now continue from [Part 2 - 2.1.0 ctrtransfer](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-ctrtransfer)).
+You can now continue from [Part 2 - 2.1.0 ctrtransfer](../Part-2-(2.1.0-ctrtransfer)).

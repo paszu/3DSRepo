@@ -23,4 +23,4 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 9. Reboot the system, then go to System Settings, then "Other Settings", then "Profile", then "Nintendo DS Profile"
 10. If the exploit was successful, you will have booted into Decrypt9
 
-You can now continue from [Part 2 - 2.1.0 ctrtransfer](https://github.com/Plailect/Guide/wiki/Part-2-(2.1.0-ctrtransfer)).
+You can now continue from [Part 2 - 2.1.0 ctrtransfer](../Part-2-(2.1.0-ctrtransfer)).

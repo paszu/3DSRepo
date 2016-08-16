@@ -18,4 +18,4 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 
 This will **not** update the browser in your system or install a browser if you have none. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 
-You can now continue from [Part 1 (Homebrew)](https://github.com/Plailect/Guide/wiki/Part-1-(Decrypt9)).
+You can now continue from [Part 1 (Homebrew)](../Part-1-(Decrypt9)).
