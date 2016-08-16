@@ -33,9 +33,9 @@ If you need to format a brand new SD card, you can use [this](http://www.ridgecr
 
 Sha256Sum | Zip File
 :---: | :---:
-<sub>e7fbaf4ee01b81a3c2297028ef3fddc002f6933bfd20c2453bc6137bda89e5fd</sub> | <sub>9.2.0-20E(Full)\_n3DS.zip</sub>
+<sub>e7fbaf4ee01b81a3c2297028ef3fddc002f6933bfd20c2453bc6137bda89e5fd</sub> | <sub>9.2.0-20E(Full)_n3DS.zip</sub>
 <sub>79407686741732f90db30cd591254f1c591df2dbd9787be78a03b1aceef9f2fe</sub> | <sub>9.2.0-20E(Full).zip</sub>
 <sub>9ba7bc4eeab39b484e710d7ad05bfeae3b143812d85bbe128f283a79aa1ba80b</sub> | <sub>9.2.0-20J(Full)_n3DS.zip</sub>
 <sub>14c74b462f2db9ba0bdcf1060bfd89345ac9cf863a35092baadd503d6040b837</sub> | <sub>9.2.0-20J(Full).zip</sub>
-<sub>38ea53d81763408178d796492d6397cfc1eae422a8a2a4b1270678e1ab30043c</sub> | <sub>9.2.0-20U(Full)\_n3DS.zip</sub>
+<sub>38ea53d81763408178d796492d6397cfc1eae422a8a2a4b1270678e1ab30043c</sub> | <sub>9.2.0-20U(Full)_n3DS.zip</sub>
 <sub>ff6e7ced330120cdc34cba4536e4ec6609653234d5414f2a727263dfabfe46a3</sub> | <sub>9.2.0-20U(Full).zip</sub>
