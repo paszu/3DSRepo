@@ -2,7 +2,7 @@
 
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how.
 
-The OTP is a requirement to use arm9loaderhax, which gets you, among other things, 100% boot rate and very early Arm9 access allowing you to unbrick yourself without a hardmod and use other awesome tools.
+The OTP is a requirement to use arm9loaderhax, which gets you, among other things, 100% boot rate and very early ARM9 kernel access allowing you to unbrick yourself without a hardmod and use other awesome tools.
 
 Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to flash a 2.1.0 [CTRNAND](https://www.3dbrew.org/wiki/Flash_Filesystem#CTR_partition) partition and firmware to the device, allowing us to retrieve the OTP.
 
