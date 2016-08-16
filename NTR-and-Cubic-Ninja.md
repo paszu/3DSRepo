@@ -6,6 +6,8 @@ If you already have a RedNAND setup, this guide deals exclusively with SysNAND a
 
 Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
+**This will work for EUR/JPN/USA regions ONLY!**
+
 #### What you need
 
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I)

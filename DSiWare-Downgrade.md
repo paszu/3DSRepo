@@ -34,7 +34,7 @@ System Transfers can only be performed once a week.
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The latest release of [dgTool](https://github.com/Plailect/dgTool/releases)
-* The dgTool zip for your device:
+* The dgTool zip corresponding to **3DS #2**:
     + <a href="https://plailect.github.io/Guide/dgTool_o3ds.torrent" target="_blank">Old 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
     + <a href="https://plailect.github.io/Guide/dgTool_n3ds.torrent" target="_blank">New 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
 
@@ -120,7 +120,7 @@ System Transfers can only be performed once a week.
 ##### Section VI - Backing up 3DS #2's firmware
 
 1. Copy `boot.nds` to the root of **3DS #2's** SD card
-2. Copy the `dgTool` folder for your device to the root of **3DS #2's** SD card
+2. Copy the `dgTool` folder from the dgTool zip to the root of **3DS #2's** SD card
 3. Launch your DSiWare game on **3DS #2**
 4. Launch dgTool using your DSiWare game
   + Fieldrunners: Touch the 'Scores' button at the main menu
