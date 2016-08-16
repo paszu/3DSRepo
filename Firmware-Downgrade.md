@@ -4,7 +4,5 @@ Both of these are working implementation of the "FIRM partitions known-plaintext
 
 This will work on both a New and Old 3DS (although the DSiWare method has some restrictions).
 
-**After following these instructions on version 11.0.0, you must have an alternate entrypoint such as one of the ones detailed in [Homebrew Launcher (No Browser)](https://github.com/Plailect/Guide/wiki/Homebrew-Launcher-(No-Browser)) in order to enter the homebrew launcher and downgrade.**
-
 Use [this](https://github.com/Plailect/Guide/wiki/Hardmod-Downgrade/) link to downgrade your Firmware with a [hardmod](https://gbatemp.net/threads/414498/)    
 Use [this](https://github.com/Plailect/Guide/wiki/DSiWare-Downgrade/) link to downgrade your Firmware with DSiWare and a second 3DS (which already has CFW)
