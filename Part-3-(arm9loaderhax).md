@@ -81,7 +81,6 @@ During this process, we also setup programs such as the following:
   + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](https://github.com/Plailect/Guide/wiki/Troubleshooting#ts_safe_a9lh).
 1. Use the A button and the D-Pad to turn on the following:    
  + "Autoboot SysNAND"
- + "SysNAND is updated"
  + "Force A9LH detection"
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
@@ -105,7 +104,7 @@ During this process, we also setup programs such as the following:
 11. Go to "SysNAND Backup/Restore", then select the "Health&Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press Select to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generator, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
-14. Double click `go.bat` *(or  execute `go.sh` with Terminal on Linux, or double click `Mac_inject_launcher.app` on Mac)*
+14. Double click `go.bat` *(or execute `go.sh` with Terminal on Linux, or double click `Mac_inject_launcher.app` on Mac)*
 15. Copy `FBI_inject_with_banner.app` to the `/files9/` folder on your SD card and reinsert your SD card into your 3DS
 16. Press B, then go to "SysNAND Backup/Restore", then select the "Health&Safety Inject" option
 17. Press down once to select `FBI_inject_with_banner.app`, then press A and confirm to inject
