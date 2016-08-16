@@ -38,7 +38,7 @@ Note that region changing is experimental and can break several things.
 2. Backup SysNAND to `NANDmin.bin` when prompted by pressing A
 3. Allow the transfer process to proceed automatically, this may take some time
 2. Once the transfer is complete, press Select to eject your SD card
-3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](../NAND-Size) page; if it does not, you should delete it and make a new one!)**
+3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](NAND-Size) page; if it does not, you should delete it and make a new one!)**
 4. Delete the 9.2.0 ctrtransfer image from the `/files9/` folder on your SD card after copying it
 5. Reinsert your SD card into your 3DS
 

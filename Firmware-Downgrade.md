@@ -4,5 +4,5 @@ Both of these are working implementation of the "FIRM partitions known-plaintext
 
 This will work on both a New and Old 3DS (although the DSiWare method has some restrictions).
 
-Use [this](../Hardmod-Downgrade/) link to downgrade your Firmware with a [hardmod](https://gbatemp.net/threads/414498/)    
-Use [this](../DSiWare-Downgrade/) link to downgrade your Firmware with DSiWare and a second 3DS (which already has CFW)
+Use [this](Hardmod-Downgrade/) link to downgrade your Firmware with a [hardmod](https://gbatemp.net/threads/414498/)    
+Use [this](DSiWare-Downgrade/) link to downgrade your Firmware with DSiWare and a second 3DS (which already has CFW)

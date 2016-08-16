@@ -1,5 +1,5 @@
 + <a name="faq_latestfw" />**Q:** *I am on the latest firmware version, is my device hackable?*    
-  **A:** Yes, but only by [downgrading its firmware](../Firmware-Downgrade/) (see [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
+  **A:** Yes, but only by [downgrading its firmware](Firmware-Downgrade/) (see [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
 
 + <a name="faq_n3ds" />**Q:** *Do I have to do anything different for New 3DS vs and Old 3DS or 2DS?*    
   **A:** All device models are done in the same way with the software used autodetecting which device you have
@@ -8,7 +8,7 @@
   **A:** Use Luma3DS Updater
 
 + <a name="faq_rednand" />**Q:** *What is the difference between RedNAND and EmuNAND?*    
-  **A:** RedNAND and EmuNAND are both different types of [NAND redirection](http://3dbrew.org/wiki/NAND_Redirection) with small differences in the way they are handled behind the scenes. The main advantage to using RedNAND instead of EmuNAND is that RedNAND will *always* use the smallest [NAND size](../NAND-Size) the device offers, regardless of the size of the SysNAND chip. For example, a New 3DS user with a 1.8GB internal NAND chip will only have to use 1.2GB for all RedNAND backups.
+  **A:** RedNAND and EmuNAND are both different types of [NAND redirection](http://3dbrew.org/wiki/NAND_Redirection) with small differences in the way they are handled behind the scenes. The main advantage to using RedNAND instead of EmuNAND is that RedNAND will *always* use the smallest [NAND size](NAND-Size) the device offers, regardless of the size of the SysNAND chip. For example, a New 3DS user with a 1.8GB internal NAND chip will only have to use 1.2GB for all RedNAND backups.
 
 + <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
   **A:** No. arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.

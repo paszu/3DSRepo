@@ -1,4 +1,4 @@
-**[Link](../Get-Started) for anyone who was redirected from the old OTP guide.**
+**[Link](Get-Started) for anyone who was redirected from the old OTP guide.**
 
 The OTP is a 0x100 byte region of seemingly random data at address 0x10012000. It is presumed that console unique keys are derived from this region, although it is currently unknown exactly how. The region is likely the console unique data store which is decrypted by the bootrom, but we don't know how that is done until somebody dumps the full protected bootrom. It is unknown at this time if anyone has successfully dumped the protected bootrom.
 

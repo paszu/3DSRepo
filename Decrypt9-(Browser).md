@@ -18,7 +18,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
     + `http://go.gateway-3ds.com/`
     + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
     + `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
-    + If you get an error, [follow this troubleshooting guide](../Troubleshooting#ts_browser)
+    + If you get an error, [follow this troubleshooting guide](Troubleshooting#ts_browser)
 6. If the exploit was successful, you will have booted into Decrypt9
 
-You can now continue from [Part 2 - 2.1.0 ctrtransfer](../Part-2-(2.1.0-ctrtransfer)).
+You can now continue from [Part 2 - 2.1.0 ctrtransfer](Part-2-(2.1.0-ctrtransfer)).

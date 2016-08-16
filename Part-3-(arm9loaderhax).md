@@ -69,8 +69,8 @@ During this process, we also setup programs such as the following:
 
 12. Reinsert your SD card into your 2.1.0 3DS
 14. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
-    + If you get an error, [follow this troubleshooting guide](../Troubleshooting#ts_browser)
-    + If you get a glitched screen, [follow this troubleshooting guide](../Troubleshooting#ts_safe_a9lh_screen)
+    + If you get an error, [follow this troubleshooting guide](Troubleshooting#ts_browser)
+    + If you get a glitched screen, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh_screen)
 14. Select Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
 18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
@@ -79,8 +79,8 @@ During this process, we also setup programs such as the following:
 ##### Section III - Configuring Luma3DS
 
 1. Hold select on boot to enter the Luma3DS menu.     
-  + If you get a black screen, [follow this troubleshooting guide](../Troubleshooting#ts_sys_a9lh).    
-  + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](../Troubleshooting#ts_safe_a9lh).
+  + If you get a black screen, [follow this troubleshooting guide](Troubleshooting#ts_sys_a9lh).    
+  + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh).
 1. Use the A button and the D-Pad to turn on the following:    
  + "Autoboot SysNAND"
  + "Force A9LH detection"
@@ -138,7 +138,7 @@ You can now hold Select on boot to launch the Luma3DS configuration menu.
 You can now hold Start on boot to launch Hourglass9, an arm9loaderhax safe NAND tool.    
 You can now hold X on boot to launch Decrypt9, a full featured NAND + decryption tool which can also be used to convert a physical game cart to an installable file *(Gamecard Dumper Options -> Dump Cart to CIA)*.    
 
-You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](../Updating-arm9loaderhax/) page.
+You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](Updating-arm9loaderhax/) page.
 
 To use [NTR CFW](https://github.com/44670/BootNTR/), get `ntr.bin` from the appropriate zip on [this](https://github.com/44670/BootNTR/releases) page and copy it to the root of your SD card, then install `BootNTR.cia` from [this](https://github.com/astronautlevel2/BootNTR/releases/) page.
 

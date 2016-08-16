@@ -30,4 +30,4 @@ This will work on both a New and Old 3DS.
 
 Your version number will *not* have changed in the settings, but the exploit has worked.
 
-You can now continue from either [Homebrew Launcher (No Browser)](../Homebrew-Launcher-(No-Browser)) or [Homebrew Launcher (Browser)](../Homebrew-Launcher-(Browser)), depending on what the [Part 1 - Decrypt9](../Part-1-(Decrypt9)) chart specified for your version.
+You can now continue from either [Homebrew Launcher (No Browser)](Homebrew-Launcher-(No-Browser)) or [Homebrew Launcher (Browser)](Homebrew-Launcher-(Browser)), depending on what the [Part 1 - Decrypt9](Part-1-(Decrypt9)) chart specified for your version.
