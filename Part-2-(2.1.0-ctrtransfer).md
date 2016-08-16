@@ -25,7 +25,7 @@ On New 3DS, it also swaps CTRNAND's encryption slot and installs an Old 3DS NCSD
   +    <a href="https://plailect.github.io/Guide/2.1.0-4E_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - EUR - ctrtransfer</a> ([mirror](https://mega.nz/#!ltsF3SwB!A_yQJ7TpkYD6OF38q4oes7dI1G3574v0wF_WXP8-_3E)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZnp3SjhGSVFYa3c))    
   +    <a href="https://plailect.github.io/Guide/2.1.0-4J_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - JPN - ctrtransfer</a> ([mirror](https://mega.nz/#!VhkGCQSQ!nnWrKUazSHRXIiPtGKCoDp9gT5yQDyo4J0x9TMNHJP4)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDMzdLM3hyVnlsVWc))    
   +    <a href="https://plailect.github.io/Guide/2.1.0-4U_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 2.1.0 - USA - ctrtransfer</a> ([mirror](https://mega.nz/#!FtshlJ5D!4GC-GUNhzzPefLGJA7wRIKaj8J-pbVQHFJFkx6MUaLA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDa2gwRHdKczMzbWs))
-  +    If your device is not from one of the three above regions, you should pick one of them, then additionally copy the corresponding [`SecureInfo_A`](https://plailect.github.io/Guide/SecureInfo_A.torrent) ([mirror](https://mega.nz/#!4wdwlZpY!yPFb8D7lAFR-dz7yVYg0HeFfak1kge7KB0BvoWe0CHw)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDMlNVa3VJT2N1UFk)) to `/files9/`
+  +    If your device is not from one of the three above regions, you should pick one of them, then additionally copy the corresponding [`ctrtransfer.secnfo`](https://plailect.github.io/Guide/ctrtransfer.secnfo.torrent) ([mirror](https://mega.nz/#!1xN1RRzK!rrYkYewOwkhHZ16una5wGUQcrytG-OrDGB-_jIm62dI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDWExJaEw1ZDVQaVk)) to `/files9/`
 
 #### Instructions
 
@@ -36,7 +36,6 @@ You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [P
 1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
 2. Select the 2.1.0 ctrtransfer image when prompted by pressing A
 2. Backup SysNAND to `NANDmin.bin` when prompted by pressing A
-3. If you copied a `SecureInfo_A` file to the `/files9/` folder on your SD card, select it now. Otherwise, press B to continue.
 3. Allow the transfer process to proceed automatically, this may take some time
 2. Once the transfer is complete, press Select to eject your SD card
 3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**

@@ -34,7 +34,6 @@ Note that region changing is experimental and can break several things.
 1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
 2. Select the 9.2.0 ctrtransfer image when prompted by pressing A
 2. Backup SysNAND to `NANDmin.bin` when prompted by pressing A
-3. If you copied a `SecureInfo_A` file to the `/files9/` folder on your SD card, select it now. Otherwise, press B to continue.
 3. Allow the transfer process to proceed automatically, this may take some time
 2. Once the transfer is complete, press Select to eject your SD card
 3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](https://github.com/Plailect/Guide/wiki/NAND-Size) page; if it does not, you should delete it and make a new one!)**
