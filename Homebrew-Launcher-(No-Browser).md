@@ -18,7 +18,7 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
     + [BASICSploit](https://mrnbayoh.github.io/basicsploit/) *(requires SmileBASIC)*
     + [smilehax](https://plutooo.github.io/smilehax/) *(requires SmileBASIC)*
     + [stickerhax](https://github.com/yellows8/stickerhax) *(requires Paper Mario: Sticker Star and another 3DS which has the Homebrew Launcher)*    
-    + If the last number of your version is above -0 and you have *not* [cart updated](https://github.com/Plailect/Guide/wiki/Cart-Update) with a game carrt containing the version 9.9.0, then you have a browser installed. If you do still have a browser installed on the system (even if you can't use it without updating), you can still use some additional entrypoints that rely on it such as the following:
+    + If the last number of your version is above -0 and you have *not* [cart updated](https://github.com/Plailect/Guide/wiki/Cart-Update) with a game cart containing the version 9.9.0, then you have a browser installed. If you do still have a browser installed on the system (even if you can't use it without updating), you can still use some additional entrypoints that rely on it such as the following:
         + [Ninjhax](http://smealum.github.io/ninjhax2/) *(requires Cubic Ninja)*
         + [oot3dhax](https://github.com/yellows8/oot3dhax) *(requires Ocarina of Time 3D and either a powersaves or another 3DS which has the Homebrew Launcher)*    
 10. Open the menuhax_manager application

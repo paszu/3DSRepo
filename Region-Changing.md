@@ -2,11 +2,13 @@ This is add-on section for region changing your arm9loaderhax CFW SysNAND. This 
 
 **You MUST have already completed Part 5 and installed arm9loaderhax + Luma3DS to use this.**
 
-*For the eShop to be functional (Old 3DS only, New 3DS cannot access eShop after region change), you MUST [delete your eShop account](http://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) before starting then format the system once you have completed all steps. You must then create a new eShop account. You will lose all user data such as games, DLC, themes, and saves (unless you back them up with something like [JK Save Manager](https://gbatemp.net/threads/413143/)).*
+*This process will unlink your NNID from the system, since it will no longer be compatible with it. NNID's are locked to the region of the device that created them, and cannot be transferred between regions without a very complex and advanced process.*
 
 Note that region changing is experimental and can break several things.
 
-**Region changing is almost completely unnecessary since Luma3DS now supports out of region games and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
+*After this process, only Old 3DSs will be able to access the eShop after creating an NNID. Region changed New 3DSs cannot access the eShop!*
+
+**Region changing is almost completely unnecessary since Luma3DS supports out of region games and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
 
 #### What you need
 
@@ -44,11 +46,16 @@ Note that region changing is experimental and can break several things.
 
 6. Press Start then hold Up to reboot into arm9loaderhax GodMode9
 **(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
+14. Navigate to `SYSNAND CTRNAND` -> `data` -> 32 Character ID -> `sysdata` -> `00010038`
+15. Hold down the R trigger, then press X on `00000000` to rename this file
+16. Press Up once to change the name to `10000000`
+17. Press A to save changes
+18. Press A to unlock SysNAND writing, then input the key combo given
+18. Navigate back to the Main Menu
 14. Navigate to `SYSNAND CTRNAND` -> `rw` -> `sys`
 15. Press Y on `SecureInfo_A` to copy it
 16. Press Y to paste a copy of `SecureInfo_A`
 17. Select "Copy path(s)"
-18. Press A to unlock SysNAND writing, then input the key combo given
 20. Select "Choose new name"
 20. Use the D-Pad to rename the file to `SecureInfo_C`, pressing A when you're done (overwrite any existing `SecureInfo_C`)
 18. Scroll down to the `SecureInfo_C` you just pasted
@@ -66,5 +73,3 @@ Note that region changing is experimental and can break several things.
 16. Press Start to reboot
 
 You can now update your region changed CFW SysNAND to the latest version
-
-*For the eShop to be functional (Old 3DS only, New 3DS cannot access eShop after region change), you MUST have [deleted your eShop account](http://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) before starting then format the system now that you have completed all steps. You must then create a new eShop account. You will lose all user data such as games, DLC, themes, and saves (unless you back them up with something like [JK Save Manager](https://gbatemp.net/threads/413143/)).*
