@@ -29,7 +29,7 @@ This guide was written by me with the process refined and software developed by 
 
 **Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/)**.
 
-If you need to format a brand new SD card, you can use [this](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) tool set to an Allocation Unit Size of 64K.
+If you need to format a brand new SD card, you can use [this](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) tool set to an Allocation Unit Size of 32K.
 
 Sha256Sum | Zip File
 :---: | :---:
