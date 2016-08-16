@@ -46,7 +46,7 @@ Note that region changing is experimental and can break several things.
 
 6. Press Start then hold Up to reboot into arm9loaderhax GodMode9
 **(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
-14. Navigate to `SYSNAND CTRNAND` -> `data` -> 32 Character ID -> `sysdata` -> `00010038`
+14. Navigate to `SYSNAND CTRNAND` -> `data` -> (32 Character ID) -> `sysdata` -> `00010038`
 15. Hold down the R trigger, then press X on `00000000` to rename this file
 16. Press Up once to change the name to `10000000`
 17. Press A to save changes
