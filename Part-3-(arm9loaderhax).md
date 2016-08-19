@@ -83,7 +83,6 @@ During this process, we also setup programs such as the following:
   + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh).
 1. Use the A button and the D-Pad to turn on the following:    
  + "Autoboot SysNAND"
- + "Force A9LH detection"
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
 2. If you are using a New 3DS, you should *also* enable the following:

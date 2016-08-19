@@ -19,17 +19,17 @@ This is accomplished by installing a premade ctrtransfer image containing 2.1.0,
 #### What you need
 
 * You will need to have booted into Decrypt9 via one of the [Part 1 - Decrypt9](Part-1-(Decrypt9)) entrypoints
-* The 2.1.0 ctrtransfer image for your device and region:
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4E_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - EUR - ctrtransfer</a> ([mirror](https://mega.nz/#!ltsF3SwB!A_yQJ7TpkYD6OF38q4oes7dI1G3574v0wF_WXP8-_3E)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZnp3SjhGSVFYa3c))    
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4J_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - JPN - ctrtransfer</a> ([mirror](https://mega.nz/#!VhkGCQSQ!nnWrKUazSHRXIiPtGKCoDp9gT5yQDyo4J0x9TMNHJP4)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDMzdLM3hyVnlsVWc))    
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4U_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - USA - ctrtransfer</a> ([mirror](https://mega.nz/#!FtshlJ5D!4GC-GUNhzzPefLGJA7wRIKaj8J-pbVQHFJFkx6MUaLA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDa2gwRHdKczMzbWs))
-  +    If your device is not from one of the three above regions, you should pick one of them, then additionally copy the corresponding [`ctrtransfer.secnfo`](https://plailect.github.io/Guide/ctrtransfer.secnfo.torrent) ([mirror](https://mega.nz/#!lkVHTJxZ!WC0A44qlUQPFkAZXw-NoQFK0ahfzGgV24g9qGkUX5t4)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDbXVFU2NVVExsRjA)) to `/files9/`
+* The 2.1.0 ctrtransfer image for your device and region     
+*(if your device is not from one of these regions, just pick one that matches your device type)*:
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4E_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())    
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4J_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - JPN - ctrtransfer</a> ([mirror]()) ([mirror]())    
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4U_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())
 
 #### Instructions
 
 You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [Part 1 - Decrypt9](Part-1-(Decrypt9))
 
-1. Copy the 2.1.0 ctrtransfer image for your device and region to the `/files9/` folder on your SD card
+1. Copy the 2.1.0 `.bin` and `.bin.sha` from the ctrtransfer zip to the `/files9/` folder on your SD card
 2. Reinsert your SD card into your 3DS
 1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
 2. Select the 2.1.0 ctrtransfer image when prompted by pressing A

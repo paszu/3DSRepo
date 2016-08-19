@@ -5,10 +5,11 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 #### What you need
 
 * Everything from the "What you need" for [Part 3 - arm9loaderhax](Part-3-(arm9loaderhax))
-* The 9.2.0 ctrtransfer image for your device and region:
-    +    <a href="https://plailect.github.io/Guide/9.2.0-20E_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - EUR - ctrtransfer</a> ([mirror](https://mega.nz/#!4tkg0YaR!zBPFwZnqbsQb6oYTToZhyq_XOSAYu4VPtfIdX-KyLZY)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTWh6M1lVMTRlQVU))    
-    +    <a href="https://plailect.github.io/Guide/9.2.0-20J_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - JPN - ctrtransfer</a> ([mirror](https://mega.nz/#!Y49n2KBD!Y15682PF3gI_IQybhYDsTGtkFqj6HVhHzM_YovaNG20)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDa20zSUtleUNNcXM))    
-    +    <a href="https://plailect.github.io/Guide/9.2.0-20U_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - USA - ctrtransfer</a> ([mirror](https://mega.nz/#!55kE0DyS!eazLeGCoktm-N6t_uE3y_okjMKcoL740HEIexOHKF-w)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDVlJEU2tnNW5SOHc))
+* The 9.2.0 ctrtransfer image for your device and region     
+*(if your device is not from one of these regions, just pick one that matches your device type)*:
+  +    <a href="https://plailect.github.io/Guide/9.2.0-20E_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())    
+  +    <a href="https://plailect.github.io/Guide/9.2.0-20J_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - JPN - ctrtransfer</a> ([mirror]()) ([mirror]())    
+  +    <a href="https://plailect.github.io/Guide/9.2.0-20U_ctrtransfer_o3ds.torrent" target="_blank">Old 3DS or 2DS 9.2.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())
 
 #### Instructions
 
