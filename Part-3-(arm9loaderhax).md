@@ -71,7 +71,7 @@ During this process, we also setup programs such as the following:
 14. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
     + If you get an error, [follow this troubleshooting guide](Troubleshooting#ts_browser)
     + If you get a glitched screen, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh_screen)
-14. Select Full Install
+14. Press (Select) to Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
 18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
 18. Copy your console specific `OTP.bin` from the `/a9lh/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage)
@@ -81,7 +81,7 @@ During this process, we also setup programs such as the following:
 1. Hold select on boot to enter the Luma3DS menu.     
   + If you get a black screen, [follow this troubleshooting guide](Troubleshooting#ts_sys_a9lh).    
   + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh).
-1. Use the A button and the D-Pad to turn on the following:    
+1. Use the (A) button and the D-Pad to turn on the following:    
  + "Autoboot SysNAND"
  + "Show current NAND in System Settings"
  + "Show GBA boot screen in patched AGB_FIRM"
@@ -103,13 +103,13 @@ During this process, we also setup programs such as the following:
 
 1. Open Hourglass9 from arm9loaderhax by holding Start on boot
 11. Go to "SysNAND Backup/Restore", then select the "Health&Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
-12. Press Select to eject your SD card, then put it in your computer
+12. Press (Select) to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generator, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat` *(or execute `go.sh` with Terminal on Linux, or double click `Mac_inject_launcher.app` on Mac)*
 15. Copy `FBI_inject_with_banner.app` to the `/files9/` folder on your SD card and reinsert your SD card into your 3DS
-16. Press B, then go to "SysNAND Backup/Restore", then select the "Health&Safety Inject" option
-17. Press down once to select `FBI_inject_with_banner.app`, then press A and confirm to inject
-18. Go to the main menu, then press Start to reboot
+16. Press (B), then go to "SysNAND Backup/Restore", then select the "Health&Safety Inject" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press (A) and confirm to inject
+18. Go to the main menu, then press (Start) to reboot
 
 ##### Section VI - Finalizing setup
 
@@ -117,25 +117,25 @@ During this process, we also setup programs such as the following:
 8. Open Health and Safety (which is now FBI)
 9. Select "SD"
 9. Select "cias"
-9. Navigate to `FBI.cia` and press A to install
-9. Navigate to `hblauncher_loader.cia` and press A to install
-9. Navigate to `lumaupdater.cia` and press A to install
+9. Navigate to `FBI.cia` and press (A) to install
+9. Navigate to `hblauncher_loader.cia` and press (A) to install
+9. Navigate to `lumaupdater.cia` and press (A) to install
 10. Exit with the home button
 10. Launch the Homebrew Launcher from the home menu
 12. Select "DSP Dump"
-13. Press Start when prompted to exit
+13. Press (Start) when prompted to exit
 14. Reboot while holding Start to launch Hourglass9
 15. Go to "SysNAND Backup/Restore", then select "Health&Safety Inject"
-16. Select `hs.app` (the original one that doesn't contain FBI), then press A and confirm to inject
-17. Press Start on the main menu to reboot!
+16. Select `hs.app` (the original one that doesn't contain FBI), then press (A) and confirm to inject
+17. Press (Start) on the main menu to reboot!
 
-You can now use Luma3DS Updater to update your Luma3DS to the latest version just by opening it and pressing A. *(This is not the same thing as a System Update; it just downloads and extracts the newest Luma3DS files)*
+You can now use Luma3DS Updater to update your Luma3DS to the latest version just by opening it and pressing (A). *(This is not the same thing as a System Update; it just downloads and extracts the newest Luma3DS files)*
 
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
-You can now hold Select on boot to launch the Luma3DS configuration menu.    
-You can now hold Start on boot to launch Hourglass9, an arm9loaderhax safe NAND tool.    
-You can now hold X on boot to launch Decrypt9, a full featured NAND + decryption tool which can also be used to convert a physical game cart to an installable file *(Gamecard Dumper Options -> Dump Cart to CIA)*.    
+You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
+You can now hold (Start) on boot to launch Hourglass9, an arm9loaderhax safe NAND tool.    
+You can now hold (X) on boot to launch Decrypt9, a full featured NAND + decryption tool which can also be used to convert a physical game cart to an installable file *(Gamecard Dumper Options -> Dump Cart to CIA)*.    
 
 You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](Updating-arm9loaderhax/) page.
 

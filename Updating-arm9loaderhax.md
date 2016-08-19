@@ -32,7 +32,7 @@ These steps will also update your various payloads and the AES key database.
 6. Copy `payload_stage1.bin` and `payload_stage2.bin` from the arm9loaderhax zip to `a9lh` folder on your SD card
 7. Reinsert your SD card into your 3DS
 8. Boot the device while holding D-Pad down
-9. Press Select to update arm9loaderhax
+9. Press (Select) to update arm9loaderhax
 10. Power off the device and put your SD card back in your computer
 11. Delete the `a9lh` folder from the root of your SD card
 12. Delete `down_safea9lhinstaller.bin` from `/luma/payloads`

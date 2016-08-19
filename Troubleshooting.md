@@ -22,7 +22,7 @@ You copied the wrong `arm9loaderhax.bin` file to your SD card (you were only sup
 This happens occasionally, but the reason is unknown. The buttons will still work, but the screen will be glitched looking.
 
 1. Follow instructions as normal
-   1. Press select and arm9loaderhax will be installed
+   1. Press (Select) and arm9loaderhax will be installed
    2. The console will reboot
 
 ## <a name="ts_otp_helper" />Decrypt9 or Hourglass9 won't restore / can't find my NAND backup
@@ -63,7 +63,7 @@ This happens occasionally, but the reason is unknown. The buttons will still wor
    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.
    3. Insert your SD card into your 3DS and power on.
-   4. Press A. Your 3DS should power off; this means arm9loaderhax is working and something else is broken; your device is **not** bricked.
+   4. Press (A). Your 3DS should power off; this means arm9loaderhax is working and something else is broken; your device is **not** bricked.
 3. Your 3DS may be bricked. For support, ask for help at [#3dshacks on Rizon IRC](https://gate.omicron.pw/).
 
 ## <a name="ts_sys_blue" />Blue screen on boot (bootrom error)

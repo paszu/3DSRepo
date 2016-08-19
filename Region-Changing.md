@@ -45,31 +45,31 @@ Note that region changing is experimental and can break several things.
 
 ##### Section II - Editing SecureInfo
 
-6. Press Start then hold Up to reboot into arm9loaderhax GodMode9
+6. Press (Start) then hold (Up) to reboot into arm9loaderhax GodMode9
 **(Be VERY careful with this tool, it can brick you if you misuse it, even with arm9loaderhax installed!)**
 14. Navigate to `SYSNAND CTRNAND` -> `data` -> (32 Character ID) -> `sysdata` -> `00010038`
-15. Hold down the R trigger, then press X on `00000000` to rename this file
+15. Hold down the (R) trigger, then press X on `00000000` to rename this file
 16. Press Up once to change the name to `10000000`
-17. Press A to save changes
-18. Press A to unlock SysNAND writing, then input the key combo given
+17. Press (A) to save changes
+18. Press (A) to unlock SysNAND writing, then input the key combo given
 18. Navigate back to the Main Menu
 14. Navigate to `SYSNAND CTRNAND` -> `rw` -> `sys`
-15. Press Y on `SecureInfo_A` to copy it
-16. Press Y to paste a copy of `SecureInfo_A`
+15. Press (Y) on `SecureInfo_A` to copy it
+16. Press (Y) to paste a copy of `SecureInfo_A`
 17. Select "Copy path(s)"
 20. Select "Choose new name"
-20. Use the D-Pad to rename the file to `SecureInfo_C`, pressing A when you're done (overwrite any existing `SecureInfo_C`)
+20. Use the D-Pad to rename the file to `SecureInfo_C`, pressing (A) when you're done (overwrite any existing `SecureInfo_C`)
 18. Scroll down to the `SecureInfo_C` you just pasted
-21. Press A on `SecureInfo_C` then select "Show in Hexeditor"
-22. Press A to continue
-23. Press A to enter edit mode
-11. Go to the beginning of line 00000100 and press A on it
-12. Hold A while pressing Up or Down on the D-Pad to edit the number
+21. Press (A) on `SecureInfo_C` then select "Show in Hexeditor"
+22. Press (A) to continue
+23. Press (A) to enter edit mode
+11. Go to the beginning of line 00000100 and press (A) on it
+12. Hold (A) while pressing (Up) or (Down) on the D-Pad to edit the number
 13. Change the first number pair on line 00000100 to the following pair that corresponds to *the region you want to change to*:
     - "00" : JPN
     - "01" : USA
     - "02" : EUR
-13. Press B to exit edit mode, then save changes, then press B again to return to the directory
+13. Press (B) to exit edit mode, then save changes, then press (B) again to return to the directory
 19. You should see both a `SecureInfo_A` and `SecureInfo_C` if everything was done properly. (`SecureInfo_C` is used in place of `SecureInfo_A` when using Luma3DS if it detects the file on boot)
 16. Press Start to reboot
 

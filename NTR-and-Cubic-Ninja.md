@@ -50,7 +50,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 3. Open Cubic Ninja (if it already has NinjHax installed, hold L+R+X+Y to reset it)
 4. Select "Create", then "QR Code", then "Scan QR Code"
 5. Scan the QR code in the NTR CFW zip for your region
-6. On the home menu, press Y and X at the same time to open NTR's menu
+6. On the home menu, press (Y) and (X) at the same time to open NTR's menu
 7. Enable the debugger and close the menu
 8. Use your router's web page to get your 3DS's IP address (google it if you don't know how, all routers are different)
 9. Run NTR Debugger on your computer

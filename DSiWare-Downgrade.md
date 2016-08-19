@@ -48,27 +48,27 @@ System Transfers can only be performed once a week.
 3. On **3DS #1**, hold Start on boot to launch Hourglass9
 4. If you do not have `NANDmin.bin` on your computer from Part 2 already, do the following:    
   + Go to SysNAND Options, then SysNAND Backup/Restore, then backup **(min size)** SysNAND to `NANDmin.bin`
-  + Press Select on the main menu to eject your SD card, then put it in your computer
+  + Press (Select) on the main menu to eject your SD card, then put it in your computer
   + Copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](NAND-Size) page; if it does not, you should delete it and make a new one!)**
-5. Press Select on the main menu to eject **3DS #1's** SD card, then put it in your computer
+5. Press (Select) on the main menu to eject **3DS #1's** SD card, then put it in your computer
 6. Put **3DS #2's** SD card into your computer
 7. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
 8. Reinsert each SD card back into their corresponding 3DS
-9. Press Start to reboot
+9. Press (Start) to reboot
 
 ##### Section II - Injecting FBI
 
 **If FBI is still injected into Health and Safety (check now), you can skip this section**
 
-1. On **3DS #1**, open Hourglass9 from arm9loaderhax by holding Start on boot
+1. On **3DS #1**, open Hourglass9 from arm9loaderhax by holding (Start) on boot
 11. Go to "SysNAND Backup/Restore", then select the "Health&Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
-12. Press Select to eject your SD card, then put it in your computer
+12. Press (Select) to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generator, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
 14. Double click `go.bat` *(or  execute `go.sh` with Terminal on Linux, or double click `Mac_inject_launcher.app` on Mac)*
 15. Copy `FBI_inject_with_banner.app` to the `/files9/` folder on your SD card and reinsert your SD card into your 3DS
-16. Press B, then go to "SysNAND Backup/Restore", then select the "Health&Safety Inject" option
-17. Press down once to select `FBI_inject_with_banner.app`, then press A and confirm to inject
-18. Go to the main menu, then press Start to reboot
+16. Press (B), then go to "SysNAND Backup/Restore", then select the "Health&Safety Inject" option
+17. Press down once to select `FBI_inject_with_banner.app`, then press (A) and confirm to inject
+18. Go to the main menu, then press (Start) to reboot
 
 
 ##### Section III - Installing the save
@@ -79,8 +79,8 @@ System Transfers can only be performed once a week.
   + **Guitar Rock Tour**: You must have already purchased this for **EUR**
 2. Launch FBI on **3DS #1**
 3. Navigate to `SD`
-4. Press A on `public.sav` and copy it
-5. Press B to get back to the main menu
+4. Press (A) on `public.sav` and copy it
+5. Press (B) to get back to the main menu
 6. Navigate to `TWL NAND` -> `title` -> `00030004`
 7. Navigate to the folder for your game and region:
   + Fieldrunners USA Region: `4b464445` -> `data`
@@ -88,16 +88,16 @@ System Transfers can only be performed once a week.
   + Legends of Exidia USA Region: `4b4c4545` -> `data`
   + Legends of Exidia EUR Region: `4b4c4556` -> `data`
   + Guitar Rock Tour EUR Region: `4b475256` -> `data`
-8. Press A on the existing `public.sav` and delete it
-9. Press A on the current directory and paste `public.sav`
-10. Press B to get back to the main menu
-11. Press Start to exit
+8. Press (A) on the existing `public.sav` and delete it
+9. Press (A) on the current directory and paste `public.sav`
+10. Press (B) to get back to the main menu
+11. Press (Start) to exit
 
 ##### Section IV - System Transfer
 
 1. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
 2. Reinsert each SD card back into their corresponding 3DS
-3. Press Start to reboot
+3. Press (Start) to reboot
 4. If **3DS #2** has a Nintendo Network ID on it, you must format the device using System Settings:
   + Go to the last page of "Other Settings" and select "Format System Memory", then follow all instructions
 5. Read the following:
@@ -124,7 +124,7 @@ System Transfers can only be performed once a week.
 3. Launch your DSiWare game on **3DS #2**
 4. Launch dgTool using your DSiWare game
   + Fieldrunners: Touch the 'Scores' button at the main menu
-  + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
+  + Legends of Exidia: After pressing (A) or (Start) at the two title screens, select the first save slot and press continue
   + Guitar Rock Tour: Scroll down and go to High-Scores -> Drums -> Easy
 5. Use dgTool to backup **3DS #2's** firmware
   + New 3DS: select "Dump F0F1_N3DS.bin"
@@ -138,7 +138,7 @@ System Transfers can only be performed once a week.
 1. Launch your DSiWare game on **3DS #2**
 2. Launch dgTool using your DSiWare game
   + Fieldrunners: Touch the 'Scores' button at the main menu
-  + Legends of Exidia: After pressing A or Start at the two title screens, select the first save slot and press continue
+  + Legends of Exidia: After pressing (A) or (Start) at the two title screens, select the first save slot and press continue
   + Guitar Rock Tour: Scroll down and go to High-Scores -> Drums -> Easy
 3. Select "Downgrade FIRM to 10.4" and confirm to flash the 10.4.0 firmware bin to **3DS #2**
 4. Exit dgTool

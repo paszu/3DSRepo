@@ -32,19 +32,19 @@ If you are using a game for hax because your browser version is incompatible, yo
 6. Launch the browser, then open the browser settings as fast as possible
 7. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) as fast as possible
 8. Navigate to `http://yls8.mtheall.com/3dsbrowserhax_auto.php`
-    + You can also load the page by scanning the following QR code (press L + R on the home menu, then tap the QR icon on the bottom screen)     
+    + You can also load the page by scanning the following QR code (press (L + R) on the home menu, then tap the QR icon on the bottom screen)     
 ![browserhax_auto](https://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png)
     + If you get a slider, zoom all the way in on it, then tap the very right edge of it; this can take quite a few tries
     + If you get an error, [follow this troubleshooting guide](Troubleshooting#ts_browser)
 9. Your console should load the homebrew menu
 10. Open the menuhax_manager application
-11. Press A to install, it may show some errors but that's fine as long as it shows "Success" towards the end
+11. Press (A) to install, it may show some errors but that's fine as long as it shows "Success" towards the end
 12. Go back to the main menuhax_manager menu, then select "Configure menuhax"
-13. Press A to continue, then select "Type1"
-14. Hold down on the D-Pad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
-15. Go back to the main menuhax_manager menu, then press Start to exit back into the Homebrew Launcher
-16. Press the Start button then press A to reboot
+13. Press (A) to continue, then select "Type1"
+14. Hold (Down) on the D-Pad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
+15. Go back to the main menuhax_manager menu, then press (Start) to exit back into the Homebrew Launcher
+16. Press the (Start) button then press (A) to reboot
 
-You can now hold D-Pad down while the system is booting to launch the Homebrew Launcher
+You can now hold D-Pad (Down) while the system is booting to launch the Homebrew Launcher
 
 You can now continue from [9.2.0 Downgrade](Part-2-(2.1.0-ctrtransfer)) *(even if you are already on a version from 9.0.0 to 9.2.0)*.
