@@ -21,9 +21,9 @@ This is accomplished by installing a premade ctrtransfer image containing 2.1.0,
 * You will need to have booted into Decrypt9 via one of the [Part 1 - Decrypt9](Part-1-(Decrypt9)) entrypoints
 * The 2.1.0 ctrtransfer image for your device and region     
 *(if your device is not from one of these regions, just pick one that matches your device type)*:
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4E_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - EUR - ctrtransfer</a> ([mirror]()) ([mirror]())    
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4J_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - JPN - ctrtransfer</a> ([mirror]()) ([mirror]())    
-  +    <a href="https://plailect.github.io/Guide/2.1.0-4U_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - USA - ctrtransfer</a> ([mirror]()) ([mirror]())
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4E_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - EUR - ctrtransfer</a> ([mirror](https://mega.nz/#!Z8tRWayJ!10NZ5XMLSnxZGbCoWJV_gpIFijGqoTGVypxZhnD5jwI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTXA2NnhJam5rek0))    
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4J_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - JPN - ctrtransfer</a> ([mirror](https://mega.nz/#!Qg8hDI4A!UYWnbirgP8s1rOHhNvYRxNeg1o2GiWQwXqDlZU5ujEo)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDMW45Z3dSZE1EazQ))    
+  +    <a href="https://plailect.github.io/Guide/2.1.0-4U_ctrtransfer_o3ds.torrent" target="_blank">New 3DS or Old 3DS or 2DS 2.1.0 - USA - ctrtransfer</a> ([mirror](https://mega.nz/#!V1ETXBbQ!FkHKgyYChauQmkwLb3Y8QpjHKbDJBl8sxj_EtGjEEos)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDQ3dNdFRYTE53RnM))
 
 #### Instructions
 
