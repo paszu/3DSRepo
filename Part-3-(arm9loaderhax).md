@@ -152,4 +152,4 @@ You can remove your NAND backups from `/files9/` as long as you still have them 
 
 You can remove any extra files from the root of the SD card that are not in the image.    
 
-![SD Card](https://i.imgur.com/ad5DHRn.png)
+![SD Card](https://i.imgur.com/YybGKY3.png)
