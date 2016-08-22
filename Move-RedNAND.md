@@ -1,6 +1,6 @@
 This is add-on section for moving the contents of a previous RedNAND to your new SysNAND CFW, then removing the old EmuNAND partition.
 
-**You MUST have already completed Part 3and installed arm9loaderhax + Luma3DS to use this.**
+**You MUST have already completed Part 3 and installed arm9loaderhax + Luma3DS to use this.**
 
 Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
