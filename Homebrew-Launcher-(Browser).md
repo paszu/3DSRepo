@@ -38,7 +38,7 @@ If you are using a game for hax because your browser version is incompatible, yo
     + If you get an error, [follow this troubleshooting guide](Troubleshooting#ts_browser)
 9. Your console should load the homebrew menu
 10. Open the menuhax_manager application
-11. Press (A) to install, it may show some errors but that's fine as long as it shows "Success" towards the end
+11. Press (A) to install, it may show some errors but that's fine as long as it shows "Install finished successfully" towards the end
 12. Go back to the main menuhax_manager menu, then select "Configure menuhax"
 13. Press (A) to continue, then select "Type1"
 14. Hold (Down) on the D-Pad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
