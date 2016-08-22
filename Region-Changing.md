@@ -32,7 +32,7 @@ After this process, only Old 3DSs will be able to access the eShop after creatin
 1. Copy the 9.2.0 ctrtransfer image `.bin` and `.bin.sha` from the ctrtransfer zip to the `/files9/` folder on your SD card
 4. Reinsert your SD card into your 3DS
 4. Open Decrypt9 from arm9loaderhax by holding X during boot
-1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
+1. Go to "SysNAND Options", then "CTRNAND Transfer", then "Auto CTRNAND Transfer"
 2. Select the 9.2.0 ctrtransfer image when prompted by pressing A
 2. Backup SysNAND to `NANDmin.bin` when prompted by pressing A
 3. Allow the transfer process to proceed automatically, this may take some time

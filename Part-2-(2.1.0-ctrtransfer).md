@@ -33,7 +33,7 @@ You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [P
 
 1. Copy the 2.1.0 `.bin` and `.bin.sha` from the ctrtransfer zip to the `/files9/` folder on your SD card
 2. Reinsert your SD card into your 3DS
-1. Go to "SysNAND Options", then "SysNAND Transfer", then "Auto CTRNAND Transfer"
+1. Go to "SysNAND Options", then "CTRNAND Transfer", then "Auto CTRNAND Transfer"
 2. Select the 2.1.0 ctrtransfer image when prompted by pressing (A)
 2. Backup SysNAND to `NANDmin.bin` when prompted by pressing (A)
 3. Allow the transfer process to proceed automatically, this may take some time
