@@ -148,6 +148,8 @@ To use [NTR CFW](https://github.com/44670/BootNTR/), get `ntr.bin` from the appr
 
 Keep your `NANDmin.bin` file, it can be restored by Hourglass9 to save you from a brick in the future.
 
+You can remove your NAND backups from `/files9/` as long as you still have them backed up to a safe location.
+
 You can remove any extra files from the root of the SD card that are not in the image.    
 
 ![SD Card](https://i.imgur.com/ad5DHRn.png)
