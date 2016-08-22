@@ -1,12 +1,10 @@
-This is add-on section for region changing your arm9loaderhax CFW SysNAND. This is done by installing the CIAs for and injecting the SecureInfo_A file from the region you want to switch to.
+This is add-on section for region changing your arm9loaderhax CFW SysNAND. This is done by installing the 9.2.0 ctrtransfer image for the region you want to switch to and modifying your SecureInfo_A file.
 
-**You MUST have already completed Part 5 and installed arm9loaderhax + Luma3DS to use this.**
+**You MUST have already completed Part 3 and installed arm9loaderhax + Luma3DS to use this.**
 
-*This process will unlink your NNID from the system, since it will no longer be compatible with it. NNID's are locked to the region of the device that created them, and cannot be transferred between regions without a very complex and advanced process.*
+*This process will unlink your NNID from the system, since it will no longer be compatible with it. NNID's are locked to the region of the device that created them, and cannot be transferred between regions without [a very complex and advanced process](https://gist.githubusercontent.com/yifanlu/e80db121d38aceb8cca0e03cefd5853b/raw/3c4dd89869156ca0f945a2791e699acfdb32b510/gistfile1.txt).*
 
-Note that region changing is experimental and can break several things.
-
-*After this process, only Old 3DSs will be able to access the eShop after creating an NNID. Region changed New 3DSs cannot access the eShop!*
+After this process, only Old 3DSs will be able to access the eShop after creating an NNID. Region changed New 3DSs cannot access the eShop!
 
 **Region changing is almost completely unnecessary since Luma3DS supports out of region games and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
 
