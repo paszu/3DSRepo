@@ -47,7 +47,6 @@ During this process, we also setup programs such as the following:
 ##### Section I - Prep work
 
 1. **Copy the `/files9/` folder on your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); the files inside could save you from total data loss if your break your system**
-2. Delete the contents of the `/files9/` folder on your SD card
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
 3. Delete the `3ds` folder from the root of your SD card if it exists
 1. Copy the contents of `starter.zip` to the root of your SD card    
@@ -151,4 +150,4 @@ Keep your `NANDmin.bin` file, it can be restored by Hourglass9 to save you from 
 
 You can remove any extra files from the root of the SD card that are not in the image.    
 
-![SD Card](http://i.imgur.com/TbXejSM.png)
+![SD Card](https://i.imgur.com/ad5DHRn.png)
