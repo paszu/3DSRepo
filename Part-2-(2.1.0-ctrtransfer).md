@@ -1,5 +1,3 @@
-**If you somehow get yourself stuck on 2.1.0, read all information on [this](2.1.0-Stuck) page before attempting anything. It could save you from a brick!**
-
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how.
 
 The OTP is a requirement to use arm9loaderhax, which gets you, among other things, 100% boot rate and very early ARM9 kernel access allowing you to unbrick yourself without a hardmod and use other awesome tools.

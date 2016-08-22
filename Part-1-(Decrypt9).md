@@ -15,7 +15,7 @@ Select the specific for the version you are using here:
 | From | To | No Browser | Browser |
 |:-:|:-:|:-:|:-:|
 | 1.0.0 | 1.1.0 | + [(4.X.X or 6.X.X) Cart Update](Cart-Update) then [Decrypt9 (MSET)](Decrypt9-(MSET)) | - |
-| 2.1.0 | 2.2.0 | + [(4.X.X or 6.X.X) Cart Update](Cart-Update) then [Decrypt9 (MSET)](Decrypt9-(MSET)) | + *2.1.0-4:* [Browser OTP](Browser-OTP)<br>**or**<br> + [(4.X.X to 8.X.X) Cart Update](Cart-Update) then [Decrypt9 (Browser)](Decrypt9-(Browser)) |
+| 2.1.0 | 2.2.0 | + [(4.X.X or 6.X.X) Cart Update](Cart-Update) then [Decrypt9 (MSET)](Decrypt9-(MSET)) | + *2.1.0-4:* [9.2.0 ctrtransfer](9.2.0-ctrtransfer)<br>**or**<br> + [(4.X.X to 8.X.X) Cart Update](Cart-Update) then [Decrypt9 (Browser)](Decrypt9-(Browser)) |
 | 3.0.0 | 3.0.0 | + [(4.X.X or 6.X.X) Cart Update](Cart-Update) then [Decrypt9 (MSET)](Decrypt9-(MSET)) | + [(4.X.X to 8.X.X) Cart Update](Cart-Update) then [Decrypt9 (Browser)](Decrypt9-(Browser)) |
 | 4.0.0 | 4.5.0 | + [Decrypt9 (MSET)](Decrypt9-(MSET)) | + [Decrypt9 (Browser)](Decrypt9-(Browser)) |
 | 5.0.0 | 5.1.0 | + [(6.X.X) Cart Update](Cart-Update) then [Decrypt9 (MSET)](Decrypt9-(MSET)) | + [Decrypt9 (Browser)](Decrypt9-(Browser)) |

@@ -1,6 +1,6 @@
 **You cannot use another console's OTP or you will brick GUARANTEED.**
 
-The final step of this guide is to install arm9loaderhax and setup Luma3DS to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](https://github.com/AuroraWright/).
+The final Step of this guide is to install arm9loaderhax and setup Luma3DS to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](https://github.com/AuroraWright/).
 
 This will install [AuroraWright's Fork](https://github.com/AuroraWright/arm9loaderhax) of arm9loaderhax.
 
@@ -46,7 +46,7 @@ During this process, we also setup programs such as the following:
 
 ##### Section I - Prep work
 
-1. **Copy the `/files9/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage); the files inside, in the event of lost backups, could save you from total data loss**
+1. **Copy the `/files9/` folder on your SD card to a safe location on your computer and back them up to multiple locations (such as online file storage); the files inside could save you from total data loss if your break your system**
 2. Delete the contents of the `/files9/` folder on your SD card
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
 3. Delete the `3ds` folder from the root of your SD card if it exists
@@ -93,16 +93,21 @@ During this process, we also setup programs such as the following:
 
 ##### Section IV - Restoring the System
 
+**If, before following this guide, you already had an EmuNAND or RedNAND setup and would like to move the contents of your previous EmuNAND or RedNAND to your new SysNAND CFW, now is the time to [follow Move RedNAND](Move-RedNAND).**
+
 1. Open Hourglass9 from arm9loaderhax by holding Start on boot
 1. Go to "SysNAND Backup/Restore..."
 2. Select "SysNAND Restore"
 3. Confirm and restore from `NANDmin.bin`
 4. Your device should now be able to boot properly once more.
   + If you get a black screen, [follow this troubleshooting guide](https://github.com/AuroraWright/Luma3DS/wiki/FAQ-and-Troubleshooting#i-get-a-black-screen-on-boot-with-an-old-3ds-which-has-been-downgraded-from-the-gateway-menu-in-the-past)
+  + If you do not have any usable NAND backups, [follow 9.2.0 ctrtransfer](9.2.0-ctrtransfer) starting on Step 4
 
 ##### Section V - Injecting FBI
 
-1. Open Hourglass9 from arm9loaderhax by holding Start on boot
+**If you restored an EmuNAND or RedNAND that already contains FBI as part of the last section, you can skip this section.**
+
+1. Open Hourglass9 from arm9loaderhax by holding (Start) on boot
 11. Go to "SysNAND Backup/Restore", then select the "Health&Safety Dump" option to dump Health & Safety to `hs.app` **(you can use Up and Down / Left and Right to change the name)**
 12. Press (Select) to eject your SD card, then put it in your computer
 13. Extract Universal Inject Generator, then copy both `hs.app` from your SD card and `FBI.cia` from the FBI zip to the `input` folder
