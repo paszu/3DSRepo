@@ -46,6 +46,6 @@ You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [P
 
 *(On 2DS at 2.1.0, the screen being stretched is normal)*
 
-**Putting a New 3DS on 2.1.0 in sleep mode is known to cause an UNRECOVERABLE brick! You should avoid closing your device and, without delay, go directly to [Part 3 - arm9loaderhax](Part-3-(Decrypt9)) to prevent this!**
+**Putting a New 3DS on 2.1.0 in sleep mode is known to cause an UNRECOVERABLE brick! You should avoid closing your device and, without delay, go directly to [Part 3 - arm9loaderhax](Part-3-(arm9loaderhax)) to prevent this!**
 
 You can now continue from [Part 3 - arm9loaderhax](Part-3-(arm9loaderhax)).
