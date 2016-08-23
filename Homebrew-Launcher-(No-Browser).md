@@ -30,3 +30,5 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 16. Press the (Start) button then press (A) to reboot
 
 You can now hold D-Pad (Down) while the system is booting to launch the Homebrew Launcher
+
+You can now continue from [9.2.0 Downgrade](9.2.0-Downgrade) *(even if you are already on a version from 9.0.0 to 9.2.0)*.
