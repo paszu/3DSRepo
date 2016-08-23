@@ -78,7 +78,7 @@ During this process, we also setup programs such as the following:
 
 ##### Section III - Configuring Luma3DS
 
-1. Hold select on boot to enter the Luma3DS menu.     
+1. Hold select on boot to enter the Luma3DS menu
   + If you get a black screen, [follow this troubleshooting guide](Troubleshooting#ts_sys_a9lh).    
   + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh).
 1. Use the (A) button and the D-Pad to turn on the following:    
