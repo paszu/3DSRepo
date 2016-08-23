@@ -1,5 +1,3 @@
-### This guide has been stagnant on updates in the past couple weeks because all work is going into the upcoming "ctrtransfer" method. I am aware of all the issues, but they're being fixed on the upcoming version, not this one.
-___
 #### This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/archive/gh-pages.zip) torrents!
 
 #### To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [this](https://sourceforge.net/projects/trqtw/) one
