@@ -47,4 +47,4 @@ If you are using a game for hax because your browser version is incompatible, yo
 
 You can now hold D-Pad (Down) while the system is booting to launch the Homebrew Launcher
 
-You can now continue from [9.2.0 Downgrade](Part-2-(2.1.0-ctrtransfer)) *(even if you are already on a version from 9.0.0 to 9.2.0)*.
+You can now continue from [9.2.0 Downgrade](9.2.0-Downgrade) *(even if you are already on a version from 9.0.0 to 9.2.0)*.
