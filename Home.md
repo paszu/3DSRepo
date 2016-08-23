@@ -1,6 +1,4 @@
-### If you were in the middle of the old guide, you can still access it by clicking [here](https://github.com/Plailect/Guide_RedNAND/wiki)
-
-___
+## If you were in the middle of the old guide, you can still access it by clicking [here](https://github.com/Plailect/Guide_RedNAND/wiki)
 
 #### This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/archive/gh-pages.zip) torrents!
 
