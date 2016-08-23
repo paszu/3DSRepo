@@ -6,7 +6,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 
 The two columns of the chart refer to the last number of your version (which corresponds to the browser version installed to the system). If the version is -0 then you do not have a browser, while any number above -0 indicates a browser is installed.
 
-In the case of "5.0.0-0U" for instance, you would follow the "No Brower" column and 5.0.0 to 5.1.0 row because the system is on the a system version in that range and has no browser installed.
+In the case of "5.0.0-0U" for instance, you would follow the "No Browser" column and 5.0.0 to 5.1.0 row because the system is on the a system version in that range and has no browser installed.
 
 ##### For all versions you can [Cart Update](Cart-Update) to a higher version in the same column to follow its instructions instead.
 
