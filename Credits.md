@@ -28,6 +28,7 @@
 + coder65535 for original fieldrunners downgrade guide
 + DinohScene for ripping the EUR fieldrunners save
 + AuroraWright for SafeA9LHInstaller
++ Al3x_10m for testing ctrnand images
 + d0k3 for OTPHelper, Decrypt9WIP, Hourglass9, and EmuNAND9
 + elSeledonio for tip about eShop on Region Changed systems
 + all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome
