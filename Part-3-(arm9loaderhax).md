@@ -40,7 +40,7 @@ During this process, we also setup programs such as the following:
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 * The latest release of [DspDump](https://github.com/Cruel/DspDump/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
-* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)_
+* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### Instructions
 
