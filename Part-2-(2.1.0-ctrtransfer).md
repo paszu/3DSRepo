@@ -1,6 +1,6 @@
 **If you update a 2.1.0 New 3DS using the built-in System Update, you will BRICK. Follow the steps as written!**
 
-If you downgrade to 2.1.0 on **New 3DS** or **2DS** and **left Wireless Communication off**, you can reset the wireless to be on by removing the battery for several seconds then booting back up.
+If you downgrade to 2.1.0 on **New 3DS** or **2DS** and **left Wireless Communication off**, you can re-enable the wireless by removing the battery for several seconds then booting back up.
 
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how.
 
