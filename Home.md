@@ -1,3 +1,7 @@
+### If you were in the middle of the old guide, you can still access it by clicking [here](https://github.com/Plailect/Guide_RedNAND/wiki)
+
+___
+
 #### This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/archive/gh-pages.zip) torrents!
 
 #### To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [this](https://sourceforge.net/projects/trqtw/) one
