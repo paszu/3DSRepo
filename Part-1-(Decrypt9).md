@@ -22,6 +22,6 @@ Select the specific for the version you are using here:
 | 6.0.0 | 6.3.0 | + [Decrypt9 (MSET)](Decrypt9-(MSET)) | + [Decrypt9 (Browser)](Decrypt9-(Browser)) |
 | 7.0.0 | 7.2.0 | + [(9.0.0 to 10.7.0) Cart Update](Cart-Update) | + [Decrypt9 (Browser)](Decrypt9-(Browser)) |
 | 8.0.0 | 8.1.0 | + *EUR / JPN / USA only:* [NTR and Cubic Ninja](NTR-and-Cubic-Ninja) | + [Decrypt9 (Browser)](Decrypt9-(Browser)) |
-| 9.0.0 | 9.2.0 | + [Homebrew Launcher (No Browser)](Homebrew-Launcher-(No-Browser)) | + [Homebrew Launcher (Browser)](Homebrew-Launcher-(Browser)) then [9.2.0 Downgrade](9.2.0-Downgrade)<br>**or**<br>+ *Old 3DS only:* [Decrypt9 (Browser)](Decrypt9-(Browser)) |
+| 9.0.0 | 9.2.0 | + [Homebrew Launcher (No Browser)](Homebrew-Launcher-(No-Browser)) | + [Homebrew Launcher (Browser)](Homebrew-Launcher-(Browser)) <br>**or**<br>+ *Old 3DS only:* [Decrypt9 (Browser)](Decrypt9-(Browser)) |
 | 9.3.0 | 10.7.0 | + [Homebrew Launcher (No Browser)](Homebrew-Launcher-(No-Browser)) then [9.2.0 Downgrade](9.2.0-Downgrade) | + [Homebrew Launcher (Browser)](Homebrew-Launcher-(Browser)) then [9.2.0 Downgrade](9.2.0-Downgrade) |
 | 11.0.0 | 11.0.0 | + [Firmware Downgrade](Firmware-Downgrade/) then [Homebrew Launcher (No Browser)](Homebrew-Launcher-(No-Browser)) then [9.2.0 Downgrade](9.2.0-Downgrade) | + [Firmware Downgrade](Firmware-Downgrade/) then [Homebrew Launcher (Browser)](Homebrew-Launcher-(Browser)) then [9.2.0 Downgrade](9.2.0-Downgrade) |
