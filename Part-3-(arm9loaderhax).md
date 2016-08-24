@@ -4,8 +4,6 @@ The final Step of this guide is to install arm9loaderhax and setup Luma3DS to ru
 
 This will install [AuroraWright's Fork](https://github.com/AuroraWright/arm9loaderhax) of arm9loaderhax.
 
-This guide uses "Updated SysNAND" mode, in which we copy our RedNAND to SysNAND (to keep games and such) and install arm9loaderhax to have permanent SysNAND hax with no RedNAND required at all.
-
 We will also setup the ability to launch payloads from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 
 #### Overview of steps
@@ -73,12 +71,13 @@ During this process, we also setup programs such as the following:
     + If you get a glitched screen, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh_screen)
 14. Press (Select) to Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
+18. Following this, booting to a message about `firmware.bin` is normal (Luma3DS cannot boot a 2.1.0 NAND)
 18. Copy your console specific `OTP.bin` from the `/a9lh/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage)
 
 ##### Section III - Configuring Luma3DS
 
 1. Hold select on boot to enter the Luma3DS menu
+  + If you get a `firmware.bin` message, hold the button starting before pressing power
   + If you get a black screen, [follow this troubleshooting guide](Troubleshooting#ts_sys_a9lh)   
   + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh)
 1. Use the (A) button and the D-Pad to turn on the following:    
@@ -88,7 +87,7 @@ During this process, we also setup programs such as the following:
 2. If you are using a New 3DS, you should *also* enable the following:
  + Toggle "New 3DS CPU" to "Clock+L2(x)" for improved game performance
 2. Press Start to save and reboot
-18. Following this, booting to a black screen is normal (Luma3DS cannot boot a 2.1.0 NAND).
+18. Following this, booting to a message about `firmware.bin` is normal (Luma3DS cannot boot a 2.1.0 NAND)
 
 ##### Section IV - Restoring the System
 
