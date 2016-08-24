@@ -47,7 +47,7 @@ If you are using a game for hax because your browser version is incompatible, yo
 
 You can now hold D-Pad (Down) while the system is booting to launch the Homebrew Launcher
 
-### All versions above 9.2.0 should continue from [9.2.0 Downgrade](9.2.0-Downgrade).
+### All versions above 9.2.0 should continue to [9.2.0 Downgrade](9.2.0-Downgrade).
 
 ___
 
@@ -68,4 +68,4 @@ ___
 3. Open Decrypt9WIP **(This can sometimes take a few tries)**
     + If you cannot launch Decrypt9WIP after many tries, you most likely have a partial downgrade and should redo Section II
 
-You can now continue from [Part 2 - 2.1.0 ctrtransfer](Part-2-(2.1.0-ctrtransfer)).
+You can now continue to [Part 2 - 2.1.0 ctrtransfer](Part-2-(2.1.0-ctrtransfer)).
