@@ -68,13 +68,13 @@ During this process, we also setup programs such as the following:
     + If you get a glitched screen, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh_screen)
 14. Press (Select) to Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
-18. For now, booting to a message about `firmware.bin` is normal (Luma3DS cannot boot a 2.1.0 NAND), just continue with the instructions
+18. For now, booting to a black screen or a message about `firmware.bin` is normal (Luma3DS cannot boot a 2.1.0 NAND), just continue with the instructions
 18. Copy your console specific `OTP.bin` from the `/a9lh/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage), then reinsert your SD card your 2.1.0 3DS
 
 ##### Section III - Configuring Luma3DS
 
 1. Hold select on boot to enter the Luma3DS menu
-  + If you get a `firmware.bin` message, hold the button starting before pressing power
+  + Make sure to start holding the button before pressing power
   + If you get a black screen, [follow this troubleshooting guide](Troubleshooting#ts_sys_a9lh)   
   + If you boot to SafeA9LHInstaller, [follow this troubleshooting guide](Troubleshooting#ts_safe_a9lh)
 1. Use the (A) button and the D-Pad to turn on the following:    
@@ -85,7 +85,7 @@ During this process, we also setup programs such as the following:
  + Toggle "New 3DS CPU" to "Clock+L2(x)" for improved game performance
 2. Press Start to save and reboot
  + If it freezes, hold the power button until it shuts down, then continue with the instructions
-18. For now, booting to a message about `firmware.bin` is normal (Luma3DS cannot boot a 2.1.0 NAND), just continue with the instructions
+18. For now, booting to a black screen or a message about `firmware.bin` is normal (Luma3DS cannot boot a 2.1.0 NAND), just continue with the instructions
 
 ##### Section IV - Restoring the System
 
