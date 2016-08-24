@@ -2,14 +2,16 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 **9.0.0 - 9.8.0**: Skip changing the date and time and initializing savedata in the beginning.
 
-**9.9.0 - 10.7.0**: Follow this guide as written.
+**9.9.0 - 10.6.0**: Follow this guide as written.
+
+**10.7.0 - 11.0.0**: Skip changing the date and time and initializing savedata in the beginning.
 
 <!---
 This isn't needed yet since 10.7 and 11.0 already use the latest browser version and will pass the check
 
 **10.7.0 - 11.0.0**: Start on "Part 1 - Decrypt9"
-  + **Set your primary DNS to `107.211.140.065` so as not to trigger the browser version check.**
-  + If on this browser version, you ever receive a message to update your browser, you will need an alternate entry point from below as your browser will have detected it is not running the latest version.
+  + **Set your primary DNS to `107.211.140.065` before launching the browser so as not to trigger the browser version check.**
+  + If on this browser version, you ever receive a message to update your browser, it is because your browser has detected it is not running the latest version.
   + Once this message appears for the first time, it is impossible to get rid of it so you must use a [non-browser entrypoint](Homebrew-Launcher-(No-Browser)).
 -->
 
