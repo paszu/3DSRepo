@@ -47,9 +47,9 @@ System Transfers can only be performed once a week.
 2. Copy `public.sav` to the root of **3DS #1's** SD card
 3. On **3DS #1**, hold Start on boot to launch Hourglass9
 4. If you do not have `NANDmin.bin` on your computer from Part 2 already, do the following:    
-  + Go to SysNAND Options, then SysNAND Backup/Restore, then backup **(min size)** SysNAND to `NANDmin.bin`
+  + Go SysNAND Backup / Restore, then backup SysNAND to `NAND.bin`
   + Press (Select) on the main menu to eject your SD card, then put it in your computer
-  + Copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](NAND-Size) page; if it does not, you should delete it and make a new one!)**
+  + Copy `NAND.bin` and `NAND.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future **(Your backup should match one of the sizes on [this](NAND-Size) page; if it does not, you should delete it and make a new one!)**
 5. Press (Select) on the main menu to eject **3DS #1's** SD card, then put it in your computer
 6. Put **3DS #2's** SD card into your computer
 7. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
