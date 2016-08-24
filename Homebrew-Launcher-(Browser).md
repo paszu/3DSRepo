@@ -2,7 +2,7 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 **9.0.0 - 9.8.0**: Skip changing the date and time and initializing savedata in the beginning.
 
-**9.9.0 - 10.6.0**: Follow this guide as written.
+**9.9.0 - 10.7.0**: Follow this guide as written.
 
 <!---
 This isn't needed yet since 10.7 and 11.0 already use the latest browser version and will pass the check
