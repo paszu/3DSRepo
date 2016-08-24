@@ -46,7 +46,7 @@ During this process, we also setup programs such as the following:
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
 3. Delete the `3ds` folder from the root of your SD card if it exists
 1. Copy the contents of the `starter` folder in `starter.zip` to the root of your SD card    
-2. Copy `NANDmin.bin` and `NANDmin.bin.sha` to the `/files9/` folder on your SD card
+2. Ensure `NANDmin.bin` and `NANDmin.bin.sha` are in the `/files9/` folder on your SD card
 3. Copy the `a9lh` folder from `data_input_v2.zip` to the root of your SD Card
 3. Copy `payload_stage1.bin` and `payload_stage2.bin` from the arm9loaderhax zip to `a9lh` folder on your SD card
 2. Copy `arm11.bin` and `arm9.bin` from the SafeA9LHInstaller zip to the root of your SD card
