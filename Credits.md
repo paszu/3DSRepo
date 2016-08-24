@@ -16,15 +16,12 @@
 + s_99 for emotional support
 + Delebile for original arm9loaderhax implementation
 + dark_samus for arm9loaderhax implementation work
-+ Urbanshadow for fixing my python script
-+ Hamcha for Luma3DS Updater
-
-
 + Raugo for autofirm
-
++ Hamcha for Luma3DS Updater
 + Mrrraou for helping with support
 + Al3x_10m for testing ctrnand images
 + felipejfc for the a9lhax web compiler
++ Urbanshadow for fixing my python script
 + TuxSH for CMAC algorithm RE and Luma3DS
 + Syphurith for 8.1.0-0 update server files
 + yifan_lu for original 8.1.0-0 update info
