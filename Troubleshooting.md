@@ -64,6 +64,7 @@ This happens occasionally, but the reason is unknown. The buttons will still wor
    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.
    3. Insert your SD card into your 3DS and power on.
    4. Press (A). Your 3DS should power off; this means arm9loaderhax is working and something else is broken; your device is **not** bricked.
+4. If you previously downgraded with Gateway, read [this](https://github.com/AuroraWright/Luma3DS/wiki/FAQ-and-Troubleshooting#i-get-a-black-screen-on-boot-with-an-old-3ds-which-has-been-downgraded-from-the-gateway-menu-in-the-past)
 3. Your 3DS may be bricked. For support, ask for help at [#3dshacks on Rizon IRC](https://gate.omicron.pw/).
 
 ## <a name="ts_sys_blue" />Blue screen on boot (bootrom error)
