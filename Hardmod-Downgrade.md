@@ -11,12 +11,12 @@ This will work on both a New and Old 3DS.
 #### What you need
 
 * Your 11.0.0 NAND extracted using your [hardmod](https://gbatemp.net/threads/414498/)
-* <a href="https://plailect.github.io/Guide/autofirm_Reboot_11.0.torrent" target="_blank">Autofirm 11.0 - Reboot edition</a> ([mirror](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
+* <a href="https://plailect.github.io/Guide/autofirm_Reboot_11.0.torrent" target="_blank">Autofirm 11.0 - Reboot edition</a> ([mirror](https://mega.nz/#!dl8ASTjB!2jsKbAYTAlspHhxYCt9Wzvia74xEvgtzGQxGLe3TJiM)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDRTlwYUQ1NDJoVlk))
 * The 10.4.0 and 11.0.0 decrypted NATIVE_FIRM CIAs for your device:
-    + <a href="https://plailect.github.io/Guide/o3DS%2010.4.torrent" target="_blank">Old 3DS 10.4.0 - 0004013800000002 v23341</a> ([mirror](https://mega.nz/#!I5EmyCZC!pU-bG9Esg30LINlasTP43Sei6aDNnTIzh1ojwECKOrU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUGxYbmkwVThSUHc))    
-    + <a href="https://plailect.github.io/Guide/o3DS%2011.0.torrent" target="_blank">Old 3DS 11.0.0 - 0004013800000002 v24368</a> ([mirror](https://mega.nz/#!AgUGAbKD!0iNXI1ioLM7mBzACfBrPLotYk8g-LzcdTgcuTsQCmHQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaG1jbERyQ1BGcHc))    
-    + <a href="https://plailect.github.io/Guide/n3DS%2010.4.torrent" target="_blank">New 3DS 10.4.0 - 0004013820000002 v23341</a> ([mirror](https://mega.nz/#!1xcEAApQ!anu5UenuD-uEm6z14n680rQThEgViAsytWh5ZuTa_hc)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDRHlOTWJZNGtxVkk))
-    + <a href="https://plailect.github.io/Guide/n3DS%2011.0.torrent" target="_blank">New 3DS 11.0.0 - 0004013820000002 v24368</a> ([mirror](https://mega.nz/#!dk8BgZaJ!8EM0Wk4NHl6-_O4hhcatIpAx-vfkjMKZs7uQh__OKRw)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDeVhnUU1semtNQjQ))
+    + <a href="https://plailect.github.io/Guide/o3DS%2010.4.torrent" target="_blank">Old 3DS 10.4.0 - 0004013800000002 v23341</a> ([mirror](https://mega.nz/#!I5EmyCZC!pU-bG9Esg30LINlasTP43Sei6aDNnTIzh1ojwECKOrU)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDUGxYbmkwVThSUHc))    
+    + <a href="https://plailect.github.io/Guide/o3DS%2011.0.torrent" target="_blank">Old 3DS 11.0.0 - 0004013800000002 v24368</a> ([mirror](https://mega.nz/#!AgUGAbKD!0iNXI1ioLM7mBzACfBrPLotYk8g-LzcdTgcuTsQCmHQ)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDaG1jbERyQ1BGcHc))    
+    + <a href="https://plailect.github.io/Guide/n3DS%2010.4.torrent" target="_blank">New 3DS 10.4.0 - 0004013820000002 v23341</a> ([mirror](https://mega.nz/#!1xcEAApQ!anu5UenuD-uEm6z14n680rQThEgViAsytWh5ZuTa_hc)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDRHlOTWJZNGtxVkk))
+    + <a href="https://plailect.github.io/Guide/n3DS%2011.0.torrent" target="_blank">New 3DS 11.0.0 - 0004013820000002 v24368</a> ([mirror](https://mega.nz/#!dk8BgZaJ!8EM0Wk4NHl6-_O4hhcatIpAx-vfkjMKZs7uQh__OKRw)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDeVhnUU1semtNQjQ))
 
 #### Instructions
 

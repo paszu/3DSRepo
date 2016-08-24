@@ -27,16 +27,16 @@ System Transfers can only be performed once a week.
   + **Legends of Exidia**: Works for **USA + EUR** (JPN title pulled from eShop)
   + **Guitar Rock Tour**: Works for **EUR Only** (game has been pulled in all regions, you must have installed it already)
 * The exploited save for your game and region:
-  + Fieldrunners USA Region: <a href="https://plailect.github.io/Guide/fieldrunners_usa_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
-  + Fieldrunners EUR Region: <a href="https://plailect.github.io/Guide/fieldrunners_eur_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
-  + Guitar Rock Tour EUR Region: <a href="https://plailect.github.io/Guide/grtpwn_eur_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!59MUyKTS!6NCe0q1UG5OrFxcJCBnGcUKrfe0PdV9zr9fV2GbXDNg)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDc2pqaGxVaWhoQWM))
-  + Legends of Exidia ALL Regions: <a href="https://plailect.github.io/Guide/exidia_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
+  + Fieldrunners USA Region: <a href="https://plailect.github.io/Guide/fieldrunners_usa_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!NwkUzKSb!VUauxzpzqm3IKIh8yoaGYednbZdYhUjFWHB2zu_ALZQ)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDR2I3ME5LNW1ST2c))
+  + Fieldrunners EUR Region: <a href="https://plailect.github.io/Guide/fieldrunners_eur_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!ho0yyBhB!Rf0qAZ_jxfdDOWBnFfT10Se0uzPhRIqFQg3ybjEBXa8)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDdnpCZ09NMGZxaVk))
+  + Guitar Rock Tour EUR Region: <a href="https://plailect.github.io/Guide/grtpwn_eur_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!59MUyKTS!6NCe0q1UG5OrFxcJCBnGcUKrfe0PdV9zr9fV2GbXDNg)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDc2pqaGxVaWhoQWM))
+  + Legends of Exidia ALL Regions: <a href="https://plailect.github.io/Guide/exidia_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The latest release of [dgTool](https://github.com/Plailect/dgTool/releases/latest)
 * The dgTool zip corresponding to **3DS #2**:
-    + <a href="https://plailect.github.io/Guide/dgTool_o3ds.torrent" target="_blank">Old 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
-    + <a href="https://plailect.github.io/Guide/dgTool_n3ds.torrent" target="_blank">New 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
+    + <a href="https://plailect.github.io/Guide/dgTool_o3ds.torrent" target="_blank">Old 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
+    + <a href="https://plailect.github.io/Guide/dgTool_n3ds.torrent" target="_blank">New 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU)) ([mirror](https://drive.google.com/uc?export=download&id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
 
 #### Instructions
 
