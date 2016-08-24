@@ -96,7 +96,7 @@ During this process, we also setup programs such as the following:
 2. Select "SysNAND Restore"
 3. Confirm and restore from `NANDmin.bin`
 4. Your device should now be able to boot properly once more.
-  + If you get a black screen, [follow this troubleshooting guide](https://github.com/AuroraWright/Luma3DS/wiki/FAQ-and-Troubleshooting#i-get-a-black-screen-on-boot-with-an-old-3ds-which-has-been-downgraded-from-the-gateway-menu-in-the-past)
+  + If you get a black screen, [follow this troubleshooting guide](Troubleshooting#ts_sys_a9lh)
   + If you do not have any usable NAND backups, [follow 9.2.0 ctrtransfer](9.2.0-ctrtransfer) starting on Step 4
 
 ##### Section V - Injecting FBI
