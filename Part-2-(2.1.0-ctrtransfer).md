@@ -38,7 +38,7 @@ You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [P
 2. **Backup SysNAND to `NANDmin.bin` when prompted by pressing (A)**
 3. Allow the transfer process to proceed automatically, this may take some time
 2. Once the transfer is complete, press (Select) to eject your SD card
-4. Delete the 2.1.0 ctrtransfer image from the `/files9/` folder on your SD card after copying it
+4. Delete the 2.1.0 ctrtransfer image from the `/files9/` folder on your SD card
 5. Leave your SD card out of your 3DS
 6. Press (Start) to reboot with no SD card inserted
     + You can insert the SD card on 2.1 after the device has reached the home menu, but it will not complete the bootup process if you insert it before then
