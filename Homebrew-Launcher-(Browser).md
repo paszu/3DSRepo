@@ -47,4 +47,25 @@ If you are using a game for hax because your browser version is incompatible, yo
 
 You can now hold D-Pad (Down) while the system is booting to launch the Homebrew Launcher
 
-You can now continue from [9.2.0 Downgrade](9.2.0-Downgrade) *(even if you are already on a version from 9.0.0 to 9.2.0)*.
+### All versions above 9.2.0 should continue from [9.2.0 Downgrade](9.2.0-Downgrade).
+
+___
+
+### If you are between 9.0.0 and 9.2.0, do the following:
+
+#### What you need
+
+* The Homebrew Launcher and an installed entrypoint (such as menuhax)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
+
+#### Instructions
+
+1. Create a folder named `files9` on the root of your SD card if it does not already exist
+3. Copy the `Decrypt9WIP` folder from the Decrypt9WIP zip to `/3ds/` on your SD card
+6. Reinsert your SD card into your 3DS
+1. Check the system settings, you should be on 9.2.0
+2. Launch the Homebrew Launcher using the entrypoint of your choice (such as menuhax)
+3. Open Decrypt9WIP **(This can sometimes take a few tries)**
+    + If you cannot launch Decrypt9WIP after many tries, you most likely have a partial downgrade and should redo Section II
+
+You can now continue from [Part 2 - 2.1.0 ctrtransfer](Part-2-(2.1.0-ctrtransfer)).
