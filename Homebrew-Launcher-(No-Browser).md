@@ -11,16 +11,15 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 1. Copy the contents of `starter.zip` to the root of your SD card, then put the SD card back into your 3DS
 2. Use one of the following alternate entrypoints to get into the homebrew launcher:
-    + [smashbroshax](https://gbatemp.net/threads/397194/) *(requires Super Smash Bros. and __only works on New 3DS__)*
+    + [smashbroshax](https://gbatemp.net/threads/397194/) *(requires Super Smash Bros __(if it is a cart, it must have "Nintendo Network" instead of "amiibo" on the cover, otherwise it is a reprint with an updated game version)__ and __only works on New 3DS__)*
     + [supermysterychunkhax](https://smd.salthax.org/) *(requires Pokemon Super Mystery Dungeon and another 3DS which has the Homebrew Launcher)*
     + [freakyhax](http://plutooo.github.io/freakyhax/) *(requires Freakyforms Deluxe)*
     + [basehaxx](http://mrnbayoh.github.io/basehaxx/) *(requires Pokemon Omega Ruby/Alpha Sapphire ver 1.0/1.4 with the ability to have a secret base and another 3DS which has the Homebrew Launcher)*
-    + [BASICSploit](https://mrnbayoh.github.io/basicsploit/) *(requires SmileBASIC)*
-    + [smilehax](https://plutooo.github.io/smilehax/) *(requires SmileBASIC)*
+    + [BASICSploit](https://mrnbayoh.github.io/basicsploit/) *(requires SmileBASIC USA v3.2.1)*
+    + [smilehax](https://plutooo.github.io/smilehax/) *(requires SmileBASIC USA or JPN v3.3.1)*
     + [stickerhax](https://github.com/yellows8/stickerhax) *(requires Paper Mario: Sticker Star and another 3DS which has the Homebrew Launcher)*    
-    + If the last number of your version is above -0 and you have *not* [cart updated](Cart-Update) with a game cart containing the version 9.9.0, then you have a browser installed. If you do still have a browser installed on the system (even if you can't use it without updating), you can still use some additional entrypoints that rely on it such as the following:
-        + [Ninjhax](http://smealum.github.io/ninjhax2/) *(requires Cubic Ninja)*
-        + [oot3dhax](https://github.com/yellows8/oot3dhax) *(requires Ocarina of Time 3D and either a powersaves or another 3DS which has the Homebrew Launcher)*    
+    + [Ninjhax](http://smealum.github.io/ninjhax2/) *(requires Cubic Ninja)*
+    + [oot3dhax](https://github.com/yellows8/oot3dhax) *(requires Ocarina of Time 3D and either a powersaves or another 3DS which has the Homebrew Launcher)*    
 10. Open the menuhax_manager application
 11. Press (A) to install, it may show some errors but that's fine as long as it shows "Success" towards the end
 12. Go back to the main menuhax_manager menu, then select "Configure menuhax"
