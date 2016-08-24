@@ -60,7 +60,7 @@ This happens occasionally, but the reason is unknown. The buttons will still wor
 2. Test booting Hourglass9
    2. On Luma3DS, hold Start on boot
 3. Try deleting home menu's extdata
-   13. Navigate to `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/` on your SD card
+   13. Navigate to `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/` on your SD card
        + EUR Region: Delete `00000098`
        + JPN Region: Delete `00000082`
        + USA Region: Delete `0000008f`

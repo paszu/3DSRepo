@@ -28,7 +28,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 14. Select the "Format SD (No EmuNAND)" option
 15. Press Select on the main menu to eject your SD card
 16. Put your SD card in your computer, then copy all your files back into it
-13. Navigate to `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/` on your SD card
+13. Navigate to `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/` on your SD card
     + EUR Region: Delete `00000098`
     + JPN Region: Delete `00000082`
     + USA Region: Delete `0000008f`

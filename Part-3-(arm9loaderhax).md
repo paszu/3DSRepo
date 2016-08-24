@@ -96,7 +96,7 @@ During this process, we also setup programs such as the following:
 2. Select "SysNAND Restore"
 3. Confirm and restore from `NANDmin.bin`
 6. Go to the main menu, then press (Select) to eject your SD card, then put it in your computer
-4. Navigate to `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/` on your SD card
+4. Navigate to `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/` on your SD card
     + EUR Region: Delete `00000098`
     + JPN Region: Delete `00000082`
     + USA Region: Delete `0000008f`
