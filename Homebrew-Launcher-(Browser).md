@@ -24,7 +24,7 @@ If you are using a game for hax because your browser version is incompatible, yo
 
 #### Instructions
 
-1. Copy the contents of `starter.zip` to the root of your SD card, then put the SD card back into your 3DS
+1. Copy the contents of the `starter` folder in `starter.zip` to the root of your SD card, then put the SD card back into your 3DS
 2. Open the theme menu, change your theme to any other theme, then switch back. This will initialize the theme data and is required
 3. Launch the Settings application
 4. Change the date to `January 1, 2000`

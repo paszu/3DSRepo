@@ -9,7 +9,7 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
 
 #### Instructions
 
-1. Copy the contents of `starter.zip` to the root of your SD card, then put the SD card back into your 3DS
+1. Copy the contents of the `starter` folder in `starter.zip` to the root of your SD card, then put the SD card back into your 3DS
 2. Use one of the following alternate entrypoints to get into the homebrew launcher:
     + [smashbroshax](https://gbatemp.net/threads/397194/) *(requires Super Smash Bros __(if it is a cart, it must have "Nintendo Network" instead of "amiibo" on the cover, otherwise it is a reprint with an updated game version)__ and __only works on New 3DS__)*
     + [supermysterychunkhax](https://smd.salthax.org/) *(requires Pokemon Super Mystery Dungeon and another 3DS which has the Homebrew Launcher)*
