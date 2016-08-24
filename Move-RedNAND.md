@@ -8,7 +8,7 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 
 * An existing EmuNAND or RedNAND
 * Have completed [Part 3 - arm9loaderhax](Part-3-(arm9loaderhax)) up to the beginning of [Section IV - Restoring the System](Part-3-(arm9loaderhax)#section-iv---restoring-the-system)
-* The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases)
+* The latest release of [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases/latest)
 
 #### Instructions
 

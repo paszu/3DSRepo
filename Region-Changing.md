@@ -11,7 +11,7 @@ After this process, only Old 3DSs will be able to access the eShop after creatin
 #### What you need
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/)
-* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
 * The 9.2.0 ctrtransfer image for your device and region     
 *(if your device is not from one of these regions, just pick one that matches your device type)*:
   +    <a href="https://plailect.github.io/Guide/9.2.0-20E_ctrtransfer_n3DS.torrent" target="_blank">New 3DS 9.2.0 - EUR - ctrtransfer</a> ([mirror](https://mega.nz/#!lxcWTTCJ!AP8xIzlwdqsGOHRDHpVGhOR-grpPmjFVTTdocpUtt3w)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDYU5OSUg2NS1zajQ))  

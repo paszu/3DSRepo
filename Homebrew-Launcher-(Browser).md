@@ -57,7 +57,7 @@ ___
 #### What you need
 
 * The Homebrew Launcher and an installed entrypoint (such as menuhax)
-* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
+* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
 
 #### Instructions
 

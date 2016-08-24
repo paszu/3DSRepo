@@ -33,7 +33,7 @@ System Transfers can only be performed once a week.
   + Legends of Exidia ALL Regions: <a href="https://plailect.github.io/Guide/exidia_save.torrent" target="_blank">`public.sav`</a> ([mirror](https://mega.nz/#!JslhRIBK!35_qU_mg5tYOOQSoKBQOKUf_WTN-311RsgJC9slduuQ)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDN3pYbXI4S0pldzQ))
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
-* The latest release of [dgTool](https://github.com/Plailect/dgTool/releases)
+* The latest release of [dgTool](https://github.com/Plailect/dgTool/releases/latest)
 * The dgTool zip corresponding to **3DS #2**:
     + <a href="https://plailect.github.io/Guide/dgTool_o3ds.torrent" target="_blank">Old 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!UklRTTiA!ricB9kIC2HRd6_dKvnf-9sbP1O3Q4P5sdKOWmMiY7LA)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDS1RKckFSNk9CMnc))    
     + <a href="https://plailect.github.io/Guide/dgTool_n3ds.torrent" target="_blank">New 3DS 11.0.0 -> 10.4.0</a> ([mirror](https://mega.nz/#!E4VTCCTT!nCyvAWQN20p_92j5Xuj-ESuO82CtMjOMhbbT1ofK1BU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDZG52ODdTeFVSM1U))
@@ -43,7 +43,7 @@ System Transfers can only be performed once a week.
 ##### Section I - Prep Work
 
 1. Create a folder named `files9` on the root of your SD card if it does not already exist
-1. **Use a [save manager](https://github.com/J-D-K/JKSM/releases) to backup any saves you care about on 3DS #2 (it will be formatted!)**
+1. **Use a [save manager](https://github.com/J-D-K/JKSM/releases/latest) to backup any saves you care about on 3DS #2 (it will be formatted!)**
 2. Copy `public.sav` to the root of **3DS #1's** SD card
 3. On **3DS #1**, hold Start on boot to launch Hourglass9
 4. If you do not have `NANDmin.bin` on your computer from Part 2 already, do the following:    

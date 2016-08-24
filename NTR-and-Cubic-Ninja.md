@@ -9,7 +9,7 @@ If you have already hacked your 3DS before and have a RedNAND based CFW setup, t
 #### What you need
 
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I)
-* The latest release of [Decrypt9WIP9](https://github.com/d0k3/Decrypt9WIP/releases)
+* The latest release of [Decrypt9WIP9](https://github.com/d0k3/Decrypt9WIP/releases/latest)
 * <a href="https://plailect.github.io/Guide/3ds-private-update-server.torrent" target="_blank">3ds-private-update-server.zip</a> ([mirror](https://mega.nz/#!pgESgZYB!7ijunOSRA3kLF4BUOptrU6etNhuSHOddUvv1gCmdcAU)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDUmFNaUVFQVBtQzQ))
 * [WAMPSERVER (PHP 5.5) 2.5](http://www.wampserver.com/en/#download-wrapper)
 * [`node.exe`](http://nodejs.org/dist/latest/win-x86/node.exe)

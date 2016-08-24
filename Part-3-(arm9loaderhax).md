@@ -27,14 +27,14 @@ During this process, we also setup programs such as the following:
 
 * <a href="https://plailect.github.io/Guide/data_input_v2.torrent" target="_blank">data_input_v2.zip</a> ([mirror](https://mega.nz/#!RwUDVL5T!65gKJHAAVFk3R0jCA7zRFC5q5QTsL5CLoRUoqhET-WI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDaU53U0MtSHlkTDA))
 * <a href="https://plailect.github.io/Guide/aeskeydb.torrent" target="_blank">aeskeydb.bin</a> ([mirror](https://mega.nz/#!Y5UEyIJb!_FLHUUqjtfLaez8FNEM3tG7NHWrkkwmyj93ZNUeOUxI)) ([mirror](https://drive.google.com/open?id=0BzPfvjeuhqoDTm5VZW1ZcHZ1NzQ))
-* The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases) *(noscreeninit)*   
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases) *(regular version, __not__ "dev")*
-* The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases)
+* The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest) *(noscreeninit)*   
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(regular version, __not__ "dev")*
+* The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
-* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
-* The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
-* The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
-* The latest release of [DspDump](https://github.com/Cruel/DspDump/releases)
+* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
+* The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest)
+* The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
+* The latest release of [DspDump](https://github.com/Cruel/DspDump/releases/latest)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
@@ -146,7 +146,7 @@ You can now hold (Start) on boot to launch Hourglass9, an arm9loaderhax safe mul
 
 You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](Updating-arm9loaderhax/) page.
 
-To use [NTR CFW](https://github.com/44670/BootNTR/), get `ntr.bin` from the appropriate zip on [this](https://github.com/44670/BootNTR/releases) page and copy it to the root of your SD card, then install `BootNTR.cia` from [this](https://github.com/astronautlevel2/BootNTR/releases/) page.
+To use [NTR CFW](https://github.com/44670/BootNTR/), get `ntr.bin` from the appropriate zip on [this](https://github.com/44670/BootNTR/releases/latest) page and copy it to the root of your SD card, then install `BootNTR.cia` from [this](https://github.com/astronautlevel2/BootNTR/releases/) page.
 
 Keep your `NANDmin.bin` file, it can be restored by Hourglass9 to save you from a brick in the future.
 
