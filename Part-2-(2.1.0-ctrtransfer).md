@@ -10,8 +10,6 @@ Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3
 
 More info [here](OTP-Info) and [here](https://3dbrew.org/wiki/OTP_Registers).
 
-**You MUST use the correct CTRNAND for your console region or you will BRICK.**
-
 #### Overview of steps
 
 In this section, we will be flashing your console's [CTRNAND](https://www.3dbrew.org/wiki/Flash_Filesystem#CTR_partition) partition to 2.1.0 in order to take advantage of an oversight in 2.1.0 for the purpose of extracting the [OTP](OTP-Info) unique to your console. This OTP file is required to install arm9loaderhax, and **cannot** be shared with other consoles.
