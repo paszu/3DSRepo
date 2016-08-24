@@ -28,6 +28,11 @@ Note that the terms EmuNAND and RedNAND refer to slightly different implementati
 14. Select the "Format SD (No EmuNAND)" option
 15. Press Select on the main menu to eject your SD card
 16. Put your SD card in your computer, then copy all your files back into it
-17. Reinsert your SD card into your 3DS
+13. Navigate to `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/` on your SD card
+    + EUR Region: Delete `00000098`
+    + JPN Region: Delete `00000082`
+    + USA Region: Delete `0000008f`
+14. Reinsert your SD card into your 3DS and boot
+12. If you still get a black screen after downgrading and deleting the folder, [follow this troubleshooting guide](Troubleshooting#ts_sys_down)
 
 Continue from [Part 3 - arm9loaderhax - Section V - Injecting FBI](Part-3-(arm9loaderhax)#section-v---removing-rednand-from-your-sd)
