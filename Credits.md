@@ -13,10 +13,8 @@
 + icecream for testing
 + xy2_ for being pretty cool
 + dukesrg for hosting 2xrsa
-+ s_99 for emotional support
-+ Delebile for original arm9loaderhax implementation
-+ dark_samus for arm9loaderhax implementation work
 + Raugo for autofirm
++ s_99 for emotional support
 + Hamcha for Luma3DS Updater
 + Mrrraou for helping with support
 + Al3x_10m for testing ctrnand images
@@ -27,7 +25,9 @@
 + yifan_lu for original 8.1.0-0 update info
 + ashinnblunts for first 8.1.0-0 update guide
 + Reboot.ms for the modified autofirm version
++ dark_samus for arm9loaderhax implementation work
 + DinohScene for ripping the EUR fieldrunners save
++ Delebile for original arm9loaderhax implementation
 + coder65535 for original fieldrunners downgrade guide
 + elSeledonio for tip about eShop on Region Changed systems
 + d0k3 for OTPHelper, Decrypt9WIP, Hourglass9, and EmuNAND9
