@@ -2,6 +2,8 @@
 
 If you downgrade to 2.1.0 on **New 3DS** or **2DS** and **left Wireless Communication off**, you can re-enable the wireless by removing the battery for several seconds then booting back up.
 
+___
+
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how.
 
 The OTP is a requirement to use arm9loaderhax, which gets you, among other things, 100% boot rate and very early ARM9 kernel access allowing you to unbrick yourself without a hardmod and use other awesome tools.

@@ -2,9 +2,7 @@ Most 3DS CFW applications and software are designed for use with a SysNAND versi
 
 If you are on versions 9.0.0 through 10.7.0 you can just follow the instructions [here](Get-Started).
 
-If you already have a RedNAND setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND.
-
-Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
+If you have already hacked your 3DS before and have a RedNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
 **This will work for EUR / JPN / USA regions ONLY!**
 
