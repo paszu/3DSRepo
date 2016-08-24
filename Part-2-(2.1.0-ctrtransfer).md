@@ -38,13 +38,12 @@ You should be in Decrypt9 for these steps. If you are not in Decrypt9, follow [P
 2. **Backup SysNAND to `NANDmin.bin` when prompted by pressing (A)**
 3. Allow the transfer process to proceed automatically, this may take some time
 2. Once the transfer is complete, press (Select) to eject your SD card
-3. Put your SD card in your computer, then copy `NANDmin.bin` and `NANDmin.bin.sha` from the `/files9/` folder on your SD card to a safe location; make backups in multiple locations; this backup will save you from a brick if anything goes wrong in the future
 4. Delete the 2.1.0 ctrtransfer image from the `/files9/` folder on your SD card after copying it
 5. Leave your SD card out of your 3DS
 6. Press (Start) to reboot with no SD card inserted
     + You can insert the SD card on 2.1 after the device has reached the home menu, but it will not complete the bootup process if you insert it before then
 
-*(Screen distortions or colorations are normal for some devices while on 2.1.0, they will go away once you restore your backup)*
+*(Screen distortions or discolorations are normal for some devices while on 2.1.0, they will go away once you restore your backup)*
 
 **Putting a New 3DS on 2.1.0 in sleep mode is known to cause an UNRECOVERABLE brick! You should avoid closing your device and, without delay, go directly to [Part 3 - arm9loaderhax](Part-3-(arm9loaderhax)) to prevent this!**
 
