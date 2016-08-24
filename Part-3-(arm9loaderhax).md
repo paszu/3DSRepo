@@ -21,8 +21,7 @@ Once arm9loaderhax is installed and Luma3DS is setup with the correct options, w
 During this process, we also setup programs such as the following:
 +  **FBI** *(installs CIA formatted games and applications)*
 +  **Luma3DS Updater** *(updates our CFW installation easily)*
-+  **Decrypt9** *(decryption tool which can also convert physical cartridge games to digital CIA files)*
-+  **Hourglass9** *(allows us to restore NANDs and such before boot to recover from bricks and do many other miscellaneous functions)*
++  **Hourglass9** *(multipurpose tool which can do NAND and cartridge functions)*
 
 #### What you need
 
@@ -34,7 +33,6 @@ During this process, we also setup programs such as the following:
 * The latest version of [Universal Inject Generator](https://github.com/d0k3/Universal-Inject-Generator/archive/master.zip)
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases)
 * The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases)
-* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases)
 * The latest release of [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases)
 * The latest release of [DspDump](https://github.com/Cruel/DspDump/releases)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/)
@@ -59,7 +57,6 @@ During this process, we also setup programs such as the following:
 2. Create a folder named `luma` on the root of your SD card
 3. Create a folder named `payloads` in the `luma` folder on your SD card
 7. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
-7. Copy `Decrypt9WIP.bin` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `x_Decrypt9WIP.bin`
 1. Copy `aeskeydb.bin` to the `/files9/` folder on your SD card
 2. Copy `DspDump.3dsx` to the `/3ds/` folder on your SD card
 
@@ -138,8 +135,7 @@ You can now use Luma3DS Updater to update your Luma3DS to the latest version jus
 You will no longer be able to boot without the SD card in, that is normal.    
 You will now boot a Custom Firmware based SysNAND by default.    
 You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
-You can now hold (Start) on boot to launch Hourglass9, an arm9loaderhax safe NAND tool.    
-You can now hold (X) on boot to launch Decrypt9, a full featured NAND + decryption tool which can also be used to convert a physical game cart to an installable file *(Gamecard Dumper Options -> Dump Cart to CIA)*.    
+You can now hold (Start) on boot to launch Hourglass9, an arm9loaderhax safe multipurpose NAND and cartridge tool.     
 
 You can update your arm9loaderhax installation in the future by following the instructions on the [Updating arm9loaderhax](Updating-arm9loaderhax/) page.
 
