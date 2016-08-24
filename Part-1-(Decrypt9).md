@@ -4,7 +4,9 @@ If you have already hacked your 3DS before and have a RedNAND based CFW setup, t
 
 The two columns of the chart refer to the last number of your version (which corresponds to the browser version installed to the system). If the version is -0 then you do not have a browser, while any number above -0 indicates a browser is installed.
 
-In the case of "5.0.0-0U" for instance, you would follow the "No Browser" column and 5.0.0 to 5.1.0 row because the system is on the a system version in that range and has no browser installed.
+**The "from" and "to" fields are inclusive. This means that, for example, the "from 9.0.0 to 9.2.0" row includes 9.0.0, 9.1.0, and 9.2.0.**
+ 
+In the case of "5.0.0-0U" for example, you would follow the "No Browser" column and 5.0.0 to 5.1.0 row because the system is on the a system version in that range and has no browser installed.
 
 ##### For all versions you can [Cart Update](Cart-Update) to a higher version in the same column to follow its instructions instead.
 
