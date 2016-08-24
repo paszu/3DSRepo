@@ -69,6 +69,7 @@ During this process, we also setup programs such as the following:
 14. Press (Select) to Full Install
 15. The installer will now install arm9loaderhax on your device (this is very fast)
 18. For now, booting to a black screen or a message about `firmware.bin` is normal (Luma3DS cannot boot a 2.1.0 NAND), just continue with the instructions
+16. Shut down your console, hold the power button until it turns off if necessary
 18. Copy your console specific `OTP.bin` from the `/a9lh/` folder on your SD card to a safe location on your computer and back it up to multiple locations (such as online file storage), then reinsert your SD card your 2.1.0 3DS
 
 ##### Section III - Configuring Luma3DS
