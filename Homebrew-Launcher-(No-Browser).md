@@ -21,7 +21,8 @@ The Homebrew Launcher has many different entrypoints, or methods of launching. T
     + [Ninjhax](http://smealum.github.io/ninjhax2/) *(requires Cubic Ninja)*
     + [oot3dhax](https://github.com/yellows8/oot3dhax) *(requires Ocarina of Time 3D and either a powersaves or another 3DS which has the Homebrew Launcher)*    
 10. Open the menuhax_manager application
-11. Press (A) to install, it may show some errors but that's fine as long as it shows "Success" towards the end
+11. Press (A) to install, it may show some errors but that's fine as long as it shows "Install finished successfully" towards the end
+    + If you are prompted to "override the detected system version," press (B) to decline
 12. Go back to the main menuhax_manager menu, then select "Configure menuhax"
 13. Press (A) to continue, then select "Type1"
 14. Hold (Down) on the D-Pad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
